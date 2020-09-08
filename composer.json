@@ -51,6 +51,7 @@
         "magentoese/magento-scripts": "2.3.0.x-dev",
         "magentoese/module-admin-configurations": "dev-master",
         "magentoese/module-data-install": "dev-master",
+                "community-engineering/language-bg_bg": "*",
         "magentoese/module-demo-upgrades-240": "dev-master"
     },
     "suggest": {
