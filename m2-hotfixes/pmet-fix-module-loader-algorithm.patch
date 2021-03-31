@@ -18,7 +18,7 @@ index 72421f793f1..6e63d7a1c1d 100644
              $expanded[] = [
 @@ -213,4 +214,63 @@
          $allResults[] = $result;
-         return array_unique(array_merge(...$allResults));
+         return array_unique(array_merge([], ...$allResults));
      }
 +
 +
