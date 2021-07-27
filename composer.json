@@ -9,7 +9,6 @@
         "sort-packages": true
     },
     "repositories": [
-        {"type": "composer", "url": "https://repo.magento.com/"},
         {"type": "git", "url": "git@github.com:magento-l10n/language-es_MX.git"},
         {"type": "git", "url": "git@github.com:PMET-public/ece-tools.git"},
         {"type": "git", "url": "git@github.com:PMET-public/magento-cloud-docker.git"},
@@ -47,7 +46,9 @@
         {"type": "git", "url": "git@github.com:PMET-public/paradoxlabs-stripe.git"},
         {"type": "git", "url": "git@github.com:PMET-public/paradoxlabs-subscriptions.git"},
         {"type": "git", "url": "git@github.com:PMET-public/paradoxlabs-tokenbase.git"},
-        {"type": "git", "url": "git@github.com:PMET-public/theme-brentmill.git"}
+        {"type": "git", "url": "git@github.com:PMET-public/theme-brentmill.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-storystore-grocery"},
+        {"type": "composer", "url": "https://repo.magento.com/", "exclude": ["community-engineering/language-ja_jp"]}
     ],
     "require": {
         "community-engineering/language-ar_sa": "*",
@@ -63,10 +64,12 @@
         "community-engineering/language-pt_br": "*",
         "community-engineering/language-sr_sp": "dev-master",
         "community-engineering/language-zh_cn": "*",
-        "magento/extension-b2b": "^1.2",
+        "magento/extension-b2b": "^1.3",
+        "magento/live-search": "^1.1",
         "magento/magento-cloud-docker": "dev-develop",
-        "magento/magento-cloud-metapackage": ">=2.4.2 <2.4.3",
+        "magento/magento-cloud-metapackage": ">=2.4.3 <2.4.4",
         "magento/module-page-builder-product-recommendations": "^1.0",
+        "magento/module-visual-product-recommendations": "^1.2",
         "magento/product-recommendations": "^3.0",
         "magentoese/ece-tools": "2002.1.1.x-dev",
         "magentoese/magento-scripts": "2.3.0.x-dev",
@@ -88,7 +91,7 @@
         "magentoese/module-b2b-pricing-sample-data": "dev-master",
         "magentoese/module-b2b-shared-catalog-sample-data": "dev-master",
         "magentoese/module-b2b-siemens-sample-data": "dev-master",
-        "magentoese/module-data-install": "dev-master",
+        "magentoese/module-data-install": "dev-develop",
         "magentoese/module-demo-upgrades-240": "dev-master",
         "magentoese/module-installation-overrides": "dev-master",
         "magentoese/module-keep-on-wishlist": "dev-master",
@@ -97,13 +100,15 @@
         "magentoese/module-sales-sample-data": "dev-master",
         "magentoese/module-sctools": "dev-master",
         "magentoese/module-themecustomizer": "dev-master",
+        "magentoese/theme-brentmill": "dev-master",
         "paradoxlabs/authnetcim": "4.3.2.x-dev",
         
         "paradoxlabs/firstdata": "2.3.4.x-dev",
         "paradoxlabs/stripe": "2.3.7.x-dev",
         "paradoxlabs/subscriptions": "3.2.4.x-dev",
         "paradoxlabs/tokenbase": "4.3.2.x-dev",
-        "magentoese/theme-brentmill": "dev-master"
+        "story-store/grocery": "dev-cli"
+        
     },
     "suggest": {
         "ext-pcntl": "Need for run processes in parallel mode"
