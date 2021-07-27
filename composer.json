@@ -9,7 +9,6 @@
         "sort-packages": true
     },
     "repositories": [
-        {"type": "composer", "url": "https://repo.magento.com/"},
         {"type": "git", "url": "git@github.com:magento-l10n/language-es_MX.git"},
         {"type": "git", "url": "git@github.com:PMET-public/amasty-module-advanced-conditions.git"},
         {"type": "git", "url": "git@github.com:PMET-public/amasty-module-banners-lite.git"},
@@ -63,6 +62,7 @@
         {"type": "git", "url": "git@github.com:PMET-public/module-sales-sample-data.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-sctools.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-storystore.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-storystore-grocery"},
         {"type": "git", "url": "git@github.com:PMET-public/module-switcherlogos.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-themecustomizer.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-venia-catalog-sample-data.git"},
@@ -80,22 +80,24 @@
         {"type": "git", "url": "git@github.com:PMET-public/paradoxlabs-subscriptions.git"},
         {"type": "git", "url": "git@github.com:PMET-public/paradoxlabs-tokenbase.git"},
         {"type": "git", "url": "git@github.com:PMET-public/theme-frontend-custom.git"},
-        {"type": "git", "url": "git@github.com:PMET-public/theme-frontend-venia.git"}
+        {"type": "git", "url": "git@github.com:PMET-public/theme-frontend-venia.git"},
+        
+        {"type": "composer", "url": "https://repo.magento.com/", "exclude": ["community-engineering/language-ja_jp"]}
     ],
     "require": {
-        "amasty/base": "1.12.0.x-dev",
-        "amasty/geoip": "1.5.4.x-dev",
-        "amasty/module-advanced-conditions":"1.5.2.x-dev",
-        "amasty/module-banners-lite":"1.0.18.x-dev",
-        "amasty/module-salesrulewizard": "1.0.2.x-dev",
-        "amasty/module-special-promo": "2.7.18.x-dev",
-        "amasty/module-special-promo-pro": "2.8.4.x-dev",
-        "amasty/module-store-locator": "2.4.0.x-dev",
+        "amasty/base": "1.12.9.x-dev",
         
         
         
-        "amasty/promo": "2.10.0.x-dev",
-        "amasty/rgrid": "1.0.7.x-dev",
+        
+        
+        
+        
+        
+        
+        
+        
+        
         "classyllama/module-owlcarousel":"dev-master",
         "community-engineering/language-ar_sa": "*",
         "community-engineering/language-de_de": "*",
@@ -113,8 +115,9 @@
         "example/module-page-builder-extension-text": "dev-master",
         "example/module-page-builder-faq": "dev-master",
         "example/module-page-builder-quote": "dev-master",
+        "magento/live-search": "^1.1",
         "magento/magento-cloud-docker": "dev-develop",
-        "magento/magento-cloud-metapackage": ">=2.4.2 <2.4.3",
+        "magento/magento-cloud-metapackage": ">=2.4.3 <2.4.4",
         "magento/module-bundle-sample-data": "100.4.*",
         "magento/module-catalog-rule-sample-data": "100.4.*",
         "magento/module-catalog-sample-data": "100.4.*",
@@ -140,6 +143,7 @@
         "magento/module-target-rule-sample-data": "100.4.*",
         "magento/module-tax-sample-data": "100.4.*",
         "magento/module-theme-sample-data": "100.4.*",
+        "magento/module-visual-product-recommendations": "^1.2",
         "magento/module-widget-sample-data": "100.4.*",
         "magento/module-wishlist-sample-data": "100.4.*",
         "magento/product-recommendations": "^3.0",
@@ -153,7 +157,7 @@
         "magentoese/module-cms-media-sample-data-update": "dev-master",
         "magentoese/module-cms-sample-data-update": "dev-master",
         "magentoese/module-customer-sample-data": "dev-master",
-        "magentoese/module-data-install": "dev-master",
+        "magentoese/module-data-install": "dev-develop",
         "magentoese/module-demo-admin-configurations": "dev-master",
         "magentoese/module-demo-order-data": "dev-master",
         "magentoese/module-demo-upgrades-240": "2.4.1.x-dev",
@@ -193,7 +197,11 @@
         "paradoxlabs/firstdata": "2.3.4.x-dev",
         "paradoxlabs/stripe": "2.3.7.x-dev",
         "paradoxlabs/subscriptions": "3.2.4.x-dev",
-        "paradoxlabs/tokenbase": "4.3.2.x-dev"
+        "paradoxlabs/tokenbase": "4.3.2.x-dev",
+        "story-store/grocery": "dev-cli",
+        
+        "symfony/process":"4.4.26",
+        "symfony/console":"4.4.26"
     },
     "suggest": {
         "ext-pcntl": "Need for run processes in parallel mode"
