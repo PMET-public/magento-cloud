@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "69df0c4061e6a6219c44abcc68e4cd18",
+    "content-hash": "e246cb4530330203e06989a1c0bf1757",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -76,6 +76,260 @@
             ],
             "description": "Amasty Base",
             "time": "2021-07-27T21:00:46+00:00"
+        },
+        {
+            "name": "amasty/geoip",
+            "version": "1.5.5.x-dev",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/amasty-module-geoip.git",
+                "reference": "3b3468be111aac6d0c73e2b924f4834352b95e9f"
+            },
+            "require": {
+                "amasty/base": "*"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Amasty\\Geoip\\": ""
+                }
+            },
+            "license": [
+                "Commercial"
+            ],
+            "description": "Amasty Geoip Data",
+            "time": "2021-06-24T13:32:11+00:00"
+        },
+        {
+            "name": "amasty/module-advanced-conditions",
+            "version": "1.5.2.x-dev",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/amasty-module-advanced-conditions.git",
+                "reference": "10a3297ef22a08ae2798d7cc58f9777509acbdca"
+            },
+            "require": {
+                "amasty/base": ">=1.4.7"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Amasty\\Conditions\\": ""
+                }
+            },
+            "license": [
+                "Commercial"
+            ],
+            "description": "Advanced Conditions by Amasty",
+            "time": "2021-02-01T17:27:25+00:00"
+        },
+        {
+            "name": "amasty/module-banners-lite",
+            "version": "1.0.19.x-dev",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/amasty-module-banners-lite.git",
+                "reference": "f70a2a10d4cbb48cdb5454105fbb645a5be48524"
+            },
+            "require": {
+                "amasty/base": ">=1.4.5"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Amasty\\BannersLite\\": ""
+                }
+            },
+            "license": [
+                "Commercial"
+            ],
+            "description": "Promo Banners Lite by Amasty",
+            "time": "2021-06-24T13:00:58+00:00"
+        },
+        {
+            "name": "amasty/module-salesrulewizard",
+            "version": "1.0.3.x-dev",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/amasty-module-salesrulewizard.git",
+                "reference": "d10b0ccd2b06e10d19cdadb55f024316db7ecfc1"
+            },
+            "require": {
+                "amasty/base": ">=1.4.5",
+                "amasty/promo": ">=2.10.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Amasty\\SalesRuleWizard\\": ""
+                }
+            },
+            "license": [
+                "Commercial"
+            ],
+            "description": "Sales Rule Wizard by Amasty",
+            "time": "2021-06-24T13:10:21+00:00"
+        },
+        {
+            "name": "amasty/module-special-promo",
+            "version": "2.9.0.x-dev",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/amasty-module-special-promotions.git",
+                "reference": "afc8691596d2fe0d7c3519fa2516de5aae78c4ab"
+            },
+            "require": {
+                "amasty/base": ">=1.12.8",
+                "amasty/module-banners-lite": ">=1.0.19",
+                "amasty/rgrid": ">=1.0.7"
+            },
+            "suggest": {
+                "amasty/module-special-promo-mftf-2": "Install module-special-promo-mftf-2 module to be able to run Special Promotions MFTF tests for Magento 2.3.5+ version.",
+                "amasty/module-special-promo-mftf-3": "Install module-special-promo-mftf-3 module to be able to run Special Promotions MFTF tests for Magento 2.4.0+ version."
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Amasty\\Rules\\": ""
+                }
+            },
+            "license": [
+                "Commercial"
+            ],
+            "description": "Special Promotions by Amasty",
+            "time": "2021-06-24T13:29:15+00:00"
+        },
+        {
+            "name": "amasty/module-special-promo-pro",
+            "version": "2.8.4.x-dev",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/amasty-module-special-promotions-pro.git",
+                "reference": "2ad46f84e1fc9bf0edacdb0a05c7747c3619fcc0"
+            },
+            "require": {
+                "amasty/base": ">=1.10.0",
+                "amasty/module-special-promo": ">=2.7.15"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Amasty\\RulesPro\\": ""
+                }
+            },
+            "license": [
+                "Commercial"
+            ],
+            "description": "Special Promotions Pro by Amasty",
+            "time": "2020-10-26T15:29:46+00:00"
+        },
+        {
+            "name": "amasty/module-store-locator",
+            "version": "2.5.1.x-dev",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/amasty-module-store-locator.git",
+                "reference": "e3fbc7929df6b19f3eda78aa84c43ff0a02685dc"
+            },
+            "require": {
+                "amasty/base": ">=1.12.9",
+                "amasty/geoip": ">=1.5.5"
+            },
+            "suggest": {
+                "amasty/module-mixin-rewrite-patch": "Install mixin rewrite patch if you have a problem with extension on Magento 2.4.2+ version on Checkout"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Amasty\\Storelocator\\": ""
+                }
+            },
+            "license": [
+                "Commercial"
+            ],
+            "description": "Store Locator by Amasty",
+            "time": "2021-07-26T19:16:28+00:00"
+        },
+        {
+            "name": "amasty/promo",
+            "version": "2.10.5.x-dev",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/amasty-module-free-gift.git",
+                "reference": "efad39af462bbfe4309ecb1e1a4ba96a96e1505f"
+            },
+            "require": {
+                "amasty/base": ">=1.12.9",
+                "amasty/module-advanced-conditions": ">=1.5.2",
+                "amasty/module-banners-lite": ">=1.0.19",
+                "amasty/module-salesrulewizard": ">=1.0.3",
+                "amasty/rgrid": ">=1.0.7"
+            },
+            "suggest": {
+                "amasty/module-promo-mftf-2": "Install module-promo-mftf-2 module to be able to run Free Gift MFTF tests for Magento 2.3.5+ version.",
+                "amasty/module-promo-mftf-3": "Install module-promo-mftf-3 module to be able to run Free Gift MFTF tests for Magento 2.4.0+ version."
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Amasty\\Promo\\": ""
+                }
+            },
+            "license": [
+                "Commercial"
+            ],
+            "description": "Free Gift by Amasty",
+            "time": "2021-07-26T19:05:30+00:00"
+        },
+        {
+            "name": "amasty/rgrid",
+            "version": "1.0.7.x-dev",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/amasty-module-rules-grid.git",
+                "reference": "c7d62f224fb0d492feccfeeffdf9d1f1c3bb4e24"
+            },
+            "require": {
+                "amasty/base": ">=1.4.7"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Amasty\\Rgrid\\": ""
+                }
+            },
+            "license": [
+                "Commercial"
+            ],
+            "description": "Extended Rules Grid by Amasty",
+            "time": "2020-10-26T15:17:53+00:00"
         },
         {
             "name": "amzn/amazon-pay-and-login-magento-2-module",
@@ -27513,22 +27767,23 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.50.0",
+            "version": "2.51.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "f47f17d17602b2243414a44ad53d9f8b9ada5fdb"
+                "reference": "8619c299d1e0d4b344e1f98ca07a1ce2cfbf1922"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/f47f17d17602b2243414a44ad53d9f8b9ada5fdb",
-                "reference": "f47f17d17602b2243414a44ad53d9f8b9ada5fdb",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/8619c299d1e0d4b344e1f98ca07a1ce2cfbf1922",
+                "reference": "8619c299d1e0d4b344e1f98ca07a1ce2cfbf1922",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
                 "php": "^7.1.8 || ^8.0",
                 "symfony/polyfill-mbstring": "^1.0",
+                "symfony/polyfill-php80": "^1.16",
                 "symfony/translation": "^3.4 || ^4.0 || ^5.0"
             },
             "require-dev": {
@@ -27547,8 +27802,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.x-dev",
-                    "dev-3.x": "3.x-dev"
+                    "dev-3.x": "3.x-dev",
+                    "dev-master": "2.x-dev"
                 },
                 "laravel": {
                     "providers": [
@@ -27602,7 +27857,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-06-28T22:38:45+00:00"
+            "time": "2021-07-28T13:16:28+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -31589,20 +31844,21 @@
         },
         {
             "name": "symfony/process",
-            "version": "v4.4.26",
+            "version": "v4.4.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "7e812c84c3f2dba173d311de6e510edf701685a8"
+                "reference": "0b7dc5599ac4aa6d7b936c8f7d10abae64f6cf7f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/7e812c84c3f2dba173d311de6e510edf701685a8",
-                "reference": "7e812c84c3f2dba173d311de6e510edf701685a8",
+                "url": "https://api.github.com/repos/symfony/process/zipball/0b7dc5599ac4aa6d7b936c8f7d10abae64f6cf7f",
+                "reference": "0b7dc5599ac4aa6d7b936c8f7d10abae64f6cf7f",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.1.3"
+                "php": ">=7.1.3",
+                "symfony/polyfill-php80": "^1.16"
             },
             "type": "library",
             "autoload": {
@@ -31630,7 +31886,7 @@
             "description": "Executes commands in sub-processes",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/process/tree/v4.4.26"
+                "source": "https://github.com/symfony/process/tree/v4.4.27"
             },
             "funding": [
                 {
@@ -31646,7 +31902,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-06-09T14:57:04+00:00"
+            "time": "2021-07-23T15:41:52+00:00"
         },
         {
             "name": "symfony/property-access",
@@ -33672,6 +33928,15 @@
     "minimum-stability": "alpha",
     "stability-flags": {
         "amasty/base": 20,
+        "amasty/geoip": 20,
+        "amasty/module-advanced-conditions": 20,
+        "amasty/module-banners-lite": 20,
+        "amasty/module-salesrulewizard": 20,
+        "amasty/module-special-promo": 20,
+        "amasty/module-special-promo-pro": 20,
+        "amasty/module-store-locator": 20,
+        "amasty/promo": 20,
+        "amasty/rgrid": 20,
         "classyllama/module-owlcarousel": 20,
         "community-engineering/language-es_mx": 20,
         "community-engineering/language-sr_sp": 20,
