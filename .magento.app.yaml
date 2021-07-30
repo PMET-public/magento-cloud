@@ -134,3 +134,5 @@ variables:
 dependencies:
     ruby:
         amqp-utils: "0.5.1"
+    php:
+        composer/composer: '^2.0'
