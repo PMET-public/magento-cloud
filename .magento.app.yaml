@@ -30,7 +30,7 @@ relationships:
 # The configuration of app when it is exposed to the web.
 web:
     locations:
-        "/":
+        "/": &app
             # The public directory of the app, relative to its root.
             root: "pub"
             # The front-controller script to send non-static requests to.
@@ -48,13 +48,13 @@ web:
                     passthru: "/media/robots.txt"
                 ^/sitemap(.*)\.xml$:
                     passthru: "/media/sitemap$1.xml"
-        "/media":
+        "/media": &media
             root: "pub/media"
             allow: true
             scripts: false
             expires: 1y
             passthru: "/get.php"
-        "/static":
+        "/static": &static
             root: "pub/static"
             allow: true
             scripts: false
@@ -63,7 +63,37 @@ web:
             rules:
                 ^/static/version\d+/(?<resource>.*)$:
                     passthru: "/static/$resource"
-
+       # "/base/":
+        #    <<: *app
+        #    passthru: "/base/index.php"
+        "/fresh/":
+            <<: *app
+            passthru: "/fresh/index.php"
+        "/auto/":
+            <<: *app
+            passthru: "/auto/index.php"
+        "/b2b/":
+            <<: *app
+            passthru: "/b2b/index.php"
+        "/b2c/":
+            <<: *app
+            passthru: "/b2c/index.php"
+        "/sitea/":
+            <<: *app
+            passthru: "/sitea/index.php"
+        "/siteb/":
+            <<: *app
+            passthru: "/siteb/index.php"
+        "/luma/":
+            <<: *app
+            passthru: "/siteb/index.php"
+        "/venia/":
+            <<: *app
+            passthru: "/siteb/index.php"
+        "/brentmill/":
+            <<: *app
+            passthru: "/siteb/index.php"
+        
 # The size of the persistent disk of the application (in MB).
 disk: 4096
 
@@ -99,9 +129,10 @@ crons:
 variables:
     env:
         CONFIG__DEFAULT__PAYPAL_ONBOARDING__MIDDLEMAN_DOMAIN: 'payment-broker.magento.com'
-        CONFIG__STORES__DEFAULT__PAYMENT__BRAINTREE__CHANNEL: 'Magento_Enterprise_Cloud_BT'
         CONFIG__STORES__DEFAULT__PAYPAL__NOTATION_CODE: 'Magento_Enterprise_Cloud'
 
 dependencies:
     ruby:
         amqp-utils: "0.5.1"
+    php:
+        composer/composer: '^2.0'
