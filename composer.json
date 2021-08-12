@@ -91,7 +91,7 @@
         "magentoese/module-b2b-pricing-sample-data": "dev-master",
         "magentoese/module-b2b-shared-catalog-sample-data": "dev-master",
         "magentoese/module-b2b-siemens-sample-data": "dev-master",
-        "magentoese/module-data-install": "dev-develop",
+        "magentoese/module-data-install": "dev-master",
         "magentoese/module-demo-upgrades-240": "dev-master",
         "magentoese/module-installation-overrides": "dev-master",
         "magentoese/module-keep-on-wishlist": "dev-master",
