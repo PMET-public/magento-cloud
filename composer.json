@@ -55,7 +55,7 @@
         "magentoese/ece-tools": "2002.1.1.x-dev",
         "magentoese/magento-scripts": "2.3.0.x-dev",
         "magentoese/module-admin-configurations": "dev-master",
-        "magentoese/module-data-install": "dev-develop",
+        "magentoese/module-data-install": "dev-temp",
         "magentoese/module-demo-upgrades-240": "dev-master",
         "magentoese/theme-frontend-custom": "dev-master",
         "story-store/grocery": "dev-cli"
