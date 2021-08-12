@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cd98aa089cf9b1597180361bb6c9eab7",
+    "content-hash": "28d72eed6ec44cfcc9800612875ed572",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -25744,7 +25744,7 @@
         },
         {
             "name": "magentoese/module-data-install",
-            "version": "dev-temp",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-data-install.git",
@@ -25754,6 +25754,7 @@
                 "firegento/fastsimpleimport": "*",
                 "magento/extension-b2b": "^1.2"
             },
+            "default-branch": true,
             "type": "magento2-module",
             "autoload": {
                 "files": [
