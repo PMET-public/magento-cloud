@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5342512ca8c017e3e392bcba6b05c277",
+    "content-hash": "2e3991f61e927f2b7ecccb86e12342b3",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -53,14 +53,11 @@
         },
         {
             "name": "amasty/base",
-            "version": "1.12.9.x-dev",
+            "version": "1.12.11.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/amasty-module-base.git",
-                "reference": "cb5ccf41a76df6d14c2ff234dae4cb47f3697a7e"
-            },
-            "require": {
-                "zendframework/zend-serializer": "*"
+                "reference": "8a0dd627ac81f871757e1be3be8549776ed04e0d"
             },
             "type": "magento2-module",
             "autoload": {
@@ -75,15 +72,15 @@
                 "Commercial"
             ],
             "description": "Amasty Base",
-            "time": "2021-07-27T21:00:46+00:00"
+            "time": "2021-08-24T15:32:03+00:00"
         },
         {
             "name": "amasty/module-advanced-conditions",
-            "version": "1.5.2.x-dev",
+            "version": "1.5.3.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/amasty-module-advanced-conditions.git",
-                "reference": "10a3297ef22a08ae2798d7cc58f9777509acbdca"
+                "reference": "6a90a65387a7c53ea3312c6446019b722211c214"
             },
             "require": {
                 "amasty/base": ">=1.4.7"
@@ -101,7 +98,7 @@
                 "Commercial"
             ],
             "description": "Advanced Conditions by Amasty",
-            "time": "2021-02-01T17:27:25+00:00"
+            "time": "2021-08-24T15:41:44+00:00"
         },
         {
             "name": "amasty/module-banners-lite",
@@ -158,14 +155,14 @@
         },
         {
             "name": "amasty/module-special-promo",
-            "version": "2.9.0.x-dev",
+            "version": "2.9.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/amasty-module-special-promotions.git",
-                "reference": "afc8691596d2fe0d7c3519fa2516de5aae78c4ab"
+                "reference": "7cfca57dc5934eb1236ed849c42bdbcae0b8d802"
             },
             "require": {
-                "amasty/base": ">=1.12.8",
+                "amasty/base": ">=1.12.11",
                 "amasty/module-banners-lite": ">=1.0.19",
                 "amasty/rgrid": ">=1.0.7"
             },
@@ -186,7 +183,7 @@
                 "Commercial"
             ],
             "description": "Special Promotions by Amasty",
-            "time": "2021-06-24T13:29:15+00:00"
+            "time": "2021-08-24T15:35:49+00:00"
         },
         {
             "name": "amasty/module-special-promo-pro",
@@ -217,15 +214,15 @@
         },
         {
             "name": "amasty/promo",
-            "version": "2.10.5.x-dev",
+            "version": "2.10.6.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/amasty-module-free-gift.git",
-                "reference": "efad39af462bbfe4309ecb1e1a4ba96a96e1505f"
+                "reference": "dfb68e4bcb0898181b308fe752ead42339ba94b7"
             },
             "require": {
-                "amasty/base": ">=1.12.9",
-                "amasty/module-advanced-conditions": ">=1.5.2",
+                "amasty/base": ">=1.12.11",
+                "amasty/module-advanced-conditions": ">=1.5.3",
                 "amasty/module-banners-lite": ">=1.0.19",
                 "amasty/module-salesrulewizard": ">=1.0.3",
                 "amasty/rgrid": ">=1.0.7"
@@ -247,7 +244,7 @@
                 "Commercial"
             ],
             "description": "Free Gift by Amasty",
-            "time": "2021-07-26T19:05:30+00:00"
+            "time": "2021-08-24T15:58:06+00:00"
         },
         {
             "name": "amasty/rgrid",
@@ -508,16 +505,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.190.0",
+            "version": "3.191.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "4700c27227649ed7e2ea09028cca1c884ab2c41b"
+                "reference": "d659144bf8618c891fd01f0f375f1f0b4db21b05"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/4700c27227649ed7e2ea09028cca1c884ab2c41b",
-                "reference": "4700c27227649ed7e2ea09028cca1c884ab2c41b",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/d659144bf8618c891fd01f0f375f1f0b4db21b05",
+                "reference": "d659144bf8618c891fd01f0f375f1f0b4db21b05",
                 "shasum": ""
             },
             "require": {
@@ -592,9 +589,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.190.0"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.191.2"
             },
-            "time": "2021-08-11T18:16:23+00:00"
+            "time": "2021-08-23T18:17:20+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -766,16 +763,16 @@
         },
         {
             "name": "brick/math",
-            "version": "0.9.2",
+            "version": "0.9.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/brick/math.git",
-                "reference": "dff976c2f3487d42c1db75a3b180e2b9f0e72ce0"
+                "reference": "ca57d18f028f84f777b2168cd1911b0dee2343ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brick/math/zipball/dff976c2f3487d42c1db75a3b180e2b9f0e72ce0",
-                "reference": "dff976c2f3487d42c1db75a3b180e2b9f0e72ce0",
+                "url": "https://api.github.com/repos/brick/math/zipball/ca57d18f028f84f777b2168cd1911b0dee2343ae",
+                "reference": "ca57d18f028f84f777b2168cd1911b0dee2343ae",
                 "shasum": ""
             },
             "require": {
@@ -785,7 +782,7 @@
             "require-dev": {
                 "php-coveralls/php-coveralls": "^2.2",
                 "phpunit/phpunit": "^7.5.15 || ^8.5 || ^9.0",
-                "vimeo/psalm": "4.3.2"
+                "vimeo/psalm": "4.9.2"
             },
             "type": "library",
             "autoload": {
@@ -810,15 +807,19 @@
             ],
             "support": {
                 "issues": "https://github.com/brick/math/issues",
-                "source": "https://github.com/brick/math/tree/0.9.2"
+                "source": "https://github.com/brick/math/tree/0.9.3"
             },
             "funding": [
+                {
+                    "url": "https://github.com/BenMorel",
+                    "type": "github"
+                },
                 {
                     "url": "https://tidelift.com/funding/github/packagist/brick/math",
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-20T22:51:39+00:00"
+            "time": "2021-08-15T20:50:18+00:00"
         },
         {
             "name": "brick/varexporter",
@@ -1195,16 +1196,16 @@
         },
         {
             "name": "community-engineering/language-es_es",
-            "version": "0.0.22",
+            "version": "0.0.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento-l10n/language-es_ES.git",
-                "reference": "ecd0922dba928f5d4f800bffa5a23257fbebcd87"
+                "reference": "3db5c958832c9077d3b0b88ad5686179515b3cff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento-l10n/language-es_ES/zipball/ecd0922dba928f5d4f800bffa5a23257fbebcd87",
-                "reference": "ecd0922dba928f5d4f800bffa5a23257fbebcd87",
+                "url": "https://api.github.com/repos/magento-l10n/language-es_ES/zipball/3db5c958832c9077d3b0b88ad5686179515b3cff",
+                "reference": "3db5c958832c9077d3b0b88ad5686179515b3cff",
                 "shasum": ""
             },
             "require": {
@@ -1224,9 +1225,9 @@
             "description": "es_ES language package.",
             "support": {
                 "issues": "https://github.com/magento-l10n/language-es_ES/issues",
-                "source": "https://github.com/magento-l10n/language-es_ES/tree/v0.0.22"
+                "source": "https://github.com/magento-l10n/language-es_ES/tree/v0.0.23"
             },
-            "time": "2021-07-15T00:04:19+00:00"
+            "time": "2021-08-22T00:04:21+00:00"
         },
         {
             "name": "community-engineering/language-es_mx",
@@ -1234,7 +1235,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:magento-l10n/language-es_MX.git",
-                "reference": "22b38df3b35e11b158bf8226ae663cd7b5684155"
+                "reference": "358c4807efca9cb539a62d34fabc50ac6809bf1e"
             },
             "require": {
                 "magento/framework": "*"
@@ -1251,20 +1252,20 @@
                 "AFL-3.0"
             ],
             "description": "es_MX language package.",
-            "time": "2021-02-11T17:02:01+00:00"
+            "time": "2021-08-24T00:04:40+00:00"
         },
         {
             "name": "community-engineering/language-fr_fr",
-            "version": "0.0.29",
+            "version": "0.0.30",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento-l10n/language-fr_FR.git",
-                "reference": "1f374e83d9ede4afee0d1d01695d51d18418c633"
+                "reference": "bd101af7e3153a556c0f0648a4f0c4c30669ace0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento-l10n/language-fr_FR/zipball/1f374e83d9ede4afee0d1d01695d51d18418c633",
-                "reference": "1f374e83d9ede4afee0d1d01695d51d18418c633",
+                "url": "https://api.github.com/repos/magento-l10n/language-fr_FR/zipball/bd101af7e3153a556c0f0648a4f0c4c30669ace0",
+                "reference": "bd101af7e3153a556c0f0648a4f0c4c30669ace0",
                 "shasum": ""
             },
             "require": {
@@ -1284,9 +1285,9 @@
             "description": "fr_FR language package.",
             "support": {
                 "issues": "https://github.com/magento-l10n/language-fr_FR/issues",
-                "source": "https://github.com/magento-l10n/language-fr_FR/tree/v0.0.29"
+                "source": "https://github.com/magento-l10n/language-fr_FR/tree/v0.0.30"
             },
-            "time": "2021-03-19T14:29:24+00:00"
+            "time": "2021-08-24T00:04:41+00:00"
         },
         {
             "name": "community-engineering/language-hi_in",
@@ -1430,16 +1431,16 @@
         },
         {
             "name": "community-engineering/language-nl_nl",
-            "version": "0.0.35",
+            "version": "0.0.37",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento-l10n/language-nl_NL.git",
-                "reference": "fb7a3ad1029ff40767144d3dc9258971f5f4fda3"
+                "reference": "6ce9067057d200dee12f0ae2051c6978441f88dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento-l10n/language-nl_NL/zipball/fb7a3ad1029ff40767144d3dc9258971f5f4fda3",
-                "reference": "fb7a3ad1029ff40767144d3dc9258971f5f4fda3",
+                "url": "https://api.github.com/repos/magento-l10n/language-nl_NL/zipball/6ce9067057d200dee12f0ae2051c6978441f88dc",
+                "reference": "6ce9067057d200dee12f0ae2051c6978441f88dc",
                 "shasum": ""
             },
             "require": {
@@ -1459,22 +1460,22 @@
             "description": "nl_NL language package.",
             "support": {
                 "issues": "https://github.com/magento-l10n/language-nl_NL/issues",
-                "source": "https://github.com/magento-l10n/language-nl_NL/tree/v0.0.35"
+                "source": "https://github.com/magento-l10n/language-nl_NL/tree/v0.0.37"
             },
-            "time": "2021-08-04T00:04:34+00:00"
+            "time": "2021-08-19T00:04:40+00:00"
         },
         {
             "name": "community-engineering/language-pt_br",
-            "version": "0.0.49",
+            "version": "0.0.50",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento-l10n/language-pt_BR.git",
-                "reference": "91b6350c6b1a669309d2f75cbd0f67e8a1736239"
+                "reference": "7c4f23ddb40a758bb03603d8bb0a61f679d87dd9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento-l10n/language-pt_BR/zipball/91b6350c6b1a669309d2f75cbd0f67e8a1736239",
-                "reference": "91b6350c6b1a669309d2f75cbd0f67e8a1736239",
+                "url": "https://api.github.com/repos/magento-l10n/language-pt_BR/zipball/7c4f23ddb40a758bb03603d8bb0a61f679d87dd9",
+                "reference": "7c4f23ddb40a758bb03603d8bb0a61f679d87dd9",
                 "shasum": ""
             },
             "require": {
@@ -1494,9 +1495,9 @@
             "description": "pt_BR language package.",
             "support": {
                 "issues": "https://github.com/magento-l10n/language-pt_BR/issues",
-                "source": "https://github.com/magento-l10n/language-pt_BR/tree/v0.0.49"
+                "source": "https://github.com/magento-l10n/language-pt_BR/tree/v0.0.50"
             },
-            "time": "2021-08-03T15:39:32+00:00"
+            "time": "2021-08-24T00:04:42+00:00"
         },
         {
             "name": "community-engineering/language-sr_sp",
@@ -1536,16 +1537,16 @@
         },
         {
             "name": "community-engineering/language-zh_cn",
-            "version": "0.0.10",
+            "version": "0.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento-l10n/language-zh_CN.git",
-                "reference": "c377a0c2eb3f2d45c3eff9eb2e9bb129cfc997a4"
+                "reference": "795c8ebbd4545d9c7496ac7a81c056ac2b9cb2ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento-l10n/language-zh_CN/zipball/c377a0c2eb3f2d45c3eff9eb2e9bb129cfc997a4",
-                "reference": "c377a0c2eb3f2d45c3eff9eb2e9bb129cfc997a4",
+                "url": "https://api.github.com/repos/magento-l10n/language-zh_CN/zipball/795c8ebbd4545d9c7496ac7a81c056ac2b9cb2ec",
+                "reference": "795c8ebbd4545d9c7496ac7a81c056ac2b9cb2ec",
                 "shasum": ""
             },
             "require": {
@@ -1565,9 +1566,9 @@
             "description": "zh_CN language package.",
             "support": {
                 "issues": "https://github.com/magento-l10n/language-zh_CN/issues",
-                "source": "https://github.com/magento-l10n/language-zh_CN/tree/v0.0.10"
+                "source": "https://github.com/magento-l10n/language-zh_CN/tree/v0.0.11"
             },
-            "time": "2021-08-08T00:04:21+00:00"
+            "time": "2021-08-17T00:04:36+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -2963,16 +2964,16 @@
         },
         {
             "name": "fastly/magento2",
-            "version": "1.2.163",
+            "version": "1.2.164",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fastly/fastly-magento2.git",
-                "reference": "86e0fa7c4253ffdcdba9e95765286e54ab277ddb"
+                "reference": "cdf380c0c551f4bf198a98f7a1264a5ccaeeebd4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/86e0fa7c4253ffdcdba9e95765286e54ab277ddb",
-                "reference": "86e0fa7c4253ffdcdba9e95765286e54ab277ddb",
+                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/cdf380c0c551f4bf198a98f7a1264a5ccaeeebd4",
+                "reference": "cdf380c0c551f4bf198a98f7a1264a5ccaeeebd4",
                 "shasum": ""
             },
             "require": {
@@ -3000,9 +3001,9 @@
             "description": "Fastly CDN Module for Magento 2.x",
             "support": {
                 "issues": "https://github.com/fastly/fastly-magento2/issues",
-                "source": "https://github.com/fastly/fastly-magento2/tree/1.2.163"
+                "source": "https://github.com/fastly/fastly-magento2/tree/1.2.164"
             },
-            "time": "2021-08-04T15:42:41+00:00"
+            "time": "2021-08-19T04:17:24+00:00"
         },
         {
             "name": "fgrosse/phpasn1",
@@ -3296,22 +3297,22 @@
         },
         {
             "name": "graylog2/gelf-php",
-            "version": "1.7.0",
+            "version": "1.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bzikarsky/gelf-php.git",
-                "reference": "16cab667fa01e6e298af1ec3279fe08d43e40a96"
+                "reference": "8dceab86227c184725479cc36ab5cae4da940f6e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bzikarsky/gelf-php/zipball/16cab667fa01e6e298af1ec3279fe08d43e40a96",
-                "reference": "16cab667fa01e6e298af1ec3279fe08d43e40a96",
+                "url": "https://api.github.com/repos/bzikarsky/gelf-php/zipball/8dceab86227c184725479cc36ab5cae4da940f6e",
+                "reference": "8dceab86227c184725479cc36ab5cae4da940f6e",
                 "shasum": ""
             },
             "require": {
                 "paragonie/constant_time_encoding": "^1|^2",
                 "php": ">=5.6",
-                "psr/log": "~1.0"
+                "psr/log": "^1.0|^2.0"
             },
             "provide": {
                 "psr/log-implementation": "~1.0"
@@ -3348,9 +3349,9 @@
             "description": "A php implementation to send log-messages to a GELF compatible backend like Graylog2.",
             "support": {
                 "issues": "https://github.com/bzikarsky/gelf-php/issues",
-                "source": "https://github.com/bzikarsky/gelf-php/tree/1.7.0"
+                "source": "https://github.com/bzikarsky/gelf-php/tree/1.7.1"
             },
-            "time": "2021-02-04T09:05:55+00:00"
+            "time": "2021-08-20T09:39:08+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -5034,16 +5035,16 @@
         },
         {
             "name": "laminas/laminas-i18n",
-            "version": "2.11.1",
+            "version": "2.11.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-i18n.git",
-                "reference": "5e85a8facc5534e856cc7f5b4326533eede84b8a"
+                "reference": "78adb53ebf6c0bc63f92273fd7809dabc554f786"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-i18n/zipball/5e85a8facc5534e856cc7f5b4326533eede84b8a",
-                "reference": "5e85a8facc5534e856cc7f5b4326533eede84b8a",
+                "url": "https://api.github.com/repos/laminas/laminas-i18n/zipball/78adb53ebf6c0bc63f92273fd7809dabc554f786",
+                "reference": "78adb53ebf6c0bc63f92273fd7809dabc554f786",
                 "shasum": ""
             },
             "require": {
@@ -5115,7 +5116,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2021-04-07T21:10:50+00:00"
+            "time": "2021-08-20T08:23:04+00:00"
         },
         {
             "name": "laminas/laminas-json",
@@ -5673,75 +5674,6 @@
             "time": "2021-04-19T16:06:00+00:00"
         },
         {
-            "name": "laminas/laminas-serializer",
-            "version": "2.9.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laminas/laminas-serializer.git",
-                "reference": "c1c9361f114271b0736db74e0083a919081af5e0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-serializer/zipball/c1c9361f114271b0736db74e0083a919081af5e0",
-                "reference": "c1c9361f114271b0736db74e0083a919081af5e0",
-                "shasum": ""
-            },
-            "require": {
-                "laminas/laminas-json": "^2.5 || ^3.0",
-                "laminas/laminas-stdlib": "^2.7 || ^3.0",
-                "laminas/laminas-zendframework-bridge": "^1.0",
-                "php": "^5.6 || ^7.0"
-            },
-            "replace": {
-                "zendframework/zend-serializer": "self.version"
-            },
-            "require-dev": {
-                "laminas/laminas-coding-standard": "~1.0.0",
-                "laminas/laminas-math": "^2.6 || ^3.0",
-                "laminas/laminas-servicemanager": "^2.7.5 || ^3.0.3",
-                "phpunit/phpunit": "^5.7.27 || ^6.5.14 || ^7.5.16"
-            },
-            "suggest": {
-                "laminas/laminas-math": "(^2.6 || ^3.0) To support Python Pickle serialization",
-                "laminas/laminas-servicemanager": "(^2.7.5 || ^3.0.3) To support plugin manager support"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.9.x-dev",
-                    "dev-develop": "2.10.x-dev"
-                },
-                "laminas": {
-                    "component": "Laminas\\Serializer",
-                    "config-provider": "Laminas\\Serializer\\ConfigProvider"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Laminas\\Serializer\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "description": "Serialize and deserialize PHP structures to a variety of representations",
-            "homepage": "https://laminas.dev",
-            "keywords": [
-                "laminas",
-                "serializer"
-            ],
-            "support": {
-                "chat": "https://laminas.dev/chat",
-                "docs": "https://docs.laminas.dev/laminas-serializer/",
-                "forum": "https://discourse.laminas.dev",
-                "issues": "https://github.com/laminas/laminas-serializer/issues",
-                "rss": "https://github.com/laminas/laminas-serializer/releases.atom",
-                "source": "https://github.com/laminas/laminas-serializer"
-            },
-            "time": "2019-12-31T17:42:11+00:00"
-        },
-        {
             "name": "laminas/laminas-server",
             "version": "2.10.0",
             "source": {
@@ -6043,24 +5975,23 @@
         },
         {
             "name": "laminas/laminas-stdlib",
-            "version": "3.4.0",
+            "version": "3.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-stdlib.git",
-                "reference": "e89c2268c9cad25099f562f7f015c28c5dd383c9"
+                "reference": "c8ac6a76a133e682acfabc821d4a2ec646934b12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-stdlib/zipball/e89c2268c9cad25099f562f7f015c28c5dd383c9",
-                "reference": "e89c2268c9cad25099f562f7f015c28c5dd383c9",
+                "url": "https://api.github.com/repos/laminas/laminas-stdlib/zipball/c8ac6a76a133e682acfabc821d4a2ec646934b12",
+                "reference": "c8ac6a76a133e682acfabc821d4a2ec646934b12",
                 "shasum": ""
             },
             "require": {
-                "laminas/laminas-zendframework-bridge": "^1.0",
                 "php": "^7.3 || ^8.0"
             },
-            "replace": {
-                "zendframework/zend-stdlib": "^3.2.1"
+            "conflict": {
+                "zendframework/zend-stdlib": "*"
             },
             "require-dev": {
                 "laminas/laminas-coding-standard": "~2.3.0",
@@ -6099,7 +6030,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2021-06-28T21:37:31+00:00"
+            "time": "2021-08-03T13:40:40+00:00"
         },
         {
             "name": "laminas/laminas-text",
@@ -6480,16 +6411,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "2.2.0",
+            "version": "2.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "29a3ba148287db3142412ef34f6fdcbc22c957cd"
+                "reference": "811bdc2d52a07eafbb6cb68a7b368b0668b362c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/29a3ba148287db3142412ef34f6fdcbc22c957cd",
-                "reference": "29a3ba148287db3142412ef34f6fdcbc22c957cd",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/811bdc2d52a07eafbb6cb68a7b368b0668b362c8",
+                "reference": "811bdc2d52a07eafbb6cb68a7b368b0668b362c8",
                 "shasum": ""
             },
             "require": {
@@ -6545,7 +6476,7 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/flysystem/issues",
-                "source": "https://github.com/thephpleague/flysystem/tree/2.2.0"
+                "source": "https://github.com/thephpleague/flysystem/tree/2.2.3"
             },
             "funding": [
                 {
@@ -6561,7 +6492,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-07-20T16:54:08+00:00"
+            "time": "2021-08-18T19:59:31+00:00"
         },
         {
             "name": "league/flysystem-aws-s3-v3",
@@ -27714,16 +27645,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.51.1",
+            "version": "2.52.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "8619c299d1e0d4b344e1f98ca07a1ce2cfbf1922"
+                "reference": "369c0e2737c56a0f39c946dd261855255a6fccbe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/8619c299d1e0d4b344e1f98ca07a1ce2cfbf1922",
-                "reference": "8619c299d1e0d4b344e1f98ca07a1ce2cfbf1922",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/369c0e2737c56a0f39c946dd261855255a6fccbe",
+                "reference": "369c0e2737c56a0f39c946dd261855255a6fccbe",
                 "shasum": ""
             },
             "require": {
@@ -27804,7 +27735,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-07-28T13:16:28+00:00"
+            "time": "2021-08-14T19:10:52+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -28781,16 +28712,16 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "2.0.32",
+            "version": "2.0.33",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "f5c4c19880d45d0be3e7d24ae8ac434844a898cd"
+                "reference": "fb53b7889497ec7c1362c94e61d8127ac67ea094"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/f5c4c19880d45d0be3e7d24ae8ac434844a898cd",
-                "reference": "f5c4c19880d45d0be3e7d24ae8ac434844a898cd",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/fb53b7889497ec7c1362c94e61d8127ac67ea094",
+                "reference": "fb53b7889497ec7c1362c94e61d8127ac67ea094",
                 "shasum": ""
             },
             "require": {
@@ -28870,7 +28801,7 @@
             ],
             "support": {
                 "issues": "https://github.com/phpseclib/phpseclib/issues",
-                "source": "https://github.com/phpseclib/phpseclib/tree/2.0.32"
+                "source": "https://github.com/phpseclib/phpseclib/tree/2.0.33"
             },
             "funding": [
                 {
@@ -28886,7 +28817,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-06-12T12:12:59+00:00"
+            "time": "2021-08-16T04:20:12+00:00"
         },
         {
             "name": "psr/container",
@@ -29577,16 +29508,16 @@
         },
         {
             "name": "seld/phar-utils",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/phar-utils.git",
-                "reference": "8674b1d84ffb47cc59a101f5d5a3b61e87d23796"
+                "reference": "749042a2315705d2dfbbc59234dd9ceb22bf3ff0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/phar-utils/zipball/8674b1d84ffb47cc59a101f5d5a3b61e87d23796",
-                "reference": "8674b1d84ffb47cc59a101f5d5a3b61e87d23796",
+                "url": "https://api.github.com/repos/Seldaek/phar-utils/zipball/749042a2315705d2dfbbc59234dd9ceb22bf3ff0",
+                "reference": "749042a2315705d2dfbbc59234dd9ceb22bf3ff0",
                 "shasum": ""
             },
             "require": {
@@ -29619,9 +29550,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Seldaek/phar-utils/issues",
-                "source": "https://github.com/Seldaek/phar-utils/tree/master"
+                "source": "https://github.com/Seldaek/phar-utils/tree/1.1.2"
             },
-            "time": "2020-07-07T18:42:57+00:00"
+            "time": "2021-08-19T21:01:38+00:00"
         },
         {
             "name": "spomky-labs/aes-key-wrap",
@@ -29839,7 +29770,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-storystore-grocery",
-                "reference": "3299b4a831dabd0e946de63777f497b722aa3c24"
+                "reference": "715d969649d4dc3c527f8f2fdb5b7000a6b4676c"
             },
             "require": {
                 "magento/framework": "*",
@@ -29866,20 +29797,20 @@
                 "GNU General Public License (GPL)"
             ],
             "description": "N/A",
-            "time": "2021-08-11T20:33:31+00:00"
+            "time": "2021-08-16T13:34:47+00:00"
         },
         {
             "name": "stripe/stripe-php",
-            "version": "v7.93.0",
+            "version": "v7.94.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stripe/stripe-php.git",
-                "reference": "c739cf6841bb3498e23bd52ecfadfcb21c521a14"
+                "reference": "03cd6b5c1c4fc9087ddd1dd046457bff274294d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/c739cf6841bb3498e23bd52ecfadfcb21c521a14",
-                "reference": "c739cf6841bb3498e23bd52ecfadfcb21c521a14",
+                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/03cd6b5c1c4fc9087ddd1dd046457bff274294d6",
+                "reference": "03cd6b5c1c4fc9087ddd1dd046457bff274294d6",
                 "shasum": ""
             },
             "require": {
@@ -29925,9 +29856,9 @@
             ],
             "support": {
                 "issues": "https://github.com/stripe/stripe-php/issues",
-                "source": "https://github.com/stripe/stripe-php/tree/v7.93.0"
+                "source": "https://github.com/stripe/stripe-php/tree/v7.94.0"
             },
-            "time": "2021-08-11T18:48:54+00:00"
+            "time": "2021-08-19T14:15:27+00:00"
         },
         {
             "name": "symfony/config",
@@ -33391,16 +33322,16 @@
         },
         {
             "name": "web-token/jwt-framework",
-            "version": "v2.2.10",
+            "version": "v2.2.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/web-token/jwt-framework.git",
-                "reference": "49e48633d8cdd7da993c4a94f66dd3ebceda16a5"
+                "reference": "643cced197e32471418bd89e7a44b69fd04eb9de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/web-token/jwt-framework/zipball/49e48633d8cdd7da993c4a94f66dd3ebceda16a5",
-                "reference": "49e48633d8cdd7da993c4a94f66dd3ebceda16a5",
+                "url": "https://api.github.com/repos/web-token/jwt-framework/zipball/643cced197e32471418bd89e7a44b69fd04eb9de",
+                "reference": "643cced197e32471418bd89e7a44b69fd04eb9de",
                 "shasum": ""
             },
             "require": {
@@ -33556,7 +33487,7 @@
             ],
             "support": {
                 "issues": "https://github.com/web-token/jwt-framework/issues",
-                "source": "https://github.com/web-token/jwt-framework/tree/v2.2.10"
+                "source": "https://github.com/web-token/jwt-framework/tree/v2.2.11"
             },
             "funding": [
                 {
@@ -33564,7 +33495,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-03-24T14:00:05+00:00"
+            "time": "2021-06-25T15:59:52+00:00"
         },
         {
             "name": "webimpress/safe-writer",

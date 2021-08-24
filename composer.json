@@ -77,13 +77,13 @@
         {"type": "composer", "url": "https://repo.magento.com/", "exclude": ["community-engineering/language-ja_jp"]}
     ],
     "require": {
-        "amasty/base": "1.12.9.x-dev",
-        "amasty/module-advanced-conditions":"1.5.2.x-dev",
+        "amasty/base": "1.12.11.x-dev",
+        "amasty/module-advanced-conditions":"1.5.3.x-dev",
         "amasty/module-banners-lite":"1.0.19.x-dev",
         "amasty/module-salesrulewizard": "1.0.3.x-dev",
-        "amasty/module-special-promo": "2.9.0.x-dev",
+        "amasty/module-special-promo": "2.9.1.x-dev",
         "amasty/module-special-promo-pro": "2.8.4.x-dev",
-        "amasty/promo": "2.10.5.x-dev",
+        "amasty/promo": "2.10.6.x-dev",
         "amasty/rgrid": "1.0.7.x-dev",
         "classyllama/module-owlcarousel":"dev-master",
         "community-engineering/language-ar_sa": "*",
