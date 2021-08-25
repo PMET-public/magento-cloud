@@ -22,5 +22,6 @@
 !/update
 !/update/.htaccess
 !/README.md
+!/op-exclude.txt
 !/.github
 !/.github/*

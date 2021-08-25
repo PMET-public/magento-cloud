@@ -1,6 +1,6 @@
-# Magento 2.4.1 Magento Commerce Cloud
+# Magento 2.4.3 Magento Commerce Cloud
 
-This repository contains a sample Magento Commerce (on-premise) version 2.4.1 instance for you to deploy in the cloud. You must have an active Magento Commerce Cloud user license to use the example in this repository.
+This repository contains a sample Magento Commerce (on-premise) version 2.4.3 instance for you to deploy in the cloud. You must have an active Magento Commerce Cloud user license to use the example in this repository.
 
 The example requires the use of [Composer](https://getcomposer.org/doc/) to load and manage dependencies and Magento vendor folders.
 
@@ -88,3 +88,8 @@ php.ini
 ## Developer documentation
 
 See the [Magento Commerce Cloud Guide](https://devdocs.magento.com/cloud/bk-cloud.html).
+
+## License
+Each Magento source file included in this distribution is licensed under the OSL-3.0 license.
+
+Please see [LICENSE.txt](https://github.com/magento/magento-cloud/blob/master/LICENSE.txt) for the full text of the [Open Software License v. 3.0 (OSL-3.0)](http://opensource.org/licenses/osl-3.0.php).
