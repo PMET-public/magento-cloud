@@ -84,15 +84,24 @@ web:
         "/siteb/":
             <<: *app
             passthru: "/siteb/index.php"
+        "/sitec/":
+            <<: *app
+            passthru: "/sitec/index.php"
+        "/sited/":
+            <<: *app
+            passthru: "/sited/index.php"
+        "/sitee/":
+            <<: *app
+            passthru: "/sitee/index.php"
         "/luma/":
             <<: *app
-            passthru: "/siteb/index.php"
+            passthru: "/luma/index.php"
         "/venia/":
             <<: *app
-            passthru: "/siteb/index.php"
+            passthru: "/venia/index.php"
         "/brentmill/":
             <<: *app
-            passthru: "/siteb/index.php"
+            passthru: "/brentmill/index.php"
         
 # The size of the persistent disk of the application (in MB).
 disk: 4096
