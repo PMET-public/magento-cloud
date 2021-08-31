@@ -284,16 +284,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.191.7",
+            "version": "3.191.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "c8f220112b64fbd089efead939d4fc70e794616c"
+                "reference": "949feb83cc0db46f07b12aa3128d47be3b9cca63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/c8f220112b64fbd089efead939d4fc70e794616c",
-                "reference": "c8f220112b64fbd089efead939d4fc70e794616c",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/949feb83cc0db46f07b12aa3128d47be3b9cca63",
+                "reference": "949feb83cc0db46f07b12aa3128d47be3b9cca63",
                 "shasum": ""
             },
             "require": {
@@ -368,9 +368,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.191.7"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.191.8"
             },
-            "time": "2021-08-30T18:41:03+00:00"
+            "time": "2021-08-31T18:18:02+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -6605,7 +6605,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/magento-cloud-docker.git",
-                "reference": "62a0610a642c5577d4450d2852122979d6587099"
+                "reference": "0df35cb21e5d40b8a8b92010e8b58c40d90d82b2"
             },
             "require": {
                 "composer/composer": "^1.0||^2.0",
@@ -6720,7 +6720,7 @@
                 "AFL-3.0"
             ],
             "description": "Magento Cloud Docker",
-            "time": "2021-08-30T17:49:58+00:00"
+            "time": "2021-08-31T21:03:55+00:00"
         },
         {
             "name": "magento/magento-cloud-metapackage",
