@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "694c2c0cf703b7df17cfecb3fec00c51",
+    "content-hash": "acc3c0bdd3ca8b92d15442782a235166",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -2174,16 +2174,16 @@
         },
         {
             "name": "fastly/magento2",
-            "version": "1.2.165",
+            "version": "1.2.166",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fastly/fastly-magento2.git",
-                "reference": "2fd13fe89d7d33ecc7bc9596d9193a72c28f6f74"
+                "reference": "57d87e225386b1930f0d322e9d5bf28c0b63638b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/2fd13fe89d7d33ecc7bc9596d9193a72c28f6f74",
-                "reference": "2fd13fe89d7d33ecc7bc9596d9193a72c28f6f74",
+                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/57d87e225386b1930f0d322e9d5bf28c0b63638b",
+                "reference": "57d87e225386b1930f0d322e9d5bf28c0b63638b",
                 "shasum": ""
             },
             "require": {
@@ -2211,9 +2211,9 @@
             "description": "Fastly CDN Module for Magento 2.x",
             "support": {
                 "issues": "https://github.com/fastly/fastly-magento2/issues",
-                "source": "https://github.com/fastly/fastly-magento2/tree/1.2.165"
+                "source": "https://github.com/fastly/fastly-magento2/tree/1.2.166"
             },
-            "time": "2021-08-26T15:00:54+00:00"
+            "time": "2021-09-01T00:32:05+00:00"
         },
         {
             "name": "fgrosse/phpasn1",
@@ -6605,7 +6605,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/magento-cloud-docker.git",
-                "reference": "0df35cb21e5d40b8a8b92010e8b58c40d90d82b2"
+                "reference": "a21900c9cc8f865989d5645e437fd9dd95834ff1"
             },
             "require": {
                 "composer/composer": "^1.0||^2.0",
@@ -6720,7 +6720,7 @@
                 "AFL-3.0"
             ],
             "description": "Magento Cloud Docker",
-            "time": "2021-08-31T21:03:55+00:00"
+            "time": "2021-09-01T01:26:52+00:00"
         },
         {
             "name": "magento/magento-cloud-metapackage",
@@ -25581,26 +25581,25 @@
         },
         {
             "name": "magentoese/ece-tools",
-            "version": "2002.1.7.x-dev",
+            "version": "2002.1.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/ece-tools.git",
-                "reference": "914f9da9efe0262352079c318d9f1e37ab6fb639"
+                "reference": "086b30eee6675e57f3103999d815db1266dc26a3"
             },
             "require": {
                 "colinmollenhour/credis": "^1.6.0",
-                "composer/composer": "^1.4||^2.0",
-                "composer/semver": "@stable",
+                "composer/composer": "^1.4",
+                "composer/semver": "^1.4",
                 "ext-json": "*",
                 "ext-pdo": "*",
                 "ext-sockets": "*",
                 "graylog2/gelf-php": "^1.4.2",
                 "guzzlehttp/guzzle": "^6.2",
                 "illuminate/config": "^5.5",
-                "magento/magento-cloud-components": "^1.0.8",
+                "magento/magento-cloud-components": "^1.0.1||dev-develop",
                 "magento/magento-cloud-docker": "^1.0.0||dev-develop",
-                "magento/magento-cloud-patches": "^1.0.11",
-                "magento/quality-patches": "^1.1.0",
+                "magento/magento-cloud-patches": "^1.0.0||dev-develop",
                 "monolog/monolog": "^1.16",
                 "nesbot/carbon": "^1.0||^2.0",
                 "php": "^7.1.3",
@@ -25614,8 +25613,7 @@
                 "symfony/yaml": "^3.3||^4.0"
             },
             "conflict": {
-                "nesbot/carbon": ">=1.38 <2.0",
-                "symfony/console": "4.4.27 || 4.4.28"
+                "nesbot/carbon": ">=1.38 <2.0"
             },
             "replace": {
                 "magento/ece-patches": "*",
@@ -25628,7 +25626,7 @@
                 "funkjedi/composer-include-files": "^1.0",
                 "php-mock/php-mock-phpunit": "^2.0",
                 "phpmd/phpmd": "@stable",
-                "phpstan/phpstan": "^0.12",
+                "phpstan/phpstan": "^0.11",
                 "phpunit/php-code-coverage": "^6.0",
                 "phpunit/phpunit": "^7.2",
                 "squizlabs/php_codesniffer": "^3.0"
@@ -25638,6 +25636,12 @@
             ],
             "type": "magento2-component",
             "extra": {
+                "map": [
+                    [
+                        "dist/.magento.env.yaml",
+                        ".magento.env.yaml.dist"
+                    ]
+                ],
                 "include_files": [
                     "vendor/codeception/phpunit-wrapper/src/phpunit7-interfaces.php"
                 ]
@@ -25692,7 +25696,7 @@
                 "OSL-3.0"
             ],
             "description": "Provides tools to build and deploy Magento 2 Enterprise Edition",
-            "time": "2021-08-26T15:28:23+00:00"
+            "time": "2020-07-31T12:54:16+00:00"
         },
         {
             "name": "magentoese/magento-scripts",
