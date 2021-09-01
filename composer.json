@@ -2,7 +2,7 @@
     "name": "magento/magento-cloud-template",
     "description": "eCommerce Platform for Growth (Enterprise Edition)",
     "type": "project",
-    "version": "2.4.2",
+    "version": "2.4.3",
     "license": "OSL-3.0",
     "config": {
         "preferred-install": "dist",
@@ -103,7 +103,7 @@
         "example/module-page-builder-faq": "dev-master",
         "example/module-page-builder-quote": "dev-master",
         "magento/live-search": "^1.1",
-        "magento/magento-cloud-docker": "dev-develop",
+        "magento/magento-cloud-docker": "1.2.4.x-dev",
         "magento/magento-cloud-metapackage": ">=2.4.3 <2.4.4",
         "magento/module-bundle-sample-data": "100.4.*",
         "magento/module-catalog-rule-sample-data": "100.4.*",
