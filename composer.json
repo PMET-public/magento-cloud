@@ -52,7 +52,7 @@
         "magento/module-wishlist-sample-data": "100.4.*",
         "magento/product-recommendations": "^3.0",
         "magento/sample-data-media": "100.4.*",
-        "magentoese/ece-tools": "2002.1.1.x-dev",
+        "magentoese/ece-tools": "2002.1.7.x-dev",
         "magentoese/magento-scripts": "2.3.0.x-dev",
         "magentoese/module-admin-configurations": "dev-master",
         "magentoese/module-data-install": "dev-master",

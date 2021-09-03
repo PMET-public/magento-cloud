@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "acc3c0bdd3ca8b92d15442782a235166",
+    "content-hash": "694c2c0cf703b7df17cfecb3fec00c51",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -6605,7 +6605,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/magento-cloud-docker.git",
-                "reference": "a21900c9cc8f865989d5645e437fd9dd95834ff1"
+                "reference": "d682aacde4c7c5d106b3423c83f7e2574bc3a462"
             },
             "require": {
                 "composer/composer": "^1.0||^2.0",
@@ -6720,7 +6720,7 @@
                 "AFL-3.0"
             ],
             "description": "Magento Cloud Docker",
-            "time": "2021-09-01T01:26:52+00:00"
+            "time": "2021-09-01T13:13:53+00:00"
         },
         {
             "name": "magento/magento-cloud-metapackage",
@@ -25581,25 +25581,26 @@
         },
         {
             "name": "magentoese/ece-tools",
-            "version": "2002.1.1.x-dev",
+            "version": "2002.1.7.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/ece-tools.git",
-                "reference": "086b30eee6675e57f3103999d815db1266dc26a3"
+                "reference": "914f9da9efe0262352079c318d9f1e37ab6fb639"
             },
             "require": {
                 "colinmollenhour/credis": "^1.6.0",
-                "composer/composer": "^1.4",
-                "composer/semver": "^1.4",
+                "composer/composer": "^1.4||^2.0",
+                "composer/semver": "@stable",
                 "ext-json": "*",
                 "ext-pdo": "*",
                 "ext-sockets": "*",
                 "graylog2/gelf-php": "^1.4.2",
                 "guzzlehttp/guzzle": "^6.2",
                 "illuminate/config": "^5.5",
-                "magento/magento-cloud-components": "^1.0.1||dev-develop",
+                "magento/magento-cloud-components": "^1.0.8",
                 "magento/magento-cloud-docker": "^1.0.0||dev-develop",
-                "magento/magento-cloud-patches": "^1.0.0||dev-develop",
+                "magento/magento-cloud-patches": "^1.0.11",
+                "magento/quality-patches": "^1.1.0",
                 "monolog/monolog": "^1.16",
                 "nesbot/carbon": "^1.0||^2.0",
                 "php": "^7.1.3",
@@ -25613,7 +25614,8 @@
                 "symfony/yaml": "^3.3||^4.0"
             },
             "conflict": {
-                "nesbot/carbon": ">=1.38 <2.0"
+                "nesbot/carbon": ">=1.38 <2.0",
+                "symfony/console": "4.4.27 || 4.4.28"
             },
             "replace": {
                 "magento/ece-patches": "*",
@@ -25626,7 +25628,7 @@
                 "funkjedi/composer-include-files": "^1.0",
                 "php-mock/php-mock-phpunit": "^2.0",
                 "phpmd/phpmd": "@stable",
-                "phpstan/phpstan": "^0.11",
+                "phpstan/phpstan": "^0.12",
                 "phpunit/php-code-coverage": "^6.0",
                 "phpunit/phpunit": "^7.2",
                 "squizlabs/php_codesniffer": "^3.0"
@@ -25636,12 +25638,6 @@
             ],
             "type": "magento2-component",
             "extra": {
-                "map": [
-                    [
-                        "dist/.magento.env.yaml",
-                        ".magento.env.yaml.dist"
-                    ]
-                ],
                 "include_files": [
                     "vendor/codeception/phpunit-wrapper/src/phpunit7-interfaces.php"
                 ]
@@ -25696,7 +25692,7 @@
                 "OSL-3.0"
             ],
             "description": "Provides tools to build and deploy Magento 2 Enterprise Edition",
-            "time": "2020-07-31T12:54:16+00:00"
+            "time": "2021-08-26T15:28:23+00:00"
         },
         {
             "name": "magentoese/magento-scripts",
