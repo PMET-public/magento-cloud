@@ -56,7 +56,7 @@
         {"type": "git", "url": "git@github.com:PMET-public/module-sales-sample-data.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-sctools.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-storystore.git"},
-        {"type": "git", "url": "git@github.com:PMET-public/module-storystore-grocery"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-storystore-grocery.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-switcherlogos.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-themecustomizer.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-venia-catalog-sample-data.git"},
