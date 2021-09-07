@@ -7,10 +7,10 @@ mysql:
     disk: 2048
 
 redis:
-    type: redis:5.0
+    type: redis:6.0
 
 elasticsearch:
-    type: elasticsearch:7.7
+    type: elasticsearch:7.9
     disk: 1024
     configuration:
         plugins:
@@ -18,5 +18,5 @@ elasticsearch:
             - analysis-phonetic
 
 rabbitmq:
-    type: rabbitmq:3.5
+    type: rabbitmq:3.8
     disk: 1024
