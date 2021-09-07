@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4f78ab91e2562fa672a47bbbae3f5af2",
+    "content-hash": "a021170f4b24e56f98ec447480a478cb",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -284,23 +284,20 @@
         },
         {
             "name": "aws/aws-crt-php",
-            "version": "1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/awslabs/aws-crt-php.git",
-                "reference": "2f8d2ee756ee11ea3543dc1ebde20fe68b8050ab"
+                "reference": "3942776a8c99209908ee0b287746263725685732"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/awslabs/aws-crt-php/zipball/2f8d2ee756ee11ea3543dc1ebde20fe68b8050ab",
-                "reference": "2f8d2ee756ee11ea3543dc1ebde20fe68b8050ab",
+                "url": "https://api.github.com/repos/awslabs/aws-crt-php/zipball/3942776a8c99209908ee0b287746263725685732",
+                "reference": "3942776a8c99209908ee0b287746263725685732",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.5"
-            },
-            "conflict": {
-                "phpunit/php-timer": ">=2"
             },
             "require-dev": {
                 "phpunit/phpunit": "^4.8.35|^5.4.3"
@@ -331,9 +328,9 @@
             ],
             "support": {
                 "issues": "https://github.com/awslabs/aws-crt-php/issues",
-                "source": "https://github.com/awslabs/aws-crt-php/tree/1.0.1"
+                "source": "https://github.com/awslabs/aws-crt-php/tree/v1.0.2"
             },
-            "time": "2021-08-30T20:36:54+00:00"
+            "time": "2021-09-03T22:57:30+00:00"
         },
         {
             "name": "aws/aws-sdk-php",
@@ -1263,16 +1260,16 @@
         },
         {
             "name": "community-engineering/language-pt_br",
-            "version": "0.0.50",
+            "version": "0.0.51",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento-l10n/language-pt_BR.git",
-                "reference": "7c4f23ddb40a758bb03603d8bb0a61f679d87dd9"
+                "reference": "cf738a7d589a83f277cdc8c77bc130d90fe9f36a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento-l10n/language-pt_BR/zipball/7c4f23ddb40a758bb03603d8bb0a61f679d87dd9",
-                "reference": "7c4f23ddb40a758bb03603d8bb0a61f679d87dd9",
+                "url": "https://api.github.com/repos/magento-l10n/language-pt_BR/zipball/cf738a7d589a83f277cdc8c77bc130d90fe9f36a",
+                "reference": "cf738a7d589a83f277cdc8c77bc130d90fe9f36a",
                 "shasum": ""
             },
             "require": {
@@ -1292,9 +1289,9 @@
             "description": "pt_BR language package.",
             "support": {
                 "issues": "https://github.com/magento-l10n/language-pt_BR/issues",
-                "source": "https://github.com/magento-l10n/language-pt_BR/tree/v0.0.50"
+                "source": "https://github.com/magento-l10n/language-pt_BR/tree/v0.0.51"
             },
-            "time": "2021-08-24T00:04:42+00:00"
+            "time": "2021-09-04T00:04:17+00:00"
         },
         {
             "name": "community-engineering/language-sr_sp",
@@ -2674,16 +2671,16 @@
         },
         {
             "name": "fastly/magento2",
-            "version": "1.2.166",
+            "version": "1.2.167",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fastly/fastly-magento2.git",
-                "reference": "57d87e225386b1930f0d322e9d5bf28c0b63638b"
+                "reference": "8017848a9d9f1c3b93b2a69b58d9282467ea2552"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/57d87e225386b1930f0d322e9d5bf28c0b63638b",
-                "reference": "57d87e225386b1930f0d322e9d5bf28c0b63638b",
+                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/8017848a9d9f1c3b93b2a69b58d9282467ea2552",
+                "reference": "8017848a9d9f1c3b93b2a69b58d9282467ea2552",
                 "shasum": ""
             },
             "require": {
@@ -2711,9 +2708,9 @@
             "description": "Fastly CDN Module for Magento 2.x",
             "support": {
                 "issues": "https://github.com/fastly/fastly-magento2/issues",
-                "source": "https://github.com/fastly/fastly-magento2/tree/1.2.166"
+                "source": "https://github.com/fastly/fastly-magento2/tree/1.2.167"
             },
-            "time": "2021-09-01T00:32:05+00:00"
+            "time": "2021-09-06T21:54:33+00:00"
         },
         {
             "name": "fgrosse/phpasn1",
@@ -26289,16 +26286,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.52.0",
+            "version": "2.53.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "369c0e2737c56a0f39c946dd261855255a6fccbe"
+                "reference": "f4655858a784988f880c1b8c7feabbf02dfdf045"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/369c0e2737c56a0f39c946dd261855255a6fccbe",
-                "reference": "369c0e2737c56a0f39c946dd261855255a6fccbe",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/f4655858a784988f880c1b8c7feabbf02dfdf045",
+                "reference": "f4655858a784988f880c1b8c7feabbf02dfdf045",
                 "shasum": ""
             },
             "require": {
@@ -26310,7 +26307,7 @@
             },
             "require-dev": {
                 "doctrine/orm": "^2.7",
-                "friendsofphp/php-cs-fixer": "^2.14 || ^3.0",
+                "friendsofphp/php-cs-fixer": "^3.0",
                 "kylekatarnls/multi-tester": "^2.0",
                 "phpmd/phpmd": "^2.9",
                 "phpstan/extension-installer": "^1.0",
@@ -26379,7 +26376,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-08-14T19:10:52+00:00"
+            "time": "2021-09-06T09:29:23+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -28413,7 +28410,7 @@
             "version": "dev-cli",
             "source": {
                 "type": "git",
-                "url": "git@github.com:PMET-public/module-storystore-grocery",
+                "url": "git@github.com:PMET-public/module-storystore-grocery.git",
                 "reference": "715d969649d4dc3c527f8f2fdb5b7000a6b4676c"
             },
             "require": {

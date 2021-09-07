@@ -46,7 +46,7 @@
         {"type": "git", "url": "git@github.com:PMET-public/paradoxlabs-subscriptions.git"},
         {"type": "git", "url": "git@github.com:PMET-public/paradoxlabs-tokenbase.git"},
         {"type": "git", "url": "git@github.com:PMET-public/theme-brentmill.git"},
-        {"type": "git", "url": "git@github.com:PMET-public/module-storystore-grocery"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-storystore-grocery.git"},
         {"type": "composer", "url": "https://repo.magento.com/", "exclude": ["community-engineering/language-ja_jp"]}
     ],
     "require": {
