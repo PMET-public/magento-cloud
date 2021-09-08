@@ -58,7 +58,7 @@
         "magentoese/module-data-install": "dev-master",
         "magentoese/module-demo-upgrades-240": "dev-master",
         "magentoese/theme-frontend-custom": "dev-master",
-        "story-store/grocery": "dev-cli"
+        "magentoese/grocery": "dev-cli"
     },
     "suggest": {
         "ext-pcntl": "Need for run processes in parallel mode"
