@@ -334,16 +334,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.193.3",
+            "version": "3.193.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "eec653425d08850d6becfd1653c9443c8b003991"
+                "reference": "758c2225c484088b2118c4e3ff5b37ccfea3948f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/eec653425d08850d6becfd1653c9443c8b003991",
-                "reference": "eec653425d08850d6becfd1653c9443c8b003991",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/758c2225c484088b2118c4e3ff5b37ccfea3948f",
+                "reference": "758c2225c484088b2118c4e3ff5b37ccfea3948f",
                 "shasum": ""
             },
             "require": {
@@ -419,9 +419,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.193.3"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.193.4"
             },
-            "time": "2021-09-13T18:16:41+00:00"
+            "time": "2021-09-14T18:19:00+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -25829,7 +25829,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-storystore-auto.git",
-                "reference": "3d7922097716a7742821387f577f5cd051001f1a"
+                "reference": "ab4cd946b178ee9ab1c5bd771e43feb862acabe0"
             },
             "require": {
                 "magento/framework": "*",
@@ -25850,7 +25850,7 @@
                 "proprietary"
             ],
             "description": "N/A",
-            "time": "2021-09-14T18:14:12+00:00"
+            "time": "2021-09-14T18:45:46+00:00"
         },
         {
             "name": "monolog/monolog",
