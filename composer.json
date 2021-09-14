@@ -15,7 +15,9 @@
         {"type": "git", "url": "git@github.com:PMET-public/module-admin-configurations.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-data-install.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-demo-upgrades-240.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-storystore-auto.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-storystore-grocery.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/theme-frontend-carvelo-autoparts.git"},
         {"type": "git", "url": "git@github.com:PMET-public/theme-frontend-custom.git"},
         {"type": "composer", "url": "https://repo.magento.com/"}
     ],
@@ -53,12 +55,14 @@
         "magento/product-recommendations": "^3.0",
         "magento/sample-data-media": "100.4.*",
         "magentoese/ece-tools": "2002.1.7.x-dev",
+        "magentoese/grocery": "dev-cli",
         "magentoese/magento-scripts": "2.3.0.x-dev",
         "magentoese/module-admin-configurations": "dev-master",
         "magentoese/module-data-install": "dev-master",
         "magentoese/module-demo-upgrades-240": "dev-master",
+        "magentoese/theme-frontend-carvelo-autoparts": "dev-main",
         "magentoese/theme-frontend-custom": "dev-master",
-        "magentoese/grocery": "dev-cli"
+        "magentoese/vertical-data-auto": "dev-master"
     },
     "suggest": {
         "ext-pcntl": "Need for run processes in parallel mode"
