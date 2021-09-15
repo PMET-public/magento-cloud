@@ -56,6 +56,7 @@
         {"type": "git", "url": "git@github.com:PMET-public/module-sales-sample-data.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-sctools.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-storystore.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-storystore-auto.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-storystore-grocery.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-switcherlogos.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-themecustomizer.git"},
@@ -72,6 +73,7 @@
         {"type": "git", "url": "git@github.com:PMET-public/paradoxlabs-stripe.git"},
         {"type": "git", "url": "git@github.com:PMET-public/paradoxlabs-subscriptions.git"},
         {"type": "git", "url": "git@github.com:PMET-public/paradoxlabs-tokenbase.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/theme-frontend-carvelo-autoparts.git"},
         {"type": "git", "url": "git@github.com:PMET-public/theme-frontend-custom.git"},
         {"type": "git", "url": "git@github.com:PMET-public/theme-frontend-venia.git"},
         {"type": "composer", "url": "https://repo.magento.com/", "exclude": ["community-engineering/language-ja_jp"]}
@@ -135,6 +137,7 @@
         "magento/product-recommendations": "^3.0",
         "magento/sample-data-media": "100.4.*",
         "magentoese/ece-tools": "2002.1.7.x-dev",
+        "magentoese/grocery": "dev-cli",
         "magentoese/magento-scripts": "2.3.0.x-dev",
         "magentoese/magento2-gmailsmtpapp": "dev-master",
         "magentoese/module-admin-configurations": "dev-master",
@@ -174,14 +177,15 @@
         "magentoese/module-venia-video-sample-data": "dev-master",
         "magentoese/module-vimeo": "dev-master",
         "magentoese/module-vmcontent": "dev-master",
+        "magentoese/theme-frontend-carvelo-autoparts": "dev-main",
         "magentoese/theme-frontend-custom": "dev-master",
         "magentoese/theme-frontend-venia": "dev-master",
+        "magentoese/vertical-data-auto": "dev-master",
         "paradoxlabs/authnetcim": "4.3.2.x-dev",
         "paradoxlabs/firstdata": "2.3.4.x-dev",
         "paradoxlabs/stripe": "2.3.7.x-dev",
         "paradoxlabs/subscriptions": "3.2.4.x-dev",
-        "paradoxlabs/tokenbase": "4.3.2.x-dev",
-        "magentoese/grocery": "dev-cli"
+        "paradoxlabs/tokenbase": "4.3.2.x-dev"
     },
     "suggest": {
         "ext-pcntl": "Need for run processes in parallel mode"
