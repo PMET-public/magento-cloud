@@ -4395,37 +4395,35 @@
         },
         {
             "name": "laminas/laminas-db",
-            "version": "2.12.0",
+            "version": "2.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-db.git",
-                "reference": "80cbba4e749f9eb7d8036172acb9ad41e8b6923f"
+                "reference": "a7acfdb60cf3b6c357029f515184cc4df93e1933"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-db/zipball/80cbba4e749f9eb7d8036172acb9ad41e8b6923f",
-                "reference": "80cbba4e749f9eb7d8036172acb9ad41e8b6923f",
+                "url": "https://api.github.com/repos/laminas/laminas-db/zipball/a7acfdb60cf3b6c357029f515184cc4df93e1933",
+                "reference": "a7acfdb60cf3b6c357029f515184cc4df93e1933",
                 "shasum": ""
             },
             "require": {
-                "laminas/laminas-stdlib": "^3.3",
-                "laminas/laminas-zendframework-bridge": "^1.0",
-                "php": "^7.3 || ~8.0.0"
+                "laminas/laminas-stdlib": "^3.6",
+                "php": "^7.3 || ~8.0.0 || ~8.1.0"
             },
-            "replace": {
-                "zendframework/zend-db": "^2.11.0"
+            "conflict": {
+                "zendframework/zend-db": "*"
             },
             "require-dev": {
-                "laminas/laminas-coding-standard": "~1.0.0",
-                "laminas/laminas-eventmanager": "^3.3",
-                "laminas/laminas-hydrator": "^3.2 || ^4.0",
-                "laminas/laminas-servicemanager": "^3.3",
-                "phpspec/prophecy-phpunit": "^2.0",
-                "phpunit/phpunit": "^9.3"
+                "laminas/laminas-coding-standard": "~2.2.1",
+                "laminas/laminas-eventmanager": "^3.4",
+                "laminas/laminas-hydrator": "^3.2 || ^4.3",
+                "laminas/laminas-servicemanager": "^3.7",
+                "phpunit/phpunit": "^9.5.5"
             },
             "suggest": {
                 "laminas/laminas-eventmanager": "Laminas\\EventManager component",
-                "laminas/laminas-hydrator": "(^3.2 || ^4.0) Laminas\\Hydrator component for using HydratingResultSets",
+                "laminas/laminas-hydrator": "(^3.2 || ^4.3) Laminas\\Hydrator component for using HydratingResultSets",
                 "laminas/laminas-servicemanager": "Laminas\\ServiceManager component"
             },
             "type": "library",
@@ -4464,7 +4462,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2021-02-22T22:27:56+00:00"
+            "time": "2021-09-16T05:17:23+00:00"
         },
         {
             "name": "laminas/laminas-dependency-plugin",
@@ -26034,11 +26032,11 @@
         },
         {
             "name": "magento/quality-patches",
-            "version": "1.1.2",
+            "version": "1.1.3",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/quality-patches/magento-quality-patches-1.1.2.0.zip",
-                "shasum": "016af6008d80b939ac36a9f73d1ae07cc60a2bd6"
+                "url": "https://repo.magento.com/archives/magento/quality-patches/magento-quality-patches-1.1.3.0.zip",
+                "shasum": "f501384e1aadf895fd25bd57baafc5fbfaa65ad0"
             },
             "require": {
                 "ext-json": "*",
@@ -26675,7 +26673,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-data-install.git",
-                "reference": "d8c5f10908748c05a679113f184251e051ccf7d8"
+                "reference": "4a16bb2ee61ccf343c7d529b8e9625b6856681f2"
             },
             "require": {
                 "firegento/fastsimpleimport": "*",
@@ -26691,7 +26689,7 @@
                     "MagentoEse\\DataInstall\\": ""
                 }
             },
-            "time": "2021-09-14T15:10:35+00:00"
+            "time": "2021-09-16T12:47:45+00:00"
         },
         {
             "name": "magentoese/module-demo-admin-configurations",
@@ -29798,16 +29796,16 @@
         },
         {
             "name": "stripe/stripe-php",
-            "version": "v7.95.0",
+            "version": "v7.96.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stripe/stripe-php.git",
-                "reference": "ed372a1f6430b06dda408bb33b27d2be35ceaf07"
+                "reference": "0630fbf3991a8126a747c7bc173e5d3c0dc23b9f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/ed372a1f6430b06dda408bb33b27d2be35ceaf07",
-                "reference": "ed372a1f6430b06dda408bb33b27d2be35ceaf07",
+                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/0630fbf3991a8126a747c7bc173e5d3c0dc23b9f",
+                "reference": "0630fbf3991a8126a747c7bc173e5d3c0dc23b9f",
                 "shasum": ""
             },
             "require": {
@@ -29853,9 +29851,9 @@
             ],
             "support": {
                 "issues": "https://github.com/stripe/stripe-php/issues",
-                "source": "https://github.com/stripe/stripe-php/tree/v7.95.0"
+                "source": "https://github.com/stripe/stripe-php/tree/v7.96.0"
             },
-            "time": "2021-09-02T02:30:40+00:00"
+            "time": "2021-09-15T22:23:38+00:00"
         },
         {
             "name": "symfony/config",
