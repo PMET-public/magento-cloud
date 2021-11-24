@@ -102,6 +102,9 @@ web:
         "/brentmill/":
             <<: *app
             passthru: "/brentmill/index.php"
+        "/healthbeauty/":
+        <<: *app
+            passthru: "/healthbeauty/index.php"
         
 # The size of the persistent disk of the application (in MB).
 disk: 4096
