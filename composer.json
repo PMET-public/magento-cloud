@@ -20,7 +20,7 @@
         {"type": "git", "url": "git@github.com:PMET-public/module-storystore-grocery.git"},
         {"type": "git", "url": "git@github.com:PMET-public/theme-frontend-carvelo-autoparts.git"},
         {"type": "git", "url": "git@github.com:PMET-public/theme-frontend-custom.git"},
-        {"type": "git", "url": "git@github.com:PMET-public/theme-frontend-gxd-base.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/theme-frontend-healthbeauty.git"},
         {"type": "git", "url": "git@github.com:PMET-public/vertical-data-healthbeauty.git"},
         {"type": "composer", "url": "https://repo.magento.com/"}
     ],
@@ -60,12 +60,12 @@
         "magentoese/ece-tools": "2002.1.7.x-dev",
         "magentoese/magento-scripts": "2.3.0.x-dev",
         "magentoese/module-admin-configurations": "dev-master",
-        "magentoese/module-data-install": "dev-develop",
+        "magentoese/module-data-install": "dev-master",
         "magentoese/module-demo-upgrades-240": "dev-master",
         "magentoese/module-saas-data-management": "dev-master",
         "magentoese/theme-frontend-carvelo-autoparts": "dev-main",
         "magentoese/theme-frontend-custom": "dev-master",
-        "magentoese/theme-frontend-gxd-base": "dev-healthbeauty",
+        "magentoese/theme-frontend-gxd-healthbeauty": "dev-main",
         "magentoese/vertical-data-auto": "dev-master",
         "magentoese/vertical-data-grocery": "dev-master",
         "magentoese/vertical-data-healthbeauty": "dev-master"
