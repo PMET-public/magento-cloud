@@ -2,7 +2,7 @@
     "name": "magento/magento-cloud-template",
     "description": "eCommerce Platform for Growth (Enterprise Edition)",
     "type": "project",
-    "version": "2.4.3",
+    "version": "2.4.3-p1",
     "license": "OSL-3.0",
     "config": {
         "preferred-install": "dist",
@@ -49,6 +49,8 @@
         {"type": "git", "url": "git@github.com:PMET-public/paradoxlabs-tokenbase.git"},
         {"type": "git", "url": "git@github.com:PMET-public/theme-brentmill.git"},
         {"type": "git", "url": "git@github.com:PMET-public/theme-frontend-carvelo-autoparts.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/theme-frontend-healthbeauty.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/vertical-data-healthbeauty.git"},
         {"type": "composer", "url": "https://repo.magento.com/", "exclude": ["community-engineering/language-ja_jp"]}
     ],
     "require": {
@@ -73,7 +75,6 @@
         "magento/module-visual-product-recommendations": "^1.2",
         "magento/product-recommendations": "^3.0",
         "magentoese/ece-tools": "2002.1.7.x-dev",
-        "magentoese/grocery": "dev-cli",
         "magentoese/magento-scripts": "2.3.0.x-dev",
         "magentoese/magento2-gmailsmtpapp": "dev-master",
         "magentoese/module-admin-configurations": "dev-master",
@@ -104,7 +105,10 @@
         "magentoese/module-themecustomizer": "dev-master",
         "magentoese/theme-brentmill": "dev-master",
         "magentoese/theme-frontend-carvelo-autoparts": "dev-main",
+        "magentoese/theme-frontend-gxd-healthbeauty": "dev-main",
         "magentoese/vertical-data-auto": "dev-master",
+        "magentoese/vertical-data-grocery": "dev-master",
+        "magentoese/vertical-data-healthbeauty": "dev-master",
         "paradoxlabs/authnetcim": "4.3.2.x-dev",
         "paradoxlabs/firstdata": "2.3.4.x-dev",
         "paradoxlabs/stripe": "2.3.7.x-dev",

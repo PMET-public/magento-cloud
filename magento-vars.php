@@ -25,7 +25,7 @@ function isHttpHost(string $host)
     return $_SERVER['HTTP_HOST'] === $host;
 }
 
-$allowedSiteCodes = ['fresh','auto','b2b','b2c','sitea','siteb','sitec','sited','sitee','luma','venia','brentmill'];
+$allowedSiteCodes = ['fresh','auto','b2b','b2c','sitea','siteb','sitec','sited','sitee','luma','venia','brentmill','healthbeauty'];
 
 if(isset($_SERVER['REQUEST_URI'])){
     $uri = explode('/', $_SERVER['REQUEST_URI']);
