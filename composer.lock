@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f0f3c2c6009b3e949fc8920d2fc95bf5",
+    "content-hash": "27be36a092c17f86a8ffc9f3648bc593",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -50,6 +50,227 @@
                 "source": "https://github.com/2tvenom/CBOREncode/tree/1.0.2"
             },
             "time": "2020-10-27T07:22:41+00:00"
+        },
+        {
+            "name": "amasty/base",
+            "version": "1.12.11.x-dev",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/amasty-module-base.git",
+                "reference": "8a0dd627ac81f871757e1be3be8549776ed04e0d"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Amasty\\Base\\": ""
+                }
+            },
+            "license": [
+                "Commercial"
+            ],
+            "description": "Amasty Base",
+            "time": "2021-08-24T15:32:03+00:00"
+        },
+        {
+            "name": "amasty/module-advanced-conditions",
+            "version": "1.5.3.x-dev",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/amasty-module-advanced-conditions.git",
+                "reference": "6a90a65387a7c53ea3312c6446019b722211c214"
+            },
+            "require": {
+                "amasty/base": ">=1.4.7"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Amasty\\Conditions\\": ""
+                }
+            },
+            "license": [
+                "Commercial"
+            ],
+            "description": "Advanced Conditions by Amasty",
+            "time": "2021-08-24T15:41:44+00:00"
+        },
+        {
+            "name": "amasty/module-banners-lite",
+            "version": "1.0.19.x-dev",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/amasty-module-banners-lite.git",
+                "reference": "f70a2a10d4cbb48cdb5454105fbb645a5be48524"
+            },
+            "require": {
+                "amasty/base": ">=1.4.5"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Amasty\\BannersLite\\": ""
+                }
+            },
+            "license": [
+                "Commercial"
+            ],
+            "description": "Promo Banners Lite by Amasty",
+            "time": "2021-06-24T13:00:58+00:00"
+        },
+        {
+            "name": "amasty/module-salesrulewizard",
+            "version": "1.0.3.x-dev",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/amasty-module-salesrulewizard.git",
+                "reference": "d10b0ccd2b06e10d19cdadb55f024316db7ecfc1"
+            },
+            "require": {
+                "amasty/base": ">=1.4.5",
+                "amasty/promo": ">=2.10.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Amasty\\SalesRuleWizard\\": ""
+                }
+            },
+            "license": [
+                "Commercial"
+            ],
+            "description": "Sales Rule Wizard by Amasty",
+            "time": "2021-06-24T13:10:21+00:00"
+        },
+        {
+            "name": "amasty/module-special-promo",
+            "version": "2.9.1.x-dev",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/amasty-module-special-promotions.git",
+                "reference": "7cfca57dc5934eb1236ed849c42bdbcae0b8d802"
+            },
+            "require": {
+                "amasty/base": ">=1.12.11",
+                "amasty/module-banners-lite": ">=1.0.19",
+                "amasty/rgrid": ">=1.0.7"
+            },
+            "suggest": {
+                "amasty/module-special-promo-mftf-2": "Install module-special-promo-mftf-2 module to be able to run Special Promotions MFTF tests for Magento 2.3.5+ version.",
+                "amasty/module-special-promo-mftf-3": "Install module-special-promo-mftf-3 module to be able to run Special Promotions MFTF tests for Magento 2.4.0+ version."
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Amasty\\Rules\\": ""
+                }
+            },
+            "license": [
+                "Commercial"
+            ],
+            "description": "Special Promotions by Amasty",
+            "time": "2021-08-24T15:35:49+00:00"
+        },
+        {
+            "name": "amasty/module-special-promo-pro",
+            "version": "2.8.4.x-dev",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/amasty-module-special-promotions-pro.git",
+                "reference": "2ad46f84e1fc9bf0edacdb0a05c7747c3619fcc0"
+            },
+            "require": {
+                "amasty/base": ">=1.10.0",
+                "amasty/module-special-promo": ">=2.7.15"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Amasty\\RulesPro\\": ""
+                }
+            },
+            "license": [
+                "Commercial"
+            ],
+            "description": "Special Promotions Pro by Amasty",
+            "time": "2020-10-26T15:29:46+00:00"
+        },
+        {
+            "name": "amasty/promo",
+            "version": "2.10.6.x-dev",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/amasty-module-free-gift.git",
+                "reference": "7499f7b7de65c10f8b74da355b8b4f07a17df0e2"
+            },
+            "require": {
+                "amasty/base": ">=1.12.11",
+                "amasty/module-advanced-conditions": ">=1.5.3",
+                "amasty/module-banners-lite": ">=1.0.19",
+                "amasty/module-salesrulewizard": ">=1.0.3",
+                "amasty/rgrid": ">=1.0.7"
+            },
+            "suggest": {
+                "amasty/module-promo-mftf-2": "Install module-promo-mftf-2 module to be able to run Free Gift MFTF tests for Magento 2.3.5+ version.",
+                "amasty/module-promo-mftf-3": "Install module-promo-mftf-3 module to be able to run Free Gift MFTF tests for Magento 2.4.0+ version."
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Amasty\\Promo\\": ""
+                }
+            },
+            "license": [
+                "Commercial"
+            ],
+            "description": "Free Gift by Amasty",
+            "time": "2021-10-13T20:18:08+00:00"
+        },
+        {
+            "name": "amasty/rgrid",
+            "version": "1.0.7.x-dev",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/amasty-module-rules-grid.git",
+                "reference": "c7d62f224fb0d492feccfeeffdf9d1f1c3bb4e24"
+            },
+            "require": {
+                "amasty/base": ">=1.4.7"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Amasty\\Rgrid\\": ""
+                }
+            },
+            "license": [
+                "Commercial"
+            ],
+            "description": "Extended Rules Grid by Amasty",
+            "time": "2020-10-26T15:17:53+00:00"
         },
         {
             "name": "amzn/amazon-pay-and-login-magento-2-module",
@@ -334,16 +555,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.207.0",
+            "version": "3.207.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "c5252787784bf41b678b03cb3292d413fe281319"
+                "reference": "3120e8adc7b2b060a7eb4c3c5e2a8c25c0f95a94"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/c5252787784bf41b678b03cb3292d413fe281319",
-                "reference": "c5252787784bf41b678b03cb3292d413fe281319",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/3120e8adc7b2b060a7eb4c3c5e2a8c25c0f95a94",
+                "reference": "3120e8adc7b2b060a7eb4c3c5e2a8c25c0f95a94",
                 "shasum": ""
             },
             "require": {
@@ -419,9 +640,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.207.0"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.207.1"
             },
-            "time": "2021-11-30T23:44:55+00:00"
+            "time": "2021-12-01T23:44:02+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -876,16 +1097,16 @@
         },
         {
             "name": "colinmollenhour/php-redis-session-abstract",
-            "version": "v1.4.4",
+            "version": "v1.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/colinmollenhour/php-redis-session-abstract.git",
-                "reference": "8d684bbacac99450f2a9ddf6f56be296997e2959"
+                "reference": "77ad0c1637ae6ea059f1f8e9fbdac6469242a16d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/colinmollenhour/php-redis-session-abstract/zipball/8d684bbacac99450f2a9ddf6f56be296997e2959",
-                "reference": "8d684bbacac99450f2a9ddf6f56be296997e2959",
+                "url": "https://api.github.com/repos/colinmollenhour/php-redis-session-abstract/zipball/77ad0c1637ae6ea059f1f8e9fbdac6469242a16d",
+                "reference": "77ad0c1637ae6ea059f1f8e9fbdac6469242a16d",
                 "shasum": ""
             },
             "require": {
@@ -914,9 +1135,9 @@
             "homepage": "https://github.com/colinmollenhour/php-redis-session-abstract",
             "support": {
                 "issues": "https://github.com/colinmollenhour/php-redis-session-abstract/issues",
-                "source": "https://github.com/colinmollenhour/php-redis-session-abstract/tree/v1.4.4"
+                "source": "https://github.com/colinmollenhour/php-redis-session-abstract/tree/v1.4.5"
             },
-            "time": "2021-04-07T21:51:17+00:00"
+            "time": "2021-12-01T21:16:01+00:00"
         },
         {
             "name": "community-engineering/language-ar_sa",
@@ -4657,40 +4878,37 @@
         },
         {
             "name": "laminas/laminas-filter",
-            "version": "2.12.0",
+            "version": "2.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-filter.git",
-                "reference": "0fc5dcd27dc22dba1a2544123684c67768fc5f88"
+                "reference": "67d88c471cb7016f495aeb1d3fd03edaa9bd9e70"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-filter/zipball/0fc5dcd27dc22dba1a2544123684c67768fc5f88",
-                "reference": "0fc5dcd27dc22dba1a2544123684c67768fc5f88",
+                "url": "https://api.github.com/repos/laminas/laminas-filter/zipball/67d88c471cb7016f495aeb1d3fd03edaa9bd9e70",
+                "reference": "67d88c471cb7016f495aeb1d3fd03edaa9bd9e70",
                 "shasum": ""
             },
             "require": {
-                "laminas/laminas-stdlib": "^3.3",
-                "laminas/laminas-zendframework-bridge": "^1.0",
-                "php": "^7.3 || ~8.0.0"
+                "laminas/laminas-stdlib": "^3.6.1",
+                "php": "^7.4 || ~8.0.0 || ~8.1.0"
             },
             "conflict": {
-                "laminas/laminas-validator": "<2.10.1"
-            },
-            "replace": {
-                "zendframework/zend-filter": "^2.9.2"
+                "laminas/laminas-validator": "<2.10.1",
+                "zendframework/zend-filter": "*"
             },
             "require-dev": {
-                "laminas/laminas-coding-standard": "~1.0.0",
-                "laminas/laminas-crypt": "^3.2.1",
-                "laminas/laminas-servicemanager": "^3.3",
-                "laminas/laminas-uri": "^2.6",
-                "pear/archive_tar": "^1.4.3",
-                "phpspec/prophecy-phpunit": "^2.0",
-                "phpunit/phpunit": "^9.3",
-                "psalm/plugin-phpunit": "^0.15.1",
-                "psr/http-factory": "^1.0",
-                "vimeo/psalm": "^4.6"
+                "laminas/laminas-coding-standard": "^2.3.0",
+                "laminas/laminas-crypt": "^3.5.1",
+                "laminas/laminas-servicemanager": "^3.7.0",
+                "laminas/laminas-uri": "^2.9.1",
+                "pear/archive_tar": "^1.4.14",
+                "phpspec/prophecy-phpunit": "^2.0.1",
+                "phpunit/phpunit": "^9.5.10",
+                "psalm/plugin-phpunit": "^0.15.2",
+                "psr/http-factory": "^1.0.1",
+                "vimeo/psalm": "^4.13.1"
             },
             "suggest": {
                 "laminas/laminas-crypt": "Laminas\\Crypt component, for encryption filters",
@@ -4735,7 +4953,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2021-10-24T21:01:15+00:00"
+            "time": "2021-12-02T14:12:59+00:00"
         },
         {
             "name": "laminas/laminas-http",
@@ -5914,16 +6132,16 @@
         },
         {
             "name": "laminas/laminas-validator",
-            "version": "2.15.0",
+            "version": "2.15.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-validator.git",
-                "reference": "270380e87904f5a1a1fba3059989d4ca157e16a9"
+                "reference": "fbd87f30c0a27aaeeee8adb2f934c14fb6046c80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-validator/zipball/270380e87904f5a1a1fba3059989d4ca157e16a9",
-                "reference": "270380e87904f5a1a1fba3059989d4ca157e16a9",
+                "url": "https://api.github.com/repos/laminas/laminas-validator/zipball/fbd87f30c0a27aaeeee8adb2f934c14fb6046c80",
+                "reference": "fbd87f30c0a27aaeeee8adb2f934c14fb6046c80",
                 "shasum": ""
             },
             "require": {
@@ -6000,7 +6218,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2021-09-08T23:16:56+00:00"
+            "time": "2021-12-02T14:23:06+00:00"
         },
         {
             "name": "laminas/laminas-view",
@@ -28801,16 +29019,16 @@
         },
         {
             "name": "stripe/stripe-php",
-            "version": "v7.103.0",
+            "version": "v7.104.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stripe/stripe-php.git",
-                "reference": "3a029598395bb4c7cfafa64707a553f4b01a9a12"
+                "reference": "6bfd895eaa3f6ebb49c10f9ab9ccc9e5baadded5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/3a029598395bb4c7cfafa64707a553f4b01a9a12",
-                "reference": "3a029598395bb4c7cfafa64707a553f4b01a9a12",
+                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/6bfd895eaa3f6ebb49c10f9ab9ccc9e5baadded5",
+                "reference": "6bfd895eaa3f6ebb49c10f9ab9ccc9e5baadded5",
                 "shasum": ""
             },
             "require": {
@@ -28820,11 +29038,10 @@
                 "php": ">=5.6.0"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "2.17.1",
-                "php-coveralls/php-coveralls": "^2.1",
-                "phpunit/phpunit": "^5.7",
-                "squizlabs/php_codesniffer": "^3.3",
-                "symfony/process": "~3.4"
+                "friendsofphp/php-cs-fixer": "3.2.1",
+                "phpstan/phpstan": "^1.2",
+                "phpunit/phpunit": "^5.7 || ^9.0",
+                "squizlabs/php_codesniffer": "^3.3"
             },
             "type": "library",
             "extra": {
@@ -28856,9 +29073,9 @@
             ],
             "support": {
                 "issues": "https://github.com/stripe/stripe-php/issues",
-                "source": "https://github.com/stripe/stripe-php/tree/v7.103.0"
+                "source": "https://github.com/stripe/stripe-php/tree/v7.104.0"
             },
-            "time": "2021-11-20T00:36:07+00:00"
+            "time": "2021-12-01T22:24:54+00:00"
         },
         {
             "name": "symfony/config",
@@ -32876,6 +33093,14 @@
     "aliases": [],
     "minimum-stability": "alpha",
     "stability-flags": {
+        "amasty/base": 20,
+        "amasty/module-advanced-conditions": 20,
+        "amasty/module-banners-lite": 20,
+        "amasty/module-salesrulewizard": 20,
+        "amasty/module-special-promo": 20,
+        "amasty/module-special-promo-pro": 20,
+        "amasty/promo": 20,
+        "amasty/rgrid": 20,
         "community-engineering/language-es_mx": 20,
         "community-engineering/language-sr_sp": 20,
         "magento/magento-cloud-docker": 20,
