@@ -189,9 +189,9 @@
         "magentoese/vertical-data-healthbeauty": "dev-master",
         "paradoxlabs/authnetcim": "4.3.2.x-dev",
         "paradoxlabs/firstdata": "2.3.4.x-dev",
-        "paradoxlabs/stripe": "2.3.7.x-dev",
-        "paradoxlabs/subscriptions": "3.2.4.x-dev",
-        "paradoxlabs/tokenbase": "4.3.2.x-dev"
+        "paradoxlabs/stripe": "2.3.11.x-dev",
+        "paradoxlabs/subscriptions": "3.3.4.x-dev",
+        "paradoxlabs/tokenbase": "4.3.8.x-dev"
     },
     "suggest": {
         "ext-pcntl": "Need for run processes in parallel mode"
