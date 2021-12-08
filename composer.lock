@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "27be36a092c17f86a8ffc9f3648bc593",
+    "content-hash": "202700d2b5806c18aed7db93fb8fd6e4",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -555,16 +555,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.207.1",
+            "version": "3.208.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "3120e8adc7b2b060a7eb4c3c5e2a8c25c0f95a94"
+                "reference": "ad35b407046b8eb3856b78795371f1fde46769f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/3120e8adc7b2b060a7eb4c3c5e2a8c25c0f95a94",
-                "reference": "3120e8adc7b2b060a7eb4c3c5e2a8c25c0f95a94",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/ad35b407046b8eb3856b78795371f1fde46769f4",
+                "reference": "ad35b407046b8eb3856b78795371f1fde46769f4",
                 "shasum": ""
             },
             "require": {
@@ -640,9 +640,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.207.1"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.208.2"
             },
-            "time": "2021-12-01T23:44:02+00:00"
+            "time": "2021-12-06T19:15:55+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -1446,16 +1446,16 @@
         },
         {
             "name": "community-engineering/language-nl_nl",
-            "version": "0.0.42",
+            "version": "0.0.43",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento-l10n/language-nl_NL.git",
-                "reference": "dfa3d25883ddc388fac335008ab02a4a73bf367d"
+                "reference": "584253d04b666b0609ec2b952a51b1d7712ce8aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento-l10n/language-nl_NL/zipball/dfa3d25883ddc388fac335008ab02a4a73bf367d",
-                "reference": "dfa3d25883ddc388fac335008ab02a4a73bf367d",
+                "url": "https://api.github.com/repos/magento-l10n/language-nl_NL/zipball/584253d04b666b0609ec2b952a51b1d7712ce8aa",
+                "reference": "584253d04b666b0609ec2b952a51b1d7712ce8aa",
                 "shasum": ""
             },
             "require": {
@@ -1475,9 +1475,9 @@
             "description": "nl_NL language package.",
             "support": {
                 "issues": "https://github.com/magento-l10n/language-nl_NL/issues",
-                "source": "https://github.com/magento-l10n/language-nl_NL/tree/v0.0.42"
+                "source": "https://github.com/magento-l10n/language-nl_NL/tree/v0.0.43"
             },
-            "time": "2021-11-18T00:04:39+00:00"
+            "time": "2021-12-04T00:04:17+00:00"
         },
         {
             "name": "community-engineering/language-pt_br",
@@ -2896,16 +2896,16 @@
         },
         {
             "name": "fastly/magento2",
-            "version": "1.2.174",
+            "version": "1.2.175",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fastly/fastly-magento2.git",
-                "reference": "45438e47198b4735aab900fda6338458b2debe90"
+                "reference": "f70d91f99c4b9d6e3c3df21d98f985f70677a9bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/45438e47198b4735aab900fda6338458b2debe90",
-                "reference": "45438e47198b4735aab900fda6338458b2debe90",
+                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/f70d91f99c4b9d6e3c3df21d98f985f70677a9bc",
+                "reference": "f70d91f99c4b9d6e3c3df21d98f985f70677a9bc",
                 "shasum": ""
             },
             "require": {
@@ -2933,9 +2933,9 @@
             "description": "Fastly CDN Module for Magento 2.3.x | 2.4.x",
             "support": {
                 "issues": "https://github.com/fastly/fastly-magento2/issues",
-                "source": "https://github.com/fastly/fastly-magento2/tree/1.2.174"
+                "source": "https://github.com/fastly/fastly-magento2/tree/1.2.175"
             },
-            "time": "2021-11-22T16:57:21+00:00"
+            "time": "2021-12-07T15:37:06+00:00"
         },
         {
             "name": "fgrosse/phpasn1",
@@ -4405,16 +4405,16 @@
         },
         {
             "name": "laminas/laminas-crypt",
-            "version": "3.5.1",
+            "version": "3.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-crypt.git",
-                "reference": "026fe31aa5c9d68679267e5473d64d96f4576020"
+                "reference": "ad2c29c289a4bc837b37a7650f5178edda0fc548"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-crypt/zipball/026fe31aa5c9d68679267e5473d64d96f4576020",
-                "reference": "026fe31aa5c9d68679267e5473d64d96f4576020",
+                "url": "https://api.github.com/repos/laminas/laminas-crypt/zipball/ad2c29c289a4bc837b37a7650f5178edda0fc548",
+                "reference": "ad2c29c289a4bc837b37a7650f5178edda0fc548",
                 "shasum": ""
             },
             "require": {
@@ -4422,11 +4422,10 @@
                 "ext-mbstring": "*",
                 "laminas/laminas-math": "^3.4",
                 "laminas/laminas-stdlib": "^3.6",
-                "laminas/laminas-zendframework-bridge": "^1.0",
                 "php": "^7.3 || ~8.0.0 || ~8.1.0"
             },
-            "replace": {
-                "zendframework/zend-crypt": "^3.3.1"
+            "conflict": {
+                "zendframework/zend-crypt": "*"
             },
             "require-dev": {
                 "laminas/laminas-coding-standard": "~1.0.0",
@@ -4465,7 +4464,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2021-11-28T16:04:24+00:00"
+            "time": "2021-12-06T01:25:27+00:00"
         },
         {
             "name": "laminas/laminas-db",
@@ -5023,16 +5022,16 @@
         },
         {
             "name": "laminas/laminas-i18n",
-            "version": "2.12.0",
+            "version": "2.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-i18n.git",
-                "reference": "78234f2701ec6252bd99f08e517d2de202716b20"
+                "reference": "b3a55d05818ed37ed18e76c103727e95e32cf591"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-i18n/zipball/78234f2701ec6252bd99f08e517d2de202716b20",
-                "reference": "78234f2701ec6252bd99f08e517d2de202716b20",
+                "url": "https://api.github.com/repos/laminas/laminas-i18n/zipball/b3a55d05818ed37ed18e76c103727e95e32cf591",
+                "reference": "b3a55d05818ed37ed18e76c103727e95e32cf591",
                 "shasum": ""
             },
             "require": {
@@ -5041,10 +5040,8 @@
                 "php": "^7.3 || ~8.0.0 || ~8.1.0"
             },
             "conflict": {
-                "phpspec/prophecy": "<1.9.0"
-            },
-            "replace": {
-                "zendframework/zend-i18n": "^2.10.1"
+                "phpspec/prophecy": "<1.9.0",
+                "zendframework/zend-i18n": "*"
             },
             "require-dev": {
                 "laminas/laminas-cache": "^3.1.2",
@@ -5105,7 +5102,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2021-11-26T11:46:47+00:00"
+            "time": "2021-12-06T00:44:40+00:00"
         },
         {
             "name": "laminas/laminas-json",
@@ -5306,25 +5303,24 @@
         },
         {
             "name": "laminas/laminas-math",
-            "version": "3.4.0",
+            "version": "3.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-math.git",
-                "reference": "79f6453a47a5774cf3736c5c66cb4818486681da"
+                "reference": "146d8187ab247ae152e811a6704a953d43537381"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-math/zipball/79f6453a47a5774cf3736c5c66cb4818486681da",
-                "reference": "79f6453a47a5774cf3736c5c66cb4818486681da",
+                "url": "https://api.github.com/repos/laminas/laminas-math/zipball/146d8187ab247ae152e811a6704a953d43537381",
+                "reference": "146d8187ab247ae152e811a6704a953d43537381",
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
-                "laminas/laminas-zendframework-bridge": "^1.0",
                 "php": "^7.3 || ~8.0.0 || ~8.1.0"
             },
-            "replace": {
-                "zendframework/zend-math": "^3.2.0"
+            "conflict": {
+                "zendframework/zend-math": "*"
             },
             "require-dev": {
                 "laminas/laminas-coding-standard": "~1.0.0",
@@ -5370,7 +5366,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2021-10-09T15:15:23+00:00"
+            "time": "2021-12-06T02:02:07+00:00"
         },
         {
             "name": "laminas/laminas-mime",
@@ -5956,16 +5952,16 @@
         },
         {
             "name": "laminas/laminas-stdlib",
-            "version": "3.6.1",
+            "version": "3.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-stdlib.git",
-                "reference": "db581851a092246ad99e12d4fddf105184924c71"
+                "reference": "6fe0842909638ca6bea8401b7e8168fb154bffb5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-stdlib/zipball/db581851a092246ad99e12d4fddf105184924c71",
-                "reference": "db581851a092246ad99e12d4fddf105184924c71",
+                "url": "https://api.github.com/repos/laminas/laminas-stdlib/zipball/6fe0842909638ca6bea8401b7e8168fb154bffb5",
+                "reference": "6fe0842909638ca6bea8401b7e8168fb154bffb5",
                 "shasum": ""
             },
             "require": {
@@ -6011,7 +6007,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2021-11-10T11:33:52+00:00"
+            "time": "2021-12-07T21:06:58+00:00"
         },
         {
             "name": "laminas/laminas-text",
@@ -26453,6 +26449,32 @@
             "time": "2021-09-28T13:16:48+00:00"
         },
         {
+            "name": "magentoese/module-saas-data-management",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/module-sass-data-management.git",
+                "reference": "b10885a8aa850a3bf692450c6d021ea133ebd00a"
+            },
+            "require": {
+                "magento/module-services-id": "*"
+            },
+            "default-branch": true,
+            "type": "magento2-module",
+            "autoload": {
+                "psr-4": {
+                    "MagentoEse\\SaasDataManagement\\": ""
+                },
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "time": "2021-11-23T13:42:00+00:00"
+        },
+        {
             "name": "magentoese/module-sales-sample-data",
             "version": "dev-master",
             "source": {
@@ -26594,7 +26616,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-storystore-auto.git",
-                "reference": "f118c7e247c282e954d623c868f9a3fdb2986324"
+                "reference": "7d8859f45206808724ce3ef4cfb6b3a7dc262683"
             },
             "require": {
                 "magento/framework": "*",
@@ -26615,7 +26637,7 @@
                 "proprietary"
             ],
             "description": "N/A",
-            "time": "2021-11-29T17:03:40+00:00"
+            "time": "2021-12-06T16:19:00+00:00"
         },
         {
             "name": "magentoese/vertical-data-grocery",
@@ -26659,7 +26681,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/vertical-data-healthbeauty.git",
-                "reference": "dc69173ef0c04b38a8b33060d14cf8f81801b1a5"
+                "reference": "8697858375bd43a5f96170ee42cfa8f328a1810a"
             },
             "require": {
                 "magento/framework": "*",
@@ -26680,7 +26702,7 @@
                 "proprietary"
             ],
             "description": "N/A",
-            "time": "2021-11-30T21:27:38+00:00"
+            "time": "2021-12-06T16:14:49+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -26891,16 +26913,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.54.0",
+            "version": "2.55.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "eed83939f1aed3eee517d03a33f5ec587ac529b5"
+                "reference": "8c2a18ce3e67c34efc1b29f64fe61304368259a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/eed83939f1aed3eee517d03a33f5ec587ac529b5",
-                "reference": "eed83939f1aed3eee517d03a33f5ec587ac529b5",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/8c2a18ce3e67c34efc1b29f64fe61304368259a2",
+                "reference": "8c2a18ce3e67c34efc1b29f64fe61304368259a2",
                 "shasum": ""
             },
             "require": {
@@ -26908,7 +26930,7 @@
                 "php": "^7.1.8 || ^8.0",
                 "symfony/polyfill-mbstring": "^1.0",
                 "symfony/polyfill-php80": "^1.16",
-                "symfony/translation": "^3.4 || ^4.0 || ^5.0"
+                "symfony/translation": "^3.4 || ^4.0 || ^5.0 || ^6.0"
             },
             "require-dev": {
                 "doctrine/dbal": "^2.0 || ^3.0",
@@ -26969,6 +26991,7 @@
                 "time"
             ],
             "support": {
+                "docs": "https://carbon.nesbot.com/docs",
                 "issues": "https://github.com/briannesbitt/Carbon/issues",
                 "source": "https://github.com/briannesbitt/Carbon"
             },
@@ -26982,7 +27005,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-11-01T21:22:20+00:00"
+            "time": "2021-12-03T14:59:52+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -27198,14 +27221,14 @@
         },
         {
             "name": "paradoxlabs/stripe",
-            "version": "2.3.7.x-dev",
+            "version": "2.3.11.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/paradoxlabs-stripe.git",
-                "reference": "22a5b4d960e2d60f7ebef33bedb5ffee1a6c037b"
+                "reference": "be27043f2da834210e2a696ff23bfd0751950ea0"
             },
             "require": {
-                "paradoxlabs/tokenbase": "~4.3.2",
+                "paradoxlabs/tokenbase": "~4.3.8",
                 "stripe/stripe-php": "^4.8||^5.0||^6.0||^7.0"
             },
             "type": "magento2-module",
@@ -27226,15 +27249,15 @@
                 "stripe",
                 "tokenization"
             ],
-            "time": "2020-10-20T00:00:00+00:00"
+            "time": "2021-08-23T00:00:00+00:00"
         },
         {
             "name": "paradoxlabs/subscriptions",
-            "version": "3.2.4.x-dev",
+            "version": "3.3.4.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/paradoxlabs-subscriptions.git",
-                "reference": "95defaaac0012e9f8be36f92200e84c1e571b1d8"
+                "reference": "b1a712a20b9287df3cb34e309b8bcfbd3cd9feee"
             },
             "require": {
                 "ext-json": "*",
@@ -27254,7 +27277,7 @@
                 "magento/module-ui": "^100.0||^101.0",
                 "magento/module-user": "^100.0||^101.0",
                 "monolog/monolog": "^1.11",
-                "paradoxlabs/tokenbase": "~4.3.2"
+                "paradoxlabs/tokenbase": "~4.3.8"
             },
             "type": "magento2-module",
             "autoload": {
@@ -27269,15 +27292,15 @@
                 "proprietary"
             ],
             "description": "Adaptive Subscriptions: Subscriptions, auto-shipments, and recurring payments by ParadoxLabs.",
-            "time": "2020-10-20T00:00:00+00:00"
+            "time": "2021-08-23T00:00:00+00:00"
         },
         {
             "name": "paradoxlabs/tokenbase",
-            "version": "4.3.2.x-dev",
+            "version": "4.3.8.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/paradoxlabs-tokenbase.git",
-                "reference": "9431b7d96bd06131e940c9de30475345b8c9dd71"
+                "reference": "52e797968af2750734bfa5a087e3cbb6342fc167"
             },
             "require": {
                 "ext-json": "*",
@@ -27307,7 +27330,7 @@
                 "proprietary"
             ],
             "description": "Base module for ParadoxLabs tokenization payment methods.",
-            "time": "2020-10-20T00:00:00+00:00"
+            "time": "2021-08-23T00:00:00+00:00"
         },
         {
             "name": "paragonie/constant_time_encoding",
@@ -29019,16 +29042,16 @@
         },
         {
             "name": "stripe/stripe-php",
-            "version": "v7.104.0",
+            "version": "v7.105.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stripe/stripe-php.git",
-                "reference": "6bfd895eaa3f6ebb49c10f9ab9ccc9e5baadded5"
+                "reference": "3a926610ca772aa7519fb132c88a6e7472788d90"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/6bfd895eaa3f6ebb49c10f9ab9ccc9e5baadded5",
-                "reference": "6bfd895eaa3f6ebb49c10f9ab9ccc9e5baadded5",
+                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/3a926610ca772aa7519fb132c88a6e7472788d90",
+                "reference": "3a926610ca772aa7519fb132c88a6e7472788d90",
                 "shasum": ""
             },
             "require": {
@@ -29073,9 +29096,9 @@
             ],
             "support": {
                 "issues": "https://github.com/stripe/stripe-php/issues",
-                "source": "https://github.com/stripe/stripe-php/tree/v7.104.0"
+                "source": "https://github.com/stripe/stripe-php/tree/v7.105.0"
             },
-            "time": "2021-12-01T22:24:54+00:00"
+            "time": "2021-12-06T22:51:55+00:00"
         },
         {
             "name": "symfony/config",
@@ -33130,6 +33153,7 @@
         "magentoese/module-keep-on-wishlist": 20,
         "magentoese/module-my-account-widget": 20,
         "magentoese/module-productbadge": 20,
+        "magentoese/module-saas-data-management": 20,
         "magentoese/module-sales-sample-data": 20,
         "magentoese/module-sctools": 20,
         "magentoese/module-themecustomizer": 20,
