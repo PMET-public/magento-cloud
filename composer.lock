@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9f47c34f00d2a6b9ec8abd22a43e014a",
+    "content-hash": "ff7707e5ad206adc97adcc4e4f8eae87",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -555,16 +555,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.208.3",
+            "version": "3.208.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "c9ccf6705fe41e53f23dac7e0573e3f79d70bcde"
+                "reference": "6154edd0a34db103c69ec15e258ea73e4e45d471"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/c9ccf6705fe41e53f23dac7e0573e3f79d70bcde",
-                "reference": "c9ccf6705fe41e53f23dac7e0573e3f79d70bcde",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/6154edd0a34db103c69ec15e258ea73e4e45d471",
+                "reference": "6154edd0a34db103c69ec15e258ea73e4e45d471",
                 "shasum": ""
             },
             "require": {
@@ -640,9 +640,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.208.3"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.208.6"
             },
-            "time": "2021-12-08T19:30:07+00:00"
+            "time": "2021-12-20T19:17:52+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -699,16 +699,16 @@
         },
         {
             "name": "beberlei/assert",
-            "version": "v3.3.1",
+            "version": "v3.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/beberlei/assert.git",
-                "reference": "5e721d7e937ca3ba2cdec1e1adf195f9e5188372"
+                "reference": "cb70015c04be1baee6f5f5c953703347c0ac1655"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/beberlei/assert/zipball/5e721d7e937ca3ba2cdec1e1adf195f9e5188372",
-                "reference": "5e721d7e937ca3ba2cdec1e1adf195f9e5188372",
+                "url": "https://api.github.com/repos/beberlei/assert/zipball/cb70015c04be1baee6f5f5c953703347c0ac1655",
+                "reference": "cb70015c04be1baee6f5f5c953703347c0ac1655",
                 "shasum": ""
             },
             "require": {
@@ -760,9 +760,9 @@
             ],
             "support": {
                 "issues": "https://github.com/beberlei/assert/issues",
-                "source": "https://github.com/beberlei/assert/tree/v3.3.1"
+                "source": "https://github.com/beberlei/assert/tree/v3.3.2"
             },
-            "time": "2021-04-18T20:11:03+00:00"
+            "time": "2021-12-16T21:41:27+00:00"
         },
         {
             "name": "braintree/braintree_php",
@@ -1212,16 +1212,16 @@
         },
         {
             "name": "community-engineering/language-de_de",
-            "version": "0.0.42",
+            "version": "0.0.43",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento-l10n/language-de_DE.git",
-                "reference": "6ab04bb33c755506ae0d91f1a8663b6da8018316"
+                "reference": "121521a64c6aa43cf5ad5a025ec6f1a47d972cb8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento-l10n/language-de_DE/zipball/6ab04bb33c755506ae0d91f1a8663b6da8018316",
-                "reference": "6ab04bb33c755506ae0d91f1a8663b6da8018316",
+                "url": "https://api.github.com/repos/magento-l10n/language-de_DE/zipball/121521a64c6aa43cf5ad5a025ec6f1a47d972cb8",
+                "reference": "121521a64c6aa43cf5ad5a025ec6f1a47d972cb8",
                 "shasum": ""
             },
             "require": {
@@ -1241,9 +1241,9 @@
             "description": "de_DE language package.",
             "support": {
                 "issues": "https://github.com/magento-l10n/language-de_DE/issues",
-                "source": "https://github.com/magento-l10n/language-de_DE/tree/v0.0.42"
+                "source": "https://github.com/magento-l10n/language-de_DE/tree/v0.0.43"
             },
-            "time": "2021-11-09T00:04:41+00:00"
+            "time": "2021-12-20T21:29:07+00:00"
         },
         {
             "name": "community-engineering/language-es_es",
@@ -1307,16 +1307,16 @@
         },
         {
             "name": "community-engineering/language-fr_fr",
-            "version": "0.0.33",
+            "version": "0.0.34",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento-l10n/language-fr_FR.git",
-                "reference": "645c3cdcda0e34b706d091337a0e428be7a07fe4"
+                "reference": "93317830f50e5cdc612fd90555a9a5f6dd4b764f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento-l10n/language-fr_FR/zipball/645c3cdcda0e34b706d091337a0e428be7a07fe4",
-                "reference": "645c3cdcda0e34b706d091337a0e428be7a07fe4",
+                "url": "https://api.github.com/repos/magento-l10n/language-fr_FR/zipball/93317830f50e5cdc612fd90555a9a5f6dd4b764f",
+                "reference": "93317830f50e5cdc612fd90555a9a5f6dd4b764f",
                 "shasum": ""
             },
             "require": {
@@ -1336,9 +1336,9 @@
             "description": "fr_FR language package.",
             "support": {
                 "issues": "https://github.com/magento-l10n/language-fr_FR/issues",
-                "source": "https://github.com/magento-l10n/language-fr_FR/tree/v0.0.33"
+                "source": "https://github.com/magento-l10n/language-fr_FR/tree/v0.0.34"
             },
-            "time": "2021-11-09T00:04:43+00:00"
+            "time": "2021-12-20T21:29:07+00:00"
         },
         {
             "name": "community-engineering/language-hi_in",
@@ -1482,16 +1482,16 @@
         },
         {
             "name": "community-engineering/language-nl_nl",
-            "version": "0.0.43",
+            "version": "0.0.44",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento-l10n/language-nl_NL.git",
-                "reference": "584253d04b666b0609ec2b952a51b1d7712ce8aa"
+                "reference": "8ed16545452cb11afcc40d55ced9e66bcc89c10a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento-l10n/language-nl_NL/zipball/584253d04b666b0609ec2b952a51b1d7712ce8aa",
-                "reference": "584253d04b666b0609ec2b952a51b1d7712ce8aa",
+                "url": "https://api.github.com/repos/magento-l10n/language-nl_NL/zipball/8ed16545452cb11afcc40d55ced9e66bcc89c10a",
+                "reference": "8ed16545452cb11afcc40d55ced9e66bcc89c10a",
                 "shasum": ""
             },
             "require": {
@@ -1511,9 +1511,9 @@
             "description": "nl_NL language package.",
             "support": {
                 "issues": "https://github.com/magento-l10n/language-nl_NL/issues",
-                "source": "https://github.com/magento-l10n/language-nl_NL/tree/v0.0.43"
+                "source": "https://github.com/magento-l10n/language-nl_NL/tree/v0.0.44"
             },
-            "time": "2021-12-04T00:04:17+00:00"
+            "time": "2021-12-20T21:29:08+00:00"
         },
         {
             "name": "community-engineering/language-pt_br",
@@ -1699,16 +1699,16 @@
         },
         {
             "name": "composer/composer",
-            "version": "1.10.23",
+            "version": "1.10.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "eb3bae3d3de2e4abd94fa56fbe18355aba0b47ae"
+                "reference": "6dea608377dc5409895d4cfd987947bc0abe154a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/eb3bae3d3de2e4abd94fa56fbe18355aba0b47ae",
-                "reference": "eb3bae3d3de2e4abd94fa56fbe18355aba0b47ae",
+                "url": "https://api.github.com/repos/composer/composer/zipball/6dea608377dc5409895d4cfd987947bc0abe154a",
+                "reference": "6dea608377dc5409895d4cfd987947bc0abe154a",
                 "shasum": ""
             },
             "require": {
@@ -1778,7 +1778,7 @@
             "support": {
                 "irc": "irc://irc.freenode.org/composer",
                 "issues": "https://github.com/composer/composer/issues",
-                "source": "https://github.com/composer/composer/tree/1.10.23"
+                "source": "https://github.com/composer/composer/tree/1.10.24"
             },
             "funding": [
                 {
@@ -1794,7 +1794,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-10-05T07:44:27+00:00"
+            "time": "2021-12-09T19:06:33+00:00"
         },
         {
             "name": "composer/package-versions-deprecated",
@@ -3019,16 +3019,16 @@
         },
         {
             "name": "fastly/magento2",
-            "version": "1.2.175",
+            "version": "1.2.176",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fastly/fastly-magento2.git",
-                "reference": "f70d91f99c4b9d6e3c3df21d98f985f70677a9bc"
+                "reference": "0467eeee4bd28614104a3dea47f042db91508be3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/f70d91f99c4b9d6e3c3df21d98f985f70677a9bc",
-                "reference": "f70d91f99c4b9d6e3c3df21d98f985f70677a9bc",
+                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/0467eeee4bd28614104a3dea47f042db91508be3",
+                "reference": "0467eeee4bd28614104a3dea47f042db91508be3",
                 "shasum": ""
             },
             "require": {
@@ -3056,30 +3056,30 @@
             "description": "Fastly CDN Module for Magento 2.3.x | 2.4.x",
             "support": {
                 "issues": "https://github.com/fastly/fastly-magento2/issues",
-                "source": "https://github.com/fastly/fastly-magento2/tree/1.2.175"
+                "source": "https://github.com/fastly/fastly-magento2/tree/1.2.176"
             },
-            "time": "2021-12-07T15:37:06+00:00"
+            "time": "2021-12-14T12:01:18+00:00"
         },
         {
             "name": "fgrosse/phpasn1",
-            "version": "v2.3.0",
+            "version": "v2.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fgrosse/PHPASN1.git",
-                "reference": "20299033c35f4300eb656e7e8e88cf52d1d6694e"
+                "reference": "eef488991d53e58e60c9554b09b1201ca5ba9296"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fgrosse/PHPASN1/zipball/20299033c35f4300eb656e7e8e88cf52d1d6694e",
-                "reference": "20299033c35f4300eb656e7e8e88cf52d1d6694e",
+                "url": "https://api.github.com/repos/fgrosse/PHPASN1/zipball/eef488991d53e58e60c9554b09b1201ca5ba9296",
+                "reference": "eef488991d53e58e60c9554b09b1201ca5ba9296",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.0.0"
+                "php": "~7.1.0 || ~7.2.0 || ~7.3.0 || ~7.4.0 || ~8.0.0 || ~8.1.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~6.3",
-                "satooshi/php-coveralls": "~2.0"
+                "php-coveralls/php-coveralls": "~2.0",
+                "phpunit/phpunit": "^6.3 || ^7.0 || ^8.0"
             },
             "suggest": {
                 "ext-bcmath": "BCmath is the fallback extension for big integer calculations",
@@ -3131,9 +3131,9 @@
             ],
             "support": {
                 "issues": "https://github.com/fgrosse/PHPASN1/issues",
-                "source": "https://github.com/fgrosse/PHPASN1/tree/v2.3.0"
+                "source": "https://github.com/fgrosse/PHPASN1/tree/v2.4.0"
             },
-            "time": "2021-04-24T19:01:55+00:00"
+            "time": "2021-12-11T12:41:06+00:00"
         },
         {
             "name": "firebase/php-jwt",
@@ -26372,11 +26372,11 @@
         },
         {
             "name": "magento/quality-patches",
-            "version": "1.1.7",
+            "version": "1.1.8",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/quality-patches/magento-quality-patches-1.1.7.0.zip",
-                "shasum": "d2175b5b8f65ea9c7426786efa3c686f6f00b58f"
+                "url": "https://repo.magento.com/archives/magento/quality-patches/magento-quality-patches-1.1.8.0.zip",
+                "shasum": "31bfc74797bfeeecb68c5aa49ff9f50d1d9e730b"
             },
             "require": {
                 "ext-json": "*",
@@ -26981,7 +26981,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-data-install.git",
-                "reference": "d67d293065c9f4e43cd2d07016e68046f1c54e47"
+                "reference": "1fa9f92e4d1a8984c31ae23f9294fca6308294e8"
             },
             "require": {
                 "firegento/fastsimpleimport": "*",
@@ -26997,7 +26997,7 @@
                     "MagentoEse\\DataInstall\\": ""
                 }
             },
-            "time": "2021-12-01T15:11:00+00:00"
+            "time": "2021-12-17T14:49:17+00:00"
         },
         {
             "name": "magentoese/module-demo-admin-configurations",
@@ -27416,7 +27416,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@github.com:PMET-public/module-sass-data-management.git",
+                "url": "git@github.com:PMET-public/module-saas-data-management.git",
                 "reference": "614db1b90d21f78de6f21556bc65d97f348b9d46"
             },
             "require": {
@@ -27800,7 +27800,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-storystore-auto.git",
-                "reference": "7d8859f45206808724ce3ef4cfb6b3a7dc262683"
+                "reference": "1be10ca6bcd83910dba3ac73ba5401ff76f9435a"
             },
             "require": {
                 "magento/framework": "*",
@@ -27821,7 +27821,7 @@
                 "proprietary"
             ],
             "description": "N/A",
-            "time": "2021-12-06T16:19:00+00:00"
+            "time": "2021-12-10T17:51:33+00:00"
         },
         {
             "name": "magentoese/vertical-data-grocery",
@@ -27829,7 +27829,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-storystore-grocery.git",
-                "reference": "fea213423fe7907cde939cf10f5b9c01f540fd45"
+                "reference": "17342940edb7367d3d5f4e77dee0cce336c68df8"
             },
             "require": {
                 "magento/framework": "*",
@@ -27857,7 +27857,7 @@
                 "GNU General Public License (GPL)"
             ],
             "description": "N/A",
-            "time": "2021-11-23T16:10:59+00:00"
+            "time": "2021-12-10T17:52:45+00:00"
         },
         {
             "name": "magentoese/vertical-data-healthbeauty",
@@ -27865,7 +27865,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/vertical-data-healthbeauty.git",
-                "reference": "8697858375bd43a5f96170ee42cfa8f328a1810a"
+                "reference": "a331d1a7ffbebdc7f683cf4721d0fd0981ab8918"
             },
             "require": {
                 "magento/framework": "*",
@@ -27886,7 +27886,7 @@
                 "proprietary"
             ],
             "description": "N/A",
-            "time": "2021-12-06T16:14:49+00:00"
+            "time": "2021-12-17T14:51:23+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -29968,16 +29968,16 @@
         },
         {
             "name": "seld/phar-utils",
-            "version": "1.1.2",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/phar-utils.git",
-                "reference": "749042a2315705d2dfbbc59234dd9ceb22bf3ff0"
+                "reference": "9f3452c93ff423469c0d56450431562ca423dcee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/phar-utils/zipball/749042a2315705d2dfbbc59234dd9ceb22bf3ff0",
-                "reference": "749042a2315705d2dfbbc59234dd9ceb22bf3ff0",
+                "url": "https://api.github.com/repos/Seldaek/phar-utils/zipball/9f3452c93ff423469c0d56450431562ca423dcee",
+                "reference": "9f3452c93ff423469c0d56450431562ca423dcee",
                 "shasum": ""
             },
             "require": {
@@ -30010,9 +30010,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Seldaek/phar-utils/issues",
-                "source": "https://github.com/Seldaek/phar-utils/tree/1.1.2"
+                "source": "https://github.com/Seldaek/phar-utils/tree/1.2.0"
             },
-            "time": "2021-08-19T21:01:38+00:00"
+            "time": "2021-12-10T11:20:11+00:00"
         },
         {
             "name": "spomky-labs/aes-key-wrap",
@@ -30226,16 +30226,16 @@
         },
         {
             "name": "stripe/stripe-php",
-            "version": "v7.105.0",
+            "version": "v7.107.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stripe/stripe-php.git",
-                "reference": "3a926610ca772aa7519fb132c88a6e7472788d90"
+                "reference": "a90f74037261ed376c0d37066f396c48809c8e99"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/3a926610ca772aa7519fb132c88a6e7472788d90",
-                "reference": "3a926610ca772aa7519fb132c88a6e7472788d90",
+                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/a90f74037261ed376c0d37066f396c48809c8e99",
+                "reference": "a90f74037261ed376c0d37066f396c48809c8e99",
                 "shasum": ""
             },
             "require": {
@@ -30280,9 +30280,9 @@
             ],
             "support": {
                 "issues": "https://github.com/stripe/stripe-php/issues",
-                "source": "https://github.com/stripe/stripe-php/tree/v7.105.0"
+                "source": "https://github.com/stripe/stripe-php/tree/v7.107.0"
             },
-            "time": "2021-12-06T22:51:55+00:00"
+            "time": "2021-12-09T20:40:29+00:00"
         },
         {
             "name": "symfony/config",
