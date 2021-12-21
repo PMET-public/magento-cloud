@@ -45,7 +45,7 @@
         {"type": "git", "url": "git@github.com:PMET-public/module-keep-on-wishlist.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-my-account-widget.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-productbadge.git"},
-        {"type": "git", "url": "git@github.com:PMET-public/module-sass-data-management.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-saas-data-management.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-sales-sample-data.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-sctools.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-storystore-auto.git"},
