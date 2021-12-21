@@ -15,7 +15,7 @@
         {"type": "git", "url": "git@github.com:PMET-public/module-admin-configurations.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-data-install.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-demo-upgrades-240.git"},
-        {"type": "git", "url": "git@github.com:PMET-public/module-sass-data-management.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-saas-data-management.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-storystore-auto.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-storystore-grocery.git"},
         {"type": "git", "url": "git@github.com:PMET-public/theme-frontend-carvelo-autoparts.git"},
