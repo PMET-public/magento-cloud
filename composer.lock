@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8a6ff1c5575680f173428a3758e38e00",
+    "content-hash": "b75d43588a55ae7b54e5f66f338d54e8",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -807,31 +807,32 @@
         },
         {
             "name": "composer/composer",
-            "version": "2.1.0",
+            "version": "2.2.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "59bb0df323c75308e6a72c6c9bc7dc8cc577f1ca"
+                "reference": "ba61e768b410736efe61df01b61f1ec44f51474f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/59bb0df323c75308e6a72c6c9bc7dc8cc577f1ca",
-                "reference": "59bb0df323c75308e6a72c6c9bc7dc8cc577f1ca",
+                "url": "https://api.github.com/repos/composer/composer/zipball/ba61e768b410736efe61df01b61f1ec44f51474f",
+                "reference": "ba61e768b410736efe61df01b61f1ec44f51474f",
                 "shasum": ""
             },
             "require": {
                 "composer/ca-bundle": "^1.0",
                 "composer/metadata-minifier": "^1.0",
+                "composer/pcre": "^1.0",
                 "composer/semver": "^3.0",
                 "composer/spdx-licenses": "^1.2",
-                "composer/xdebug-handler": "^2.0",
-                "justinrainbow/json-schema": "^5.2.10",
+                "composer/xdebug-handler": "^2.0 || ^3.0",
+                "justinrainbow/json-schema": "^5.2.11",
                 "php": "^5.3.2 || ^7.0 || ^8.0",
-                "psr/log": "^1.0",
+                "psr/log": "^1.0 || ^2.0",
                 "react/promise": "^1.2 || ^2.7",
                 "seld/jsonlint": "^1.4",
                 "seld/phar-utils": "^1.0",
-                "symfony/console": "^2.8.52 || ^3.4.35 || ^4.4 || ^5.0 || ^6.0",
+                "symfony/console": "^2.8.52 || ^3.4.35 || ^4.4 || ^5.0",
                 "symfony/filesystem": "^2.8.52 || ^3.4.35 || ^4.4 || ^5.0 || ^6.0",
                 "symfony/finder": "^2.8.52 || ^3.4.35 || ^4.4 || ^5.0 || ^6.0",
                 "symfony/process": "^2.8.52 || ^3.4.35 || ^4.4 || ^5.0 || ^6.0"
@@ -851,7 +852,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.1-dev"
+                    "dev-main": "2.2-dev"
                 }
             },
             "autoload": {
@@ -883,9 +884,9 @@
                 "package"
             ],
             "support": {
-                "irc": "irc://irc.freenode.org/composer",
+                "irc": "ircs://irc.libera.chat:6697/composer",
                 "issues": "https://github.com/composer/composer/issues",
-                "source": "https://github.com/composer/composer/tree/2.1.0"
+                "source": "https://github.com/composer/composer/tree/2.2.12"
             },
             "funding": [
                 {
@@ -901,7 +902,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-06-03T09:30:09+00:00"
+            "time": "2022-04-13T14:42:25+00:00"
         },
         {
             "name": "composer/metadata-minifier",
@@ -1206,27 +1207,27 @@
         },
         {
             "name": "composer/xdebug-handler",
-            "version": "2.0.5",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/xdebug-handler.git",
-                "reference": "9e36aeed4616366d2b690bdce11f71e9178c579a"
+                "reference": "ced299686f41dce890debac69273b47ffe98a40c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/xdebug-handler/zipball/9e36aeed4616366d2b690bdce11f71e9178c579a",
-                "reference": "9e36aeed4616366d2b690bdce11f71e9178c579a",
+                "url": "https://api.github.com/repos/composer/xdebug-handler/zipball/ced299686f41dce890debac69273b47ffe98a40c",
+                "reference": "ced299686f41dce890debac69273b47ffe98a40c",
                 "shasum": ""
             },
             "require": {
-                "composer/pcre": "^1",
-                "php": "^5.3.2 || ^7.0 || ^8.0",
+                "composer/pcre": "^1 || ^2 || ^3",
+                "php": "^7.2.5 || ^8.0",
                 "psr/log": "^1 || ^2 || ^3"
             },
             "require-dev": {
                 "phpstan/phpstan": "^1.0",
                 "phpstan/phpstan-strict-rules": "^1.1",
-                "symfony/phpunit-bridge": "^4.2 || ^5.0 || ^6.0"
+                "symfony/phpunit-bridge": "^6.0"
             },
             "type": "library",
             "autoload": {
@@ -1252,7 +1253,7 @@
             "support": {
                 "irc": "irc://irc.freenode.org/composer",
                 "issues": "https://github.com/composer/xdebug-handler/issues",
-                "source": "https://github.com/composer/xdebug-handler/tree/2.0.5"
+                "source": "https://github.com/composer/xdebug-handler/tree/3.0.3"
             },
             "funding": [
                 {
@@ -1268,7 +1269,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-02-24T20:20:32+00:00"
+            "time": "2022-02-25T21:32:43+00:00"
         },
         {
             "name": "dasprid/enum",
@@ -1482,16 +1483,16 @@
         },
         {
             "name": "endroid/qr-code",
-            "version": "4.4.8",
+            "version": "4.4.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/endroid/qr-code.git",
-                "reference": "9109eb7790ece1d46b1ab40eb7f375bbd6e7cb5d"
+                "reference": "bf087fa1e93a1b7310e2d94d187e26ae51db199d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/endroid/qr-code/zipball/9109eb7790ece1d46b1ab40eb7f375bbd6e7cb5d",
-                "reference": "9109eb7790ece1d46b1ab40eb7f375bbd6e7cb5d",
+                "url": "https://api.github.com/repos/endroid/qr-code/zipball/bf087fa1e93a1b7310e2d94d187e26ae51db199d",
+                "reference": "bf087fa1e93a1b7310e2d94d187e26ae51db199d",
                 "shasum": ""
             },
             "require": {
@@ -1542,7 +1543,7 @@
             ],
             "support": {
                 "issues": "https://github.com/endroid/qr-code/issues",
-                "source": "https://github.com/endroid/qr-code/tree/4.4.8"
+                "source": "https://github.com/endroid/qr-code/tree/4.4.9"
             },
             "funding": [
                 {
@@ -1550,7 +1551,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-04-06T09:39:20+00:00"
+            "time": "2022-05-10T07:25:08+00:00"
         },
         {
             "name": "ezimuel/guzzlestreams",
@@ -5001,18 +5002,16 @@
         },
         {
             "name": "magento/composer-root-update-plugin",
-            "version": "1.1.2",
+            "version": "2.0.2",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/composer-root-update-plugin/magento-composer-root-update-plugin-1.1.2.0.zip",
-                "shasum": "530c345bf02e17456d42e3c919fd0430649866d8"
+                "url": "https://repo.magento.com/archives/magento/composer-root-update-plugin/magento-composer-root-update-plugin-2.0.2.0.zip",
+                "shasum": "a474286585447dcb6d5e1f051af25ebe98a6b5a9"
             },
             "require": {
                 "composer-plugin-api": "^1.0 || ^2.0",
-                "composer/composer": "<=1.11 || >=2.0.0 <=2.1"
-            },
-            "suggest": {
-                "magento/framework": "Enables the Magento Composer Root Update Plugin's functionality for the Web Setup Wizard"
+                "composer/composer": "^1.0 || ^2.0",
+                "php": "~7.3.0||~7.4.0||~8.0.0||~8.1.0"
             },
             "type": "composer-plugin",
             "extra": {
@@ -5021,16 +5020,13 @@
             "autoload": {
                 "psr-4": {
                     "Magento\\ComposerRootUpdatePlugin\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
+                }
             },
             "license": [
                 "OSL-3.0",
                 "AFL-3.0"
             ],
-            "description": "Plugin to look ahead for Magento project root changes when running composer update for new Magento versions"
+            "description": "Plugin to look ahead for Magento Open Source or Adobe Commerce project root changes when running composer update for new magento/product or magento/magento-cloud metapackage versions"
         },
         {
             "name": "magento/data-services",
@@ -5057,82 +5053,6 @@
                 "AFL-3.0"
             ],
             "description": "Data Services metapackage"
-        },
-        {
-            "name": "magento/ece-tools",
-            "version": "2002.1.10",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/ece-tools/magento-ece-tools-2002.1.10.0.zip",
-                "shasum": "4ef2fea37851746b11dc012801db8056043b4134"
-            },
-            "require": {
-                "colinmollenhour/credis": "^1.6.0",
-                "composer/composer": "^1.4 || ^2.0",
-                "composer/semver": "@stable",
-                "ext-json": "*",
-                "ext-pdo": "*",
-                "ext-sockets": "*",
-                "graylog2/gelf-php": "^1.4.2",
-                "guzzlehttp/guzzle": "^6.3||^7.3",
-                "illuminate/config": "^5.5||^8.77",
-                "magento/magento-cloud-components": "^1.0.8",
-                "magento/magento-cloud-docker": "^1.0.0",
-                "magento/magento-cloud-patches": "^1.0.11",
-                "magento/quality-patches": "^1.1.0",
-                "monolog/monolog": "^1.25 || ^2.3",
-                "nesbot/carbon": "^1.0 || ^2.0",
-                "php": "^7.2 || ^8.0",
-                "psr/container": "^1.0",
-                "psr/log": "^1.0",
-                "symfony/config": "^4.4 || ^5.1",
-                "symfony/console": "^2.8 || ^4.0 || ^5.1",
-                "symfony/dependency-injection": "^3.3 || ^4.3 || ^5.1",
-                "symfony/process": "^2.1 || ^4.1 || ^5.1",
-                "symfony/serializer": "^2.8 || ^3.3 || ^4.0",
-                "symfony/yaml": "^3.3 || ^4.0 || ^5.1"
-            },
-            "conflict": {
-                "nesbot/carbon": ">=1.38 <2.0",
-                "symfony/console": "4.4.27 || 4.4.28"
-            },
-            "replace": {
-                "magento/ece-patches": "*",
-                "magento/magento-cloud-configuration": "*"
-            },
-            "require-dev": {
-                "codeception/codeception": "^4.1",
-                "codeception/module-asserts": "^1.2",
-                "codeception/module-db": "^1.0",
-                "codeception/module-phpbrowser": "^1.0",
-                "codeception/module-rest": "^1.2",
-                "consolidation/robo": "^1.2",
-                "funkjedi/composer-include-files": "^1.0",
-                "php-mock/php-mock-phpunit": "^2.0",
-                "phpmd/phpmd": "@stable",
-                "phpstan/phpstan": "^0.12",
-                "phpunit/php-code-coverage": "^7.0 || ^9.2",
-                "phpunit/phpunit": "^8.5 || ^9.5",
-                "squizlabs/php_codesniffer": "^3.0"
-            },
-            "bin": [
-                "bin/ece-tools"
-            ],
-            "type": "magento2-component",
-            "extra": {
-                "include_files": [
-                    "vendor/codeception/phpunit-wrapper/src/phpunit7-interfaces.php"
-                ]
-            },
-            "autoload": {
-                "psr-4": {
-                    "Magento\\MagentoCloud\\": "src/"
-                }
-            },
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "Provides tools to build and deploy Magento 2 Enterprise Edition"
         },
         {
             "name": "magento/extension-b2b",
@@ -5668,30 +5588,30 @@
         },
         {
             "name": "magento/live-search",
-            "version": "1.3.1",
+            "version": "2.0.1",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/live-search/magento-live-search-1.3.1.0.zip",
-                "shasum": "a95679cb046d9035a4be3910cb832434df2e2dcb"
+                "url": "https://repo.magento.com/archives/magento/live-search/magento-live-search-2.0.1.0.zip",
+                "shasum": "27ff3f0eb9b8631d46a2c2683547bd6672935297"
             },
             "require": {
-                "magento/data-services": "^7.0.3",
+                "magento/data-services": "^7.0.6",
                 "magento/framework": "~103.0.0",
-                "magento/module-bundle-product-data-exporter": "^101.0.0",
-                "magento/module-catalog-data-exporter": "^101.0.0",
-                "magento/module-catalog-inventory-data-exporter": "^101.0.0",
-                "magento/module-catalog-url-rewrite-data-exporter": "^101.0.0",
-                "magento/module-configurable-product-data-exporter": "^101.0.0",
-                "magento/module-data-exporter": "^101.0.0",
-                "magento/module-live-search": "1.2.2",
-                "magento/module-live-search-adapter": "1.0.6",
-                "magento/module-live-search-metrics": "1.0.2",
-                "magento/module-live-search-storefront-popover": "1.0.3",
-                "magento/module-live-search-terms": "1.0.2",
-                "magento/module-parent-product-data-exporter": "^101.0.0",
+                "magento/module-bundle-product-data-exporter": "^101.1.0",
+                "magento/module-catalog-data-exporter": "^101.1.0",
+                "magento/module-catalog-inventory-data-exporter": "^101.1.0",
+                "magento/module-catalog-url-rewrite-data-exporter": "^101.1.0",
+                "magento/module-configurable-product-data-exporter": "^101.1.0",
+                "magento/module-data-exporter": "^101.1.0",
+                "magento/module-live-search": "2.0.1",
+                "magento/module-live-search-adapter": "2.0.1",
+                "magento/module-live-search-metrics": "2.0.1",
+                "magento/module-live-search-storefront-popover": "2.0.1",
+                "magento/module-live-search-terms": "2.0.1",
+                "magento/module-parent-product-data-exporter": "^101.1.0",
                 "magento/module-saas-catalog": "^101.1.0",
-                "magento/module-services-id": "^2.2.2",
-                "php": "~7.3.0||~7.4.0"
+                "magento/module-services-id": "^2.2.3",
+                "php": "~7.3.0||~7.4.0||~8.1.0"
             },
             "type": "metapackage",
             "license": [
@@ -16239,16 +16159,21 @@
         },
         {
             "name": "magento/module-live-search",
-            "version": "1.2.2",
+            "version": "2.0.1",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-live-search/magento-module-live-search-1.2.2.0.zip",
-                "shasum": "ad334cd91855b46262cc062b90c4f9d2a608f5d6"
+                "url": "https://repo.magento.com/archives/magento/module-live-search/magento-module-live-search-2.0.1.0.zip",
+                "shasum": "2086ae5015047b95415afe95a91d56f72b5e3e00"
             },
             "require": {
                 "ext-json": "*",
+                "magento/framework": ">=102.0.2",
                 "magento/module-backend": "^102.0.0",
-                "php": "~7.3.0||~7.4.0"
+                "magento/module-config": ">=101.1.2",
+                "magento/module-services-id": "^2.2.3",
+                "magento/module-store": ">=101.0.2",
+                "magento/services-connector": "1.2.1",
+                "php": "~7.3.0||~7.4.0||~8.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -16266,16 +16191,22 @@
         },
         {
             "name": "magento/module-live-search-adapter",
-            "version": "1.0.6",
+            "version": "2.0.1",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-live-search-adapter/magento-module-live-search-adapter-1.0.6.0.zip",
-                "shasum": "681137c1c2e525103d083b16d71b0f8be007d81c"
+                "url": "https://repo.magento.com/archives/magento/module-live-search-adapter/magento-module-live-search-adapter-2.0.1.0.zip",
+                "shasum": "06183a44415bba731650466bc241d1480bc3cb7d"
             },
             "require": {
                 "gmostafa/php-graphql-client": "^1.8",
+                "magento/framework": ">=102.0.2",
+                "magento/module-catalog": ">=103.0.2",
+                "magento/module-catalog-search": ">=102.0.0",
+                "magento/module-eav": ">=102.0.2",
+                "magento/module-live-search": "2.0.1",
                 "magento/module-search": "^101.0.0",
-                "php": "~7.3.0||~7.4.0"
+                "magento/module-store": ">=101.0.2",
+                "php": "~7.3.0||~7.4.0||~8.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -16293,17 +16224,21 @@
         },
         {
             "name": "magento/module-live-search-metrics",
-            "version": "1.0.2",
+            "version": "2.0.1",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-live-search-metrics/magento-module-live-search-metrics-1.0.2.0.zip",
-                "shasum": "391426837b0724c640050624e88a1709e9ba67ed"
+                "url": "https://repo.magento.com/archives/magento/module-live-search-metrics/magento-module-live-search-metrics-2.0.1.0.zip",
+                "shasum": "1e32d865d2ec5b736b2c753fc452e3498ce3d0ef"
             },
             "require": {
                 "ext-json": "*",
+                "magento/framework": ">=102.0.2",
                 "magento/module-backend": "^102.0.0",
                 "magento/module-catalog": "^104.0.0",
-                "php": "~7.3.0||~7.4.0"
+                "magento/module-live-search": "2.0.1",
+                "magento/module-live-search-adapter": "2.0.1",
+                "magento/module-store": ">=101.0.2",
+                "php": "~7.3.0||~7.4.0||~8.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -16321,16 +16256,19 @@
         },
         {
             "name": "magento/module-live-search-storefront-popover",
-            "version": "1.0.3",
+            "version": "2.0.1",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-live-search-storefront-popover/magento-module-live-search-storefront-popover-1.0.3.0.zip",
-                "shasum": "c0a76837ca28d01141c52e2a9e86dc4f3b55a333"
+                "url": "https://repo.magento.com/archives/magento/module-live-search-storefront-popover/magento-module-live-search-storefront-popover-2.0.1.0.zip",
+                "shasum": "9d6c45f42cc850285817ecff67243aa0871cf13c"
             },
             "require": {
                 "ext-json": "*",
-                "magento/module-backend": "^102.0.0",
-                "php": "~7.3.0||~7.4.0"
+                "magento/framework": ">=102.0.2",
+                "magento/module-live-search": "2.0.1",
+                "magento/module-search": "^101.0.0",
+                "magento/module-store": ">=101.0.2",
+                "php": "~7.3.0||~7.4.0||~8.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -16348,14 +16286,16 @@
         },
         {
             "name": "magento/module-live-search-terms",
-            "version": "1.0.2",
+            "version": "2.0.1",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-live-search-terms/magento-module-live-search-terms-1.0.2.0.zip",
-                "shasum": "79d8e8fb6723c970b9e9adac9a76a8df794d5563"
+                "url": "https://repo.magento.com/archives/magento/module-live-search-terms/magento-module-live-search-terms-2.0.1.0.zip",
+                "shasum": "7ad5fe1cdff13621f00bb6f2b963dc8bb8de5244"
             },
             "require": {
-                "php": "~7.3.0||~7.4.0"
+                "magento/framework": ">=102.0.2",
+                "magento/module-search": "^101.0.0",
+                "php": "~7.3.0||~7.4.0||~8.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -25118,6 +25058,125 @@
             "time": "2022-01-18T21:55:54+00:00"
         },
         {
+            "name": "magentoese/ece-tools",
+            "version": "2002.1.10.x-dev",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/ece-tools.git",
+                "reference": "c981109f9610bc6d97eb3569b9aceba474101440"
+            },
+            "require": {
+                "colinmollenhour/credis": "^1.6.0",
+                "composer/composer": "^1.4 || ^2.0",
+                "composer/semver": "@stable",
+                "ext-json": "*",
+                "ext-pdo": "*",
+                "ext-sockets": "*",
+                "graylog2/gelf-php": "^1.4.2",
+                "guzzlehttp/guzzle": "^6.3||^7.3",
+                "illuminate/config": "^5.5||^8.77",
+                "magento/magento-cloud-components": "^1.0.8",
+                "magento/magento-cloud-docker": "^1.0.0||dev-develop",
+                "magento/magento-cloud-patches": "^1.0.11",
+                "magento/quality-patches": "^1.1.0",
+                "monolog/monolog": "^1.25 || ^2.3",
+                "nesbot/carbon": "^1.0 || ^2.0",
+                "php": "^7.2 || ^8.0",
+                "psr/container": "^1.0",
+                "psr/log": "^1.0",
+                "symfony/config": "^4.4 || ^5.1",
+                "symfony/console": "^2.8 || ^4.0 || ^5.1",
+                "symfony/dependency-injection": "^3.3 || ^4.3 || ^5.1",
+                "symfony/process": "^2.1 || ^4.1 || ^5.1",
+                "symfony/serializer": "^2.8 || ^3.3 || ^4.0",
+                "symfony/yaml": "^3.3 || ^4.0 || ^5.1"
+            },
+            "conflict": {
+                "nesbot/carbon": ">=1.38 <2.0",
+                "symfony/console": "4.4.27 || 4.4.28"
+            },
+            "replace": {
+                "magento/ece-patches": "*",
+                "magento/ece-tools": "*",
+                "magento/magento-cloud-configuration": "*"
+            },
+            "require-dev": {
+                "codeception/codeception": "^4.1",
+                "codeception/module-asserts": "^1.2",
+                "codeception/module-db": "^1.0",
+                "codeception/module-phpbrowser": "^1.0",
+                "codeception/module-rest": "^1.2",
+                "consolidation/robo": "^1.2",
+                "funkjedi/composer-include-files": "^1.0",
+                "php-mock/php-mock-phpunit": "^2.0",
+                "phpmd/phpmd": "@stable",
+                "phpstan/phpstan": "^0.12",
+                "phpunit/php-code-coverage": "^7.0 || ^9.2",
+                "phpunit/phpunit": "^8.5 || ^9.5",
+                "squizlabs/php_codesniffer": "^3.0"
+            },
+            "bin": [
+                "bin/ece-tools"
+            ],
+            "type": "magento2-component",
+            "extra": {
+                "include_files": [
+                    "vendor/codeception/phpunit-wrapper/src/phpunit7-interfaces.php"
+                ]
+            },
+            "autoload": {
+                "psr-4": {
+                    "Magento\\MagentoCloud\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Magento\\MagentoCloud\\Test\\": "tests/static/",
+                    "Magento\\MagentoCloud\\Test\\Integration\\": "tests/integration/",
+                    "Magento\\MagentoCloud\\Test\\Functional\\": "tests/functional/"
+                }
+            },
+            "scripts": {
+                "test:all": [
+                    "@test:phpstan",
+                    "@test:phpcs",
+                    "@test:phpmd",
+                    "@test:unit",
+                    "@test:integration",
+                    "@test:coverage"
+                ],
+                "test:phpstan": [
+                    "phpstan analyse -c tests/static/phpstan.neon"
+                ],
+                "test:phpcs": [
+                    "phpcs src --standard=tests/static/phpcs-ruleset.xml -p -n"
+                ],
+                "test:phpmd": [
+                    "phpmd src xml tests/static/phpmd-ruleset.xml"
+                ],
+                "test:unit": [
+                    "phpunit --configuration tests/unit"
+                ],
+                "test:integration": [
+                    "phpunit --configuration tests/integration"
+                ],
+                "test:coverage": [
+                    "phpunit --configuration tests/unit --coverage-clover tests/unit/tmp/clover.xml && php tests/unit/code-coverage.php tests/unit/tmp/clover.xml"
+                ],
+                "test:coverage-generate": [
+                    "phpunit --configuration tests/unit --coverage-html tests/unit/tmp/coverage"
+                ],
+                "pre-autoload-dump": [
+                    "Magento\\MagentoCloud\\Composer\\ClearAutoload::preAutoloadDump"
+                ]
+            },
+            "license": [
+                "OSL-3.0"
+            ],
+            "description": "Provides tools to build and deploy Magento 2 Enterprise Edition",
+            "time": "2022-05-10T12:38:51+00:00"
+        },
+        {
             "name": "magentoese/magento-scripts",
             "version": "2.3.0.x-dev",
             "source": {
@@ -25409,16 +25468,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "2.5.0",
+            "version": "2.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "4192345e260f1d51b365536199744b987e160edc"
+                "reference": "247918972acd74356b0a91dfaa5adcaec069b6c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/4192345e260f1d51b365536199744b987e160edc",
-                "reference": "4192345e260f1d51b365536199744b987e160edc",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/247918972acd74356b0a91dfaa5adcaec069b6c0",
+                "reference": "247918972acd74356b0a91dfaa5adcaec069b6c0",
                 "shasum": ""
             },
             "require": {
@@ -25431,18 +25490,23 @@
             "require-dev": {
                 "aws/aws-sdk-php": "^2.4.9 || ^3.0",
                 "doctrine/couchdb": "~1.0@dev",
-                "elasticsearch/elasticsearch": "^7",
+                "elasticsearch/elasticsearch": "^7 || ^8",
+                "ext-json": "*",
                 "graylog2/gelf-php": "^1.4.2",
+                "guzzlehttp/guzzle": "^7.4",
+                "guzzlehttp/psr7": "^2.2",
                 "mongodb/mongodb": "^1.8",
                 "php-amqplib/php-amqplib": "~2.4 || ^3",
                 "php-console/php-console": "^3.1.3",
-                "phpspec/prophecy": "^1.6.1",
+                "phpspec/prophecy": "^1.15",
                 "phpstan/phpstan": "^0.12.91",
-                "phpunit/phpunit": "^8.5",
+                "phpunit/phpunit": "^8.5.14",
                 "predis/predis": "^1.1",
                 "rollbar/rollbar": "^1.3 || ^2 || ^3",
-                "ruflin/elastica": ">=0.90@dev",
-                "swiftmailer/swiftmailer": "^5.3|^6.0"
+                "ruflin/elastica": "^7",
+                "swiftmailer/swiftmailer": "^5.3|^6.0",
+                "symfony/mailer": "^5.4 || ^6",
+                "symfony/mime": "^5.4 || ^6"
             },
             "suggest": {
                 "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
@@ -25492,7 +25556,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Seldaek/monolog/issues",
-                "source": "https://github.com/Seldaek/monolog/tree/2.5.0"
+                "source": "https://github.com/Seldaek/monolog/tree/2.6.0"
             },
             "funding": [
                 {
@@ -25504,7 +25568,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-04-08T15:43:54+00:00"
+            "time": "2022-05-10T09:36:00+00:00"
         },
         {
             "name": "mtdowling/jmespath.php",
@@ -30595,6 +30659,7 @@
     "minimum-stability": "alpha",
     "stability-flags": {
         "magento/magento-cloud-docker": 20,
+        "magentoese/ece-tools": 20,
         "magentoese/magento-scripts": 20,
         "magentoese/module-admin-configurations": 20,
         "magentoese/module-data-install": 20,
