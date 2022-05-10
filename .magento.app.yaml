@@ -5,9 +5,13 @@
 name: mymagento
 
 # The toolstack used to build the application.
-type: php:7.4
+type: php:8.1
 build:
-    flavor: composer
+    flavor: none
+
+dependencies:
+    php:
+        composer/composer: '2.2.4'
 
 # Enable extensions required by Magento 2
 runtime:
@@ -24,7 +28,7 @@ runtime:
 relationships:
     database: "mysql:mysql"
     redis: "redis:redis"
-    elasticsearch: "elasticsearch:elasticsearch"
+    elasticsearch: "opensearch:opensearch"
     mq: "rabbitmq:rabbitmq"
 
 # The configuration of app when it is exposed to the web.
@@ -63,7 +67,7 @@ web:
             rules:
                 ^/static/version\d+/(?<resource>.*)$:
                     passthru: "/static/$resource"
-       # "/base/":
+        # "/base/":
         #    <<: *app
         #    passthru: "/base/index.php"
         "/fresh/":
@@ -120,6 +124,7 @@ hooks:
     # We run build hooks before your application has been packaged.
     build: |
         set -e
+        composer install
         php ./vendor/bin/ece-tools run scenario/build/generate.xml
         php ./vendor/bin/ece-tools run scenario/build/transfer.xml
         # create consolidated crontab.xml & cron_groups.xml
@@ -142,9 +147,3 @@ variables:
     env:
         CONFIG__DEFAULT__PAYPAL_ONBOARDING__MIDDLEMAN_DOMAIN: 'payment-broker.magento.com'
         CONFIG__STORES__DEFAULT__PAYPAL__NOTATION_CODE: 'Magento_Enterprise_Cloud'
-
-dependencies:
-    ruby:
-        amqp-utils: "0.5.1"
-    php:
-        composer/composer: '^2.0'
