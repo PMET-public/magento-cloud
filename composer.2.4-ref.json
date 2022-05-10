@@ -6,7 +6,12 @@
     "license": "OSL-3.0",
     "config": {
         "preferred-install": "dist",
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "laminas/laminas-dependency-plugin": true,
+            "magento/*": true
+        }
     },
     "repositories": [
         {"type": "git", "url": "git@github.com:PMET-public/ece-tools.git"},
@@ -25,7 +30,7 @@
         {"type": "composer", "url": "https://repo.magento.com/"}
     ],
     "require": {
-        "magento/composer-root-update-plugin": "~1.1",
+        "magento/composer-root-update-plugin": "^2.0.2",
         "magento/live-search": "^1.1",
         "magento/magento-cloud-docker": "1.2.4.x-dev",
         "magento/magento-cloud-metapackage": ">=2.4.4 <2.4.5",
@@ -57,7 +62,7 @@
         "magento/module-wishlist-sample-data": "100.4.*",
         "magento/product-recommendations": "^3.0",
         "magento/sample-data-media": "100.4.*",
-        //"magentoese/ece-tools": "2002.1.7.x-dev",
+        "magentoese/ece-tools": "2002.1.10.x-dev",
         "magentoese/magento-scripts": "2.3.0.x-dev",
         "magentoese/module-admin-configurations": "dev-master",
         "magentoese/module-data-install": "dev-master",
@@ -123,10 +128,15 @@
             "twbs/bootstrap": [
                 "lib/web/jquery/jquery.tabs.js"
             ],
-            "tinymce/tinymce": "lib/web/tiny_mce_4"
+            "tinymce/tinymce": "lib/web/tiny_mce_5"
         },
         "magento-force": true,
-        "magento-deploystrategy": "copy"
+        "magento-deploystrategy": "copy",
+        "magento-deploy-ignore": {
+            "*": [
+                "/.gitignore"
+            ]
+        }
     },
     "scripts": {
         "generate-schema": [
