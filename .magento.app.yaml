@@ -16,9 +16,8 @@ dependencies:
 # Enable extensions required by Magento 2
 runtime:
     extensions:
-        - redis
         - xsl
-        - json
+        - newrelic
         - sodium
 
 # The relationships of the application with services or other applications.
@@ -28,7 +27,7 @@ runtime:
 relationships:
     database: "mysql:mysql"
     redis: "redis:redis"
-    elasticsearch: "opensearch:opensearch"
+    opensearch: "opensearch:opensearch"
     mq: "rabbitmq:rabbitmq"
 
 # The configuration of app when it is exposed to the web.
