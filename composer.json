@@ -111,7 +111,7 @@
             "Magento\\TestFramework\\Utility\\": "dev/tests/static/framework/Magento/TestFramework/Utility/"
         }
     },
-    "minimum-stability": "alpha",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "extra": {
         "component_paths": {
