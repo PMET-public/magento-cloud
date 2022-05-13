@@ -148,11 +148,11 @@
             "vendor/magentoese/magento-scripts/composer-setup.sh ref"
         ],
         "post-autoload-dump" : [
-            
+            "# install magerun via curl; composer no longer recommended",
             "curl -sS -o vendor/bin/mr https://files.magerun.net/n98-magerun2-latest.phar && chmod +x vendor/bin/mr"
         ],
         "post-install-cmd" : [
-            
+            "# enable error reporting",
             "mv pub/errors/local.xml.sample pub/errors/local.xml || :",
             "@generate-schema"
         ],
