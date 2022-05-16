@@ -1,0 +1,101 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Listen for XDebug",
+            "type": "php",
+            "request": "launch",
+            "port": 9000,
+            "stopOnEntry": true
+        },
+        {
+            "name": "Listen for XDebug using docker/cloud paths",
+            "type": "php",
+            "request": "launch",
+            "port": 9000,
+            "stopOnEntry": true,
+            "pathMappings": {
+                "/app": "${workspaceRoot}"
+            }
+        },
+        {
+            "name": "Launch currently open script",
+            "type": "php",
+            "request": "launch",
+            "program": "${file}",
+            "cwd": "${fileDirname}",
+            "stopOnEntry": true
+        },
+        {
+            "name": "ece-docker build:compose",
+            "type": "php",
+            "request": "launch",
+            "runtimeArgs": ["-d", "xdebug.remote_autostart=1"],
+            "program": "${workspaceRoot}/vendor/bin/ece-docker",
+            "args": ["build:compose"],
+            "cwd": "${workspaceRoot}",
+            "stopOnEntry": true
+        },
+        {
+            "name": "ece-docker build:dist",
+            "type": "php",
+            "request": "launch",
+            "runtimeArgs": ["-d", "xdebug.remote_autostart=1"],
+            "program": "${workspaceRoot}/vendor/bin/ece-docker",
+            "args": ["build:dist"],
+            "cwd": "${workspaceRoot}",
+            "stopOnEntry": true
+        },
+        {
+            "name": "ece-tools list",
+            "type": "php",
+            "request": "launch",
+            "runtimeArgs": ["-d", "xdebug.remote_autostart=1"],
+            "program": "${workspaceRoot}/vendor/bin/ece-tools",
+            "args": ["build:generate"],
+            "cwd": "${workspaceRoot}",
+            "stopOnEntry": true
+        },
+        {
+            "name": "ece-tools build:generate",
+            "type": "php",
+            "request": "launch",
+            "runtimeArgs": ["-d", "xdebug.remote_autostart=1"],
+            "program": "${workspaceRoot}/vendor/bin/ece-tools",
+            "args": ["build:generate"],
+            "cwd": "${workspaceRoot}",
+            "stopOnEntry": true
+
+        },
+        {
+            "name": "ece-tools build:transfer",
+            "type": "php",
+            "request": "launch",
+            "runtimeArgs": ["-d", "xdebug.remote_autostart=1"],
+            "program": "${workspaceRoot}/vendor/bin/ece-tools",
+            "args": ["build:transfer"],
+            "cwd": "${workspaceRoot}",
+            "stopOnEntry": true
+        },
+        {
+            "name": "ece-tools deploy",
+            "type": "php",
+            "request": "launch",
+            "runtimeArgs": ["-d", "xdebug.remote_autostart=1"],
+            "program": "${workspaceRoot}/vendor/bin/ece-tools",
+            "args": ["deploy"],
+            "cwd": "${workspaceRoot}",
+            "stopOnEntry": true,
+            "env": {
+                "HOME": "${HOME}",
+                "COMPOSER_HOME": "${HOME}/.composer",
+                "MAGENTO_CLOUD_ROUTES": "eyJodHRwOlwvXC9tYWdlbnRvMi5kb2NrZXJcLyI6eyJ0eXBlIjoidXBzdHJlYW0iLCJvcmlnaW5hbF91cmwiOiJodHRwOlwvXC97ZGVmYXVsdH0ifSwiaHR0cHM6XC9cL21hZ2VudG8yLmRvY2tlclwvIjp7InR5cGUiOiJ1cHN0cmVhbSIsIm9yaWdpbmFsX3VybCI6Imh0dHBzOlwvXC97ZGVmYXVsdH0ifX0=",
+                "PATH": "/usr/local/opt/mysql@5.7/bin:/usr/local/opt/valet-php@7.3/sbin:/usr/local/opt/valet-php@7.3/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin"
+            }
+        }
+    ]
+}
