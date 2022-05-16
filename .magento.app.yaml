@@ -5,15 +5,18 @@
 name: mymagento
 
 # The toolstack used to build the application.
-type: php:7.4
+type: php:8.1
 build:
-    flavor: composer
+    flavor: none
+
+dependencies:
+    php:
+        composer/composer: '2.2.4'
 
 # Enable extensions required by Magento 2
 runtime:
     extensions:
         - xsl
-        - json
         - newrelic
         - sodium
 
@@ -24,7 +27,8 @@ runtime:
 relationships:
     database: "mysql:mysql"
     redis: "redis:redis"
-    elasticsearch: "elasticsearch:elasticsearch"
+    opensearch: "opensearch:opensearch"
+    mq: "rabbitmq:rabbitmq"
 
 # The configuration of app when it is exposed to the web.
 web:
@@ -36,7 +40,7 @@ web:
             passthru: "/index.php"
             index:
                 - index.php
-            expires: -1
+            # expires: -1
             scripts: true
             allow: false
             rules:
@@ -74,6 +78,7 @@ hooks:
     # We run build hooks before your application has been packaged.
     build: |
         set -e
+        composer install
         php ./vendor/bin/ece-tools run scenario/build/generate.xml
         php ./vendor/bin/ece-tools run scenario/build/transfer.xml
     # We run deploy hook after your application has been deployed and started.
@@ -86,7 +91,7 @@ hooks:
 # Default Magento 2 cron jobs
 crons:
     cronrun:
-        spec: "* * * * *"
+        spec: "*/5 * * * *"
         cmd: "php bin/magento cron:run"
 
 # Environment variables

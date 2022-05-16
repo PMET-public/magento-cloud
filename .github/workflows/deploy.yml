@@ -7,6 +7,10 @@ on:
       - "*release*-pmet-2.*-demo-*"
       - "*release*-pmet-2.*-b2b-*"
 
+defaults:
+  run:
+    shell: bash
+
 env:
   # set a default terminal for various cmds that expect it
   TERM: xterm
@@ -53,6 +57,7 @@ jobs:
           # for connecting to cloud envs without interaction
           mkdir ~/.ssh && chmod 700 ~/.ssh
           echo "StrictHostKeyChecking no" >> ~/.ssh/config
+          ~/.magento-cloud/bin/magento-cloud ssh-cert:load
 
           projects_to_deploy=($(
             ~/.magento-cloud/bin/magento-cloud projects --format csv 2> /dev/null | perl -ne "/^(\w+),($flavor_of_tag\-[^ ]+)/ and print \"\$1 \""

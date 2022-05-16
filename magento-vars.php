@@ -24,3 +24,15 @@ function isHttpHost(string $host)
     }
     return $_SERVER['HTTP_HOST'] === $host;
 }
+
+$allowedSiteCodes = ['fresh','auto','b2b','b2c','sitea','siteb','sitec','sited','sitee','luma','venia','brentmill','healthbeauty'];
+
+if(isset($_SERVER['REQUEST_URI'])){
+    $uri = explode('/', $_SERVER['REQUEST_URI']);
+    if(isset($uri[1])){
+        if (in_array($uri[1], $allowedSiteCodes)) {
+            $_SERVER["MAGE_RUN_TYPE"] = 'website';
+            $_SERVER["MAGE_RUN_CODE"] = $uri[1];
+        }
+    }
+}
