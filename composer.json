@@ -2,11 +2,16 @@
     "name": "magento/magento-cloud-template",
     "description": "eCommerce Platform for Growth (Enterprise Edition)",
     "type": "project",
-    "version": "2.4.3-p1",
+    "version": "2.4.4",
     "license": "OSL-3.0",
     "config": {
         "preferred-install": "dist",
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "laminas/laminas-dependency-plugin": true,
+            "magento/*": true
+        }
     },
     "repositories": [
         {"type": "git", "url": "git@github.com:magento-l10n/language-es_MX.git"},
@@ -19,6 +24,7 @@
         {"type": "git", "url": "git@github.com:PMET-public/amasty-module-special-promotions-pro.git"},
         {"type": "git", "url": "git@github.com:PMET-public/amasty-module-special-promotions.git"},
         {"type": "git", "url": "git@github.com:PMET-public/ece-tools.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/FireGento_FastSimpleImport2.git"},
         {"type": "git", "url": "git@github.com:PMET-public/magento-cloud-docker.git"},
         {"type": "git", "url": "git@github.com:PMET-public/magento-scripts.git"},
         {"type": "git", "url": "git@github.com:PMET-public/magento2-gmail-smtp-app.git"},
@@ -40,6 +46,7 @@
         {"type": "git", "url": "git@github.com:PMET-public/module-b2b-shared-catalog-sample-data.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-b2b-siemens-sample-data.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-data-install.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-data-install-graphql.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-demo-upgrades-240.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-installation-overrides.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-keep-on-wishlist.git"},
@@ -61,6 +68,7 @@
         {"type": "git", "url": "git@github.com:PMET-public/theme-frontend-healthbeauty.git"},
         {"type": "git", "url": "git@github.com:PMET-public/vertical-data-healthbeauty.git"},
         {"type": "composer", "url": "https://repo.magento.com/", "exclude": ["community-engineering/language-ja_jp"]}
+    
     ],
     "require": {
         "amasty/base": "1.12.11.x-dev",
@@ -84,14 +92,16 @@
         "community-engineering/language-pt_br": "*",
         "community-engineering/language-sr_sp": "dev-master",
         "community-engineering/language-zh_cn": "*",
+        "firegento/fastsimpleimport": "dev-master",
+        "magento/composer-root-update-plugin": "^2.0.2",
         "magento/extension-b2b": "^1.3",
-        "magento/live-search": "^1.1",
-        "magento/magento-cloud-docker": "1.2.4.x-dev",
-        "magento/magento-cloud-metapackage": ">=2.4.3 <2.4.4",
+        "magento/live-search": "^2.0",
+        "magento/magento-cloud-docker": "1.3.2.x-dev",
+        "magento/magento-cloud-metapackage": ">=2.4.4 <2.4.5",
         "magento/module-page-builder-product-recommendations": "^1.0",
         "magento/module-visual-product-recommendations": "^1.2",
         "magento/product-recommendations": "^3.0",
-        "magentoese/ece-tools": "2002.1.7.x-dev",
+        "magentoese/ece-tools": "2002.1.10.x-dev",
         "magentoese/magento-scripts": "2.3.0.x-dev",
         "magentoese/magento2-gmailsmtpapp": "dev-master",
         "magentoese/module-admin-configurations": "dev-master",
@@ -112,6 +122,7 @@
         "magentoese/module-b2b-shared-catalog-sample-data": "dev-master",
         "magentoese/module-b2b-siemens-sample-data": "dev-master",
         "magentoese/module-data-install": "dev-master",
+        "magentoese/module-data-install-graph-ql": "dev-master",
         "magentoese/module-demo-upgrades-240": "dev-master",
         "magentoese/module-installation-overrides": "dev-master",
         "magentoese/module-keep-on-wishlist": "dev-master",
@@ -127,11 +138,11 @@
         "magentoese/vertical-data-auto": "dev-master",
         "magentoese/vertical-data-grocery": "dev-master",
         "magentoese/vertical-data-healthbeauty": "dev-master",
-        "paradoxlabs/authnetcim": "4.3.2.x-dev",
-        "paradoxlabs/firstdata": "2.3.4.x-dev",
-        "paradoxlabs/stripe": "2.3.11.x-dev",
-        "paradoxlabs/subscriptions": "3.3.4.x-dev",
-        "paradoxlabs/tokenbase": "4.3.8.x-dev"
+        "paradoxlabs/authnetcim": "dev-4.5.0-p1",
+        "paradoxlabs/firstdata": "2.4.0.x-dev",
+        "paradoxlabs/stripe": "2.4.0.x-dev",
+        "paradoxlabs/subscriptions": "dev-3.5.0-p1",
+        "paradoxlabs/tokenbase": "4.5.1.x-dev"
     },
     "suggest": {
         "ext-pcntl": "Need for run processes in parallel mode"
@@ -186,10 +197,15 @@
             "twbs/bootstrap": [
                 "lib/web/jquery/jquery.tabs.js"
             ],
-            "tinymce/tinymce": "lib/web/tiny_mce_4"
+            "tinymce/tinymce": "lib/web/tiny_mce_5"
         },
         "magento-force": true,
-        "magento-deploystrategy": "copy"
+        "magento-deploystrategy": "copy",
+        "magento-deploy-ignore": {
+            "*": [
+                "/.gitignore"
+            ]
+        }
     },
     "scripts": {
         "generate-schema": [
@@ -199,11 +215,11 @@
             "vendor/magentoese/magento-scripts/composer-setup.sh b2b"
         ],
         "post-autoload-dump" : [
-            
+            "# install magerun via curl; composer no longer recommended",
             "curl -sS -o vendor/bin/mr https://files.magerun.net/n98-magerun2-latest.phar && chmod +x vendor/bin/mr"
         ],
         "post-install-cmd" : [
-            
+            "# enable error reporting",
             "mv pub/errors/local.xml.sample pub/errors/local.xml || :",
             "@generate-schema"
         ],
