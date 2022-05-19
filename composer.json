@@ -68,6 +68,7 @@
         "magentoese/magento-scripts": "2.3.0.x-dev",
         "magentoese/module-admin-configurations": "dev-master",
         "magentoese/module-data-install": "dev-master",
+        "magentoese/module-data-install-graph-ql": "dev-master",
         "magentoese/module-demo-upgrades-240": "dev-master",
         "magentoese/module-saas-data-management": "dev-master",
         "magentoese/theme-frontend-carvelo-autoparts": "dev-main",
