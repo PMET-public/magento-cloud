@@ -18,6 +18,7 @@
         {"type": "git", "url": "git@github.com:PMET-public/FireGento_FastSimpleImport2.git"},
         {"type": "git", "url": "git@github.com:PMET-public/magento-cloud-docker.git"},
         {"type": "git", "url": "git@github.com:PMET-public/magento-scripts.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/magento2-gmail-smtp-app.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-admin-configurations.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-data-install.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-demo-upgrades-240.git"},
