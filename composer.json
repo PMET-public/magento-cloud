@@ -66,6 +66,7 @@
         "magento/sample-data-media": "100.4.*",
         "magentoese/ece-tools": "2002.1.10.x-dev",
         "magentoese/magento-scripts": "2.3.0.x-dev",
+        "magentoese/magento2-gmailsmtpapp": "dev-master",
         "magentoese/module-admin-configurations": "dev-master",
         "magentoese/module-data-install": "dev-master",
         "magentoese/module-data-install-graph-ql": "dev-master",
