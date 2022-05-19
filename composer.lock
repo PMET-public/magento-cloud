@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "37944804a7dad8671a868640647cbc00",
+    "content-hash": "15df880f45cde345bbc71b06a60dfe86",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -364,16 +364,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.222.14",
+            "version": "3.222.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "d9f586558a2f3313c34f34f4a01c5ddbbbcfb3c0"
+                "reference": "2c73f3f3716516f733d449f504e954446a994994"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/d9f586558a2f3313c34f34f4a01c5ddbbbcfb3c0",
-                "reference": "d9f586558a2f3313c34f34f4a01c5ddbbbcfb3c0",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/2c73f3f3716516f733d449f504e954446a994994",
+                "reference": "2c73f3f3716516f733d449f504e954446a994994",
                 "shasum": ""
             },
             "require": {
@@ -449,9 +449,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.222.14"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.222.15"
             },
-            "time": "2022-05-17T18:14:21+00:00"
+            "time": "2022-05-18T18:15:15+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -8897,11 +8897,11 @@
         },
         {
             "name": "magento/module-bundle-product-data-exporter",
-            "version": "101.2.1",
+            "version": "101.2.2",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-bundle-product-data-exporter/magento-module-bundle-product-data-exporter-101.2.1.0.zip",
-                "shasum": "8cef14721ddfb88540daac18ccdbfef75bc796e8"
+                "url": "https://repo.magento.com/archives/magento/module-bundle-product-data-exporter/magento-module-bundle-product-data-exporter-101.2.2.0.zip",
+                "shasum": "08d2cd83496f114dfebb049c78a8237442221e12"
             },
             "require": {
                 "magento/framework": ">=102.0.2",
@@ -9332,11 +9332,11 @@
         },
         {
             "name": "magento/module-catalog-data-exporter",
-            "version": "101.2.1",
+            "version": "101.2.2",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-catalog-data-exporter/magento-module-catalog-data-exporter-101.2.1.0.zip",
-                "shasum": "c310e30c2d0603e1d0eabb73c204788a9e22ae04"
+                "url": "https://repo.magento.com/archives/magento/module-catalog-data-exporter/magento-module-catalog-data-exporter-101.2.2.0.zip",
+                "shasum": "6f2d22ec46dd98676a93e35966c60e695bd1b359"
             },
             "require": {
                 "magento/framework": ">=102.0.2",
@@ -9551,11 +9551,11 @@
         },
         {
             "name": "magento/module-catalog-inventory-data-exporter",
-            "version": "101.2.1",
+            "version": "101.2.2",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-catalog-inventory-data-exporter/magento-module-catalog-inventory-data-exporter-101.2.1.0.zip",
-                "shasum": "258d30c8f75c198690faa9404d6de3904d510c2e"
+                "url": "https://repo.magento.com/archives/magento/module-catalog-inventory-data-exporter/magento-module-catalog-inventory-data-exporter-101.2.2.0.zip",
+                "shasum": "fa918b9086e0d0c883df0c2351355a3c00d699fd"
             },
             "require": {
                 "magento/framework": ">=102.0.2",
@@ -10207,11 +10207,11 @@
         },
         {
             "name": "magento/module-catalog-url-rewrite-data-exporter",
-            "version": "101.2.1",
+            "version": "101.2.2",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-catalog-url-rewrite-data-exporter/magento-module-catalog-url-rewrite-data-exporter-101.2.1.0.zip",
-                "shasum": "582eaf57b349879129a5aa1d91b0982904ddc913"
+                "url": "https://repo.magento.com/archives/magento/module-catalog-url-rewrite-data-exporter/magento-module-catalog-url-rewrite-data-exporter-101.2.2.0.zip",
+                "shasum": "b689ba91ac9d5b3de0cab52dcdcf7949b44829c4"
             },
             "require": {
                 "magento/framework": ">=102.0.2",
@@ -11309,11 +11309,11 @@
         },
         {
             "name": "magento/module-configurable-product-data-exporter",
-            "version": "101.2.1",
+            "version": "101.2.2",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-configurable-product-data-exporter/magento-module-configurable-product-data-exporter-101.2.1.0.zip",
-                "shasum": "cd98ad186e7cf5cad43af6188310c4bfd52feb61"
+                "url": "https://repo.magento.com/archives/magento/module-configurable-product-data-exporter/magento-module-configurable-product-data-exporter-101.2.2.0.zip",
+                "shasum": "013422508204744370bf3c8ea934f002ae3aa83a"
             },
             "require": {
                 "magento/framework": ">=102.0.2",
@@ -12181,11 +12181,11 @@
         },
         {
             "name": "magento/module-data-exporter",
-            "version": "101.2.1",
+            "version": "101.2.2",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-data-exporter/magento-module-data-exporter-101.2.1.0.zip",
-                "shasum": "6ae55e845ec5fe509b140420f466d190a5e73904"
+                "url": "https://repo.magento.com/archives/magento/module-data-exporter/magento-module-data-exporter-101.2.2.0.zip",
+                "shasum": "7e88c06be72edebbd2bad96cc468b2b36f795701"
             },
             "require": {
                 "magento/framework": ">=102.0.2",
@@ -19279,11 +19279,11 @@
         },
         {
             "name": "magento/module-parent-product-data-exporter",
-            "version": "101.2.1",
+            "version": "101.2.2",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-parent-product-data-exporter/magento-module-parent-product-data-exporter-101.2.1.0.zip",
-                "shasum": "1a41653290208dc34cac770cd482e5d5082d6ce3"
+                "url": "https://repo.magento.com/archives/magento/module-parent-product-data-exporter/magento-module-parent-product-data-exporter-101.2.2.0.zip",
+                "shasum": "cdc84378d5c30ff9b3121c6602b19c6dea21a09b"
             },
             "require": {
                 "magento/framework": ">=102.0.2",
@@ -19798,11 +19798,11 @@
         },
         {
             "name": "magento/module-product-override-data-exporter",
-            "version": "101.2.1",
+            "version": "101.2.2",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-product-override-data-exporter/magento-module-product-override-data-exporter-101.2.1.0.zip",
-                "shasum": "e73ef9f80162156460ddb662cdf0bc046da9f3bf"
+                "url": "https://repo.magento.com/archives/magento/module-product-override-data-exporter/magento-module-product-override-data-exporter-101.2.2.0.zip",
+                "shasum": "4efc1f6f8ac2e6a71af2a8125c2ed3e17dbca6da"
             },
             "require": {
                 "magento/framework": ">=102.0.2",
@@ -20120,11 +20120,11 @@
         },
         {
             "name": "magento/module-query-xml",
-            "version": "101.2.1",
+            "version": "101.2.2",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-query-xml/magento-module-query-xml-101.2.1.0.zip",
-                "shasum": "6b5bf79fe3d85986827a15608aacc42989133365"
+                "url": "https://repo.magento.com/archives/magento/module-query-xml/magento-module-query-xml-101.2.2.0.zip",
+                "shasum": "e34f70bedf337fab8b62165cb2af13777098d910"
             },
             "require": {
                 "magento/framework": ">=102.0.2",
@@ -22002,11 +22002,11 @@
         },
         {
             "name": "magento/module-saas-catalog",
-            "version": "101.3.0",
+            "version": "101.3.1",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-saas-catalog/magento-module-saas-catalog-101.3.0.0.zip",
-                "shasum": "f87db5e55c47074b58467a181d1a2ca349ba2911"
+                "url": "https://repo.magento.com/archives/magento/module-saas-catalog/magento-module-saas-catalog-101.3.1.0.zip",
+                "shasum": "490efd41f681a34c12f8ca58ce4bd25e30670f9a"
             },
             "require": {
                 "magento/framework": ">=102.0.2",
@@ -22035,11 +22035,11 @@
         },
         {
             "name": "magento/module-saas-common",
-            "version": "101.3.0",
+            "version": "101.3.1",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-saas-common/magento-module-saas-common-101.3.0.0.zip",
-                "shasum": "d363a83e557b772bbdec8feaaf36e731b956ac89"
+                "url": "https://repo.magento.com/archives/magento/module-saas-common/magento-module-saas-common-101.3.1.0.zip",
+                "shasum": "1b3c4f21c1db5a833f2c7dd88cc744874e5037bc"
             },
             "require": {
                 "magento/framework": ">=102.0.2",
@@ -22071,11 +22071,11 @@
         },
         {
             "name": "magento/module-saas-product-override",
-            "version": "101.3.0",
+            "version": "101.3.1",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-saas-product-override/magento-module-saas-product-override-101.3.0.0.zip",
-                "shasum": "6c671c081dc52d6a20db47d0568b9683339fb9ed"
+                "url": "https://repo.magento.com/archives/magento/module-saas-product-override/magento-module-saas-product-override-101.3.1.0.zip",
+                "shasum": "ec76bfbdb334a50a9676bd8de3a9ca8772a42bde"
             },
             "require": {
                 "magento/framework": ">=102.0.2",
@@ -26133,6 +26133,30 @@
             "time": "2022-05-11T19:35:01+00:00"
         },
         {
+            "name": "magentoese/module-data-install-graph-ql",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/module-data-install-graphql.git",
+                "reference": "9018c7c1a0763c3e86a99be572402603da168908"
+            },
+            "require": {
+                "magentoese/module-data-install": "*"
+            },
+            "default-branch": true,
+            "type": "magento2-module",
+            "autoload": {
+                "psr-4": {
+                    "MagentoEse\\DataInstallGraphQl\\": ""
+                },
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "description": "GraphQL support for the Data Installer",
+            "time": "2022-04-20T18:06:49+00:00"
+        },
+        {
             "name": "magentoese/module-demo-admin-configurations",
             "version": "dev-master",
             "source": {
@@ -26504,7 +26528,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-productbadge.git",
-                "reference": "b58828d9842aadfb171acfa467fc3fb7d8fc3e23"
+                "reference": "a1a79b7a72de57d1f2c477fb978e7916d156fbe1"
             },
             "require": {
                 "magento/framework": "*"
@@ -26519,7 +26543,7 @@
                     "MagentoEse\\ProductBadge\\": ""
                 }
             },
-            "time": "2021-09-28T13:16:48+00:00"
+            "time": "2022-05-18T20:50:33+00:00"
         },
         {
             "name": "magentoese/module-productbadge-sample-data",
@@ -32476,6 +32500,7 @@
         "magentoese/module-cms-sample-data-update": 20,
         "magentoese/module-customer-sample-data": 20,
         "magentoese/module-data-install": 20,
+        "magentoese/module-data-install-graph-ql": 20,
         "magentoese/module-demo-admin-configurations": 20,
         "magentoese/module-demo-order-data": 20,
         "magentoese/module-demo-upgrades-240": 20,
@@ -32524,5 +32549,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }
