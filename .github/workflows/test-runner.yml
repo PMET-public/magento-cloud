@@ -6,6 +6,10 @@ on:
       - master
       - pmet-2.4*
 
+defaults:
+  run:
+    shell: bash
+
 env:
   # set a default terminal for various cmds that expect it
   TERM: xterm

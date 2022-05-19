@@ -7,6 +7,10 @@ on:
       - "*release*-pmet-2.*-demo-*"
       - "*release*-pmet-2.*-b2b-*"
 
+defaults:
+  run:
+    shell: bash
+
 env:
   # set a default terminal for various cmds that expect it
   TERM: xterm
