@@ -268,7 +268,7 @@
             "php ./vendor/bin/ece-tools schema:generate || true"
         ],
         "pre-autoload-dump" : [
-            "vendor/magentoese/magento-scripts/composer-setup.sh ref"
+            "vendor/magentoese/magento-scripts/composer-setup.sh demo"
         ],
         "post-autoload-dump" : [
             "# install magerun via curl; composer no longer recommended",
