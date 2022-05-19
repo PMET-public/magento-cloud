@@ -28,7 +28,7 @@
         {"type": "git", "url": "git@github.com:PMET-public/theme-frontend-custom.git"},
         {"type": "git", "url": "git@github.com:PMET-public/theme-frontend-healthbeauty.git"},
         {"type": "git", "url": "git@github.com:PMET-public/vertical-data-healthbeauty.git"},
-        {"type": "composer", "url": "https://repo.magento.com/"}
+        {"type": "composer", "url": "https://repo.magento.com/", "exclude": ["community-engineering/language-ja_jp"]}
     ],
     "require": {
         "firegento/fastsimpleimport": "dev-master",
