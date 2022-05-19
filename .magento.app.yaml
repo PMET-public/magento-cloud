@@ -72,6 +72,12 @@ web:
         "/fresh/":
             <<: *app
             passthru: "/fresh/index.php"
+        "/wknd/":
+            <<: *app
+            passthru: "/wknd/index.php"
+        "/wecafe/":
+            <<: *app
+            passthru: "/wecafe/index.php"
         "/auto/":
             <<: *app
             passthru: "/auto/index.php"
