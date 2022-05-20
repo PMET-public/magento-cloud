@@ -1,0 +1,81 @@
+diff --git a/vendor/magento/framework/Module/ModuleList/Loader.php b/vendor/magento/framework/Module/ModuleList/Loader.php
+index bd1375d4..2eedb9ab 100644
+--- a/vendor/magento/framework/Module/ModuleList/Loader.php
++++ b/vendor/magento/framework/Module/ModuleList/Loader.php
+@@ -132,11 +132,12 @@ class Loader
+     private function sortBySequence(array $origList): array
+     {
+         ksort($origList);
++        $this->resolveRequiredModules($origList);
+         $modules = $this->prearrangeModules($origList);
+         $sequenceCache = [];
+         $expanded = [];
+         foreach (array_keys($modules) as $moduleName) {
+-            $sequence = $this->expandSequence($origList, $moduleName, $sequenceCache);
++            $sequence = $this->resolvedRequiredModules[$moduleName];
+             asort($sequence);
+
+             $expanded[] = [
+@@ -231,4 +232,62 @@ class Loader
+
+         return $sequenceCache[$name] ?? [];
+     }
++
++    /*
++    *  resolved and flattened requirements for modules
++    */
++    private $resolvedRequiredModules;
++
++    /**
++     * Resolve all modules' immediate and descendant requirements into a flat list to help determine load order
++     *
++     * @param $origList
++     * @throws \Exception
++     */
++
++    private function resolveRequiredModules($origList)
++    {
++        foreach ($origList as $curModuleToResolve) {
++            $curModuleName = $curModuleToResolve['name'];
++            $requiredModuleNamesToResolve = $curModuleToResolve['sequence']; // remaining descendant modules to resolve
++            $combinedRequiredModuleNames = $requiredModuleNamesToResolve;  // the flattened required list for the current module
++            $processedModuleNames = []; // used to prevent redundant lookups
++            while (!empty($requiredModuleNamesToResolve)) {
++                foreach ($requiredModuleNamesToResolve as $requiredModuleName) {
++                    if (!in_array($requiredModuleName, $processedModuleNames)) {
++                        // check that a required module exists
++                        //if (!isset($origList[$requiredModuleName])) {
++                        //    echo "Module '.$requiredModuleName.' required by '.$curModuleName.' (or one of its requirements) is not found.";
++                        //    throw new \Exception("Module '{$requiredModuleName}' required by '{$curModuleName}' (or one of its requirements) is not found.");
++                        //}
++                        // check that current required module isn't the original module
++                        if ($requiredModuleName == $curModuleName) {
++                            echo "Module '.$requiredModuleName.' cannot be required by itself (or one of its requirements).";
++                            throw new \Exception("Module '{$requiredModuleName}' cannot be required by itself (or one of its requirements).");
++                        }
++                        // track that required module is being processed so we will not search it again
++                        array_push($processedModuleNames, $requiredModuleName);
++                        // if required module has alread been processed, use previous results
++                        if (isset($this->resolvedRequiredModules[$requiredModuleName])) {
++                            $requiredRequirements = $this->resolvedRequiredModules[$requiredModuleName];
++                            // since previous results are already processed, add them to current processed list
++                            array_merge($processedModuleNames, $requiredRequirements);
++                        } else {
++                            // if module not found exception enabled above, use this line instead of checking isset again
++                            // $requiredRequirements = $origList[$requiredModuleName]['sequence'];
++                            $requiredRequirements = isset($origList[$requiredModuleName])? $origList[$requiredModuleName]['sequence'] : [];
++                            // add required modules's requirements to current list
++                            $requiredModuleNamesToResolve = array_merge($requiredModuleNamesToResolve, $requiredRequirements);
++                        }
++                        // add required modules's requirements to the combined list
++                        $combinedRequiredModuleNames = array_merge($combinedRequiredModuleNames, $requiredRequirements);
++                        // remove any already processed modules from requirement search list and remove duplicates
++                        $requiredModuleNamesToResolve = array_unique(array_diff($requiredModuleNamesToResolve, $processedModuleNames));
++                    }
++                }
++            }
++            $this->resolvedRequiredModules[$curModuleName] = array_values(array_unique($combinedRequiredModuleNames));
++        }
++    }
++ }
+ }
