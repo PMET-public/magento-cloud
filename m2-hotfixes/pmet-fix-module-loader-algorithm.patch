@@ -16,7 +16,7 @@ index bd1375d4..2eedb9ab 100644
              asort($sequence);
 
              $expanded[] = [
-@@ -231,4 +232,62 @@ class Loader
+@@ -231,4 +232,61 @@ class Loader
 
          return $sequenceCache[$name] ?? [];
      }
@@ -77,5 +77,4 @@ index bd1375d4..2eedb9ab 100644
 +            $this->resolvedRequiredModules[$curModuleName] = array_values(array_unique($combinedRequiredModuleNames));
 +        }
 +    }
-+ }
  }
