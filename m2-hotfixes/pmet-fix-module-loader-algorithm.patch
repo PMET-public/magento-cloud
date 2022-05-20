@@ -1,14 +1,14 @@
 diff --git a/vendor/magento/framework/Module/ModuleList/Loader.php b/vendor/magento/framework/Module/ModuleList/Loader.php
-index 72421f793f1..6e63d7a1c1d 100644
+index bd1375d4..2eedb9ab 100644
 --- a/vendor/magento/framework/Module/ModuleList/Loader.php
 +++ b/vendor/magento/framework/Module/ModuleList/Loader.php
-@@ -133,11 +133,12 @@
+@@ -132,11 +132,12 @@ class Loader
      private function sortBySequence(array $origList): array
      {
          ksort($origList);
 +        $this->resolveRequiredModules($origList);
          $modules = $this->prearrangeModules($origList);
-
+         $sequenceCache = [];
          $expanded = [];
          foreach (array_keys($modules) as $moduleName) {
 -            $sequence = $this->expandSequence($origList, $moduleName, $sequenceCache);
@@ -16,16 +16,14 @@ index 72421f793f1..6e63d7a1c1d 100644
              asort($sequence);
 
              $expanded[] = [
-@@ -213,4 +214,63 @@
-         $allResults[] = $result;
-         return array_unique(array_merge([], ...$allResults));
+@@ -231,4 +232,62 @@ class Loader
+
+         return $sequenceCache[$name] ?? [];
      }
 +
-+
 +    /*
-+  *  resolved and flattened requirements for modules
-+  */
-+
++    *  resolved and flattened requirements for modules
++    */
 +    private $resolvedRequiredModules;
 +
 +    /**
@@ -79,4 +77,5 @@ index 72421f793f1..6e63d7a1c1d 100644
 +            $this->resolvedRequiredModules[$curModuleName] = array_values(array_unique($combinedRequiredModuleNames));
 +        }
 +    }
++ }
  }
