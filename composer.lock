@@ -27374,7 +27374,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/paradoxlabs-authnetcim.git",
-                "reference": "af82e82d119c045c3bc88c1820e6bd9d06f615ea"
+                "reference": "52f3288b041a70ed48d1052304dd827f3400983c"
             },
             "require": {
                 "paradoxlabs/tokenbase": "~4.5.0"
@@ -27440,7 +27440,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/paradoxlabs-stripe.git",
-                "reference": "999b84ec763303f9a104040a715aa242d9162c7a"
+                "reference": "d37e7632ecc1f2732b482e1d795034e42e10bd92"
             },
             "require": {
                 "paradoxlabs/tokenbase": "~4.5.0",
@@ -27472,7 +27472,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/paradoxlabs-subscriptions.git",
-                "reference": "a944140eb4dd3791d440fe534a930d258b6b26bc"
+                "reference": "cd30c604c5144272fed3b71e1f1d45c02971d39f"
             },
             "require": {
                 "ext-json": "*",
@@ -27514,7 +27514,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/paradoxlabs-tokenbase.git",
-                "reference": "67bae369f761157bc8b20f8981d79f0464ba2ecf"
+                "reference": "2a4587cb609f850e3dfe346787498a02b8a236a8"
             },
             "require": {
                 "ext-json": "*",
