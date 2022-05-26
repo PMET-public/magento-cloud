@@ -1520,16 +1520,16 @@
         },
         {
             "name": "composer/composer",
-            "version": "2.2.12",
+            "version": "2.2.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "ba61e768b410736efe61df01b61f1ec44f51474f"
+                "reference": "de11c9819ac45659fb0fafb2e704912f9994ed60"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/ba61e768b410736efe61df01b61f1ec44f51474f",
-                "reference": "ba61e768b410736efe61df01b61f1ec44f51474f",
+                "url": "https://api.github.com/repos/composer/composer/zipball/de11c9819ac45659fb0fafb2e704912f9994ed60",
+                "reference": "de11c9819ac45659fb0fafb2e704912f9994ed60",
                 "shasum": ""
             },
             "require": {
@@ -1599,7 +1599,7 @@
             "support": {
                 "irc": "ircs://irc.libera.chat:6697/composer",
                 "issues": "https://github.com/composer/composer/issues",
-                "source": "https://github.com/composer/composer/tree/2.2.12"
+                "source": "https://github.com/composer/composer/tree/2.2.13"
             },
             "funding": [
                 {
@@ -1615,7 +1615,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-04-13T14:42:25+00:00"
+            "time": "2022-05-25T19:37:25+00:00"
         },
         {
             "name": "composer/metadata-minifier",
@@ -6403,7 +6403,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/magento-cloud-docker.git",
-                "reference": "2e242875e8ff250c2baad16ad0bc7b46761f577f"
+                "reference": "c6fed8a8bec51667748ae1fd3f7246ad67e838a1"
             },
             "require": {
                 "composer/composer": "^1.4 || ^2.0",
@@ -6518,7 +6518,7 @@
                 "AFL-3.0"
             ],
             "description": "Magento Cloud Docker",
-            "time": "2022-05-13T10:57:17+00:00"
+            "time": "2022-05-26T13:26:07+00:00"
         },
         {
             "name": "magento/magento-cloud-metapackage",
@@ -26896,7 +26896,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/theme-frontend-custom.git",
-                "reference": "f7c23db3a4184df21b6268e7838edb1e093a6d0f"
+                "reference": "80c35eda69efdb0d5b6e69753854f11b9441eff7"
             },
             "require": {
                 "magento/framework": "*",
@@ -26910,7 +26910,7 @@
                     "registration.php"
                 ]
             },
-            "time": "2022-05-25T19:13:55+00:00"
+            "time": "2022-05-26T13:15:46+00:00"
         },
         {
             "name": "magentoese/theme-frontend-gxd-healthbeauty",
@@ -32559,5 +32559,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }
