@@ -37,7 +37,7 @@ jobs:
       - name: bats tests
         run: |
           cd mdm
-          ./tests/libs/bats/bin/bats -T ./tests/3-dockerize-then-run-magento-app/**/1-install-mdm-and-create-magento-app.bats
+          ./tests/libs/bats/bin/bats -T ./tests/3-dockerize-then-run-magento-app/**/*-install-mdm-and-create-magento-app.bats
           cd ..
       - name: get updated, generated config.php
         if: ${{ success() }}
