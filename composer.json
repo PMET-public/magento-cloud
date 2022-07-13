@@ -100,7 +100,7 @@
         "magento/magento-cloud-metapackage": ">=2.4.4 <2.4.5",
         "magento/module-page-builder-product-recommendations": "^1.0",
         "magento/module-visual-product-recommendations": "^1.2",
-        "magento/product-recommendations": "^3.3",
+        "magento/product-recommendations": "^4.0",
         "magentoese/ece-tools": "2002.1.10.x-dev",
         "magentoese/magento-scripts": "2.3.0.x-dev",
         "magentoese/magento2-gmailsmtpapp": "dev-master",
