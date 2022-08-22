@@ -49,7 +49,6 @@
         "magento/module-gift-card-sample-data": "100.4.*",
         "magento/module-gift-registry-sample-data": "100.4.*",
         "magento/module-grouped-product-sample-data": "100.4.*",
-        "magento/module-msi-source-stock-sample-data": "dev-master",
         "magento/module-msrp-sample-data": "100.4.*",
         "magento/module-multiple-wishlist-sample-data": "100.4.*",
         "magento/module-offline-shipping-sample-data": "100.4.*",
@@ -74,7 +73,7 @@
         "magentoese/module-data-install": "dev-develop",
         "magentoese/module-data-install-graph-ql": "dev-develop",
         "magentoese/module-demo-upgrades-240": "dev-master",
-        "magentoese/module-saas-data-management": "dev-master",
+        "magentoese/module-saas-data-management": "dev-develop",
         "magentoese/theme-frontend-carvelo-autoparts": "dev-main",
         "magentoese/theme-frontend-custom": "dev-master",
         "magentoese/theme-frontend-gxd-healthbeauty": "dev-main",
@@ -160,10 +159,15 @@
         "post-install-cmd" : [
             "# enable error reporting",
             "mv pub/errors/local.xml.sample pub/errors/local.xml || :",
-            "@generate-schema"
+            "@generate-schema",
+            "([ $COMPOSER_DEV_MODE -eq 0 ] || vendor/bin/phpcs --config-set installed_paths ../../magento/magento-coding-standard/)"
         ],
         "post-update-cmd": [
-            "@generate-schema"
+            "@generate-schema",
+            "([ $COMPOSER_DEV_MODE -eq 0 ] || vendor/bin/phpcs --config-set installed_paths ../../magento/magento-coding-standard/)"
         ]
+    },
+    "require-dev": {
+        "magento/magento-coding-standard": "^25.0"
     }
 }
