@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c1493a3d903631c1802ab952efdf4140",
+    "content-hash": "156480720fcd42b2deded02eb06e7f38",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -143,16 +143,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.234.0",
+            "version": "3.234.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "d2113f1e5ec9f7f19de2472f5063333b39a55280"
+                "reference": "0057dc79b832f456ed5eb20369a51f894b99a968"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/d2113f1e5ec9f7f19de2472f5063333b39a55280",
-                "reference": "d2113f1e5ec9f7f19de2472f5063333b39a55280",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/0057dc79b832f456ed5eb20369a51f894b99a968",
+                "reference": "0057dc79b832f456ed5eb20369a51f894b99a968",
                 "shasum": ""
             },
             "require": {
@@ -229,9 +229,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.234.0"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.234.1"
             },
-            "time": "2022-08-22T18:20:42+00:00"
+            "time": "2022-08-23T18:19:55+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -25539,16 +25539,17 @@
         },
         {
             "name": "magentoese/module-data-install",
-            "version": "dev-develop",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-data-install.git",
-                "reference": "a570751f5c393f2b0f6f9970070f645e2f6738af"
+                "reference": "aaaff97513ac338fe5de3650b8ce59f26a5a76f3"
             },
             "require": {
                 "firegento/fastsimpleimport": "*",
                 "magento/extension-b2b": "^1.2"
             },
+            "default-branch": true,
             "type": "magento2-module",
             "autoload": {
                 "files": [
@@ -25558,19 +25559,20 @@
                     "MagentoEse\\DataInstall\\": ""
                 }
             },
-            "time": "2022-08-23T14:33:22+00:00"
+            "time": "2022-08-23T18:56:17+00:00"
         },
         {
             "name": "magentoese/module-data-install-graph-ql",
-            "version": "dev-develop",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-data-install-graphql.git",
-                "reference": "ff9d0f459885ed31f01ae97bc961d568060692c6"
+                "reference": "6c3f95279a6df28c2389a62a5d2d1abecf62b3a7"
             },
             "require": {
                 "magentoese/module-data-install": "*"
             },
+            "default-branch": true,
             "type": "magento2-module",
             "autoload": {
                 "psr-4": {
@@ -25581,7 +25583,7 @@
                 ]
             },
             "description": "GraphQL support for the Data Installer",
-            "time": "2022-07-29T03:17:09+00:00"
+            "time": "2022-08-23T18:54:03+00:00"
         },
         {
             "name": "magentoese/module-demo-upgrades-240",
@@ -25613,15 +25615,16 @@
         },
         {
             "name": "magentoese/module-saas-data-management",
-            "version": "dev-develop",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-saas-data-management.git",
-                "reference": "9b558b23b5f526d945d0bed6cb46f260b7b88550"
+                "reference": "ec492a2d06d2a5d58f26189ac7d2db14395ef99f"
             },
             "require": {
                 "magento/module-services-id": "*"
             },
+            "default-branch": true,
             "type": "magento2-module",
             "autoload": {
                 "psr-4": {
@@ -25634,7 +25637,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2022-08-17T20:57:37+00:00"
+            "time": "2022-08-23T19:03:56+00:00"
         },
         {
             "name": "magentoese/theme-frontend-carvelo-autoparts",
