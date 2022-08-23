@@ -5543,7 +5543,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/magento-cloud-docker.git",
-                "reference": "1c25a007ffa2936d13a63596c4c71154e3ee2d49"
+                "reference": "a14648ba71dfa57953f202806b514f70be316663"
             },
             "require": {
                 "composer/composer": "^1.4 || ^2.0",
@@ -5659,7 +5659,7 @@
                 "AFL-3.0"
             ],
             "description": "Magento Cloud Docker",
-            "time": "2022-08-23T01:20:27+00:00"
+            "time": "2022-08-23T02:12:41+00:00"
         },
         {
             "name": "magento/magento-cloud-metapackage",
