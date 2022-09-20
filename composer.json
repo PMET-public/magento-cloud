@@ -72,8 +72,8 @@
     ],
     "require": {
         "amasty/base": "1.13.4.x-dev",
-        "amasty/module-advanced-conditions":"1.5.5.x-dev",
-        "amasty/module-banners-lite":"1.0.20.x-dev",
+        "amasty/module-advanced-conditions": "1.5.5.x-dev",
+        "amasty/module-banners-lite": "1.0.20.x-dev",
         "amasty/module-salesrulewizard": "1.0.4.x-dev",
         "amasty/module-special-promo": "2.9.3.x-dev",
         "amasty/module-special-promo-pro": "2.8.6.x-dev",
@@ -155,8 +155,7 @@
         "psr-4": {
             "Magento\\Setup\\": "setup/src/Magento/Setup/",
             "Magento\\": "app/code/Magento/",
-            "Magento\\Framework\\": "lib/internal/Magento/Framework/",
-            "Magento\\Setup\\": "setup/src/Magento/Setup/"
+            "Zend\\Mvc\\Controller\\": "setup/src/Zend/Mvc/Controller/"
         },
         "psr-0": {
             "": [
@@ -175,14 +174,11 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Magento\\PhpStan\\": "dev/tests/static/framework/Magento/PhpStan/",
             "Magento\\Sniffs\\": "dev/tests/static/framework/Magento/Sniffs/",
             "Magento\\Tools\\": "dev/tools/Magento/Tools/",
             "Magento\\Tools\\Sanity\\": "dev/build/publication/sanity/Magento/Tools/Sanity/",
             "Magento\\TestFramework\\Inspection\\": "dev/tests/static/framework/Magento/TestFramework/Inspection/",
-            "Magento\\TestFramework\\Utility\\": "dev/tests/static/framework/Magento/TestFramework/Utility/",
-            "Magento\\Tools\\": "dev/tools/Magento/Tools/",
-            "Magento\\Tools\\Sanity\\": "dev/build/publication/sanity/Magento/Tools/Sanity/"
+            "Magento\\TestFramework\\Utility\\": "dev/tests/static/framework/Magento/TestFramework/Utility/"
         }
     },
     "minimum-stability": "dev",
