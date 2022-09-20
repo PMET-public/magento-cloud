@@ -62,7 +62,7 @@ jobs:
           ~/.magento-cloud/bin/magento-cloud ssh-cert:load
 
           projects_to_deploy=($(
-            ~/.magento-cloud/bin/magento-cloud projects --format csv 2> /dev/null | perl -ne "/^(\w+),($flavor_of_tag\-[^ ]+)/ and print \"\$1 \""
+            ~/.magento-cloud/bin/magento-cloud projects --format csv --count 0 2> /dev/null | perl -ne "/^(\w+),($flavor_of_tag\-[^ ]+)/ and print \"\$1 \""
           ))
 
           # verify all vars; then download specified release and deploy to projects matching flavor
