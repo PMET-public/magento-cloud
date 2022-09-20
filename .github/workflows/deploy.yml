@@ -55,7 +55,8 @@ jobs:
           curl -sS https://accounts.magento.cloud/cli/installer | php
 
           # for connecting to cloud envs without interaction
-          mkdir ~/.ssh && chmod 700 ~/.ssh
+          mkdir ~/.ssh || :
+          chmod 700 ~/.ssh
           echo "StrictHostKeyChecking no" >> ~/.ssh/config
           ~/.magento-cloud/bin/magento-cloud ssh-cert:load
 
