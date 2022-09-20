@@ -37,6 +37,7 @@ jobs:
           ref: master
       - name: install reqs & deploy
         run: |
+          set +x
           git config --global user.email "github-workflow@magento.com"
           git config --global user.name "Workflow user"
 
