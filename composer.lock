@@ -374,16 +374,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.235.12",
+            "version": "3.235.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "e0ebecfb0284dc44dc99a172cd9c68c40739904c"
+                "reference": "a3a5711c00673d18b571199858ffee95296c5f0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/e0ebecfb0284dc44dc99a172cd9c68c40739904c",
-                "reference": "e0ebecfb0284dc44dc99a172cd9c68c40739904c",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/a3a5711c00673d18b571199858ffee95296c5f0d",
+                "reference": "a3a5711c00673d18b571199858ffee95296c5f0d",
                 "shasum": ""
             },
             "require": {
@@ -462,9 +462,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.235.12"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.235.13"
             },
-            "time": "2022-09-20T18:18:07+00:00"
+            "time": "2022-09-21T19:19:51+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -1010,16 +1010,16 @@
         },
         {
             "name": "community-engineering/language-ar_sa",
-            "version": "0.0.25",
+            "version": "0.0.26",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento-l10n/language-ar_SA.git",
-                "reference": "9f64100ae88f56d921c01a69ae3e2d3fede959c2"
+                "reference": "5b4db18900174ddf6e9d3a0869781e4d97e360bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento-l10n/language-ar_SA/zipball/9f64100ae88f56d921c01a69ae3e2d3fede959c2",
-                "reference": "9f64100ae88f56d921c01a69ae3e2d3fede959c2",
+                "url": "https://api.github.com/repos/magento-l10n/language-ar_SA/zipball/5b4db18900174ddf6e9d3a0869781e4d97e360bf",
+                "reference": "5b4db18900174ddf6e9d3a0869781e4d97e360bf",
                 "shasum": ""
             },
             "require": {
@@ -1039,22 +1039,22 @@
             "description": "ar_SA language package.",
             "support": {
                 "issues": "https://github.com/magento-l10n/language-ar_SA/issues",
-                "source": "https://github.com/magento-l10n/language-ar_SA/tree/v0.0.25"
+                "source": "https://github.com/magento-l10n/language-ar_SA/tree/v0.0.26"
             },
-            "time": "2022-08-10T12:21:57+00:00"
+            "time": "2022-09-21T14:20:54+00:00"
         },
         {
             "name": "community-engineering/language-de_de",
-            "version": "0.0.50",
+            "version": "0.0.51",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento-l10n/language-de_DE.git",
-                "reference": "575c800bbf1e285612933aa0e7436969486c54c7"
+                "reference": "d3c193f6f39df34851dda766b7c6ced6a64478b3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento-l10n/language-de_DE/zipball/575c800bbf1e285612933aa0e7436969486c54c7",
-                "reference": "575c800bbf1e285612933aa0e7436969486c54c7",
+                "url": "https://api.github.com/repos/magento-l10n/language-de_DE/zipball/d3c193f6f39df34851dda766b7c6ced6a64478b3",
+                "reference": "d3c193f6f39df34851dda766b7c6ced6a64478b3",
                 "shasum": ""
             },
             "require": {
@@ -1074,9 +1074,9 @@
             "description": "de_DE language package.",
             "support": {
                 "issues": "https://github.com/magento-l10n/language-de_DE/issues",
-                "source": "https://github.com/magento-l10n/language-de_DE/tree/v0.0.50"
+                "source": "https://github.com/magento-l10n/language-de_DE/tree/v0.0.51"
             },
-            "time": "2022-09-12T08:32:29+00:00"
+            "time": "2022-09-21T14:20:55+00:00"
         },
         {
             "name": "community-engineering/language-es_es",
@@ -32708,42 +32708,37 @@
         },
         {
             "name": "webonyx/graphql-php",
-            "version": "v14.11.7",
+            "version": "v14.11.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webonyx/graphql-php.git",
-                "reference": "688c6b7fae513c912581d3f9e141161fe5729191"
+                "reference": "04a48693acd785330eefd3b0e4fa67df8dfee7c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/688c6b7fae513c912581d3f9e141161fe5729191",
-                "reference": "688c6b7fae513c912581d3f9e141161fe5729191",
+                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/04a48693acd785330eefd3b0e4fa67df8dfee7c3",
+                "reference": "04a48693acd785330eefd3b0e4fa67df8dfee7c3",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
                 "ext-mbstring": "*",
-                "php": "^7.4 || ^8"
+                "php": "^7.1 || ^8"
             },
             "require-dev": {
-                "amphp/amp": "^2.6",
-                "dms/phpunit-arraysubset-asserts": "^0.4",
-                "ergebnis/composer-normalize": "^2.28",
-                "mll-lab/php-cs-fixer-config": "^4.4",
-                "nyholm/psr7": "^1.5",
+                "amphp/amp": "^2.3",
+                "doctrine/coding-standard": "^6.0",
+                "nyholm/psr7": "^1.2",
                 "phpbench/phpbench": "^1.2",
-                "phpstan/extension-installer": "^1.1",
-                "phpstan/phpstan": "1.8.5",
-                "phpstan/phpstan-phpunit": "1.1.1",
-                "phpstan/phpstan-strict-rules": "1.4.3",
-                "phpunit/phpunit": "^9.5",
-                "psalm/plugin-phpunit": "^0.17",
-                "psr/http-message": "^1",
-                "react/promise": "^2",
-                "symfony/polyfill-php81": "^1.23",
-                "symfony/var-exporter": "^5 || ^6",
-                "thecodingmachine/safe": "^1.3",
-                "vimeo/psalm": "^4.19"
+                "phpstan/extension-installer": "^1.0",
+                "phpstan/phpstan": "0.12.82",
+                "phpstan/phpstan-phpunit": "0.12.18",
+                "phpstan/phpstan-strict-rules": "0.12.9",
+                "phpunit/phpunit": "^7.2 || ^8.5",
+                "psr/http-message": "^1.0",
+                "react/promise": "2.*",
+                "simpod/php-coveralls-mirror": "^3.0",
+                "squizlabs/php_codesniffer": "3.5.4"
             },
             "suggest": {
                 "psr/http-message": "To use standard GraphQL server",
@@ -32767,7 +32762,7 @@
             ],
             "support": {
                 "issues": "https://github.com/webonyx/graphql-php/issues",
-                "source": "https://github.com/webonyx/graphql-php/tree/v14.11.7"
+                "source": "https://github.com/webonyx/graphql-php/tree/v14.11.8"
             },
             "funding": [
                 {
@@ -32775,7 +32770,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2022-09-07T18:37:46+00:00"
+            "time": "2022-09-21T15:35:03+00:00"
         },
         {
             "name": "wikimedia/less.php",
