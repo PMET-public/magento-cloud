@@ -130,6 +130,7 @@
         "magento/module-gift-card-sample-data": "100.4.*",
         "magento/module-gift-registry-sample-data": "100.4.*",
         "magento/module-grouped-product-sample-data": "100.4.*",
+        "magento/module-msi-source-stock-sample-data": "dev-master",
         "magento/module-msrp-sample-data": "100.4.*",
         "magento/module-multiple-wishlist-sample-data": "100.4.*",
         "magento/module-offline-shipping-sample-data": "100.4.*",
