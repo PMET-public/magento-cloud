@@ -538,7 +538,6 @@ return [
         'Magento_GiftCardRequisitionListGraphQl' => 1,
         'Magento_MultipleWishlistSampleData' => 1,
         'Fastly_Cdn' => 1,
-        'FireGento_FastSimpleImport' => 1,
         'MagePal_GmailSmtpApp' => 1,
         'MagentoEse_AdminConfigurations' => 1,
         'MagentoEse_DataInstall' => 1,
