@@ -57,6 +57,12 @@ web:
             scripts: false
             expires: 1y
             passthru: "/get.php"
+            rules:
+                # Specific header to allow cross-origin requests access to this file contents (used by chrome ext)
+                cloud-ui.css$:
+                    expires: 1h
+                    headers:
+                        Access-Control-Allow-Origin: "*"
         "/static": &static
             root: "pub/static"
             allow: true
@@ -114,6 +120,9 @@ web:
         "/healthbeauty/":
             <<: *app
             passthru: "/healthbeauty/index.php"
+        "/bodea/":
+            <<: *app
+            passthru: "/bodea/index.php"
         
 # The size of the persistent disk of the application (in MB).
 disk: 4096
