@@ -160,7 +160,7 @@
         "magentoese/module-data-install-graph-ql": "dev-master",
         "magentoese/module-demo-admin-configurations": "dev-master",
         "magentoese/module-demo-order-data": "dev-develop",
-        "magentoese/module-demo-upgrades-240": "2.4.1.x-dev",
+        "magentoese/module-demo-upgrades-240": "dev-demo",
         "magentoese/module-installation-overrides": "dev-master",
         "magentoese/module-instorepickup": "dev-master",
         "magentoese/module-instorepickup-sample-data": "dev-develop",
