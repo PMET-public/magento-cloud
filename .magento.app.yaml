@@ -123,6 +123,9 @@ web:
         "/bodea/":
             <<: *app
             passthru: "/bodea/index.php"
+        "/frescopa/":
+            <<: *app
+            passthru: "/frescopa/index.php"
         
 # The size of the persistent disk of the application (in MB).
 disk: 4096
