@@ -2,7 +2,7 @@
     "name": "magento/magento-cloud-template",
     "description": "eCommerce Platform for Growth (Enterprise Edition)",
     "type": "project",
-    "version": "2.4.4",
+    "version": "2.4.5",
     "license": "OSL-3.0",
     "config": {
         "preferred-install": "dist",
@@ -21,7 +21,7 @@
     "require": {
         "magento/composer-root-update-plugin": "^2.0.2",
         "magento/magento-cloud-docker": "1.3.2.x-dev",
-        "magento/magento-cloud-metapackage": ">=2.4.4 <2.4.5",
+        "magento/magento-cloud-metapackage": ">=2.4.5 <2.4.6",
         "magentoese/ece-tools": "2002.1.10.x-dev"
     },
     "suggest": {
