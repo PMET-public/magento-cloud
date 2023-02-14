@@ -33,7 +33,7 @@ relationships:
 # The configuration of app when it is exposed to the web.
 web:
     locations:
-        "/":
+        "/": &app
             # The public directory of the app, relative to its root.
             root: "pub"
             # The front-controller script to send non-static requests to.
@@ -46,15 +46,24 @@ web:
             rules:
                 \.(css|js|map|hbs|gif|jpe?g|png|tiff|wbmp|ico|jng|bmp|svgz|midi?|mp?ga|mp2|mp3|m4a|ra|weba|3gpp?|mp4|mpe?g|mpe|ogv|mov|webm|flv|mng|asx|asf|wmv|avi|ogx|swf|jar|ttf|eot|woff|otf|html?)$:
                     allow: true
+                    expires: 1y
+                /robots\.txt$:
+                    passthru: "/media/robots.txt"
                 ^/sitemap(.*)\.xml$:
                     passthru: "/media/sitemap$1.xml"
-        "/media":
+        "/media": &media
             root: "pub/media"
             allow: true
             scripts: false
             expires: 1y
             passthru: "/get.php"
-        "/static":
+            rules:
+                # Specific header to allow cross-origin requests access to this file contents (used by chrome ext)
+                cloud-ui.css$:
+                    expires: 1h
+                    headers:
+                        Access-Control-Allow-Origin: "*"
+        "/static": &static
             root: "pub/static"
             allow: true
             scripts: false
@@ -63,9 +72,63 @@ web:
             rules:
                 ^/static/version\d+/(?<resource>.*)$:
                     passthru: "/static/$resource"
-
+        # "/base/":
+        #    <<: *app
+        #    passthru: "/base/index.php"
+        "/fresh/":
+            <<: *app
+            passthru: "/fresh/index.php"
+        "/wknd/":
+            <<: *app
+            passthru: "/wknd/index.php"
+        "/wecafe/":
+            <<: *app
+            passthru: "/wecafe/index.php"
+        "/auto/":
+            <<: *app
+            passthru: "/auto/index.php"
+        "/b2b/":
+            <<: *app
+            passthru: "/b2b/index.php"
+        "/b2c/":
+            <<: *app
+            passthru: "/b2c/index.php"
+        "/sitea/":
+            <<: *app
+            passthru: "/sitea/index.php"
+        "/siteb/":
+            <<: *app
+            passthru: "/siteb/index.php"
+        "/sitec/":
+            <<: *app
+            passthru: "/sitec/index.php"
+        "/sited/":
+            <<: *app
+            passthru: "/sited/index.php"
+        "/sitee/":
+            <<: *app
+            passthru: "/sitee/index.php"
+        "/luma/":
+            <<: *app
+            passthru: "/luma/index.php"
+        "/venia/":
+            <<: *app
+            passthru: "/venia/index.php"
+        "/brentmill/":
+            <<: *app
+            passthru: "/brentmill/index.php"
+        "/healthbeauty/":
+            <<: *app
+            passthru: "/healthbeauty/index.php"
+        "/bodea/":
+            <<: *app
+            passthru: "/bodea/index.php"
+        "/frescopa/":
+            <<: *app
+            passthru: "/frescopa/index.php"
+        
 # The size of the persistent disk of the application (in MB).
-disk: 2048
+disk: 4096
 
 # The mounts that will be performed when the package is deployed.
 mounts:
@@ -81,6 +144,8 @@ hooks:
         composer install
         php ./vendor/bin/ece-tools run scenario/build/generate.xml
         php ./vendor/bin/ece-tools run scenario/build/transfer.xml
+        # create consolidated crontab.xml & cron_groups.xml
+        ./vendor/magentoese/magento-scripts/create-consolidated-cron-xmls.sh
     # We run deploy hook after your application has been deployed and started.
     deploy: |
         php ./vendor/bin/ece-tools run scenario/deploy.xml
