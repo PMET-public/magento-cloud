@@ -23,9 +23,3 @@
 !/update/.htaccess
 !/README.md
 !/op-exclude.txt
-!/.github
-!/.github/*
-!/.github/workflows/test-runner.yml
-!/package-lock.json
-!/.vscode
-!/.vscode/launch.json
