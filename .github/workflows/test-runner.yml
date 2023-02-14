@@ -27,6 +27,9 @@ jobs:
         os:
           - ubuntu-latest
     steps:
+      - name: Set up Homebrew
+        id: set-up-homebrew
+        uses: Homebrew/actions/setup-homebrew@master
       - uses: actions/checkout@v2
       - uses: actions/checkout@v2
         with:
@@ -37,7 +40,7 @@ jobs:
       - name: bats tests
         run: |
           cd mdm
-          ./tests/libs/bats/bin/bats -T ./tests/3-dockerize-then-run-magento-app/**/1-install-mdm-and-create-magento-app.bats
+          ./tests/libs/bats/bin/bats -T ./tests/3-dockerize-then-run-magento-app/**/*-install-mdm-and-create-magento-app.bats
           cd ..
       - name: get updated, generated config.php
         if: ${{ success() }}
