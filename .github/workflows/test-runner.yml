@@ -27,6 +27,9 @@ jobs:
         os:
           - ubuntu-latest
     steps:
+      - name: Set up Homebrew
+        id: set-up-homebrew
+        uses: Homebrew/actions/setup-homebrew@master
       - uses: actions/checkout@v2
       - uses: actions/checkout@v2
         with:
@@ -45,9 +48,11 @@ jobs:
           # be sure to create release.tar in default path
           app_dir="$(find "$HOME/Downloads" -maxdepth 1 -type d -name "*.app" || :)"
           mkdir -p app/etc
-          "$app_dir/Contents/Resources/script" start_shell_in_app 'cat app/etc/config.php' > app/etc/config.php
+          "$app_dir/Contents/Resources/script" start_shell_in_app 'cat app/etc/config.php' > app/etc/config.php || exit_status="$?"
           git archive --format=tar HEAD > release.tar
-          tar -rf release.tar app/etc/config.php
+          if [[ "$exit_status" -eq 0 ]]; then
+            tar -rf release.tar app/etc/config.php
+          fi
       - if: ${{ success() }}
         run: |
           echo "RELEASE_TAG=${GITHUB_REF#refs/heads/}-$(git rev-parse --short HEAD)" >> $GITHUB_ENV
