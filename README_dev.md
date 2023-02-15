@@ -12,3 +12,7 @@ This rule will make it harder to track deletions over time, but it's far more li
 # Tools & Steps for comparing
 
 The vscode extension `Git Tree Compare` is great for comparing magento/master to pmet/master and then pmet/master to pmet/pmet-x.x.x-[ref|demo|b2b|blank].
+
+Once all upstream changes are merged from the upstream master to the our master, rotate thru each flavor to propagate each change while also looking for shared changes that should be in our customized master for all flavors.
+
+A common workflow it to checkout each branch that may need to be updated and then change the `base` version in `Git Tree Compare` to the revelant repo / branch with the updates.
