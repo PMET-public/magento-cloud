@@ -33,7 +33,7 @@
         "magento/module-page-builder-product-recommendations": "^1.2",
         "magento/module-visual-product-recommendations": "^1.2",
         "magento/product-recommendations": "^4.0",
-        "magentoese/ece-tools": "2002.1.10.x-dev",
+        "magentoese/ece-tools": "2002.1.13.x-dev",
         "magentoese/magento-scripts": "2.3.0.x-dev",
         "magentoese/module-data-install": "dev-develop",
         "magentoese/module-data-install-graph-ql": "dev-master",
