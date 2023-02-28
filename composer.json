@@ -20,8 +20,6 @@
         {"type": "git", "url": "git@github.com:PMET-public/module-data-install.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-data-install-graphql.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-saas-data-management.git"},
-        {"type": "git", "url": "git@github.com:PMET-public/vertical-data-luma.git"},
-        {"type": "git", "url": "git@github.com:PMET-public/vertical-data-citisignal.git"},
         {"type": "composer", "url": "https://repo.magento.com/"}
     ],
     "require": {
@@ -37,9 +35,7 @@
         "magentoese/magento-scripts": "2.3.0.x-dev",
         "magentoese/module-data-install": "dev-master",
         "magentoese/module-data-install-graph-ql": "dev-master",
-        "magentoese/module-saas-data-management": "dev-master",
-        "magentoese/vertical-data-luma": "dev-main",
-        "magentoese/vertical-data-citisignal": "dev-main"
+        "magentoese/module-saas-data-management": "dev-master"
     },
     "suggest": {
         "ext-pcntl": "Need for run processes in parallel mode"
