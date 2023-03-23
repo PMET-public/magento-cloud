@@ -17,7 +17,6 @@ dependencies:
 runtime:
     extensions:
         - xsl
-        - newrelic
         - sodium
 
 # The relationships of the application with services or other applications.
