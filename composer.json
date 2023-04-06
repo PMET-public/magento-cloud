@@ -2,16 +2,19 @@
     "name": "magento/magento-cloud-template",
     "description": "eCommerce Platform for Growth (Enterprise Edition)",
     "type": "project",
-    "version": "2.4.5",
-    "license": "OSL-3.0",
+    "version": "2.4.6",
+    "license": [
+        "proprietary"
+    ],
     "config": {
-        "preferred-install": "dist",
-        "sort-packages": true,
         "allow-plugins": {
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "laminas/laminas-dependency-plugin": true,
-            "magento/*": true
-        }
+            "magento/*": true,
+            "php-http/discovery": true
+        },
+        "preferred-install": "dist",
+        "sort-packages": true
     },
     "repositories": [
         {"type": "git", "url": "git@github.com:magento-l10n/language-es_MX.git"},
@@ -89,14 +92,6 @@
         {"type": "composer", "url": "https://repo.magento.com/", "exclude": ["community-engineering/language-ja_jp"]}
     ],
     "require": {
-        "amasty/base": "1.13.4.x-dev",
-        "amasty/module-advanced-conditions": "1.5.5.x-dev",
-        "amasty/module-banners-lite": "1.0.20.x-dev",
-        "amasty/module-salesrulewizard": "1.0.4.x-dev",
-        "amasty/module-special-promo": "2.9.3.x-dev",
-        "amasty/module-special-promo-pro": "2.8.6.x-dev",
-        "amasty/promo": "2.11.3.x-dev",
-        "amasty/rgrid": "1.0.9.x-dev",
         "classyllama/module-owlcarousel": "dev-master",
         "community-engineering/language-ar_sa": "*",
         "community-engineering/language-de_de": "*",
@@ -114,10 +109,12 @@
         "example/module-page-builder-extension-text": "dev-master",
         "example/module-page-builder-faq": "dev-master",
         "example/module-page-builder-quote": "dev-master",
-        "magento/composer-root-update-plugin": "^2.0.2",
-        "magento/live-search": "^2.0",
+        "magento/composer-dependency-version-audit-plugin": "~0.1",
+        "magento/composer-root-update-plugin": "~2.0",
+        "magento/extension-b2b": "^1.3",
+        "magento/live-search": "^3.0",
         "magento/magento-cloud-docker": "1.3.2.x-dev",
-        "magento/magento-cloud-metapackage": ">=2.4.5 <2.4.6",
+        "magento/magento-cloud-metapackage": "2.4.6",
         "magento/module-bundle-sample-data": "100.4.*",
         "magento/module-catalog-rule-sample-data": "100.4.*",
         "magento/module-catalog-sample-data": "100.4.*",
@@ -133,7 +130,6 @@
         "magento/module-msrp-sample-data": "100.4.*",
         "magento/module-multiple-wishlist-sample-data": "100.4.*",
         "magento/module-offline-shipping-sample-data": "100.4.*",
-        "magento/module-page-builder-product-recommendations": "^1.2",
         "magento/module-product-links-sample-data": "100.4.*",
         "magento/module-review-sample-data": "100.4.*",
         "magento/module-sales-rule-sample-data": "100.4.*",
@@ -142,22 +138,22 @@
         "magento/module-target-rule-sample-data": "100.4.*",
         "magento/module-tax-sample-data": "100.4.*",
         "magento/module-theme-sample-data": "100.4.*",
-        "magento/module-visual-product-recommendations": "^1.2",
         "magento/module-widget-sample-data": "100.4.*",
         "magento/module-wishlist-sample-data": "100.4.*",
-        "magento/product-recommendations": "^4.0",
         "magento/sample-data-media": "100.4.*",
+        "magento/module-page-builder-product-recommendations": "^2.0",
+        "magento/module-visual-product-recommendations": "^2.0",
+        "magento/product-recommendations": "^5.0",
         "magentoese/ece-tools": "2002.1.13.x-dev",
         "magentoese/magento-scripts": "2.3.0.x-dev",
-        "magentoese/magento2-gmailsmtpapp": "dev-master",
         "magentoese/module-admin-configurations": "dev-master",
         "magentoese/module-autofill": "dev-master",
         "magentoese/module-autofill-sample-data": "dev-demo",
         "magentoese/module-cms-media-sample-data-update": "dev-master",
         "magentoese/module-cms-sample-data-update": "dev-master",
         "magentoese/module-customer-sample-data": "dev-master",
-        "magentoese/module-data-install": "dev-master",
-        "magentoese/module-data-install-graph-ql": "dev-master",
+        "magentoese/module-data-install": "dev-develop",
+        "magentoese/module-data-install-graph-ql": "dev-develop",
         "magentoese/module-demo-admin-configurations": "dev-master",
         "magentoese/module-demo-order-data": "dev-master",
         "magentoese/module-demo-upgrades-240": "dev-demo",
@@ -211,9 +207,9 @@
     },
     "autoload": {
         "psr-4": {
-            "Magento\\Setup\\": "setup/src/Magento/Setup/",
             "Magento\\": "app/code/Magento/",
-            "Zend\\Mvc\\Controller\\": "setup/src/Zend/Mvc/Controller/"
+            "Magento\\Framework\\": "lib/internal/Magento/Framework/",
+            "Magento\\Setup\\": "setup/src/Magento/Setup/"
         },
         "psr-0": {
             "": [
@@ -232,11 +228,12 @@
     },
     "autoload-dev": {
         "psr-4": {
+            "Magento\\PhpStan\\": "dev/tests/static/framework/Magento/PhpStan/",
             "Magento\\Sniffs\\": "dev/tests/static/framework/Magento/Sniffs/",
-            "Magento\\Tools\\": "dev/tools/Magento/Tools/",
-            "Magento\\Tools\\Sanity\\": "dev/build/publication/sanity/Magento/Tools/Sanity/",
             "Magento\\TestFramework\\Inspection\\": "dev/tests/static/framework/Magento/TestFramework/Inspection/",
-            "Magento\\TestFramework\\Utility\\": "dev/tests/static/framework/Magento/TestFramework/Utility/"
+            "Magento\\TestFramework\\Utility\\": "dev/tests/static/framework/Magento/TestFramework/Utility/",
+            "Magento\\Tools\\": "dev/tools/Magento/Tools/",
+            "Magento\\Tools\\Sanity\\": "dev/build/publication/sanity/Magento/Tools/Sanity/"
         }
     },
     "minimum-stability": "dev",
@@ -289,6 +286,7 @@
         ]
     },
     "require-dev": {
-        "magento/magento-coding-standard": "^25.0"
+        "mage2tv/magento-cache-clean": "^1.0",
+        "magento/magento-coding-standard": "^31.0"
     }
 }
