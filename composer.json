@@ -37,8 +37,8 @@
         "magento/product-recommendations": "^5.0",
         "magentoese/ece-tools": "2002.1.13.x-dev",
         "magentoese/magento-scripts": "2.3.0.x-dev",
-        "magentoese/module-data-install": "dev-develop",
-        "magentoese/module-data-install-graph-ql": "dev-develop",
+        "magentoese/module-data-install": "dev-master",
+        "magentoese/module-data-install-graph-ql": "dev-master",
         "magentoese/module-saas-data-management": "dev-master"
     },
     "suggest": {
