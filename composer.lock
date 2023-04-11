@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b1c14a440f7041529e4e43479477d257",
+    "content-hash": "8b5303a412a15034f03324a1dd9d3cff",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -83,6 +83,238 @@
             },
             "type": "metapackage",
             "description": "Metapackage contains references to Adobe Commerce Extensions"
+        },
+        {
+            "name": "amasty/base",
+            "version": "1.14.6.x-dev",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/amasty-module-base.git",
+                "reference": "08bc287fbadd461780202701578e405aa87837a7"
+            },
+            "require": {
+                "ext-dom": "*",
+                "php": ">=7.3"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Amasty\\Base\\": ""
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "Amasty Base",
+            "time": "2023-04-10T15:45:50+00:00"
+        },
+        {
+            "name": "amasty/module-advanced-conditions",
+            "version": "1.5.8.x-dev",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/amasty-module-advanced-conditions.git",
+                "reference": "e9052d2b0e0f89df17ee4c9ddbbb471804765167"
+            },
+            "require": {
+                "amasty/base": ">=1.14.6",
+                "php": ">=7.3"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Amasty\\Conditions\\": ""
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "Advanced Conditions by Amasty",
+            "time": "2023-04-10T16:13:42+00:00"
+        },
+        {
+            "name": "amasty/module-banners-lite",
+            "version": "1.1.0.x-dev",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/amasty-module-banners-lite.git",
+                "reference": "b5226ca455b99250e7dfa69912399680e225afe1"
+            },
+            "require": {
+                "amasty/base": ">=1.14.5",
+                "php": ">=7.3"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Amasty\\BannersLite\\": ""
+                }
+            },
+            "license": [
+                "Commercial"
+            ],
+            "description": "Promo Banners Lite by Amasty",
+            "time": "2023-04-10T15:43:20+00:00"
+        },
+        {
+            "name": "amasty/module-salesrulewizard",
+            "version": "1.0.5.x-dev",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/amasty-module-salesrulewizard.git",
+                "reference": "65a271a660b1921517e923e3e08219590c1fdf20"
+            },
+            "require": {
+                "amasty/base": ">=1.14.6",
+                "amasty/promo": ">=2.10.0",
+                "php": ">=7.3"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Amasty\\SalesRuleWizard\\": ""
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "Sales Rule Wizard by Amasty",
+            "time": "2023-04-10T16:15:54+00:00"
+        },
+        {
+            "name": "amasty/module-special-promo",
+            "version": "2.11.2.x-dev",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/amasty-module-special-promotions.git",
+                "reference": "57c3aa9be83d51b96434f996892f51087ba0a14d"
+            },
+            "require": {
+                "amasty/base": ">=1.14.5",
+                "amasty/module-banners-lite": ">=1.0.2",
+                "amasty/rgrid": "*",
+                "php": ">=7.3"
+            },
+            "suggest": {
+                "amasty/module-special-promo-mftf-2": "Install module-special-promo-mftf-2 module to be able to run Special Promotions MFTF tests for Magento 2.3.5+ version.",
+                "amasty/module-special-promo-mftf-3": "Install module-special-promo-mftf-3 module to be able to run Special Promotions MFTF tests for Magento 2.4.0+ version."
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Amasty\\Rules\\": ""
+                }
+            },
+            "license": [
+                "Commercial"
+            ],
+            "description": "Special Promotions by Amasty",
+            "time": "2023-04-10T15:48:38+00:00"
+        },
+        {
+            "name": "amasty/module-special-promo-pro",
+            "version": "2.11.1.x-dev",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/amasty-module-special-promotions-pro.git",
+                "reference": "17894ae4a98958ab8e0a8847a9604a96ebe60ed7"
+            },
+            "require": {
+                "amasty/base": ">=1.14.6",
+                "amasty/module-special-promo": ">=2.11.0",
+                "php": ">=7.3"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Amasty\\RulesPro\\": ""
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "Special Promotions Pro by Amasty",
+            "time": "2023-04-10T15:54:50+00:00"
+        },
+        {
+            "name": "amasty/promo",
+            "version": "2.13.1.x-dev",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/amasty-module-free-gift.git",
+                "reference": "e7c8a0e39c8d2cbe8c0e26575d4a99bc823cd974"
+            },
+            "require": {
+                "amasty/base": ">=1.14.6",
+                "amasty/module-advanced-conditions": ">=1.3.6",
+                "amasty/module-banners-lite": ">=1.0.5",
+                "amasty/module-salesrulewizard": "*",
+                "amasty/rgrid": "*",
+                "php": ">=7.3.0"
+            },
+            "suggest": {
+                "amasty/module-promo-mftf-2": "Install module-promo-mftf-2 module to be able to run Free Gift MFTF tests for Magento 2.3.5+ version.",
+                "amasty/module-promo-mftf-3": "Install module-promo-mftf-3 module to be able to run Free Gift MFTF tests for Magento 2.4.0+ version."
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Amasty\\Promo\\": ""
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "Free Gift by Amasty",
+            "time": "2023-04-10T16:07:25+00:00"
+        },
+        {
+            "name": "amasty/rgrid",
+            "version": "1.0.9.x-dev",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/amasty-module-rules-grid.git",
+                "reference": "a8673cde468ab81be6e3d599b3c370c69512ff4f"
+            },
+            "require": {
+                "amasty/base": ">=1.13.3",
+                "php": ">=7.3"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Amasty\\Rgrid\\": ""
+                }
+            },
+            "license": [
+                "Commercial"
+            ],
+            "description": "Extended Rules Grid by Amasty",
+            "time": "2022-05-24T14:12:21+00:00"
         },
         {
             "name": "astock/stock-api-libphp",
@@ -180,16 +412,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.263.4",
+            "version": "3.263.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "08e2f243243a9fcdd8909d596e46f81d8c72cb60"
+                "reference": "2517042b226ca5b690ba55a383d728af4a5d2d48"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/08e2f243243a9fcdd8909d596e46f81d8c72cb60",
-                "reference": "08e2f243243a9fcdd8909d596e46f81d8c72cb60",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/2517042b226ca5b690ba55a383d728af4a5d2d48",
+                "reference": "2517042b226ca5b690ba55a383d728af4a5d2d48",
                 "shasum": ""
             },
             "require": {
@@ -268,9 +500,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.263.4"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.263.7"
             },
-            "time": "2023-04-05T18:21:54+00:00"
+            "time": "2023-04-10T18:21:53+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -2533,16 +2765,16 @@
         },
         {
             "name": "fastly/magento2",
-            "version": "1.2.197",
+            "version": "1.2.198",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fastly/fastly-magento2.git",
-                "reference": "d8210194fa7bb041ba6e968eefb9780cd6eac186"
+                "reference": "9e05f730c2f46a7978c22f7556f0f1219451d207"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/d8210194fa7bb041ba6e968eefb9780cd6eac186",
-                "reference": "d8210194fa7bb041ba6e968eefb9780cd6eac186",
+                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/9e05f730c2f46a7978c22f7556f0f1219451d207",
+                "reference": "9e05f730c2f46a7978c22f7556f0f1219451d207",
                 "shasum": ""
             },
             "require": {
@@ -2571,9 +2803,9 @@
             "description": "Fastly CDN Module for Magento 2.4.x",
             "support": {
                 "issues": "https://github.com/fastly/fastly-magento2/issues",
-                "source": "https://github.com/fastly/fastly-magento2/tree/1.2.197"
+                "source": "https://github.com/fastly/fastly-magento2/tree/1.2.198"
             },
-            "time": "2023-03-14T14:12:25+00:00"
+            "time": "2023-04-08T01:01:47+00:00"
         },
         {
             "name": "firebase/php-jwt",
@@ -27707,6 +27939,62 @@
             "time": "2019-08-21T01:01:45+00:00"
         },
         {
+            "name": "magentoese/magento2-gmailsmtpapp",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/magento2-gmail-smtp-app.git",
+                "reference": "f1ae68fc40018b8d86783ef7f7886e4482b0447d"
+            },
+            "require": {
+                "magento/framework": "103.0.*",
+                "magento/module-backend": "102.0.*",
+                "php": "~7.4.0||~8.1.0||~8.2.0"
+            },
+            "default-branch": true,
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "MagePal\\GmailSmtpApp\\": ""
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Renon Stewart",
+                    "email": "renon@magepal.com",
+                    "homepage": "https://www.magepal.com/",
+                    "role": "Leader"
+                }
+            ],
+            "description": "Magento 2 SMTP Extension - Configure Magento 2 to send all transactional email using Gmail, G Suite, Amazon SES, Office360, Mailgun, SendGrid, Mandrill or any other SMTP servers",
+            "homepage": "https://www.magepal.com/",
+            "keywords": [
+                "Amazon SES",
+                "Amazon Simple Email Service",
+                "g suite",
+                "gmail smtp",
+                "google app",
+                "how to configure magento email",
+                "how to setup email magento2",
+                "magento 2",
+                "magento2 email",
+                "magento2 email setup",
+                "magento2 smtp",
+                "send email magento2"
+            ],
+            "support": {
+                "email": "support@magepal.com",
+                "issues": "https://github.com/magepal/magento2-gmail-smtp-app/issues/"
+            },
+            "time": "2023-04-11T15:49:13+00:00"
+        },
+        {
             "name": "magentoese/module-admin-configurations",
             "version": "dev-master",
             "source": {
@@ -27833,15 +28121,16 @@
         },
         {
             "name": "magentoese/module-data-install",
-            "version": "dev-develop",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-data-install.git",
-                "reference": "cffc25e92e6162f87e867f4a80a203ef344cb2a2"
+                "reference": "ac6e9ddf04804e05e779ec37387304a2ecd14e45"
             },
             "require": {
                 "magento/extension-b2b": "^1.2"
             },
+            "default-branch": true,
             "type": "magento2-module",
             "autoload": {
                 "files": [
@@ -27851,11 +28140,11 @@
                     "MagentoEse\\DataInstall\\": ""
                 }
             },
-            "time": "2023-03-23T15:48:01+00:00"
+            "time": "2023-04-10T19:27:41+00:00"
         },
         {
             "name": "magentoese/module-data-install-graph-ql",
-            "version": "dev-develop",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-data-install-graphql.git",
@@ -27864,6 +28153,7 @@
             "require": {
                 "magentoese/module-data-install": "*"
             },
+            "default-branch": true,
             "type": "magento2-module",
             "autoload": {
                 "psr-4": {
@@ -28703,34 +28993,6 @@
             "time": "2023-01-13T19:42:57+00:00"
         },
         {
-            "name": "magentoese/vertical-data-citisignal",
-            "version": "dev-main",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:PMET-public/vertical-data-citisignal.git",
-                "reference": "647430f623197c4ce45fe3f4a107dbc47ce06aff"
-            },
-            "require": {
-                "magento/framework": "*",
-                "magentoese/module-data-install": "*"
-            },
-            "default-branch": true,
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MagentoEse\\VerticalDataCitiSignal\\": ""
-                }
-            },
-            "license": [
-                "GNU General Public License (GPL)"
-            ],
-            "description": "N/A",
-            "time": "2023-02-23T14:13:52+00:00"
-        },
-        {
             "name": "magentoese/vertical-data-grocery",
             "version": "dev-master",
             "source": {
@@ -29173,14 +29435,14 @@
         },
         {
             "name": "paradoxlabs/authnetcim",
-            "version": "dev-4.5.0-p1",
+            "version": "4.5.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/paradoxlabs-authnetcim.git",
-                "reference": "52f3288b041a70ed48d1052304dd827f3400983c"
+                "reference": "353c91e757765e0c1a095f07c2943b34feb9fc41"
             },
             "require": {
-                "paradoxlabs/tokenbase": "~4.5.0"
+                "paradoxlabs/tokenbase": "~4.5.4"
             },
             "type": "magento2-module",
             "autoload": {
@@ -29200,19 +29462,19 @@
                 "payment",
                 "tokenization"
             ],
-            "time": "2022-04-08T00:00:00+00:00"
+            "time": "2023-03-08T00:00:00+00:00"
         },
         {
             "name": "paradoxlabs/firstdata",
-            "version": "2.4.0.x-dev",
+            "version": "2.4.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/paradoxlabs-firstdata.git",
-                "reference": "56157255133beeb86cd5e810aa0599a2ec0c5e87"
+                "reference": "3521e1de2f791eaa5f093e3b3c24da2e29c1c2ef"
             },
             "require": {
                 "ext-openssl": "*",
-                "paradoxlabs/tokenbase": "~4.5.0"
+                "paradoxlabs/tokenbase": "~4.5.4"
             },
             "type": "magento2-module",
             "autoload": {
@@ -29235,19 +29497,19 @@
                 "payment",
                 "tokenization"
             ],
-            "time": "2022-04-05T00:00:00+00:00"
+            "time": "2023-03-08T00:00:00+00:00"
         },
         {
             "name": "paradoxlabs/stripe",
-            "version": "2.4.0.x-dev",
+            "version": "2.4.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/paradoxlabs-stripe.git",
-                "reference": "d37e7632ecc1f2732b482e1d795034e42e10bd92"
+                "reference": "1a1599234b2038af5ddbf831c9feee4bbc13d932"
             },
             "require": {
-                "paradoxlabs/tokenbase": "~4.5.0",
-                "stripe/stripe-php": "^4.8||^5.0||^6.0||^7.0"
+                "paradoxlabs/tokenbase": "~4.5.4",
+                "stripe/stripe-php": "^4.8||^5.0||^6.0||^7.0||^8.0||^9.0||^10.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -29267,15 +29529,15 @@
                 "stripe",
                 "tokenization"
             ],
-            "time": "2022-04-08T00:00:00+00:00"
+            "time": "2023-03-08T00:00:00+00:00"
         },
         {
             "name": "paradoxlabs/subscriptions",
-            "version": "3.5.2.x-dev",
+            "version": "3.5.3.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/paradoxlabs-subscriptions.git",
-                "reference": "d8987627ff70c60789cc068e86510c2e5cb92cb9"
+                "reference": "d1ad5097250e37e99c8dcef9e0167f58a0549e2a"
             },
             "require": {
                 "ext-json": "*",
@@ -29294,7 +29556,7 @@
                 "magento/module-theme": "^100.0||^101.0",
                 "magento/module-ui": "^100.0||^101.0",
                 "magento/module-user": "^100.0||^101.0",
-                "paradoxlabs/tokenbase": "~4.5.0"
+                "paradoxlabs/tokenbase": "~4.5.4"
             },
             "type": "magento2-module",
             "autoload": {
@@ -29309,15 +29571,15 @@
                 "proprietary"
             ],
             "description": "Adaptive Subscriptions: Subscriptions, auto-shipments, and recurring payments by ParadoxLabs.",
-            "time": "2022-05-25T00:00:00+00:00"
+            "time": "2023-03-08T00:00:00+00:00"
         },
         {
             "name": "paradoxlabs/tokenbase",
-            "version": "4.5.2.x-dev",
+            "version": "4.5.4.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/paradoxlabs-tokenbase.git",
-                "reference": "2a5135087007a96411377728b02c56ca43b1d096"
+                "reference": "6096a4018520c9886e811a9d0a19da2fb69c727b"
             },
             "require": {
                 "ext-json": "*",
@@ -29347,7 +29609,7 @@
                 "proprietary"
             ],
             "description": "Base module for ParadoxLabs tokenization payment methods.",
-            "time": "2022-07-27T00:00:00+00:00"
+            "time": "2023-03-08T00:00:00+00:00"
         },
         {
             "name": "paragonie/constant_time_encoding",
@@ -30221,21 +30483,21 @@
         },
         {
             "name": "psr/http-client",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-client.git",
-                "reference": "2dfb5f6c5eff0e91e20e913f8c5452ed95b86621"
+                "reference": "0955afe48220520692d2d09f7ab7e0f93ffd6a31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-client/zipball/2dfb5f6c5eff0e91e20e913f8c5452ed95b86621",
-                "reference": "2dfb5f6c5eff0e91e20e913f8c5452ed95b86621",
+                "url": "https://api.github.com/repos/php-fig/http-client/zipball/0955afe48220520692d2d09f7ab7e0f93ffd6a31",
+                "reference": "0955afe48220520692d2d09f7ab7e0f93ffd6a31",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.0 || ^8.0",
-                "psr/http-message": "^1.0"
+                "psr/http-message": "^1.0 || ^2.0"
             },
             "type": "library",
             "extra": {
@@ -30255,7 +30517,7 @@
             "authors": [
                 {
                     "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
+                    "homepage": "https://www.php-fig.org/"
                 }
             ],
             "description": "Common interface for HTTP clients",
@@ -30267,27 +30529,27 @@
                 "psr-18"
             ],
             "support": {
-                "source": "https://github.com/php-fig/http-client/tree/master"
+                "source": "https://github.com/php-fig/http-client/tree/1.0.2"
             },
-            "time": "2020-06-29T06:28:15+00:00"
+            "time": "2023-04-10T20:12:12+00:00"
         },
         {
             "name": "psr/http-factory",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-factory.git",
-                "reference": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be"
+                "reference": "e616d01114759c4c489f93b099585439f795fe35"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-factory/zipball/12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
-                "reference": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
+                "url": "https://api.github.com/repos/php-fig/http-factory/zipball/e616d01114759c4c489f93b099585439f795fe35",
+                "reference": "e616d01114759c4c489f93b099585439f795fe35",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.0.0",
-                "psr/http-message": "^1.0"
+                "psr/http-message": "^1.0 || ^2.0"
             },
             "type": "library",
             "extra": {
@@ -30307,7 +30569,7 @@
             "authors": [
                 {
                     "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
+                    "homepage": "https://www.php-fig.org/"
                 }
             ],
             "description": "Common interfaces for PSR-7 HTTP message factories",
@@ -30322,9 +30584,9 @@
                 "response"
             ],
             "support": {
-                "source": "https://github.com/php-fig/http-factory/tree/master"
+                "source": "https://github.com/php-fig/http-factory/tree/1.0.2"
             },
-            "time": "2019-04-30T12:38:16+00:00"
+            "time": "2023-04-10T20:10:41+00:00"
         },
         {
             "name": "psr/http-message",
@@ -31270,16 +31532,16 @@
         },
         {
             "name": "stripe/stripe-php",
-            "version": "v7.128.0",
+            "version": "v10.12.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stripe/stripe-php.git",
-                "reference": "c704949c49b72985c76cc61063aa26fefbd2724e"
+                "reference": "9e8055d55e8212ad844f48d7cf525b630689be35"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/c704949c49b72985c76cc61063aa26fefbd2724e",
-                "reference": "c704949c49b72985c76cc61063aa26fefbd2724e",
+                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/9e8055d55e8212ad844f48d7cf525b630689be35",
+                "reference": "9e8055d55e8212ad844f48d7cf525b630689be35",
                 "shasum": ""
             },
             "require": {
@@ -31290,6 +31552,7 @@
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "3.5.0",
+                "php-coveralls/php-coveralls": "^2.5",
                 "phpstan/phpstan": "^1.2",
                 "phpunit/phpunit": "^5.7 || ^9.0",
                 "squizlabs/php_codesniffer": "^3.3"
@@ -31324,9 +31587,9 @@
             ],
             "support": {
                 "issues": "https://github.com/stripe/stripe-php/issues",
-                "source": "https://github.com/stripe/stripe-php/tree/v7.128.0"
+                "source": "https://github.com/stripe/stripe-php/tree/v10.12.1"
             },
-            "time": "2022-05-05T17:18:02+00:00"
+            "time": "2023-04-04T19:13:21+00:00"
         },
         {
             "name": "symfony/config",
@@ -33935,16 +34198,16 @@
         },
         {
             "name": "thecodingmachine/safe",
-            "version": "v2.4.0",
+            "version": "v2.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thecodingmachine/safe.git",
-                "reference": "e788f3d09dcd36f806350aedb77eac348fafadd3"
+                "reference": "3115ecd6b4391662b4931daac4eba6b07a2ac1f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thecodingmachine/safe/zipball/e788f3d09dcd36f806350aedb77eac348fafadd3",
-                "reference": "e788f3d09dcd36f806350aedb77eac348fafadd3",
+                "url": "https://api.github.com/repos/thecodingmachine/safe/zipball/3115ecd6b4391662b4931daac4eba6b07a2ac1f0",
+                "reference": "3115ecd6b4391662b4931daac4eba6b07a2ac1f0",
                 "shasum": ""
             },
             "require": {
@@ -34068,9 +34331,9 @@
             "description": "PHP core functions that throw exceptions instead of returning FALSE on error",
             "support": {
                 "issues": "https://github.com/thecodingmachine/safe/issues",
-                "source": "https://github.com/thecodingmachine/safe/tree/v2.4.0"
+                "source": "https://github.com/thecodingmachine/safe/tree/v2.5.0"
             },
-            "time": "2022-10-07T14:02:17+00:00"
+            "time": "2023-04-05T11:54:14+00:00"
         },
         {
             "name": "tubalmartin/cssmin",
@@ -34984,6 +35247,14 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "amasty/base": 20,
+        "amasty/module-advanced-conditions": 20,
+        "amasty/module-banners-lite": 20,
+        "amasty/module-salesrulewizard": 20,
+        "amasty/module-special-promo": 20,
+        "amasty/module-special-promo-pro": 20,
+        "amasty/promo": 20,
+        "amasty/rgrid": 20,
         "classyllama/module-owlcarousel": 20,
         "example/module-page-builder-extension-text": 20,
         "example/module-page-builder-faq": 20,
@@ -34992,6 +35263,7 @@
         "magento/module-msi-source-stock-sample-data": 20,
         "magentoese/ece-tools": 20,
         "magentoese/magento-scripts": 20,
+        "magentoese/magento2-gmailsmtpapp": 20,
         "magentoese/module-admin-configurations": 20,
         "magentoese/module-autofill": 20,
         "magentoese/module-autofill-sample-data": 20,
@@ -35042,8 +35314,7 @@
         "paradoxlabs/firstdata": 20,
         "paradoxlabs/stripe": 20,
         "paradoxlabs/subscriptions": 20,
-        "paradoxlabs/tokenbase": 20,
-        "magentoese/vertical-data-citisignal": 20
+        "paradoxlabs/tokenbase": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
