@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3015aceccf32e4701c81e2c4e578a859",
+    "content-hash": "109b03a0c2b42acbfe35f7d6bcc623a5",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -180,16 +180,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.263.3",
+            "version": "3.263.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "be23e6b278e9a3f4a5b15394f85e9c3f54c9dd7e"
+                "reference": "2517042b226ca5b690ba55a383d728af4a5d2d48"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/be23e6b278e9a3f4a5b15394f85e9c3f54c9dd7e",
-                "reference": "be23e6b278e9a3f4a5b15394f85e9c3f54c9dd7e",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/2517042b226ca5b690ba55a383d728af4a5d2d48",
+                "reference": "2517042b226ca5b690ba55a383d728af4a5d2d48",
                 "shasum": ""
             },
             "require": {
@@ -268,9 +268,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.263.3"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.263.7"
             },
-            "time": "2023-04-04T18:24:59+00:00"
+            "time": "2023-04-10T18:21:53+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -1966,16 +1966,16 @@
         },
         {
             "name": "fastly/magento2",
-            "version": "1.2.197",
+            "version": "1.2.198",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fastly/fastly-magento2.git",
-                "reference": "d8210194fa7bb041ba6e968eefb9780cd6eac186"
+                "reference": "9e05f730c2f46a7978c22f7556f0f1219451d207"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/d8210194fa7bb041ba6e968eefb9780cd6eac186",
-                "reference": "d8210194fa7bb041ba6e968eefb9780cd6eac186",
+                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/9e05f730c2f46a7978c22f7556f0f1219451d207",
+                "reference": "9e05f730c2f46a7978c22f7556f0f1219451d207",
                 "shasum": ""
             },
             "require": {
@@ -2004,9 +2004,9 @@
             "description": "Fastly CDN Module for Magento 2.4.x",
             "support": {
                 "issues": "https://github.com/fastly/fastly-magento2/issues",
-                "source": "https://github.com/fastly/fastly-magento2/tree/1.2.197"
+                "source": "https://github.com/fastly/fastly-magento2/tree/1.2.198"
             },
-            "time": "2023-03-14T14:12:25+00:00"
+            "time": "2023-04-08T01:01:47+00:00"
         },
         {
             "name": "firebase/php-jwt",
@@ -27110,6 +27110,62 @@
             "time": "2019-08-21T01:01:45+00:00"
         },
         {
+            "name": "magentoese/magento2-gmailsmtpapp",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/magento2-gmail-smtp-app.git",
+                "reference": "f1ae68fc40018b8d86783ef7f7886e4482b0447d"
+            },
+            "require": {
+                "magento/framework": "103.0.*",
+                "magento/module-backend": "102.0.*",
+                "php": "~7.4.0||~8.1.0||~8.2.0"
+            },
+            "default-branch": true,
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "MagePal\\GmailSmtpApp\\": ""
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Renon Stewart",
+                    "email": "renon@magepal.com",
+                    "homepage": "https://www.magepal.com/",
+                    "role": "Leader"
+                }
+            ],
+            "description": "Magento 2 SMTP Extension - Configure Magento 2 to send all transactional email using Gmail, G Suite, Amazon SES, Office360, Mailgun, SendGrid, Mandrill or any other SMTP servers",
+            "homepage": "https://www.magepal.com/",
+            "keywords": [
+                "Amazon SES",
+                "Amazon Simple Email Service",
+                "g suite",
+                "gmail smtp",
+                "google app",
+                "how to configure magento email",
+                "how to setup email magento2",
+                "magento 2",
+                "magento2 email",
+                "magento2 email setup",
+                "magento2 smtp",
+                "send email magento2"
+            ],
+            "support": {
+                "email": "support@magepal.com",
+                "issues": "https://github.com/magepal/magento2-gmail-smtp-app/issues/"
+            },
+            "time": "2023-04-11T15:49:13+00:00"
+        },
+        {
             "name": "magentoese/module-admin-configurations",
             "version": "dev-master",
             "source": {
@@ -27134,15 +27190,16 @@
         },
         {
             "name": "magentoese/module-data-install",
-            "version": "dev-develop",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-data-install.git",
-                "reference": "cffc25e92e6162f87e867f4a80a203ef344cb2a2"
+                "reference": "ac6e9ddf04804e05e779ec37387304a2ecd14e45"
             },
             "require": {
                 "magento/extension-b2b": "^1.2"
             },
+            "default-branch": true,
             "type": "magento2-module",
             "autoload": {
                 "files": [
@@ -27152,11 +27209,11 @@
                     "MagentoEse\\DataInstall\\": ""
                 }
             },
-            "time": "2023-03-23T15:48:01+00:00"
+            "time": "2023-04-10T19:27:41+00:00"
         },
         {
             "name": "magentoese/module-data-install-graph-ql",
-            "version": "dev-develop",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-data-install-graphql.git",
@@ -27165,6 +27222,7 @@
             "require": {
                 "magentoese/module-data-install": "*"
             },
+            "default-branch": true,
             "type": "magento2-module",
             "autoload": {
                 "psr-4": {
@@ -28640,21 +28698,21 @@
         },
         {
             "name": "psr/http-client",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-client.git",
-                "reference": "2dfb5f6c5eff0e91e20e913f8c5452ed95b86621"
+                "reference": "0955afe48220520692d2d09f7ab7e0f93ffd6a31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-client/zipball/2dfb5f6c5eff0e91e20e913f8c5452ed95b86621",
-                "reference": "2dfb5f6c5eff0e91e20e913f8c5452ed95b86621",
+                "url": "https://api.github.com/repos/php-fig/http-client/zipball/0955afe48220520692d2d09f7ab7e0f93ffd6a31",
+                "reference": "0955afe48220520692d2d09f7ab7e0f93ffd6a31",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.0 || ^8.0",
-                "psr/http-message": "^1.0"
+                "psr/http-message": "^1.0 || ^2.0"
             },
             "type": "library",
             "extra": {
@@ -28674,7 +28732,7 @@
             "authors": [
                 {
                     "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
+                    "homepage": "https://www.php-fig.org/"
                 }
             ],
             "description": "Common interface for HTTP clients",
@@ -28686,27 +28744,27 @@
                 "psr-18"
             ],
             "support": {
-                "source": "https://github.com/php-fig/http-client/tree/master"
+                "source": "https://github.com/php-fig/http-client/tree/1.0.2"
             },
-            "time": "2020-06-29T06:28:15+00:00"
+            "time": "2023-04-10T20:12:12+00:00"
         },
         {
             "name": "psr/http-factory",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-factory.git",
-                "reference": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be"
+                "reference": "e616d01114759c4c489f93b099585439f795fe35"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-factory/zipball/12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
-                "reference": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
+                "url": "https://api.github.com/repos/php-fig/http-factory/zipball/e616d01114759c4c489f93b099585439f795fe35",
+                "reference": "e616d01114759c4c489f93b099585439f795fe35",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.0.0",
-                "psr/http-message": "^1.0"
+                "psr/http-message": "^1.0 || ^2.0"
             },
             "type": "library",
             "extra": {
@@ -28726,7 +28784,7 @@
             "authors": [
                 {
                     "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
+                    "homepage": "https://www.php-fig.org/"
                 }
             ],
             "description": "Common interfaces for PSR-7 HTTP message factories",
@@ -28741,9 +28799,9 @@
                 "response"
             ],
             "support": {
-                "source": "https://github.com/php-fig/http-factory/tree/master"
+                "source": "https://github.com/php-fig/http-factory/tree/1.0.2"
             },
-            "time": "2019-04-30T12:38:16+00:00"
+            "time": "2023-04-10T20:10:41+00:00"
         },
         {
             "name": "psr/http-message",
@@ -32294,16 +32352,16 @@
         },
         {
             "name": "thecodingmachine/safe",
-            "version": "v2.4.0",
+            "version": "v2.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thecodingmachine/safe.git",
-                "reference": "e788f3d09dcd36f806350aedb77eac348fafadd3"
+                "reference": "3115ecd6b4391662b4931daac4eba6b07a2ac1f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thecodingmachine/safe/zipball/e788f3d09dcd36f806350aedb77eac348fafadd3",
-                "reference": "e788f3d09dcd36f806350aedb77eac348fafadd3",
+                "url": "https://api.github.com/repos/thecodingmachine/safe/zipball/3115ecd6b4391662b4931daac4eba6b07a2ac1f0",
+                "reference": "3115ecd6b4391662b4931daac4eba6b07a2ac1f0",
                 "shasum": ""
             },
             "require": {
@@ -32427,9 +32485,9 @@
             "description": "PHP core functions that throw exceptions instead of returning FALSE on error",
             "support": {
                 "issues": "https://github.com/thecodingmachine/safe/issues",
-                "source": "https://github.com/thecodingmachine/safe/tree/v2.4.0"
+                "source": "https://github.com/thecodingmachine/safe/tree/v2.5.0"
             },
-            "time": "2022-10-07T14:02:17+00:00"
+            "time": "2023-04-05T11:54:14+00:00"
         },
         {
             "name": "tubalmartin/cssmin",
@@ -33346,6 +33404,7 @@
         "magento/magento-cloud-docker": 20,
         "magentoese/ece-tools": 20,
         "magentoese/magento-scripts": 20,
+        "magentoese/magento2-gmailsmtpapp": 20,
         "magentoese/module-admin-configurations": 20,
         "magentoese/module-data-install": 20,
         "magentoese/module-data-install-graph-ql": 20,
