@@ -260,7 +260,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/amasty-module-free-gift.git",
-                "reference": "e7c8a0e39c8d2cbe8c0e26575d4a99bc823cd974"
+                "reference": "a1dad7d098d91caff229005f2f17ac51a9a3fe9d"
             },
             "require": {
                 "amasty/base": ">=1.14.6",
@@ -287,7 +287,7 @@
                 "proprietary"
             ],
             "description": "Free Gift by Amasty",
-            "time": "2023-04-10T16:07:25+00:00"
+            "time": "2023-04-12T13:42:58+00:00"
         },
         {
             "name": "amasty/rgrid",
@@ -28394,7 +28394,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/paradoxlabs-subscriptions.git",
-                "reference": "d1ad5097250e37e99c8dcef9e0167f58a0549e2a"
+                "reference": "ffe8320d3cd31a2c52e7fb8cca1ca7650e9b5d25"
             },
             "require": {
                 "ext-json": "*",
