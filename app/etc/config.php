@@ -568,6 +568,7 @@ return [
         'Example_PageBuilderFaq' => 1,
         'Example_PageBuilderQuote' => 1,
         'Fastly_Cdn' => 1,
+        'MagePal_GmailSmtpApp' => 1,
         'MagentoEse_AdminConfigurations' => 1,
         'MagentoEse_AutoFill' => 1,
         'MagentoEse_AutoFillSampleData' => 1,

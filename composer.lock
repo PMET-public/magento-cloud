@@ -260,7 +260,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/amasty-module-free-gift.git",
-                "reference": "e7c8a0e39c8d2cbe8c0e26575d4a99bc823cd974"
+                "reference": "a1dad7d098d91caff229005f2f17ac51a9a3fe9d"
             },
             "require": {
                 "amasty/base": ">=1.14.6",
@@ -287,7 +287,7 @@
                 "proprietary"
             ],
             "description": "Free Gift by Amasty",
-            "time": "2023-04-10T16:07:25+00:00"
+            "time": "2023-04-12T13:42:58+00:00"
         },
         {
             "name": "amasty/rgrid",
@@ -412,16 +412,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.263.7",
+            "version": "3.263.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "2517042b226ca5b690ba55a383d728af4a5d2d48"
+                "reference": "bf8a3d90eecbe66405a0598d6423d897e917f66c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/2517042b226ca5b690ba55a383d728af4a5d2d48",
-                "reference": "2517042b226ca5b690ba55a383d728af4a5d2d48",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/bf8a3d90eecbe66405a0598d6423d897e917f66c",
+                "reference": "bf8a3d90eecbe66405a0598d6423d897e917f66c",
                 "shasum": ""
             },
             "require": {
@@ -500,9 +500,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.263.7"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.263.8"
             },
-            "time": "2023-04-10T18:21:53+00:00"
+            "time": "2023-04-11T19:32:30+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -29537,7 +29537,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/paradoxlabs-subscriptions.git",
-                "reference": "d1ad5097250e37e99c8dcef9e0167f58a0549e2a"
+                "reference": "ffe8320d3cd31a2c52e7fb8cca1ca7650e9b5d25"
             },
             "require": {
                 "ext-json": "*",
@@ -35065,16 +35065,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.11",
+            "version": "1.10.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "8aa62e6ea8b58ffb650e02940e55a788cbc3fe21"
+                "reference": "7b2aaf999e522e2b10011a594cf06dc37de7fbd8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/8aa62e6ea8b58ffb650e02940e55a788cbc3fe21",
-                "reference": "8aa62e6ea8b58ffb650e02940e55a788cbc3fe21",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/7b2aaf999e522e2b10011a594cf06dc37de7fbd8",
+                "reference": "7b2aaf999e522e2b10011a594cf06dc37de7fbd8",
                 "shasum": ""
             },
             "require": {
@@ -35123,7 +35123,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-04-04T19:17:42+00:00"
+            "time": "2023-04-12T10:33:29+00:00"
         },
         {
             "name": "rector/rector",
