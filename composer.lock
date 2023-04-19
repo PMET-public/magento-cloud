@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8b5303a412a15034f03324a1dd9d3cff",
+    "content-hash": "865e4673d2019448a77efe98d9d22ce0",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -412,16 +412,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.263.8",
+            "version": "3.263.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "bf8a3d90eecbe66405a0598d6423d897e917f66c"
+                "reference": "8b1c7b4f1f931ee480a31f37870bdc66f9c23248"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/bf8a3d90eecbe66405a0598d6423d897e917f66c",
-                "reference": "bf8a3d90eecbe66405a0598d6423d897e917f66c",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/8b1c7b4f1f931ee480a31f37870bdc66f9c23248",
+                "reference": "8b1c7b4f1f931ee480a31f37870bdc66f9c23248",
                 "shasum": ""
             },
             "require": {
@@ -500,9 +500,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.263.8"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.263.12"
             },
-            "time": "2023-04-11T19:32:30+00:00"
+            "time": "2023-04-17T18:22:13+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -676,26 +676,25 @@
         },
         {
             "name": "brick/math",
-            "version": "0.10.2",
+            "version": "0.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/brick/math.git",
-                "reference": "459f2781e1a08d52ee56b0b1444086e038561e3f"
+                "reference": "0ad82ce168c82ba30d1c01ec86116ab52f589478"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brick/math/zipball/459f2781e1a08d52ee56b0b1444086e038561e3f",
-                "reference": "459f2781e1a08d52ee56b0b1444086e038561e3f",
+                "url": "https://api.github.com/repos/brick/math/zipball/0ad82ce168c82ba30d1c01ec86116ab52f589478",
+                "reference": "0ad82ce168c82ba30d1c01ec86116ab52f589478",
                 "shasum": ""
             },
             "require": {
-                "ext-json": "*",
-                "php": "^7.4 || ^8.0"
+                "php": "^8.0"
             },
             "require-dev": {
                 "php-coveralls/php-coveralls": "^2.2",
                 "phpunit/phpunit": "^9.0",
-                "vimeo/psalm": "4.25.0"
+                "vimeo/psalm": "5.0.0"
             },
             "type": "library",
             "autoload": {
@@ -720,7 +719,7 @@
             ],
             "support": {
                 "issues": "https://github.com/brick/math/issues",
-                "source": "https://github.com/brick/math/tree/0.10.2"
+                "source": "https://github.com/brick/math/tree/0.11.0"
             },
             "funding": [
                 {
@@ -728,7 +727,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-08-10T22:54:19+00:00"
+            "time": "2023-01-15T23:15:59+00:00"
         },
         {
             "name": "brick/varexporter",
@@ -876,17 +875,22 @@
         },
         {
             "name": "colinmollenhour/cache-backend-file",
-            "version": "v1.4.5",
+            "version": "v1.4.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/colinmollenhour/Cm_Cache_Backend_File.git",
-                "reference": "03c7d4c0f43b2de1b559a3527d18ff697d306544"
+                "reference": "a4b5062f6d2a78bdf6885b9b1e3a95dc4039d4fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/colinmollenhour/Cm_Cache_Backend_File/zipball/03c7d4c0f43b2de1b559a3527d18ff697d306544",
-                "reference": "03c7d4c0f43b2de1b559a3527d18ff697d306544",
+                "url": "https://api.github.com/repos/colinmollenhour/Cm_Cache_Backend_File/zipball/a4b5062f6d2a78bdf6885b9b1e3a95dc4039d4fd",
+                "reference": "a4b5062f6d2a78bdf6885b9b1e3a95dc4039d4fd",
                 "shasum": ""
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.4",
+                "phpunit/phpunit": "^9",
+                "zf1s/zend-cache": "~1.15"
             },
             "type": "magento-module",
             "autoload": {
@@ -907,9 +911,9 @@
             "homepage": "https://github.com/colinmollenhour/Cm_Cache_Backend_File",
             "support": {
                 "issues": "https://github.com/colinmollenhour/Cm_Cache_Backend_File/issues",
-                "source": "https://github.com/colinmollenhour/Cm_Cache_Backend_File/tree/master"
+                "source": "https://github.com/colinmollenhour/Cm_Cache_Backend_File/tree/v1.4.7"
             },
-            "time": "2019-04-18T21:54:31+00:00"
+            "time": "2023-04-13T12:10:03+00:00"
         },
         {
             "name": "colinmollenhour/cache-backend-redis",
@@ -958,16 +962,16 @@
         },
         {
             "name": "colinmollenhour/credis",
-            "version": "v1.14.0",
+            "version": "v1.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/colinmollenhour/credis.git",
-                "reference": "dccc8a46586475075fbb012d8bd523b8a938c2dc"
+                "reference": "28810439de1d9597b7ba11794ed9479fb6f3de7c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/colinmollenhour/credis/zipball/dccc8a46586475075fbb012d8bd523b8a938c2dc",
-                "reference": "dccc8a46586475075fbb012d8bd523b8a938c2dc",
+                "url": "https://api.github.com/repos/colinmollenhour/credis/zipball/28810439de1d9597b7ba11794ed9479fb6f3de7c",
+                "reference": "28810439de1d9597b7ba11794ed9479fb6f3de7c",
                 "shasum": ""
             },
             "require": {
@@ -999,9 +1003,9 @@
             "homepage": "https://github.com/colinmollenhour/credis",
             "support": {
                 "issues": "https://github.com/colinmollenhour/credis/issues",
-                "source": "https://github.com/colinmollenhour/credis/tree/v1.14.0"
+                "source": "https://github.com/colinmollenhour/credis/tree/v1.15.0"
             },
-            "time": "2022-11-09T01:18:39+00:00"
+            "time": "2023-04-18T15:34:23+00:00"
         },
         {
             "name": "colinmollenhour/php-redis-session-abstract",
@@ -3129,22 +3133,22 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "7.5.0",
+            "version": "7.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "b50a2a1251152e43f6a37f0fa053e730a67d25ba"
+                "reference": "b964ca597e86b752cd994f27293e9fa6b6a95ed9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/b50a2a1251152e43f6a37f0fa053e730a67d25ba",
-                "reference": "b50a2a1251152e43f6a37f0fa053e730a67d25ba",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/b964ca597e86b752cd994f27293e9fa6b6a95ed9",
+                "reference": "b964ca597e86b752cd994f27293e9fa6b6a95ed9",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
                 "guzzlehttp/promises": "^1.5",
-                "guzzlehttp/psr7": "^1.9 || ^2.4",
+                "guzzlehttp/psr7": "^1.9.1 || ^2.4.5",
                 "php": "^7.2.5 || ^8.0",
                 "psr/http-client": "^1.0",
                 "symfony/deprecation-contracts": "^2.2 || ^3.0"
@@ -3237,7 +3241,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/guzzle/issues",
-                "source": "https://github.com/guzzle/guzzle/tree/7.5.0"
+                "source": "https://github.com/guzzle/guzzle/tree/7.5.1"
             },
             "funding": [
                 {
@@ -3253,7 +3257,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-08-28T15:39:27+00:00"
+            "time": "2023-04-17T16:30:08+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -3341,22 +3345,22 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "2.4.4",
+            "version": "2.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "3cf1b6d4f0c820a2cf8bcaec39fc698f3443b5cf"
+                "reference": "b635f279edd83fc275f822a1188157ffea568ff6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/3cf1b6d4f0c820a2cf8bcaec39fc698f3443b5cf",
-                "reference": "3cf1b6d4f0c820a2cf8bcaec39fc698f3443b5cf",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/b635f279edd83fc275f822a1188157ffea568ff6",
+                "reference": "b635f279edd83fc275f822a1188157ffea568ff6",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.2.5 || ^8.0",
                 "psr/http-factory": "^1.0",
-                "psr/http-message": "^1.0",
+                "psr/http-message": "^1.1 || ^2.0",
                 "ralouphie/getallheaders": "^3.0"
             },
             "provide": {
@@ -3376,9 +3380,6 @@
                 "bamarni-bin": {
                     "bin-links": true,
                     "forward-command": false
-                },
-                "branch-alias": {
-                    "dev-master": "2.4-dev"
                 }
             },
             "autoload": {
@@ -3440,7 +3441,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/psr7/issues",
-                "source": "https://github.com/guzzle/psr7/tree/2.4.4"
+                "source": "https://github.com/guzzle/psr7/tree/2.5.0"
             },
             "funding": [
                 {
@@ -3456,7 +3457,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-03-09T13:19:02+00:00"
+            "time": "2023-04-17T16:11:26+00:00"
         },
         {
             "name": "illuminate/collections",
@@ -6386,11 +6387,11 @@
         },
         {
             "name": "magento/composer-dependency-version-audit-plugin",
-            "version": "0.1.4",
+            "version": "0.1.5",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/composer-dependency-version-audit-plugin/magento-composer-dependency-version-audit-plugin-0.1.4.0.zip",
-                "shasum": "873fe911166d3ec6ce44d0018c1749b0afae05e3"
+                "url": "https://repo.magento.com/archives/magento/composer-dependency-version-audit-plugin/magento-composer-dependency-version-audit-plugin-0.1.5.0.zip",
+                "shasum": "5bbab92d2727217628a6806ad59d6c7fe1ec0651"
             },
             "require": {
                 "composer-plugin-api": "^1.0 || ^2.0",
@@ -7089,11 +7090,11 @@
         },
         {
             "name": "magento/magento-cloud-docker",
-            "version": "1.3.2.x-dev",
+            "version": "1.3.5.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/magento-cloud-docker.git",
-                "reference": "c6fed8a8bec51667748ae1fd3f7246ad67e838a1"
+                "reference": "cc819779afcfbdef3cc328a5f2594467f50f40ac"
             },
             "require": {
                 "composer/composer": "^1.4 || ^2.0",
@@ -7112,7 +7113,7 @@
                 "codeception/module-db": "^1.0",
                 "codeception/module-phpbrowser": "^1.0",
                 "codeception/module-rest": "^1.2",
-                "consolidation/robo": "^1.2",
+                "consolidation/robo": "^1.2 || ^2.0",
                 "phpmd/phpmd": "@stable",
                 "phpstan/phpstan": "^0.12",
                 "phpunit/phpunit": "^8.5 || ^9.5",
@@ -7208,7 +7209,7 @@
                 "AFL-3.0"
             ],
             "description": "Magento Cloud Docker",
-            "time": "2022-05-26T13:26:07+00:00"
+            "time": "2023-04-12T00:18:01+00:00"
         },
         {
             "name": "magento/magento-cloud-metapackage",
@@ -9834,11 +9835,11 @@
         },
         {
             "name": "magento/module-bundle-product-data-exporter",
-            "version": "102.0.0",
+            "version": "102.2.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-bundle-product-data-exporter/magento-module-bundle-product-data-exporter-102.0.0.0.zip",
-                "shasum": "d117079a105c1ed12b76bee5c9fc1ad237838a68"
+                "url": "https://repo.magento.com/archives/magento/module-bundle-product-data-exporter/magento-module-bundle-product-data-exporter-102.2.0.0.zip",
+                "shasum": "0523aa26aec5acea3382bc4e7430c3c0d57a6545"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -10268,11 +10269,11 @@
         },
         {
             "name": "magento/module-catalog-data-exporter",
-            "version": "102.0.0",
+            "version": "102.2.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-catalog-data-exporter/magento-module-catalog-data-exporter-102.0.0.0.zip",
-                "shasum": "96e2e792f64c6f007c0c1c9f7a2b71b927b345dc"
+                "url": "https://repo.magento.com/archives/magento/module-catalog-data-exporter/magento-module-catalog-data-exporter-102.2.0.0.zip",
+                "shasum": "17a2fa70a9223e6bc047da617fe373506a7c2564"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -10489,11 +10490,11 @@
         },
         {
             "name": "magento/module-catalog-inventory-data-exporter",
-            "version": "102.0.0",
+            "version": "102.2.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-catalog-inventory-data-exporter/magento-module-catalog-inventory-data-exporter-102.0.0.0.zip",
-                "shasum": "415188df6d508628866d1f0081f494df68cbc726"
+                "url": "https://repo.magento.com/archives/magento/module-catalog-inventory-data-exporter/magento-module-catalog-inventory-data-exporter-102.2.0.0.zip",
+                "shasum": "9883c4913d28306f441c9fce72e46e9fb06c519b"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -10503,6 +10504,13 @@
                 "magento/module-data-exporter": "self.version",
                 "magento/module-store": ">=101.1.4",
                 "php": "~8.1.0||~8.2.0"
+            },
+            "suggest": {
+                "magento/module-indexer": ">=100.4.4",
+                "magento/module-inventory-api": ">=1.2.3",
+                "magento/module-inventory-indexer": "*",
+                "magento/module-inventory-multi-dimensional-indexer-api": ">=1.2.1",
+                "magento/module-inventory-sales": ">=1.3.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -11149,11 +11157,11 @@
         },
         {
             "name": "magento/module-catalog-url-rewrite-data-exporter",
-            "version": "102.0.0",
+            "version": "102.2.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-catalog-url-rewrite-data-exporter/magento-module-catalog-url-rewrite-data-exporter-102.0.0.0.zip",
-                "shasum": "09708c2377e18f719a86fcac68750a6b3da0f790"
+                "url": "https://repo.magento.com/archives/magento/module-catalog-url-rewrite-data-exporter/magento-module-catalog-url-rewrite-data-exporter-102.2.0.0.zip",
+                "shasum": "a378ccbc1a7b33504fdf38ddbef68c00211098db"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -11282,11 +11290,11 @@
         },
         {
             "name": "magento/module-category-permission-data-exporter",
-            "version": "102.0.0",
+            "version": "102.2.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-category-permission-data-exporter/magento-module-category-permission-data-exporter-102.0.0.0.zip",
-                "shasum": "4ac2817b730abccce61d5f4143054ee87cee4dff"
+                "url": "https://repo.magento.com/archives/magento/module-category-permission-data-exporter/magento-module-category-permission-data-exporter-102.2.0.0.zip",
+                "shasum": "2ceed86d4042e704848840cc14e0d5ead029a0a9"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -12286,11 +12294,11 @@
         },
         {
             "name": "magento/module-configurable-product-data-exporter",
-            "version": "102.0.0",
+            "version": "102.2.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-configurable-product-data-exporter/magento-module-configurable-product-data-exporter-102.0.0.0.zip",
-                "shasum": "e17afe4e636b238807d5153793aed568c1045d8e"
+                "url": "https://repo.magento.com/archives/magento/module-configurable-product-data-exporter/magento-module-configurable-product-data-exporter-102.2.0.0.zip",
+                "shasum": "6ee809d1beacfbe0063dd9dd194347cf0c1d6ed8"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -12300,6 +12308,7 @@
                 "magento/module-data-exporter": "self.version",
                 "magento/module-eav": ">=102.1.4",
                 "magento/module-store": ">=101.1.4",
+                "magento/module-swatches": ">=100.4.4",
                 "php": "~8.1.0||~8.2.0"
             },
             "type": "magento2-module",
@@ -13162,11 +13171,11 @@
         },
         {
             "name": "magento/module-data-exporter",
-            "version": "102.0.0",
+            "version": "102.2.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-data-exporter/magento-module-data-exporter-102.0.0.0.zip",
-                "shasum": "4781b5e670d32a75cf5065386b459d4c350bdc09"
+                "url": "https://repo.magento.com/archives/magento/module-data-exporter/magento-module-data-exporter-102.2.0.0.zip",
+                "shasum": "47310119d4e2712efa738129f76bdcdc4a47f870"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -20492,11 +20501,11 @@
         },
         {
             "name": "magento/module-parent-product-data-exporter",
-            "version": "102.0.0",
+            "version": "102.2.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-parent-product-data-exporter/magento-module-parent-product-data-exporter-102.0.0.0.zip",
-                "shasum": "50d3ebafe707f0ea1f9a31a84a251c9e09252e4d"
+                "url": "https://repo.magento.com/archives/magento/module-parent-product-data-exporter/magento-module-parent-product-data-exporter-102.2.0.0.zip",
+                "shasum": "f37bdae502fcac7678ffc8df59affcae7b05e6c3"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -21013,17 +21022,18 @@
         },
         {
             "name": "magento/module-product-override-data-exporter",
-            "version": "102.0.0",
+            "version": "102.2.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-product-override-data-exporter/magento-module-product-override-data-exporter-102.0.0.0.zip",
-                "shasum": "e7abc481b2242f2a540c90d2f8a7f8cef60d25b7"
+                "url": "https://repo.magento.com/archives/magento/module-product-override-data-exporter/magento-module-product-override-data-exporter-102.2.0.0.zip",
+                "shasum": "42b29ecf4dd5d289795fda6f134863a697bb00a2"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
                 "magento/module-catalog": ">=104.0.4",
                 "magento/module-catalog-data-exporter": "self.version",
                 "magento/module-catalog-permissions": ">=100.4.4",
+                "magento/module-catalog-staging": ">=100.4.5",
                 "magento/module-configurable-product-data-exporter": "self.version",
                 "magento/module-data-exporter": "self.version",
                 "magento/module-query-xml": "self.version",
@@ -21411,11 +21421,11 @@
         },
         {
             "name": "magento/module-query-xml",
-            "version": "102.0.0",
+            "version": "102.2.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-query-xml/magento-module-query-xml-102.0.0.0.zip",
-                "shasum": "d661b045f188eb8c3056b44a5da423b00a8466da"
+                "url": "https://repo.magento.com/archives/magento/module-query-xml/magento-module-query-xml-102.2.0.0.zip",
+                "shasum": "164dc58fafb75848ff82ba0e9b2729a3530edc5f"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -23468,11 +23478,11 @@
         },
         {
             "name": "magento/module-saas-catalog",
-            "version": "102.1.0",
+            "version": "102.2.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-saas-catalog/magento-module-saas-catalog-102.1.0.0.zip",
-                "shasum": "8b1514887524ebb2758b3f77dc7f831312ba2341"
+                "url": "https://repo.magento.com/archives/magento/module-saas-catalog/magento-module-saas-catalog-102.2.0.0.zip",
+                "shasum": "df6acf573fd9146020247ae7f999e73c22f1ff42"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -23501,11 +23511,11 @@
         },
         {
             "name": "magento/module-saas-category",
-            "version": "102.1.0",
+            "version": "102.2.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-saas-category/magento-module-saas-category-102.1.0.0.zip",
-                "shasum": "ee223953e188fad1b5e521321178cb4296e3e58b"
+                "url": "https://repo.magento.com/archives/magento/module-saas-category/magento-module-saas-category-102.2.0.0.zip",
+                "shasum": "fd87ba58af8d9bf6889051cf708cf465ca9e2f22"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -23534,11 +23544,11 @@
         },
         {
             "name": "magento/module-saas-category-permissions",
-            "version": "102.1.0",
+            "version": "102.2.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-saas-category-permissions/magento-module-saas-category-permissions-102.1.0.0.zip",
-                "shasum": "19e4a2048feb2590c52f6fe53c9d4161fd21afdf"
+                "url": "https://repo.magento.com/archives/magento/module-saas-category-permissions/magento-module-saas-category-permissions-102.2.0.0.zip",
+                "shasum": "4439dd54b6f7cdaf57f931d793e2e2dfa0efed75"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -23567,11 +23577,11 @@
         },
         {
             "name": "magento/module-saas-common",
-            "version": "102.1.0",
+            "version": "102.2.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-saas-common/magento-module-saas-common-102.1.0.0.zip",
-                "shasum": "8f08831584d64836326ec38309dfa643e674d516"
+                "url": "https://repo.magento.com/archives/magento/module-saas-common/magento-module-saas-common-102.2.0.0.zip",
+                "shasum": "15df61f2449ddb91e3365914af23cdcb161c361d"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -23603,11 +23613,11 @@
         },
         {
             "name": "magento/module-saas-product-override",
-            "version": "102.1.0",
+            "version": "102.2.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-saas-product-override/magento-module-saas-product-override-102.1.0.0.zip",
-                "shasum": "a30a3ff80cd42a2cbe7518dda05b1f58a9559720"
+                "url": "https://repo.magento.com/archives/magento/module-saas-product-override/magento-module-saas-product-override-102.2.0.0.zip",
+                "shasum": "f5e78aaf184a64c253ca7b482712f3ff6551634f"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -27131,11 +27141,11 @@
         },
         {
             "name": "magento/quality-patches",
-            "version": "1.1.29",
+            "version": "1.1.30",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/quality-patches/magento-quality-patches-1.1.29.0.zip",
-                "shasum": "f0010f0b555d2307178730c8459f244af4aa486e"
+                "url": "https://repo.magento.com/archives/magento/quality-patches/magento-quality-patches-1.1.30.0.zip",
+                "shasum": "7727335854139a8f927017393a86ec1844419b16"
             },
             "require": {
                 "ext-json": "*",
@@ -30877,20 +30887,20 @@
         },
         {
             "name": "ramsey/uuid",
-            "version": "4.7.3",
+            "version": "4.7.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ramsey/uuid.git",
-                "reference": "433b2014e3979047db08a17a205f410ba3869cf2"
+                "reference": "60a4c63ab724854332900504274f6150ff26d286"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/uuid/zipball/433b2014e3979047db08a17a205f410ba3869cf2",
-                "reference": "433b2014e3979047db08a17a205f410ba3869cf2",
+                "url": "https://api.github.com/repos/ramsey/uuid/zipball/60a4c63ab724854332900504274f6150ff26d286",
+                "reference": "60a4c63ab724854332900504274f6150ff26d286",
                 "shasum": ""
             },
             "require": {
-                "brick/math": "^0.8.8 || ^0.9 || ^0.10",
+                "brick/math": "^0.8.8 || ^0.9 || ^0.10 || ^0.11",
                 "ext-json": "*",
                 "php": "^8.0",
                 "ramsey/collection": "^1.2 || ^2.0"
@@ -30953,7 +30963,7 @@
             ],
             "support": {
                 "issues": "https://github.com/ramsey/uuid/issues",
-                "source": "https://github.com/ramsey/uuid/tree/4.7.3"
+                "source": "https://github.com/ramsey/uuid/tree/4.7.4"
             },
             "funding": [
                 {
@@ -30965,7 +30975,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-01-12T18:13:24+00:00"
+            "time": "2023-04-15T23:01:58+00:00"
         },
         {
             "name": "react/promise",
@@ -31992,16 +32002,16 @@
         },
         {
             "name": "symfony/error-handler",
-            "version": "v6.2.7",
+            "version": "v6.2.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/error-handler.git",
-                "reference": "61e90f94eb014054000bc902257d2763fac09166"
+                "reference": "e95f1273b3953c3b5e5341172dae838bacee11ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/error-handler/zipball/61e90f94eb014054000bc902257d2763fac09166",
-                "reference": "61e90f94eb014054000bc902257d2763fac09166",
+                "url": "https://api.github.com/repos/symfony/error-handler/zipball/e95f1273b3953c3b5e5341172dae838bacee11ee",
+                "reference": "e95f1273b3953c3b5e5341172dae838bacee11ee",
                 "shasum": ""
             },
             "require": {
@@ -32043,7 +32053,7 @@
             "description": "Provides tools to manage errors and ease debugging PHP code",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/error-handler/tree/v6.2.7"
+                "source": "https://github.com/symfony/error-handler/tree/v6.2.9"
             },
             "funding": [
                 {
@@ -32059,7 +32069,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-02-14T08:44:56+00:00"
+            "time": "2023-04-11T16:03:19+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -34091,16 +34101,16 @@
         },
         {
             "name": "tedivm/jshrink",
-            "version": "v1.6.5",
+            "version": "v1.6.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tedious/JShrink.git",
-                "reference": "aa786b10f012fc0e15b5147c22bdb8c765fac76a"
+                "reference": "e72133d6e220d79295346954292536b0980eef80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tedious/JShrink/zipball/aa786b10f012fc0e15b5147c22bdb8c765fac76a",
-                "reference": "aa786b10f012fc0e15b5147c22bdb8c765fac76a",
+                "url": "https://api.github.com/repos/tedious/JShrink/zipball/e72133d6e220d79295346954292536b0980eef80",
+                "reference": "e72133d6e220d79295346954292536b0980eef80",
                 "shasum": ""
             },
             "require": {
@@ -34135,7 +34145,7 @@
             ],
             "support": {
                 "issues": "https://github.com/tedious/JShrink/issues",
-                "source": "https://github.com/tedious/JShrink/tree/v1.6.5"
+                "source": "https://github.com/tedious/JShrink/tree/v1.6.6"
             },
             "funding": [
                 {
@@ -34147,7 +34157,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-03-12T15:19:34+00:00"
+            "time": "2023-04-18T22:30:38+00:00"
         },
         {
             "name": "temando/module-shipping",
@@ -34698,16 +34708,16 @@
         },
         {
             "name": "webonyx/graphql-php",
-            "version": "v15.2.4",
+            "version": "v15.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webonyx/graphql-php.git",
-                "reference": "ac27a8692622ac13e72a6fe354027cc81ef31a6e"
+                "reference": "8371e2e7f4502bfb3a0bed85315dce6a8e4a667d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/ac27a8692622ac13e72a6fe354027cc81ef31a6e",
-                "reference": "ac27a8692622ac13e72a6fe354027cc81ef31a6e",
+                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/8371e2e7f4502bfb3a0bed85315dce6a8e4a667d",
+                "reference": "8371e2e7f4502bfb3a0bed85315dce6a8e4a667d",
                 "shasum": ""
             },
             "require": {
@@ -34724,11 +34734,11 @@
                 "nyholm/psr7": "^1.5",
                 "phpbench/phpbench": "^1.2",
                 "phpstan/extension-installer": "^1.1",
-                "phpstan/phpstan": "1.10.6",
-                "phpstan/phpstan-phpunit": "1.3.10",
-                "phpstan/phpstan-strict-rules": "1.5.0",
+                "phpstan/phpstan": "1.10.13",
+                "phpstan/phpstan-phpunit": "1.3.11",
+                "phpstan/phpstan-strict-rules": "1.5.1",
                 "phpunit/phpunit": "^9.5",
-                "psr/http-message": "^1",
+                "psr/http-message": "^1 || ^2",
                 "react/http": "^1.6",
                 "react/promise": "^2.9",
                 "rector/rector": "^0.15.18",
@@ -34759,7 +34769,7 @@
             ],
             "support": {
                 "issues": "https://github.com/webonyx/graphql-php/issues",
-                "source": "https://github.com/webonyx/graphql-php/tree/v15.2.4"
+                "source": "https://github.com/webonyx/graphql-php/tree/v15.2.5"
             },
             "funding": [
                 {
@@ -34767,7 +34777,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2023-03-20T18:50:41+00:00"
+            "time": "2023-04-17T09:11:55+00:00"
         },
         {
             "name": "wikimedia/less.php",
@@ -35065,16 +35075,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.12",
+            "version": "1.10.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "7b2aaf999e522e2b10011a594cf06dc37de7fbd8"
+                "reference": "f07bf8c6980b81bf9e49d44bd0caf2e737614a70"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/7b2aaf999e522e2b10011a594cf06dc37de7fbd8",
-                "reference": "7b2aaf999e522e2b10011a594cf06dc37de7fbd8",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/f07bf8c6980b81bf9e49d44bd0caf2e737614a70",
+                "reference": "f07bf8c6980b81bf9e49d44bd0caf2e737614a70",
                 "shasum": ""
             },
             "require": {
@@ -35123,7 +35133,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-04-12T10:33:29+00:00"
+            "time": "2023-04-12T19:29:52+00:00"
         },
         {
             "name": "rector/rector",
