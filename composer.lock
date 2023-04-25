@@ -28005,7 +28005,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-admin-configurations.git",
-                "reference": "5555c177125b61f7586f7970260522b6638164b2"
+                "reference": "12a5841624837b648511f000473d0ed444247867"
             },
             "require": {
                 "magento/framework": "*"
@@ -28020,7 +28020,7 @@
                     "MagentoEse\\AdminConfigurations\\": ""
                 }
             },
-            "time": "2023-01-31T14:02:48+00:00"
+            "time": "2023-04-25T14:08:05+00:00"
         },
         {
             "name": "magentoese/module-autofill",
