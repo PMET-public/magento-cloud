@@ -290,7 +290,7 @@ return [
         'Magento_LiveSearch' => 0,
         'Magento_LiveSearchAdapter' => 0,
         'Magento_LiveSearchMetrics' => 0,
-        'Magento_LiveSearchProductListing' => 1,
+        'Magento_LiveSearchProductListing' => 0,
         'Magento_LiveSearchStorefrontPopover' => 0,
         'Magento_LiveSearchTerms' => 0,
         'Magento_Logging' => 1,
