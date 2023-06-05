@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "15aa6b9564fdb58b3469a7303763aff8",
+    "content-hash": "536075e3eb0f6127b1b71fcc3a16540e",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -180,16 +180,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.271.6",
+            "version": "3.271.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "16d4f9e5395e73d6370e7e3d9acd077a0e38adc3"
+                "reference": "d0fe1af38ef521e419004e5f990ceb8e0b2b001d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/16d4f9e5395e73d6370e7e3d9acd077a0e38adc3",
-                "reference": "16d4f9e5395e73d6370e7e3d9acd077a0e38adc3",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/d0fe1af38ef521e419004e5f990ceb8e0b2b001d",
+                "reference": "d0fe1af38ef521e419004e5f990ceb8e0b2b001d",
                 "shasum": ""
             },
             "require": {
@@ -269,9 +269,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.271.6"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.271.7"
             },
-            "time": "2023-06-01T18:23:44+00:00"
+            "time": "2023-06-02T18:21:03+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -1541,25 +1541,29 @@
         },
         {
             "name": "doctrine/deprecations",
-            "version": "v1.1.0",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/deprecations.git",
-                "reference": "8cffffb2218e01f3b370bf763e00e81697725259"
+                "reference": "612a3ee5ab0d5dd97b7cf3874a6efe24325efac3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/deprecations/zipball/8cffffb2218e01f3b370bf763e00e81697725259",
-                "reference": "8cffffb2218e01f3b370bf763e00e81697725259",
+                "url": "https://api.github.com/repos/doctrine/deprecations/zipball/612a3ee5ab0d5dd97b7cf3874a6efe24325efac3",
+                "reference": "612a3ee5ab0d5dd97b7cf3874a6efe24325efac3",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1|^8.0"
+                "php": "^7.1 || ^8.0"
             },
             "require-dev": {
                 "doctrine/coding-standard": "^9",
-                "phpunit/phpunit": "^7.5|^8.5|^9.5",
-                "psr/log": "^1|^2|^3"
+                "phpstan/phpstan": "1.4.10 || 1.10.15",
+                "phpstan/phpstan-phpunit": "^1.0",
+                "phpunit/phpunit": "^7.5 || ^8.5 || ^9.5",
+                "psalm/plugin-phpunit": "0.18.4",
+                "psr/log": "^1 || ^2 || ^3",
+                "vimeo/psalm": "4.30.0 || 5.12.0"
             },
             "suggest": {
                 "psr/log": "Allows logging deprecations via PSR-3 logger implementation"
@@ -1578,9 +1582,9 @@
             "homepage": "https://www.doctrine-project.org/",
             "support": {
                 "issues": "https://github.com/doctrine/deprecations/issues",
-                "source": "https://github.com/doctrine/deprecations/tree/v1.1.0"
+                "source": "https://github.com/doctrine/deprecations/tree/v1.1.1"
             },
-            "time": "2023-05-29T18:55:17+00:00"
+            "time": "2023-06-03T09:27:29+00:00"
         },
         {
             "name": "doctrine/lexer",
@@ -5664,59 +5668,59 @@
         },
         {
             "name": "magento/extension-b2b",
-            "version": "1.4.0-beta102",
+            "version": "1.4.0-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/extension-b2b/magento-extension-b2b-1.4.0.0-beta102.zip",
-                "shasum": "25b8618b3f55aedf2026218365575d52f2afc3e8"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/extension-b2b/magento-extension-b2b-1.4.0.0-beta106.zip",
+                "shasum": "4a5b43ec545b1b605fe2ba3bc4177bc95a8d0eaa"
             },
             "require": {
                 "magento/framework": ">=103.0.6 <=103.0.7",
-                "magento/magento2-b2b-base": "1.4.0-beta102",
-                "magento/module-b2b": "100.4.0-beta102",
-                "magento/module-bundle-negotiable-quote": "100.4.0-beta102",
-                "magento/module-bundle-requisition-list": "100.4.0-beta102",
-                "magento/module-bundle-requisition-list-graph-ql": "1.4.0-beta102",
-                "magento/module-bundle-shared-catalog": "100.4.0-beta102",
-                "magento/module-checkout-address-search-negotiable-quote": "100.4.0-beta102",
-                "magento/module-checkout-agreements-negotiable-quote": "100.4.0-beta102",
-                "magento/module-checkout-agreements-purchase-order": "1.4.0-beta102",
-                "magento/module-company": "101.2.0-beta102",
-                "magento/module-company-credit": "100.4.0-beta102",
-                "magento/module-company-credit-graph-ql": "1.4.0-beta102",
-                "magento/module-company-graph-ql": "1.4.0-beta102",
-                "magento/module-company-payment": "100.4.0-beta102",
-                "magento/module-company-shipping": "1.4.0-beta102",
-                "magento/module-configurable-negotiable-quote": "100.4.0-beta102",
-                "magento/module-configurable-requisition-list": "100.4.0-beta102",
-                "magento/module-configurable-requisition-list-graph-ql": "1.4.0-beta102",
-                "magento/module-configurable-shared-catalog": "100.4.0-beta102",
-                "magento/module-downloadable-requisition-list-graph-ql": "1.4.0-beta102",
-                "magento/module-gift-card-negotiable-quote": "100.4.0-beta102",
-                "magento/module-gift-card-requisition-list": "100.4.0-beta102",
-                "magento/module-gift-card-requisition-list-graph-ql": "1.4.0-beta102",
-                "magento/module-gift-card-shared-catalog": "100.4.0-beta102",
-                "magento/module-grouped-requisition-list": "100.4.0-beta102",
-                "magento/module-grouped-shared-catalog": "100.4.0-beta102",
-                "magento/module-negotiable-quote": "100.4.0-beta102",
-                "magento/module-negotiable-quote-async-order": "1.4.0-beta102",
-                "magento/module-negotiable-quote-graph-ql": "1.4.0-beta102",
-                "magento/module-negotiable-quote-shared-catalog": "100.4.0-beta102",
-                "magento/module-negotiable-quote-weee": "100.4.0-beta102",
-                "magento/module-order-history-search": "100.4.0-beta102",
-                "magento/module-paypal-negotiable-quote": "1.4.0-beta102",
-                "magento/module-paypal-purchase-order": "1.4.0-beta102",
-                "magento/module-purchase-order": "100.4.0-beta102",
-                "magento/module-purchase-order-graph-ql": "1.4.0-beta102",
-                "magento/module-purchase-order-rule": "100.4.0-beta102",
-                "magento/module-purchase-order-rule-graph-ql": "1.4.0-beta102",
-                "magento/module-quick-order": "100.4.0-beta102",
-                "magento/module-quick-order-graph-ql": "1.4.0-beta102",
-                "magento/module-requisition-list": "100.4.0-beta102",
-                "magento/module-requisition-list-graph-ql": "1.4.0-beta102",
-                "magento/module-shared-catalog": "100.4.0-beta102",
-                "magento/module-shared-catalog-graph-ql": "1.4.0-beta102",
-                "magento/security-package-b2b": "1.0.4-beta102"
+                "magento/magento2-b2b-base": "1.4.0-beta106",
+                "magento/module-b2b": "100.4.0-beta106",
+                "magento/module-bundle-negotiable-quote": "100.4.0-beta106",
+                "magento/module-bundle-requisition-list": "100.4.0-beta106",
+                "magento/module-bundle-requisition-list-graph-ql": "1.4.0-beta106",
+                "magento/module-bundle-shared-catalog": "100.4.0-beta106",
+                "magento/module-checkout-address-search-negotiable-quote": "100.4.0-beta106",
+                "magento/module-checkout-agreements-negotiable-quote": "100.4.0-beta106",
+                "magento/module-checkout-agreements-purchase-order": "1.4.0-beta106",
+                "magento/module-company": "101.2.0-beta106",
+                "magento/module-company-credit": "100.4.0-beta106",
+                "magento/module-company-credit-graph-ql": "1.4.0-beta106",
+                "magento/module-company-graph-ql": "1.4.0-beta106",
+                "magento/module-company-payment": "100.4.0-beta106",
+                "magento/module-company-shipping": "1.4.0-beta106",
+                "magento/module-configurable-negotiable-quote": "100.4.0-beta106",
+                "magento/module-configurable-requisition-list": "100.4.0-beta106",
+                "magento/module-configurable-requisition-list-graph-ql": "1.4.0-beta106",
+                "magento/module-configurable-shared-catalog": "100.4.0-beta106",
+                "magento/module-downloadable-requisition-list-graph-ql": "1.4.0-beta106",
+                "magento/module-gift-card-negotiable-quote": "100.4.0-beta106",
+                "magento/module-gift-card-requisition-list": "100.4.0-beta106",
+                "magento/module-gift-card-requisition-list-graph-ql": "1.4.0-beta106",
+                "magento/module-gift-card-shared-catalog": "100.4.0-beta106",
+                "magento/module-grouped-requisition-list": "100.4.0-beta106",
+                "magento/module-grouped-shared-catalog": "100.4.0-beta106",
+                "magento/module-negotiable-quote": "100.4.0-beta106",
+                "magento/module-negotiable-quote-async-order": "1.4.0-beta106",
+                "magento/module-negotiable-quote-graph-ql": "1.4.0-beta106",
+                "magento/module-negotiable-quote-shared-catalog": "100.4.0-beta106",
+                "magento/module-negotiable-quote-weee": "100.4.0-beta106",
+                "magento/module-order-history-search": "100.4.0-beta106",
+                "magento/module-paypal-negotiable-quote": "1.4.0-beta106",
+                "magento/module-paypal-purchase-order": "1.4.0-beta106",
+                "magento/module-purchase-order": "100.4.0-beta106",
+                "magento/module-purchase-order-graph-ql": "1.4.0-beta106",
+                "magento/module-purchase-order-rule": "100.4.0-beta106",
+                "magento/module-purchase-order-rule-graph-ql": "1.4.0-beta106",
+                "magento/module-quick-order": "100.4.0-beta106",
+                "magento/module-quick-order-graph-ql": "1.4.0-beta106",
+                "magento/module-requisition-list": "100.4.0-beta106",
+                "magento/module-requisition-list-graph-ql": "1.4.0-beta106",
+                "magento/module-shared-catalog": "100.4.0-beta106",
+                "magento/module-shared-catalog-graph-ql": "1.4.0-beta106",
+                "magento/security-package-b2b": "1.0.4-beta106"
             },
             "type": "metapackage",
             "license": [
@@ -6558,11 +6562,11 @@
         },
         {
             "name": "magento/magento2-b2b-base",
-            "version": "1.4.0-beta102",
+            "version": "1.4.0-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/magento2-b2b-base/magento-magento2-b2b-base-1.4.0.0-beta102.zip",
-                "shasum": "462e526f2657b9dbc20448d10282aad2eb4dddfa"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/magento2-b2b-base/magento-magento2-b2b-base-1.4.0.0-beta106.zip",
+                "shasum": "226b548568543d08e8204315316a0fc2f045a65b"
             },
             "require": {
                 "magento/magento-composer-installer": "*"
@@ -8565,11 +8569,11 @@
         },
         {
             "name": "magento/module-b2b",
-            "version": "100.4.0-beta102",
+            "version": "100.4.0-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-b2b/magento-module-b2b-100.4.0.0-beta102.zip",
-                "shasum": "f1bfc1aa6ef91620de9fb6df3acf10959998ce38"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-b2b/magento-module-b2b-100.4.0.0-beta106.zip",
+                "shasum": "acdf47731b37d8caaf06b85d545ce1e3aa308b2a"
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -9004,11 +9008,11 @@
         },
         {
             "name": "magento/module-bundle-negotiable-quote",
-            "version": "100.4.0-beta102",
+            "version": "100.4.0-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-bundle-negotiable-quote/magento-module-bundle-negotiable-quote-100.4.0.0-beta102.zip",
-                "shasum": "ed7bcf322532b3fe80ee19d296f4b35b4c442f91"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-bundle-negotiable-quote/magento-module-bundle-negotiable-quote-100.4.0.0-beta106.zip",
+                "shasum": "97366ade70f50fd2fc2cfdf041766af0a693fab8"
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -9036,8 +9040,8 @@
             "version": "102.2.3",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-bundle-product-data-exporter/magento-module-bundle-product-data-exporter-102.2.3.0.zip",
-                "shasum": "b1aca88d3ff59af12e8d04f58ed6a2903212c600"
+                "url": "https://repo.magento.com/archives/magento/module-bundle-product-data-exporter/magento-module-bundle-product-data-exporter-102.2.3.0.zip",
+                "shasum": "79ae79c15ae77f410c62d28541cb7309df1af41d"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -9066,11 +9070,11 @@
         },
         {
             "name": "magento/module-bundle-requisition-list",
-            "version": "100.4.0-beta102",
+            "version": "100.4.0-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-bundle-requisition-list/magento-module-bundle-requisition-list-100.4.0.0-beta102.zip",
-                "shasum": "0a1f7de1d3f48a9e053318cd1e90884e61d2cb25"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-bundle-requisition-list/magento-module-bundle-requisition-list-100.4.0.0-beta106.zip",
+                "shasum": "0d62b2870054d2c0ca64c6b0cee7ea3a5baa974a"
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -9098,11 +9102,11 @@
         },
         {
             "name": "magento/module-bundle-requisition-list-graph-ql",
-            "version": "1.4.0-beta102",
+            "version": "1.4.0-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-bundle-requisition-list-graph-ql/magento-module-bundle-requisition-list-graph-ql-1.4.0.0-beta102.zip",
-                "shasum": "246499f63f698f25937da6be0c8330df6ed8b1f9"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-bundle-requisition-list-graph-ql/magento-module-bundle-requisition-list-graph-ql-1.4.0.0-beta106.zip",
+                "shasum": "68f9512c7771efeb0de9e571e095354af90045b5"
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -9128,11 +9132,11 @@
         },
         {
             "name": "magento/module-bundle-shared-catalog",
-            "version": "100.4.0-beta102",
+            "version": "100.4.0-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-bundle-shared-catalog/magento-module-bundle-shared-catalog-100.4.0.0-beta102.zip",
-                "shasum": "6dad2f3384f391ef5e05d336028307f34e084db1"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-bundle-shared-catalog/magento-module-bundle-shared-catalog-100.4.0.0-beta106.zip",
+                "shasum": "c55b4c62a8391386394f3abb78727698aaab0920"
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -9438,8 +9442,8 @@
             "version": "102.2.3",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-catalog-data-exporter/magento-module-catalog-data-exporter-102.2.3.0.zip",
-                "shasum": "aaa0dd2c0184b2228dc861dce341639a6ec55eef"
+                "url": "https://repo.magento.com/archives/magento/module-catalog-data-exporter/magento-module-catalog-data-exporter-102.2.3.0.zip",
+                "shasum": "8dd9963003d89c0499bf251c458b1b3a4432fef5"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -9659,8 +9663,8 @@
             "version": "102.2.3",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-catalog-inventory-data-exporter/magento-module-catalog-inventory-data-exporter-102.2.3.0.zip",
-                "shasum": "90b13ff71290ad629f98d504b687a2e622254166"
+                "url": "https://repo.magento.com/archives/magento/module-catalog-inventory-data-exporter/magento-module-catalog-inventory-data-exporter-102.2.3.0.zip",
+                "shasum": "4105603450b0202f0e53f3dd57c710b10896ca30"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -10265,8 +10269,8 @@
             "version": "102.2.3",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-catalog-url-rewrite-data-exporter/magento-module-catalog-url-rewrite-data-exporter-102.2.3.0.zip",
-                "shasum": "8747d596752b8db04b025b5d1bda6d4dccdf8e04"
+                "url": "https://repo.magento.com/archives/magento/module-catalog-url-rewrite-data-exporter/magento-module-catalog-url-rewrite-data-exporter-102.2.3.0.zip",
+                "shasum": "80414c9b336e387b5b7d4b20bc1cee643a092e39"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -10398,8 +10402,8 @@
             "version": "102.2.3",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-category-permission-data-exporter/magento-module-category-permission-data-exporter-102.2.3.0.zip",
-                "shasum": "c0224581af235cf87f10ed0d3947b53c8ef7245b"
+                "url": "https://repo.magento.com/archives/magento/module-category-permission-data-exporter/magento-module-category-permission-data-exporter-102.2.3.0.zip",
+                "shasum": "f1bc3d6298e4dcaead17bbfa71d5f770f00daf7e"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -10543,11 +10547,11 @@
         },
         {
             "name": "magento/module-checkout-address-search-negotiable-quote",
-            "version": "100.4.0-beta102",
+            "version": "100.4.0-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-checkout-address-search-negotiable-quote/magento-module-checkout-address-search-negotiable-quote-100.4.0.0-beta102.zip",
-                "shasum": "04a3d1773c2c32202b734280228b4ec179dd1757"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-checkout-address-search-negotiable-quote/magento-module-checkout-address-search-negotiable-quote-100.4.0.0-beta106.zip",
+                "shasum": "8b720b55dbba3d19c9a2218fffe7c0cbad83d9b6"
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -10635,11 +10639,11 @@
         },
         {
             "name": "magento/module-checkout-agreements-negotiable-quote",
-            "version": "100.4.0-beta102",
+            "version": "100.4.0-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-checkout-agreements-negotiable-quote/magento-module-checkout-agreements-negotiable-quote-100.4.0.0-beta102.zip",
-                "shasum": "88f1d997d2186f4d9fb213187a2a2c2ec4449ee5"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-checkout-agreements-negotiable-quote/magento-module-checkout-agreements-negotiable-quote-100.4.0.0-beta106.zip",
+                "shasum": "2fd54588cf9753d47c039f7a2c22339cc9918337"
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -10665,11 +10669,11 @@
         },
         {
             "name": "magento/module-checkout-agreements-purchase-order",
-            "version": "1.4.0-beta102",
+            "version": "1.4.0-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-checkout-agreements-purchase-order/magento-module-checkout-agreements-purchase-order-1.4.0.0-beta102.zip",
-                "shasum": "b8e9fcf5a3cf1b6b4b753e3cfa41baf2f3ba98eb"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-checkout-agreements-purchase-order/magento-module-checkout-agreements-purchase-order-1.4.0.0-beta106.zip",
+                "shasum": "5b3a072a105d58c9c9a71df78a48920a88e09a94"
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -10954,11 +10958,11 @@
         },
         {
             "name": "magento/module-company",
-            "version": "101.2.0-beta102",
+            "version": "101.2.0-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-company/magento-module-company-101.2.0.0-beta102.zip",
-                "shasum": "f4ddd6fe02047b63e1007ed5f62eb1ae74830fbd"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-company/magento-module-company-101.2.0.0-beta106.zip",
+                "shasum": "5dab7193f8451bda1707f773c9ccf5258577ecf9"
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -11005,11 +11009,11 @@
         },
         {
             "name": "magento/module-company-credit",
-            "version": "100.4.0-beta102",
+            "version": "100.4.0-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-company-credit/magento-module-company-credit-100.4.0.0-beta102.zip",
-                "shasum": "7f7c029388b0d0944ec280f1d62c25db8a2c5678"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-company-credit/magento-module-company-credit-100.4.0.0-beta106.zip",
+                "shasum": "8a54a6fa5a9a6a5f9be33cfccdae77c4b1b2912f"
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -11054,11 +11058,11 @@
         },
         {
             "name": "magento/module-company-credit-graph-ql",
-            "version": "1.4.0-beta102",
+            "version": "1.4.0-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-company-credit-graph-ql/magento-module-company-credit-graph-ql-1.4.0.0-beta102.zip",
-                "shasum": "ad2cdc7f26b1d0e2d27fe31872ece0dde1172632"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-company-credit-graph-ql/magento-module-company-credit-graph-ql-1.4.0.0-beta106.zip",
+                "shasum": "e3e90525587581c23341d2cc1a17ead6de27c2ce"
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -11086,11 +11090,11 @@
         },
         {
             "name": "magento/module-company-graph-ql",
-            "version": "1.4.0-beta102",
+            "version": "1.4.0-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-company-graph-ql/magento-module-company-graph-ql-1.4.0.0-beta102.zip",
-                "shasum": "f52f0f66ce495e2d5589229d22b99c8f42d4f20e"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-company-graph-ql/magento-module-company-graph-ql-1.4.0.0-beta106.zip",
+                "shasum": "b84a649b6bf436fb90899a6d5719fd328063d38f"
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -11121,11 +11125,11 @@
         },
         {
             "name": "magento/module-company-payment",
-            "version": "100.4.0-beta102",
+            "version": "100.4.0-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-company-payment/magento-module-company-payment-100.4.0.0-beta102.zip",
-                "shasum": "4d0361a6b6dc7295f8cf25806ef4265c220371c9"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-company-payment/magento-module-company-payment-100.4.0.0-beta106.zip",
+                "shasum": "0c96bb8c1d5686ea356f95808c59ec61052d6028"
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -11161,11 +11165,11 @@
         },
         {
             "name": "magento/module-company-shipping",
-            "version": "1.4.0-beta102",
+            "version": "1.4.0-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-company-shipping/magento-module-company-shipping-1.4.0.0-beta102.zip",
-                "shasum": "ed56599bd35ec0be630d0d68354971393c84bbf9"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-company-shipping/magento-module-company-shipping-1.4.0.0-beta106.zip",
+                "shasum": "6800a8d565b7dd4a69bc8028ee981f318805ca8a"
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -11292,11 +11296,11 @@
         },
         {
             "name": "magento/module-configurable-negotiable-quote",
-            "version": "100.4.0-beta102",
+            "version": "100.4.0-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-configurable-negotiable-quote/magento-module-configurable-negotiable-quote-100.4.0.0-beta102.zip",
-                "shasum": "a00c0bdeace021eef9019789f9c8e5296e66dae6"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-configurable-negotiable-quote/magento-module-configurable-negotiable-quote-100.4.0.0-beta106.zip",
+                "shasum": "1fd0a253904814f1d6c9c8c48b9a8417d9178a6d"
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -11371,8 +11375,8 @@
             "version": "102.2.3",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-configurable-product-data-exporter/magento-module-configurable-product-data-exporter-102.2.3.0.zip",
-                "shasum": "fd773f902c96e5a217e59eb3dd56176582784297"
+                "url": "https://repo.magento.com/archives/magento/module-configurable-product-data-exporter/magento-module-configurable-product-data-exporter-102.2.3.0.zip",
+                "shasum": "72fe1c520aee426ad787718124133da08d018797"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -11503,11 +11507,11 @@
         },
         {
             "name": "magento/module-configurable-requisition-list",
-            "version": "100.4.0-beta102",
+            "version": "100.4.0-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-configurable-requisition-list/magento-module-configurable-requisition-list-100.4.0.0-beta102.zip",
-                "shasum": "076ccea916ef643b62c7635cd102820075b94d95"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-configurable-requisition-list/magento-module-configurable-requisition-list-100.4.0.0-beta106.zip",
+                "shasum": "543f06bfa8806cb5a079ab6b9a2513ea695c49a4"
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -11534,11 +11538,11 @@
         },
         {
             "name": "magento/module-configurable-requisition-list-graph-ql",
-            "version": "1.4.0-beta102",
+            "version": "1.4.0-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-configurable-requisition-list-graph-ql/magento-module-configurable-requisition-list-graph-ql-1.4.0.0-beta102.zip",
-                "shasum": "1f912fc70397e579613ca792e6a75e9c6e21e8f7"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-configurable-requisition-list-graph-ql/magento-module-configurable-requisition-list-graph-ql-1.4.0.0-beta106.zip",
+                "shasum": "e428ce319f50e5f5b481e37acc2f7ecc5dbcf2fa"
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -11564,11 +11568,11 @@
         },
         {
             "name": "magento/module-configurable-shared-catalog",
-            "version": "100.4.0-beta102",
+            "version": "100.4.0-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-configurable-shared-catalog/magento-module-configurable-shared-catalog-100.4.0.0-beta102.zip",
-                "shasum": "193fbc2698d6c1b7d0e636e33ad2fd48603ebd3c"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-configurable-shared-catalog/magento-module-configurable-shared-catalog-100.4.0.0-beta106.zip",
+                "shasum": "c0d43ae04bac3e5822ee62c701817f1aa2329629"
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -12156,8 +12160,8 @@
             "version": "102.2.3",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-data-exporter/magento-module-data-exporter-102.2.3.0.zip",
-                "shasum": "375f8fc69b4f1e97667ce875f402a53301c1acae"
+                "url": "https://repo.magento.com/archives/magento/module-data-exporter/magento-module-data-exporter-102.2.3.0.zip",
+                "shasum": "58179cfc94584b8e303a3b0524b8c10e973cb2c8"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -12556,11 +12560,11 @@
         },
         {
             "name": "magento/module-downloadable-requisition-list-graph-ql",
-            "version": "1.4.0-beta102",
+            "version": "1.4.0-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-downloadable-requisition-list-graph-ql/magento-module-downloadable-requisition-list-graph-ql-1.4.0.0-beta102.zip",
-                "shasum": "6e02b6eadb33e182817a658b9637c0379ef56a7f"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-downloadable-requisition-list-graph-ql/magento-module-downloadable-requisition-list-graph-ql-1.4.0.0-beta106.zip",
+                "shasum": "2bc404f6dffca184fbbff4f9c05a2792ba15f8ee"
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -13169,11 +13173,11 @@
         },
         {
             "name": "magento/module-gift-card-negotiable-quote",
-            "version": "100.4.0-beta102",
+            "version": "100.4.0-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-gift-card-negotiable-quote/magento-module-gift-card-negotiable-quote-100.4.0.0-beta102.zip",
-                "shasum": "5045181e72c539ed22565818f4732b4276a900b3"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-gift-card-negotiable-quote/magento-module-gift-card-negotiable-quote-100.4.0.0-beta106.zip",
+                "shasum": "dab4009933cc339d3822bda0e3628607e0b27005"
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -13199,11 +13203,11 @@
         },
         {
             "name": "magento/module-gift-card-requisition-list",
-            "version": "100.4.0-beta102",
+            "version": "100.4.0-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-gift-card-requisition-list/magento-module-gift-card-requisition-list-100.4.0.0-beta102.zip",
-                "shasum": "e20b83b3dde8ce1598ef65d955d97690d9c2a33f"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-gift-card-requisition-list/magento-module-gift-card-requisition-list-100.4.0.0-beta106.zip",
+                "shasum": "5e6bf6876832f533c4e9ff7dc3b0cb7997cfcdd3"
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -13231,11 +13235,11 @@
         },
         {
             "name": "magento/module-gift-card-requisition-list-graph-ql",
-            "version": "1.4.0-beta102",
+            "version": "1.4.0-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-gift-card-requisition-list-graph-ql/magento-module-gift-card-requisition-list-graph-ql-1.4.0.0-beta102.zip",
-                "shasum": "bac342039609ba6d671695def1cefeb4d9796c39"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-gift-card-requisition-list-graph-ql/magento-module-gift-card-requisition-list-graph-ql-1.4.0.0-beta106.zip",
+                "shasum": "9f19d9f63d06d424f711ca825e8ba7b088338b4e"
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -13262,11 +13266,11 @@
         },
         {
             "name": "magento/module-gift-card-shared-catalog",
-            "version": "100.4.0-beta102",
+            "version": "100.4.0-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-gift-card-shared-catalog/magento-module-gift-card-shared-catalog-100.4.0.0-beta102.zip",
-                "shasum": "9483f754d175a609df10609bd2d30f5ac88d6667"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-gift-card-shared-catalog/magento-module-gift-card-shared-catalog-100.4.0.0-beta106.zip",
+                "shasum": "74c538e646450a3191fc203e67cf1719093d6811"
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -14077,11 +14081,11 @@
         },
         {
             "name": "magento/module-grouped-requisition-list",
-            "version": "100.4.0-beta102",
+            "version": "100.4.0-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-grouped-requisition-list/magento-module-grouped-requisition-list-100.4.0.0-beta102.zip",
-                "shasum": "36a5357dd48fb8b6f137f85d3f46112992d7e25c"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-grouped-requisition-list/magento-module-grouped-requisition-list-100.4.0.0-beta106.zip",
+                "shasum": "e54577c7619e93335de13d651072672508663f6e"
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -14106,11 +14110,11 @@
         },
         {
             "name": "magento/module-grouped-shared-catalog",
-            "version": "100.4.0-beta102",
+            "version": "100.4.0-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-grouped-shared-catalog/magento-module-grouped-shared-catalog-100.4.0.0-beta102.zip",
-                "shasum": "b335fa4d5bad44fd6660c63a8e005d0739881165"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-grouped-shared-catalog/magento-module-grouped-shared-catalog-100.4.0.0-beta106.zip",
+                "shasum": "0c514214b3d4195c37456cd7a386ce8eb9879710"
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -18588,11 +18592,11 @@
         },
         {
             "name": "magento/module-negotiable-quote",
-            "version": "100.4.0-beta102",
+            "version": "100.4.0-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-negotiable-quote/magento-module-negotiable-quote-100.4.0.0-beta102.zip",
-                "shasum": "018835c0145e7638a67ff81b2ed938e1035af68f"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-negotiable-quote/magento-module-negotiable-quote-100.4.0.0-beta106.zip",
+                "shasum": "d2f70b4134d3003c4a833a103192530290297a85"
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -18649,11 +18653,11 @@
         },
         {
             "name": "magento/module-negotiable-quote-async-order",
-            "version": "1.4.0-beta102",
+            "version": "1.4.0-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-negotiable-quote-async-order/magento-module-negotiable-quote-async-order-1.4.0.0-beta102.zip",
-                "shasum": "3e89736d19ea823309ff3f92b96418d443221cce"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-negotiable-quote-async-order/magento-module-negotiable-quote-async-order-1.4.0.0-beta106.zip",
+                "shasum": "8dad753692d9754af86533b6e3aec988f5f95c09"
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -18682,11 +18686,11 @@
         },
         {
             "name": "magento/module-negotiable-quote-graph-ql",
-            "version": "1.4.0-beta102",
+            "version": "1.4.0-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-negotiable-quote-graph-ql/magento-module-negotiable-quote-graph-ql-1.4.0.0-beta102.zip",
-                "shasum": "80df606c752c27698f02a512a292c5eb3d003898"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-negotiable-quote-graph-ql/magento-module-negotiable-quote-graph-ql-1.4.0.0-beta106.zip",
+                "shasum": "7b6f980ca1889a7129f66cad3ef90cdc06b60304"
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -18726,11 +18730,11 @@
         },
         {
             "name": "magento/module-negotiable-quote-shared-catalog",
-            "version": "100.4.0-beta102",
+            "version": "100.4.0-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-negotiable-quote-shared-catalog/magento-module-negotiable-quote-shared-catalog-100.4.0.0-beta102.zip",
-                "shasum": "935e31e29ec6f46c93991c9837cb2350ccab3858"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-negotiable-quote-shared-catalog/magento-module-negotiable-quote-shared-catalog-100.4.0.0-beta106.zip",
+                "shasum": "43fc627a9a3eb891f19f9c4010d403b4ce62bdea"
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -18762,11 +18766,11 @@
         },
         {
             "name": "magento/module-negotiable-quote-weee",
-            "version": "100.4.0-beta102",
+            "version": "100.4.0-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-negotiable-quote-weee/magento-module-negotiable-quote-weee-100.4.0.0-beta102.zip",
-                "shasum": "009ee9a16e29d946ea2c12e48c886fcab49d3484"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-negotiable-quote-weee/magento-module-negotiable-quote-weee-100.4.0.0-beta106.zip",
+                "shasum": "a9b8a3dfc1a05d1f7c72aa15077519f42864b0cb"
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -19003,11 +19007,11 @@
         },
         {
             "name": "magento/module-order-history-search",
-            "version": "100.4.0-beta102",
+            "version": "100.4.0-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-order-history-search/magento-module-order-history-search-100.4.0.0-beta102.zip",
-                "shasum": "c5c9d873574da84651eb9a0488e7bdd9bd0bd5d2"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-order-history-search/magento-module-order-history-search-100.4.0.0-beta106.zip",
+                "shasum": "225f6e677dee4b928de0a9396097174fdd1ae860"
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -19240,8 +19244,8 @@
             "version": "102.2.3",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-parent-product-data-exporter/magento-module-parent-product-data-exporter-102.2.3.0.zip",
-                "shasum": "b1c033a36be24045b79ddb68528bc6642fb37d01"
+                "url": "https://repo.magento.com/archives/magento/module-parent-product-data-exporter/magento-module-parent-product-data-exporter-102.2.3.0.zip",
+                "shasum": "d4cd67412d165ceb289bd7e1da5013e318b18b08"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -19487,11 +19491,11 @@
         },
         {
             "name": "magento/module-paypal-negotiable-quote",
-            "version": "1.4.0-beta102",
+            "version": "1.4.0-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-paypal-negotiable-quote/magento-module-paypal-negotiable-quote-1.4.0.0-beta102.zip",
-                "shasum": "8f5cc4d6e8b8b241ceb57637d7d32918cd284a12"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-paypal-negotiable-quote/magento-module-paypal-negotiable-quote-1.4.0.0-beta106.zip",
+                "shasum": "9da1489bf9946b63a93b3703076d25689ae0429f"
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -19551,11 +19555,11 @@
         },
         {
             "name": "magento/module-paypal-purchase-order",
-            "version": "1.4.0-beta102",
+            "version": "1.4.0-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-paypal-purchase-order/magento-module-paypal-purchase-order-1.4.0.0-beta102.zip",
-                "shasum": "7f43f98fbc8646b27969ed63ddca221ec2f56f3d"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-paypal-purchase-order/magento-module-paypal-purchase-order-1.4.0.0-beta106.zip",
+                "shasum": "a8c8f84a89c1705d016f7bf3f9768c90578eb92a"
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -19733,8 +19737,8 @@
             "version": "102.2.3",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-product-override-data-exporter/magento-module-product-override-data-exporter-102.2.3.0.zip",
-                "shasum": "45ec03949a123f7b53e83d6fbfea0f412538125e"
+                "url": "https://repo.magento.com/archives/magento/module-product-override-data-exporter/magento-module-product-override-data-exporter-102.2.3.0.zip",
+                "shasum": "bd13a1fefb8d2d65d7c2755c9e6277a2e07bfde1"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -19969,11 +19973,11 @@
         },
         {
             "name": "magento/module-purchase-order",
-            "version": "100.4.0-beta102",
+            "version": "100.4.0-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-purchase-order/magento-module-purchase-order-100.4.0.0-beta102.zip",
-                "shasum": "d598386b41788e75540d23a16cfcaddc3fbacda4"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-purchase-order/magento-module-purchase-order-100.4.0.0-beta106.zip",
+                "shasum": "7452d2b816f954cba0f933e7953c54d770215e68"
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -20018,11 +20022,11 @@
         },
         {
             "name": "magento/module-purchase-order-graph-ql",
-            "version": "1.4.0-beta102",
+            "version": "1.4.0-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-purchase-order-graph-ql/magento-module-purchase-order-graph-ql-1.4.0.0-beta102.zip",
-                "shasum": "0decee32cddd503972fd7a44269c212673956fdf"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-purchase-order-graph-ql/magento-module-purchase-order-graph-ql-1.4.0.0-beta106.zip",
+                "shasum": "5721837f211f2351598b3f8024aa02009f281b41"
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -20056,11 +20060,11 @@
         },
         {
             "name": "magento/module-purchase-order-rule",
-            "version": "100.4.0-beta102",
+            "version": "100.4.0-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-purchase-order-rule/magento-module-purchase-order-rule-100.4.0.0-beta102.zip",
-                "shasum": "3dc3ad160543b2514bbbf78f9b2bf776007ef15e"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-purchase-order-rule/magento-module-purchase-order-rule-100.4.0.0-beta106.zip",
+                "shasum": "939c0b01f42d76649cac0af950c906808b649342"
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -20095,11 +20099,11 @@
         },
         {
             "name": "magento/module-purchase-order-rule-graph-ql",
-            "version": "1.4.0-beta102",
+            "version": "1.4.0-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-purchase-order-rule-graph-ql/magento-module-purchase-order-rule-graph-ql-1.4.0.0-beta102.zip",
-                "shasum": "08043e8de0ee9ada73a3bf8d2c391b5cc237d5ab"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-purchase-order-rule-graph-ql/magento-module-purchase-order-rule-graph-ql-1.4.0.0-beta106.zip",
+                "shasum": "c3e664ed754324bc67ad49ee9e5725ff6016e212"
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -20132,8 +20136,8 @@
             "version": "102.2.3",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-query-xml/magento-module-query-xml-102.2.3.0.zip",
-                "shasum": "3e6c60344cdb48357d9a53786e801f877797ea33"
+                "url": "https://repo.magento.com/archives/magento/module-query-xml/magento-module-query-xml-102.2.3.0.zip",
+                "shasum": "600b456e61b014e299c3be729643969b7cdb5ca0"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -20160,8 +20164,8 @@
             "version": "1.9.0",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-quick-checkout/magento-module-quick-checkout-1.9.0.0.zip",
-                "shasum": "8dbb271a5d951b7810ed5fb760f92a086198d814"
+                "url": "https://repo.magento.com/archives/magento/module-quick-checkout/magento-module-quick-checkout-1.9.0.0.zip",
+                "shasum": "16a09a92195ee40d5bb7e4c65ac1964d7f0f33a8"
             },
             "require": {
                 "firebase/php-jwt": "^6.0",
@@ -20201,8 +20205,8 @@
             "version": "1.9.0",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-quick-checkout-admin-panel/magento-module-quick-checkout-admin-panel-1.9.0.0.zip",
-                "shasum": "1cb7962ad35010b1e7a1d1ad24dcb3728ba67d73"
+                "url": "https://repo.magento.com/archives/magento/module-quick-checkout-admin-panel/magento-module-quick-checkout-admin-panel-1.9.0.0.zip",
+                "shasum": "c0b346fb9364613f7dfabd3bccf243de5ac80c62"
             },
             "require": {
                 "ext-json": "*",
@@ -20233,11 +20237,11 @@
         },
         {
             "name": "magento/module-quick-order",
-            "version": "100.4.0-beta102",
+            "version": "100.4.0-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-quick-order/magento-module-quick-order-100.4.0.0-beta102.zip",
-                "shasum": "96bad55ee1eb57120cd92168f973a2c11ad8e732"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-quick-order/magento-module-quick-order-100.4.0.0-beta106.zip",
+                "shasum": "1e1d15783e6fdef591ae35f2cdf7fd239e7f451d"
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -20271,11 +20275,11 @@
         },
         {
             "name": "magento/module-quick-order-graph-ql",
-            "version": "1.4.0-beta102",
+            "version": "1.4.0-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-quick-order-graph-ql/magento-module-quick-order-graph-ql-1.4.0.0-beta102.zip",
-                "shasum": "67895a4e4e03e72f16c68ec2d6758c96b0c07df4"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-quick-order-graph-ql/magento-module-quick-order-graph-ql-1.4.0.0-beta106.zip",
+                "shasum": "9282af2512b513fee9eb7378de0569d1b8cc4ab7"
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -20652,11 +20656,11 @@
         },
         {
             "name": "magento/module-re-captcha-company",
-            "version": "1.0.3-beta102",
+            "version": "1.0.3-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-re-captcha-company/magento-module-re-captcha-company-1.0.3.0-beta102.zip",
-                "shasum": "d76c2c222efc92baee03f86fd1bbb7b7281338c5"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-re-captcha-company/magento-module-re-captcha-company-1.0.3.0-beta106.zip",
+                "shasum": "5209afcb6d794ebcc031d1d816b20ed52a22bf2b"
             },
             "require": {
                 "magento/framework": "*",
@@ -21618,11 +21622,11 @@
         },
         {
             "name": "magento/module-requisition-list",
-            "version": "100.4.0-beta102",
+            "version": "100.4.0-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-requisition-list/magento-module-requisition-list-100.4.0.0-beta102.zip",
-                "shasum": "6c3e9f40c321d749baa23be4e5fe306fae4cc25d"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-requisition-list/magento-module-requisition-list-100.4.0.0-beta106.zip",
+                "shasum": "3494cfb50e50f6b3c1bf49a239035efa3e2cad6b"
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -21662,11 +21666,11 @@
         },
         {
             "name": "magento/module-requisition-list-graph-ql",
-            "version": "1.4.0-beta102",
+            "version": "1.4.0-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-requisition-list-graph-ql/magento-module-requisition-list-graph-ql-1.4.0.0-beta102.zip",
-                "shasum": "c4b4f5302f0154d1e4643d74b71af8bce0d6d472"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-requisition-list-graph-ql/magento-module-requisition-list-graph-ql-1.4.0.0-beta106.zip",
+                "shasum": "aa748d1e5b2865d8dfee8aa756e6649c710e596c"
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -22185,8 +22189,8 @@
             "version": "102.2.3",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-saas-catalog/magento-module-saas-catalog-102.2.3.0.zip",
-                "shasum": "ea20ebe13d4e9b2dbf7d0c23f4de518d64d5863e"
+                "url": "https://repo.magento.com/archives/magento/module-saas-catalog/magento-module-saas-catalog-102.2.3.0.zip",
+                "shasum": "269186906c9cbf0262c36bd421ef1f44a78fd5d1"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -22218,8 +22222,8 @@
             "version": "102.2.3",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-saas-category/magento-module-saas-category-102.2.3.0.zip",
-                "shasum": "e988e091850d1fc5781f1450746a3b4460fc5dfe"
+                "url": "https://repo.magento.com/archives/magento/module-saas-category/magento-module-saas-category-102.2.3.0.zip",
+                "shasum": "38ed7c4fee870e7ffb91f6a8b15eab692a770703"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -22251,8 +22255,8 @@
             "version": "102.2.3",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-saas-category-permissions/magento-module-saas-category-permissions-102.2.3.0.zip",
-                "shasum": "0888e8bdc9d34506341a902848d1475829062a45"
+                "url": "https://repo.magento.com/archives/magento/module-saas-category-permissions/magento-module-saas-category-permissions-102.2.3.0.zip",
+                "shasum": "f1f43dd5bdbabbf856136daa5e0f0aa862bf55f6"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -22284,8 +22288,8 @@
             "version": "102.2.3",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-saas-common/magento-module-saas-common-102.2.3.0.zip",
-                "shasum": "7e647cb3d272e273978a62da4723e72f33246d30"
+                "url": "https://repo.magento.com/archives/magento/module-saas-common/magento-module-saas-common-102.2.3.0.zip",
+                "shasum": "4fff2bbc4af57c04432b13ea656ff010340232b4"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -22320,8 +22324,8 @@
             "version": "102.2.3",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-saas-product-override/magento-module-saas-product-override-102.2.3.0.zip",
-                "shasum": "59b4613202809f5133cb6a499767e8fca490c1cf"
+                "url": "https://repo.magento.com/archives/magento/module-saas-product-override/magento-module-saas-product-override-102.2.3.0.zip",
+                "shasum": "2260edb539564c515bacfa9df147f82addd7763c"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -23087,11 +23091,11 @@
         },
         {
             "name": "magento/module-shared-catalog",
-            "version": "100.4.0-beta102",
+            "version": "100.4.0-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-shared-catalog/magento-module-shared-catalog-100.4.0.0-beta102.zip",
-                "shasum": "6181b5b925502d1b011d482b485671836fa76bc7"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-shared-catalog/magento-module-shared-catalog-100.4.0.0-beta106.zip",
+                "shasum": "e82e5b451d25514c6d8e7044c352ccf22194bfaf"
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -23138,11 +23142,11 @@
         },
         {
             "name": "magento/module-shared-catalog-graph-ql",
-            "version": "1.4.0-beta102",
+            "version": "1.4.0-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-shared-catalog-graph-ql/magento-module-shared-catalog-graph-ql-1.4.0.0-beta102.zip",
-                "shasum": "debd134d54ac0c575cd78a13b2c085b6f8c6ea1b"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/module-shared-catalog-graph-ql/magento-module-shared-catalog-graph-ql-1.4.0.0-beta106.zip",
+                "shasum": "92db370be54eccc445853dc0bcb13a0cd16b8343"
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -25641,8 +25645,8 @@
             "version": "1.9.0",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/quick-checkout/magento-quick-checkout-1.9.0.0.zip",
-                "shasum": "a7161824b7772fa1a33c96a63185a026649b3b1f"
+                "url": "https://repo.magento.com/archives/magento/quick-checkout/magento-quick-checkout-1.9.0.0.zip",
+                "shasum": "a876b497ec4db005897059726f3f720b65044ee4"
             },
             "require": {
                 "magento/module-quick-checkout": "self.version",
@@ -25692,14 +25696,14 @@
         },
         {
             "name": "magento/security-package-b2b",
-            "version": "1.0.4-beta102",
+            "version": "1.0.4-beta106",
             "dist": {
                 "type": "zip",
-                "url": "https://connect20-qa01.magedevteam.com/archives/magento/security-package-b2b/magento-security-package-b2b-1.0.4.0-beta102.zip",
-                "shasum": "84b88c6f80330ac557a3ac436247b008e5558439"
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/security-package-b2b/magento-security-package-b2b-1.0.4.0-beta106.zip",
+                "shasum": "8a0ef1386276524109cc40bda6b755fe34c979e0"
             },
             "require": {
-                "magento/module-re-captcha-company": "1.0.3-beta102"
+                "magento/module-re-captcha-company": "1.0.3-beta106"
             },
             "type": "metapackage",
             "description": "Magento B2B Security Package"
@@ -32400,16 +32404,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.15",
+            "version": "1.10.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "762c4dac4da6f8756eebb80e528c3a47855da9bd"
+                "reference": "352bdbb960bb523e3d71b834862589f910921c23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/762c4dac4da6f8756eebb80e528c3a47855da9bd",
-                "reference": "762c4dac4da6f8756eebb80e528c3a47855da9bd",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/352bdbb960bb523e3d71b834862589f910921c23",
+                "reference": "352bdbb960bb523e3d71b834862589f910921c23",
                 "shasum": ""
             },
             "require": {
@@ -32458,7 +32462,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-05-09T15:28:01+00:00"
+            "time": "2023-06-05T08:21:46+00:00"
         },
         {
             "name": "rector/rector",
