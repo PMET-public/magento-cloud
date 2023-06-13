@@ -3,16 +3,16 @@
 # Each service listed will be deployed to power your project.
 
 mysql:
-    type: mysql:10.4
-    disk: 4096 
+    type: mysql:10.6
+    disk: 4096
 
 redis:
-    type: redis:6.2
+    type: redis:7.0
 
 opensearch:
-    type: opensearch:1.2
+    type: opensearch:2
     disk: 1024
 
 rabbitmq:
-    type: rabbitmq:3.8
+    type: rabbitmq:3.9
     disk: 1024
