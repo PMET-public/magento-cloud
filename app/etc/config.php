@@ -389,6 +389,7 @@ return [
         'Magento_QuickCheckout' => 1,
         'Magento_QuickCheckoutAdminPanel' => 1,
         'Magento_QuickOrder' => 1,
+        'Magento_QuickOrderGraphQl' => 1,
         'Magento_BannerPageBuilderAnalytics' => 1,
         'Magento_QuoteAnalytics' => 1,
         'Magento_QuoteBundleOptions' => 1,
