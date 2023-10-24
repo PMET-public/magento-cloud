@@ -412,20 +412,20 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.283.10",
+            "version": "3.283.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "ae611a2d1d32bb2d14c1653e3d2c309cfed42883"
+                "reference": "348b68edcc83062c329cf7540c4c92d061d27d9c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/ae611a2d1d32bb2d14c1653e3d2c309cfed42883",
-                "reference": "ae611a2d1d32bb2d14c1653e3d2c309cfed42883",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/348b68edcc83062c329cf7540c4c92d061d27d9c",
+                "reference": "348b68edcc83062c329cf7540c4c92d061d27d9c",
                 "shasum": ""
             },
             "require": {
-                "aws/aws-crt-php": "^1.0.4",
+                "aws/aws-crt-php": "^1.2.3",
                 "ext-json": "*",
                 "ext-pcre": "*",
                 "ext-simplexml": "*",
@@ -501,9 +501,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.283.10"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.283.11"
             },
-            "time": "2023-10-23T18:08:46+00:00"
+            "time": "2023-10-24T18:10:38+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -27445,7 +27445,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-data-install.git",
-                "reference": "de88f32b468299cab47a9d067a9eb8d5fc08bfd7"
+                "reference": "e31e7ec67a9f61b0c974838f2edac74efebd56d6"
             },
             "require": {
                 "magento/extension-b2b": "*"
@@ -27459,7 +27459,7 @@
                     "MagentoEse\\DataInstall\\": ""
                 }
             },
-            "time": "2023-10-24T13:22:04+00:00"
+            "time": "2023-10-24T19:14:30+00:00"
         },
         {
             "name": "magentoese/module-data-install-graph-ql",
@@ -27467,7 +27467,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-data-install-graphql.git",
-                "reference": "b8b8af44881d05833086ddc245c3c6f9bc9dedc0"
+                "reference": "1df5a441f30537a960d2722e9ab11a6e8a058e1c"
             },
             "require": {
                 "magentoese/module-data-install": "*"
@@ -27482,7 +27482,7 @@
                 ]
             },
             "description": "GraphQL support for the Data Installer",
-            "time": "2023-10-24T13:24:14+00:00"
+            "time": "2023-10-24T19:20:01+00:00"
         },
         {
             "name": "magentoese/module-instorepickup",
