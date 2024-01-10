@@ -85,7 +85,7 @@
         "magentoese/magento-scripts": "2.3.0.x-dev",
         "magentoese/magento2-gmailsmtpapp": "dev-master",
         "magentoese/module-autofill": "dev-master",
-        "magentoese/module-data-install": "dev-develop",
+        "magentoese/module-data-install": "dev-test",
         "magentoese/module-data-install-graph-ql": "dev-develop",
         "magentoese/module-instorepickup": "dev-master",
         "magentoese/module-keep-on-wishlist": "dev-master",
