@@ -412,16 +412,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.295.10",
+            "version": "3.296.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "4d8b4f47639275248e212bd61b6bc51f9dd709f2"
+                "reference": "38e47bbd3b5f76f008dd71c8a68545f9e4e47b6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/4d8b4f47639275248e212bd61b6bc51f9dd709f2",
-                "reference": "4d8b4f47639275248e212bd61b6bc51f9dd709f2",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/38e47bbd3b5f76f008dd71c8a68545f9e4e47b6b",
+                "reference": "38e47bbd3b5f76f008dd71c8a68545f9e4e47b6b",
                 "shasum": ""
             },
             "require": {
@@ -501,9 +501,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.295.10"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.296.1"
             },
-            "time": "2024-01-11T19:04:31+00:00"
+            "time": "2024-01-14T05:20:33+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -1157,16 +1157,16 @@
         },
         {
             "name": "community-engineering/language-es_es",
-            "version": "0.0.65",
+            "version": "0.0.79",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento-l10n/language-es_ES.git",
-                "reference": "deddb60dc39c909681a6bcbf9e7e1f40c70d3f15"
+                "reference": "b8ebbb513b2a11cae5234b4cf0f7cc05dc837cef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento-l10n/language-es_ES/zipball/deddb60dc39c909681a6bcbf9e7e1f40c70d3f15",
-                "reference": "deddb60dc39c909681a6bcbf9e7e1f40c70d3f15",
+                "url": "https://api.github.com/repos/magento-l10n/language-es_ES/zipball/b8ebbb513b2a11cae5234b4cf0f7cc05dc837cef",
+                "reference": "b8ebbb513b2a11cae5234b4cf0f7cc05dc837cef",
                 "shasum": ""
             },
             "require": {
@@ -1186,9 +1186,9 @@
             "description": "es_ES language package.",
             "support": {
                 "issues": "https://github.com/magento-l10n/language-es_ES/issues",
-                "source": "https://github.com/magento-l10n/language-es_ES/tree/v0.0.65"
+                "source": "https://github.com/magento-l10n/language-es_ES/tree/v0.0.79"
             },
-            "time": "2024-01-12T12:55:48+00:00"
+            "time": "2024-01-15T14:02:33+00:00"
         },
         {
             "name": "community-engineering/language-es_mx",
@@ -27547,7 +27547,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-data-install.git",
-                "reference": "cace39f02767a37d679ad38f805e6f7fa7f16775"
+                "reference": "81b74e0bcf892609e6f61fa19727fd1f80d3a81d"
             },
             "require": {
                 "magento/extension-b2b": "*"
@@ -27561,7 +27561,7 @@
                     "MagentoEse\\DataInstall\\": ""
                 }
             },
-            "time": "2024-01-12T14:48:34+00:00"
+            "time": "2024-01-16T15:38:17+00:00"
         },
         {
             "name": "magentoese/module-data-install-graph-ql",
@@ -33984,16 +33984,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.55",
+            "version": "1.10.56",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "9a88f9d18ddf4cf54c922fbeac16c4cb164c5949"
+                "reference": "27816a01aea996191ee14d010f325434c0ee76fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/9a88f9d18ddf4cf54c922fbeac16c4cb164c5949",
-                "reference": "9a88f9d18ddf4cf54c922fbeac16c4cb164c5949",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/27816a01aea996191ee14d010f325434c0ee76fa",
+                "reference": "27816a01aea996191ee14d010f325434c0ee76fa",
                 "shasum": ""
             },
             "require": {
@@ -34042,7 +34042,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-01-08T12:32:40+00:00"
+            "time": "2024-01-15T10:43:00+00:00"
         },
         {
             "name": "rector/rector",
