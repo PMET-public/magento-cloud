@@ -1,0 +1,21 @@
+{
+    "patches": {
+        "magento/module-message-queue": {
+            "Run consumers staggered": "m2-hotfixes/pmet-consumers-run-staggered-by-sleep.patch"
+        },
+        "magento/module-catalog": {
+            "Disable layout validation":  "m2-hotfixes/pmet-disable-layout-validation.patch"
+        },
+        "magento/theme-adminhtml-backend": {
+            "Admin Word Breaking Patch":  "m2-hotfixes/pmet-fix-admin-label-word-breaking.patch"
+        },
+        "magento/framework": {
+            "Fix for product image upload":  "m2-hotfixes/pmet-fix-module-loader-algorithm.patch",
+            "Stop catching sample errors":  "m2-hotfixes/pmet-stop-catching-sample-data-errrors-during-install.patch"
+        },
+        "magento/module-staging": {
+            "Staging Preview Fix":  "m2-hotfixes/pmet-staging-preview-js-fix.patch"
+        }
+
+    }
+}
