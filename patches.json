@@ -25,6 +25,10 @@
         "magento/module-sales-sample-data": {
             "Specify store id for order":  "m2-hotfixes/pmet-specify-store-id-for-order.patch"
         }
+        ,
+        "magento/module-downloadable-sample-data": {
+            "Fix path on downloadable sample data":  "m2-hotfixes/pmet-fix-downloadable-sample-import.patch"
+        }
 
     }
 }

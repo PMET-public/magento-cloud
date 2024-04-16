@@ -1,0 +1,20 @@
+--- a/vendor/magento/module-downloadable-sample-data/Model/Product/Converter.php
++++ b/vendor/magento/module-downloadable-sample-data/Model/Product/Converter.php
+@@ -128,7 +128,7 @@
+             $linkData[$csvRow] = isset($linkData[$csvRow]) ? $linkData[$csvRow] : '';
+         }
+         $directory = $this->getFilesystem()->getDirectoryRead(DirectoryList::MEDIA);
+-        $linkPath = $directory->getAbsolutePath('downloadable/files/links' . $linkData['link_item_file']);
++        $linkPath = $directory->getAbsolutePath('downloadable/downloadable/files/links' . $linkData['link_item_file']);
+         $data = base64_encode(file_get_contents($linkPath));
+         $content = $this->getFileContent()->setFileData($data)
+             ->setName('luma_background_-_model_against_fence_4_sec_.mp4');
+@@ -156,7 +156,7 @@
+     {
+         $directory = $this->getFilesystem()->getDirectoryRead(DirectoryList::MEDIA);
+         $linkPath = $directory->getAbsolutePath(
+-            'downloadable/files/samples/l/u/luma_background_-_model_against_fence_4_sec_.mp4'
++            'downloadable/downloadable/files/samples/l/u/luma_background_-_model_against_fence_4_sec_.mp4'
+         );
+         $data = base64_encode(file_get_contents($linkPath));
+         $content = $this->getFileContent()->setFileData($data)
