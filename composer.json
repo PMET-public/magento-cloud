@@ -19,17 +19,50 @@
     "version": "2.4.7",
     "require": {
         "cweagans/composer-patches": "~1.0",
-        "magento/product-enterprise-edition": "2.4.7 <= 2.4.8",
-        "magento/composer-root-update-plugin": "^2.0.4",
         "magento/composer-dependency-version-audit-plugin": "~0.1",
+        "magento/composer-root-update-plugin": "^2.0.4",
         "magento/extension-b2b": "^1.4",
         "magento/live-search": "^4.0",
+        "magento/module-bundle-sample-data": "100.4.*",
+        "magento/module-catalog-rule-sample-data": "100.4.*",
+        "magento/module-catalog-sample-data": "100.4.*",
+        "magento/module-cms-sample-data": "100.4.*",
+        "magento/module-configurable-sample-data": "100.4.*",
+        "magento/module-customer-balance-sample-data": "100.4.*",
+        "magento/module-customer-sample-data": "100.4.*",
+        "magento/module-downloadable-sample-data": "100.4.*",
+        "magento/module-gift-card-sample-data": "100.4.*",
+        "magento/module-gift-registry-sample-data": "100.4.*",
+        "magento/module-grouped-product-sample-data": "100.4.*",
+        "magento/module-msrp-sample-data": "100.4.*",
+        "magento/module-multiple-wishlist-sample-data": "100.4.*",
+        "magento/module-offline-shipping-sample-data": "100.4.*",
         "magento/module-page-builder-product-recommendations": "^2.0",
+        "magento/module-product-links-sample-data": "100.4.*",
+        "magento/module-review-sample-data": "100.4.*",
+        "magento/module-sales-rule-sample-data": "100.4.*",
+        "magento/module-sales-sample-data": "100.4.*",
+        "magento/module-swatches-sample-data": "100.4.*",
+        "magento/module-target-rule-sample-data": "100.4.*",
+        "magento/module-tax-sample-data": "100.4.*",
+        "magento/module-theme-sample-data": "100.4.*",
         "magento/module-visual-product-recommendations": "^2.0",
+        "magento/module-widget-sample-data": "100.4.*",
+        "magento/module-wishlist-sample-data": "100.4.*",
+        "magento/product-enterprise-edition": "2.4.7 <= 2.4.8",
         "magento/product-recommendations": "^6.0",
+        "magento/sample-data-media": "100.4.*",
+        "magentoese/module-admin-configurations": "dev-master",
         "magentoese/module-data-install": "dev-master",
         "magentoese/module-data-install-graph-ql": "dev-master",
-        "magentoese/module-saas-data-management": "dev-master"
+        "magentoese/module-demo-upgrades-240": "dev-master",
+        "magentoese/module-saas-data-management": "dev-master",
+        "magentoese/theme-frontend-carvelo-autoparts": "dev-main",
+        "magentoese/theme-frontend-custom": "dev-master",
+        "magentoese/theme-frontend-gxd-healthbeauty": "dev-main",
+        "magentoese/vertical-data-auto": "dev-master",
+        "magentoese/vertical-data-grocery": "dev-master",
+        "magentoese/vertical-data-healthbeauty": "dev-master"
     },
     "autoload": {
         "exclude-from-classmap": [
@@ -83,9 +116,17 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "repositories": [
+        {"type": "git", "url": "git@github.com:PMET-public/module-admin-configurations.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-data-install.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-data-install-graphql.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-demo-upgrades-240.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-saas-data-management.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-storystore-auto.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/module-storystore-grocery.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/theme-frontend-carvelo-autoparts.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/theme-frontend-custom.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/theme-frontend-healthbeauty.git"},
+        {"type": "git", "url": "git@github.com:PMET-public/vertical-data-healthbeauty.git"},
         {
             "type": "composer",
             "url": "https://repo.magento.com/"
@@ -97,4 +138,3 @@
         "patches-file": "patches.json"
     }
 }
-

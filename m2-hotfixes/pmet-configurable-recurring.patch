@@ -1,0 +1,16 @@
+diff --git a/vendor/magento/module-configurable-sample-data/Setup/RecurringData.php b/vendor/magento/module-configurable-sample-data/Setup/RecurringData.php
+index bde7393..e8915fc 100644
+--- a/vendor/magento/module-configurable-sample-data/Setup/RecurringData.php
++++ b/vendor/magento/module-configurable-sample-data/Setup/RecurringData.php
+@@ -45,10 +45,7 @@ class RecurringData implements InstallDataInterface
+      */
+     public function install(ModuleDataSetupInterface $setup, ModuleContextInterface $context)
+     {
+-        $this->state->emulateAreaCode(
+-            \Magento\Framework\App\Area::AREA_CRONTAB,
+-            [$this, 'reindex']
+-        );
++        
+     }
+ 
+     /**
