@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8bdfb2256fbeb3cc80659387daf0b989",
+    "content-hash": "26eaddb9d2ba63872dcff2be9f0b52d6",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -434,16 +434,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.304.4",
+            "version": "3.304.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "20be41a5f1eef4c8a53a6ae7c0fc8b7346c0c386"
+                "reference": "c9a02677b00e28133915afd451a1c8c3726474b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/20be41a5f1eef4c8a53a6ae7c0fc8b7346c0c386",
-                "reference": "20be41a5f1eef4c8a53a6ae7c0fc8b7346c0c386",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/c9a02677b00e28133915afd451a1c8c3726474b7",
+                "reference": "c9a02677b00e28133915afd451a1c8c3726474b7",
                 "shasum": ""
             },
             "require": {
@@ -523,9 +523,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.304.4"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.304.5"
             },
-            "time": "2024-04-12T18:06:45+00:00"
+            "time": "2024-04-16T19:20:23+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -27988,6 +27988,175 @@
             "time": "2023-05-20T16:57:42+00:00"
         },
         {
+            "name": "paradoxlabs/authnetcim",
+            "version": "5.0.1.x-dev",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/paradoxlabs-authnetcim.git",
+                "reference": "84657c74daf87949e0d6b82d4243c4abe2c6fdd7"
+            },
+            "require": {
+                "paradoxlabs/tokenbase": "~4.6.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "ParadoxLabs\\Authnetcim\\": ""
+                }
+            },
+            "archive": {
+                "exclude": [
+                    ".github",
+                    "README.md"
+                ]
+            },
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ryan Hoerr",
+                    "email": "ryan@paradoxlabs.com"
+                }
+            ],
+            "description": "Authorize.Net CIM payment method for Magento 2.x by Paradox Labs",
+            "keywords": [
+                "authorize.net",
+                "payment",
+                "tokenization"
+            ],
+            "time": "2024-01-23T00:00:00+00:00"
+        },
+        {
+            "name": "paradoxlabs/stripe",
+            "version": "2.4.2.x-dev",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/paradoxlabs-stripe.git",
+                "reference": "a075e5ef93c0036955677b9e967137354ff47277"
+            },
+            "require": {
+                "paradoxlabs/tokenbase": "~4.6.0",
+                "stripe/stripe-php": "^4.8||^5.0||^6.0||^7.0||^8.0||^9.0||^10.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "ParadoxLabs\\Stripe\\": ""
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "Stripe payment method for Magento 2.x by ParadoxLabs",
+            "keywords": [
+                "payment",
+                "stripe",
+                "tokenization"
+            ],
+            "time": "2024-01-23T00:00:00+00:00"
+        },
+        {
+            "name": "paradoxlabs/subscriptions",
+            "version": "4.6.0.x-dev",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/paradoxlabs-subscriptions.git",
+                "reference": "0884f9d050262b3224f0d040b506fedc012b81c9"
+            },
+            "require": {
+                "ext-json": "*",
+                "magento/framework": "^102.0||^103.0",
+                "magento/module-admin-notification": "^100.0",
+                "magento/module-backend": "^100.0||^101.0||^102.0",
+                "magento/module-catalog": "^100.0||^101.0||^102.0||^103.0||^104.0",
+                "magento/module-checkout": "^100.0",
+                "magento/module-customer": "^100.0||^101.0||^102.0||^103.0",
+                "magento/module-directory": "^100.0",
+                "magento/module-eav": "^100.0||^101.0||^102.0",
+                "magento/module-payment": "^100.0",
+                "magento/module-quote": "^100.0||^101.0",
+                "magento/module-sales": "^100.0||^101.0||^102.0||^103.0",
+                "magento/module-store": "^100.0||^101.0",
+                "magento/module-theme": "^100.0||^101.0",
+                "magento/module-ui": "^100.0||^101.0",
+                "magento/module-user": "^100.0||^101.0",
+                "paradoxlabs/tokenbase": "~4.6.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "ParadoxLabs\\Subscriptions\\": ""
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "Adaptive Subscriptions: Subscriptions, auto-shipments, and recurring payments by ParadoxLabs.",
+            "time": "2023-01-23T00:00:00+00:00"
+        },
+        {
+            "name": "paradoxlabs/tokenbase",
+            "version": "4.6.1.x-dev",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/paradoxlabs-tokenbase.git",
+                "reference": "bd07ec8b0e8af3cad8a686eb91d030803e24c2f6"
+            },
+            "require": {
+                "ext-json": "*",
+                "magento/framework": "^102.0||^103.0",
+                "magento/module-admin-notification": "^100.0",
+                "magento/module-backend": "^100.0||^101.0||^102.0",
+                "magento/module-checkout": "^100.0",
+                "magento/module-config": "^100.0||^101.0",
+                "magento/module-customer": "^100.0||^101.0||^102.0||^103.0",
+                "magento/module-directory": "^100.0",
+                "magento/module-instant-purchase": "^100.0",
+                "magento/module-payment": "^100.0",
+                "magento/module-quote": "^100.0||^101.0",
+                "magento/module-sales": "^100.0||^101.0||^102.0||^103.0",
+                "magento/module-store": "^100.0||^101.0",
+                "magento/module-vault": "^100.1||^101.0",
+                "monolog/monolog": "^1.11||^2.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "ParadoxLabs\\TokenBase\\": ""
+                }
+            },
+            "archive": {
+                "exclude": [
+                    ".github",
+                    "README.md"
+                ]
+            },
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ryan Hoerr",
+                    "email": "ryan@paradoxlabs.com"
+                }
+            ],
+            "description": "Base module for ParadoxLabs tokenization payment methods.",
+            "time": "2024-02-23T00:00:00+00:00"
+        },
+        {
             "name": "paragonie/constant_time_encoding",
             "version": "v2.6.3",
             "source": {
@@ -30170,6 +30339,67 @@
                 }
             ],
             "time": "2024-03-30T18:03:49+00:00"
+        },
+        {
+            "name": "stripe/stripe-php",
+            "version": "v10.21.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stripe/stripe-php.git",
+                "reference": "b4ab319731958077227fad1874a3671458c5d593"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/b4ab319731958077227fad1874a3671458c5d593",
+                "reference": "b4ab319731958077227fad1874a3671458c5d593",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "3.5.0",
+                "php-coveralls/php-coveralls": "^2.5",
+                "phpstan/phpstan": "^1.2",
+                "phpunit/phpunit": "^5.7 || ^9.0",
+                "squizlabs/php_codesniffer": "^3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Stripe\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stripe and contributors",
+                    "homepage": "https://github.com/stripe/stripe-php/contributors"
+                }
+            ],
+            "description": "Stripe PHP Library",
+            "homepage": "https://stripe.com/",
+            "keywords": [
+                "api",
+                "payment processing",
+                "stripe"
+            ],
+            "support": {
+                "issues": "https://github.com/stripe/stripe-php/issues",
+                "source": "https://github.com/stripe/stripe-php/tree/v10.21.0"
+            },
+            "time": "2023-08-11T00:23:24+00:00"
         },
         {
             "name": "symfony/config",
@@ -32644,16 +32874,16 @@
         },
         {
             "name": "web-token/jwt-framework",
-            "version": "3.4.1",
+            "version": "3.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/web-token/jwt-framework.git",
-                "reference": "8342de7ea3c30c4e9be1233762c3061944e40b58"
+                "reference": "cdeb1f5842c3dae06ac6de94d07bf29644deeeee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/web-token/jwt-framework/zipball/8342de7ea3c30c4e9be1233762c3061944e40b58",
-                "reference": "8342de7ea3c30c4e9be1233762c3061944e40b58",
+                "url": "https://api.github.com/repos/web-token/jwt-framework/zipball/cdeb1f5842c3dae06ac6de94d07bf29644deeeee",
+                "reference": "cdeb1f5842c3dae06ac6de94d07bf29644deeeee",
                 "shasum": ""
             },
             "require": {
@@ -32797,7 +33027,7 @@
             ],
             "support": {
                 "issues": "https://github.com/web-token/jwt-framework/issues",
-                "source": "https://github.com/web-token/jwt-framework/tree/3.4.1"
+                "source": "https://github.com/web-token/jwt-framework/tree/3.4.2"
             },
             "funding": [
                 {
@@ -32809,7 +33039,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2024-04-10T15:46:26+00:00"
+            "time": "2024-04-17T13:12:30+00:00"
         },
         {
             "name": "webimpress/safe-writer",
@@ -34195,16 +34425,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.53.0",
+            "version": "v3.54.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-                "reference": "69a19093a9ded8d1baac62ed6c009b8bc148d008"
+                "reference": "2aecbc8640d7906c38777b3dcab6f4ca79004d08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/69a19093a9ded8d1baac62ed6c009b8bc148d008",
-                "reference": "69a19093a9ded8d1baac62ed6c009b8bc148d008",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/2aecbc8640d7906c38777b3dcab6f4ca79004d08",
+                "reference": "2aecbc8640d7906c38777b3dcab6f4ca79004d08",
                 "shasum": ""
             },
             "require": {
@@ -34276,7 +34506,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.53.0"
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.54.0"
             },
             "funding": [
                 {
@@ -34284,7 +34514,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-04-08T15:03:00+00:00"
+            "time": "2024-04-17T08:12:13+00:00"
         },
         {
             "name": "laminas/laminas-diactoros",
@@ -37432,7 +37662,11 @@
         "magentoese/module-themecustomizer": 20,
         "magentoese/theme-brentmill": 20,
         "magentoese/theme-frontend-custom": 20,
-        "magentoese/theme-frontend-venia": 20
+        "magentoese/theme-frontend-venia": 20,
+        "paradoxlabs/authnetcim": 20,
+        "paradoxlabs/stripe": 20,
+        "paradoxlabs/subscriptions": 20,
+        "paradoxlabs/tokenbase": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

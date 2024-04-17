@@ -60,7 +60,11 @@
         "magentoese/module-themecustomizer": "dev-master",
         "magentoese/theme-brentmill": "dev-master",
         "magentoese/theme-frontend-custom": "dev-master",
-        "magentoese/theme-frontend-venia": "dev-master"
+        "magentoese/theme-frontend-venia": "dev-master",
+        "paradoxlabs/authnetcim": "5.0.1.x-dev",
+        "paradoxlabs/stripe": "2.4.2.x-dev",
+        "paradoxlabs/subscriptions": "4.6.0.x-dev",
+        "paradoxlabs/tokenbase": "4.6.1.x-dev"
     },
     "autoload": {
         "exclude-from-classmap": [
@@ -134,7 +138,6 @@
         {"type": "git", "url": "git@github.com:PMET-public/module-switcherlogos.git"},
         {"type": "git", "url": "git@github.com:PMET-public/module-themecustomizer.git"},
         {"type": "git", "url": "git@github.com:PMET-public/paradoxlabs-authnetcim.git"},
-        {"type": "git", "url": "git@github.com:PMET-public/paradoxlabs-firstdata.git"},
         {"type": "git", "url": "git@github.com:PMET-public/paradoxlabs-stripe.git"},
         {"type": "git", "url": "git@github.com:PMET-public/paradoxlabs-subscriptions.git"},
         {"type": "git", "url": "git@github.com:PMET-public/paradoxlabs-tokenbase.git"},
