@@ -15,6 +15,19 @@
         },
         "magento/module-staging": {
             "Staging Preview Fix":  "m2-hotfixes/pmet-staging-preview-js-fix.patch"
+        },
+        "magento/module-sample-data": {
+            "Change Sample Data Load Order":  "m2-hotfixes/pmet-change-sample-data-load-order.patch"
+        },
+        "magento/module-configurable-sample-data": {
+            "Remove recurring reindex":  "m2-hotfixes/pmet-configurable-recurring.patch"
+        },
+        "magento/module-sales-sample-data": {
+            "Specify store id for order":  "m2-hotfixes/pmet-specify-store-id-for-order.patch"
+        }
+        ,
+        "magento/module-downloadable-sample-data": {
+            "Fix path on downloadable sample data":  "m2-hotfixes/pmet-fix-downloadable-sample-import.patch"
         }
 
     }

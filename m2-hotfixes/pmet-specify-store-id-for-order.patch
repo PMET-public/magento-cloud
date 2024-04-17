@@ -1,0 +1,13 @@
+diff --git a/vendor/magento/module-sales-sample-data/Model/Order.php b/vendor/magento/module-sales-sample-data/Model/Order.php
+index 90c25ef..610df5c 100644
+--- a/vendor/magento/module-sales-sample-data/Model/Order.php
++++ b/vendor/magento/module-sales-sample-data/Model/Order.php
+@@ -86,7 +86,7 @@ class Order
+                 }
+                 $row = $data;
+                 if ($isFirst) {
+-                    $customer = $this->customerRepository->get($row['customer_email']);
++                    $customer = $this->customerRepository->get($row['customer_email'], 1);
+                     if (!$customer->getId()) {
+                         continue;
+                     }
