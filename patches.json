@@ -11,7 +11,7 @@
         },
         "magento/framework": {
             "Fix for product image upload":  "m2-hotfixes/pmet-fix-module-loader-algorithm.patch",
-            "Stop catching sample errors":  "m2-hotfixes/pmet-stop-catching-sample-data-errrors-during-install.patch"
+            "Stop catching sample errors":  "m2-hotfixes/pmet-stop-catching-sample-data-errors-during-install.patch"
         },
         "magento/module-staging": {
             "Staging Preview Fix":  "m2-hotfixes/pmet-staging-preview-js-fix.patch"

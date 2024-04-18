@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "26eaddb9d2ba63872dcff2be9f0b52d6",
+    "content-hash": "7f5d72f1faf851a5efae91eed6295090",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -434,16 +434,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.304.5",
+            "version": "3.304.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "c9a02677b00e28133915afd451a1c8c3726474b7"
+                "reference": "b01905670e952b5c5cdc4902973120f62a14a7f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/c9a02677b00e28133915afd451a1c8c3726474b7",
-                "reference": "c9a02677b00e28133915afd451a1c8c3726474b7",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/b01905670e952b5c5cdc4902973120f62a14a7f4",
+                "reference": "b01905670e952b5c5cdc4902973120f62a14a7f4",
                 "shasum": ""
             },
             "require": {
@@ -523,9 +523,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.304.5"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.304.7"
             },
-            "time": "2024-04-16T19:20:23+00:00"
+            "time": "2024-04-18T18:12:29+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -5557,6 +5557,60 @@
                 }
             ],
             "time": "2024-01-28T23:22:08+00:00"
+        },
+        {
+            "name": "magemojo/m2-ce-cron",
+            "version": "1.4.3-stable",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magemojo/m2-ce-cron.git",
+                "reference": "7da592c1712e2bcaa72161f2d2442b9397290720"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magemojo/m2-ce-cron/zipball/7da592c1712e2bcaa72161f2d2442b9397290720",
+                "reference": "7da592c1712e2bcaa72161f2d2442b9397290720",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "suggest": {
+                "magento/framework": "*",
+                "magento/module-config": "*",
+                "magento/module-cron": "*",
+                "magento/module-store": "*"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "MageMojo\\Cron\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "MageMojo",
+                    "homepage": "https://github.com/magemojo/"
+                }
+            ],
+            "description": "Replacement package for Magento 2 Cron Functionality",
+            "homepage": "https://github.com/magemojo/",
+            "keywords": [
+                "cron",
+                "magento2"
+            ],
+            "support": {
+                "issues": "https://github.com/magemojo/m2-ce-cron/issues",
+                "source": "https://github.com/magemojo/m2-ce-cron/tree/1.4.3-stable"
+            },
+            "time": "2022-12-13T20:04:34+00:00"
         },
         {
             "name": "magento/adobe-stock-integration",
@@ -27397,6 +27451,29 @@
             "time": "2023-08-25T12:52:21+00:00"
         },
         {
+            "name": "magentoese/module-admin-configurations",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PMET-public/module-admin-configurations.git",
+                "reference": "68d67437d41a9e07e4b2d8746563660a31970ff7"
+            },
+            "require": {
+                "magento/framework": "*"
+            },
+            "default-branch": true,
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "MagentoEse\\AdminConfigurations\\": ""
+                }
+            },
+            "time": "2024-04-16T20:07:11+00:00"
+        },
+        {
             "name": "magentoese/module-autofill",
             "version": "dev-master",
             "source": {
@@ -28068,7 +28145,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/paradoxlabs-subscriptions.git",
-                "reference": "09f1f1866f3ac27b6ada943ecedef908e7c8960b"
+                "reference": "66bd60cc0c7115d23fb2a8b0ec749a6cd0cfd368"
             },
             "require": {
                 "ext-json": "*",
@@ -32874,16 +32951,16 @@
         },
         {
             "name": "web-token/jwt-framework",
-            "version": "3.4.2",
+            "version": "3.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/web-token/jwt-framework.git",
-                "reference": "cdeb1f5842c3dae06ac6de94d07bf29644deeeee"
+                "reference": "0b8be708a86a40dfbdf3104a8db924768ceb21ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/web-token/jwt-framework/zipball/cdeb1f5842c3dae06ac6de94d07bf29644deeeee",
-                "reference": "cdeb1f5842c3dae06ac6de94d07bf29644deeeee",
+                "url": "https://api.github.com/repos/web-token/jwt-framework/zipball/0b8be708a86a40dfbdf3104a8db924768ceb21ea",
+                "reference": "0b8be708a86a40dfbdf3104a8db924768ceb21ea",
                 "shasum": ""
             },
             "require": {
@@ -33027,7 +33104,7 @@
             ],
             "support": {
                 "issues": "https://github.com/web-token/jwt-framework/issues",
-                "source": "https://github.com/web-token/jwt-framework/tree/3.4.2"
+                "source": "https://github.com/web-token/jwt-framework/tree/3.4.3"
             },
             "funding": [
                 {
@@ -33039,7 +33116,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2024-04-17T13:12:30+00:00"
+            "time": "2024-04-17T18:06:18+00:00"
         },
         {
             "name": "webimpress/safe-writer",
@@ -37650,6 +37727,7 @@
         "amasty/module-special-promo-pro": 20,
         "amasty/promo": 20,
         "amasty/rgrid": 20,
+        "magentoese/module-admin-configurations": 20,
         "magentoese/module-autofill": 20,
         "magentoese/module-data-install": 20,
         "magentoese/module-data-install-graph-ql": 20,

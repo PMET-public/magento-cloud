@@ -580,6 +580,8 @@ return [
         'Amasty_Rules' => 1,
         'Amasty_RulesPro' => 1,
         'Amasty_SalesRuleWizard' => 1,
+        'MageMojo_Cron' => 1,
+        'MagentoEse_AdminConfigurations' => 1,
         'MagentoEse_AutoFill' => 1,
         'MagentoEse_DataInstall' => 1,
         'MagentoEse_DataInstallGraphQl' => 1,
