@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fa44c94e409ababebbc707bfa39dea4b",
+    "content-hash": "becf74ef3fb34f7726efaa7b2205e2a5",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -4881,60 +4881,6 @@
                 }
             ],
             "time": "2024-01-28T23:22:08+00:00"
-        },
-        {
-            "name": "magemojo/m2-ce-cron",
-            "version": "1.4.3-stable",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magemojo/m2-ce-cron.git",
-                "reference": "7da592c1712e2bcaa72161f2d2442b9397290720"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magemojo/m2-ce-cron/zipball/7da592c1712e2bcaa72161f2d2442b9397290720",
-                "reference": "7da592c1712e2bcaa72161f2d2442b9397290720",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.0.0"
-            },
-            "suggest": {
-                "magento/framework": "*",
-                "magento/module-config": "*",
-                "magento/module-cron": "*",
-                "magento/module-store": "*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageMojo\\Cron\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "MageMojo",
-                    "homepage": "https://github.com/magemojo/"
-                }
-            ],
-            "description": "Replacement package for Magento 2 Cron Functionality",
-            "homepage": "https://github.com/magemojo/",
-            "keywords": [
-                "cron",
-                "magento2"
-            ],
-            "support": {
-                "issues": "https://github.com/magemojo/m2-ce-cron/issues",
-                "source": "https://github.com/magemojo/m2-ce-cron/tree/1.4.3-stable"
-            },
-            "time": "2022-12-13T20:04:34+00:00"
         },
         {
             "name": "magento/adobe-stock-integration",
@@ -27281,16 +27227,16 @@
         },
         {
             "name": "paragonie/sodium_compat",
-            "version": "v1.20.1",
+            "version": "v1.21.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/sodium_compat.git",
-                "reference": "1840b98d228bdad83869b191d7e51f9bb6624d8d"
+                "reference": "102bcf2312dc21c16c7c93fd44a6d2a2e1343e26"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/sodium_compat/zipball/1840b98d228bdad83869b191d7e51f9bb6624d8d",
-                "reference": "1840b98d228bdad83869b191d7e51f9bb6624d8d",
+                "url": "https://api.github.com/repos/paragonie/sodium_compat/zipball/102bcf2312dc21c16c7c93fd44a6d2a2e1343e26",
+                "reference": "102bcf2312dc21c16c7c93fd44a6d2a2e1343e26",
                 "shasum": ""
             },
             "require": {
@@ -27361,9 +27307,9 @@
             ],
             "support": {
                 "issues": "https://github.com/paragonie/sodium_compat/issues",
-                "source": "https://github.com/paragonie/sodium_compat/tree/v1.20.1"
+                "source": "https://github.com/paragonie/sodium_compat/tree/v1.21.0"
             },
-            "time": "2024-04-05T21:00:10+00:00"
+            "time": "2024-04-19T09:18:28+00:00"
         },
         {
             "name": "paypal/module-braintree",

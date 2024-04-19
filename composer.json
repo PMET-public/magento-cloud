@@ -19,7 +19,6 @@
     "version": "2.4.7",
     "require": {
         "cweagans/composer-patches": "~1.0",
-        "magemojo/m2-ce-cron": "^1.4",
         "magento/composer-dependency-version-audit-plugin": "~0.1",
         "magento/composer-root-update-plugin": "^2.0.4",
         "magento/extension-b2b": "^1.4",
