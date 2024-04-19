@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f9c5e4d6f03d83b14acf589f87614181",
+    "content-hash": "a2123a42ceef694efeb0cdd78b22e907",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -202,16 +202,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.304.4",
+            "version": "3.304.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "20be41a5f1eef4c8a53a6ae7c0fc8b7346c0c386"
+                "reference": "b01905670e952b5c5cdc4902973120f62a14a7f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/20be41a5f1eef4c8a53a6ae7c0fc8b7346c0c386",
-                "reference": "20be41a5f1eef4c8a53a6ae7c0fc8b7346c0c386",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/b01905670e952b5c5cdc4902973120f62a14a7f4",
+                "reference": "b01905670e952b5c5cdc4902973120f62a14a7f4",
                 "shasum": ""
             },
             "require": {
@@ -291,9 +291,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.304.4"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.304.7"
             },
-            "time": "2024-04-12T18:06:45+00:00"
+            "time": "2024-04-18T18:12:29+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -27485,7 +27485,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-admin-configurations.git",
-                "reference": "12a5841624837b648511f000473d0ed444247867"
+                "reference": "68d67437d41a9e07e4b2d8746563660a31970ff7"
             },
             "require": {
                 "magento/framework": "*"
@@ -27500,7 +27500,7 @@
                     "MagentoEse\\AdminConfigurations\\": ""
                 }
             },
-            "time": "2023-04-25T14:08:05+00:00"
+            "time": "2024-04-16T20:07:11+00:00"
         },
         {
             "name": "magentoese/module-data-install",
@@ -27669,91 +27669,6 @@
                 ]
             },
             "time": "2022-05-05T21:03:18+00:00"
-        },
-        {
-            "name": "magentoese/vertical-data-auto",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:PMET-public/module-storystore-auto.git",
-                "reference": "c3419c00f89ec7c9e8b1846454d1cfbc5702b53c"
-            },
-            "require": {
-                "magento/framework": "*",
-                "magentoese/module-data-install": "*",
-                "magentoese/theme-frontend-carvelo-autoparts": "*"
-            },
-            "default-branch": true,
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MagentoEse\\VerticalDataAuto\\": ""
-                }
-            },
-            "license": [
-                "proprietary"
-            ],
-            "description": "N/A",
-            "time": "2023-01-13T19:42:57+00:00"
-        },
-        {
-            "name": "magentoese/vertical-data-grocery",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:PMET-public/module-storystore-grocery.git",
-                "reference": "9ab08d132b90fa296f2d26c87a2540f3377b59eb"
-            },
-            "require": {
-                "magento/framework": "*",
-                "magentoese/module-data-install": "*"
-            },
-            "default-branch": true,
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MagentoEse\\VerticalDataGrocery\\": ""
-                }
-            },
-            "license": [
-                "GNU General Public License (GPL)"
-            ],
-            "description": "N/A",
-            "time": "2023-01-13T20:30:26+00:00"
-        },
-        {
-            "name": "magentoese/vertical-data-healthbeauty",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:PMET-public/vertical-data-healthbeauty.git",
-                "reference": "1098333532283fb4e672d25f94a6222b22c41c59"
-            },
-            "require": {
-                "magento/framework": "*",
-                "magentoese/module-data-install": "*"
-            },
-            "default-branch": true,
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MagentoEse\\VerticalDataHealthBeauty\\": ""
-                }
-            },
-            "license": [
-                "proprietary"
-            ],
-            "description": "N/A",
-            "time": "2023-01-13T19:08:45+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -28165,16 +28080,16 @@
         },
         {
             "name": "paragonie/sodium_compat",
-            "version": "v1.20.1",
+            "version": "v1.21.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/sodium_compat.git",
-                "reference": "1840b98d228bdad83869b191d7e51f9bb6624d8d"
+                "reference": "102bcf2312dc21c16c7c93fd44a6d2a2e1343e26"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/sodium_compat/zipball/1840b98d228bdad83869b191d7e51f9bb6624d8d",
-                "reference": "1840b98d228bdad83869b191d7e51f9bb6624d8d",
+                "url": "https://api.github.com/repos/paragonie/sodium_compat/zipball/102bcf2312dc21c16c7c93fd44a6d2a2e1343e26",
+                "reference": "102bcf2312dc21c16c7c93fd44a6d2a2e1343e26",
                 "shasum": ""
             },
             "require": {
@@ -28245,9 +28160,9 @@
             ],
             "support": {
                 "issues": "https://github.com/paragonie/sodium_compat/issues",
-                "source": "https://github.com/paragonie/sodium_compat/tree/v1.20.1"
+                "source": "https://github.com/paragonie/sodium_compat/tree/v1.21.0"
             },
-            "time": "2024-04-05T21:00:10+00:00"
+            "time": "2024-04-19T09:18:28+00:00"
         },
         {
             "name": "paypal/module-braintree",
@@ -32703,16 +32618,16 @@
         },
         {
             "name": "web-token/jwt-framework",
-            "version": "3.4.1",
+            "version": "3.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/web-token/jwt-framework.git",
-                "reference": "8342de7ea3c30c4e9be1233762c3061944e40b58"
+                "reference": "0b8be708a86a40dfbdf3104a8db924768ceb21ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/web-token/jwt-framework/zipball/8342de7ea3c30c4e9be1233762c3061944e40b58",
-                "reference": "8342de7ea3c30c4e9be1233762c3061944e40b58",
+                "url": "https://api.github.com/repos/web-token/jwt-framework/zipball/0b8be708a86a40dfbdf3104a8db924768ceb21ea",
+                "reference": "0b8be708a86a40dfbdf3104a8db924768ceb21ea",
                 "shasum": ""
             },
             "require": {
@@ -32856,7 +32771,7 @@
             ],
             "support": {
                 "issues": "https://github.com/web-token/jwt-framework/issues",
-                "source": "https://github.com/web-token/jwt-framework/tree/3.4.1"
+                "source": "https://github.com/web-token/jwt-framework/tree/3.4.3"
             },
             "funding": [
                 {
@@ -32868,7 +32783,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2024-04-10T15:46:26+00:00"
+            "time": "2024-04-17T18:06:18+00:00"
         },
         {
             "name": "webimpress/safe-writer",
@@ -34254,16 +34169,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.53.0",
+            "version": "v3.54.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-                "reference": "69a19093a9ded8d1baac62ed6c009b8bc148d008"
+                "reference": "2aecbc8640d7906c38777b3dcab6f4ca79004d08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/69a19093a9ded8d1baac62ed6c009b8bc148d008",
-                "reference": "69a19093a9ded8d1baac62ed6c009b8bc148d008",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/2aecbc8640d7906c38777b3dcab6f4ca79004d08",
+                "reference": "2aecbc8640d7906c38777b3dcab6f4ca79004d08",
                 "shasum": ""
             },
             "require": {
@@ -34335,7 +34250,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.53.0"
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.54.0"
             },
             "funding": [
                 {
@@ -34343,7 +34258,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-04-08T15:03:00+00:00"
+            "time": "2024-04-17T08:12:13+00:00"
         },
         {
             "name": "laminas/laminas-diactoros",
@@ -37478,10 +37393,7 @@
         "magentoese/module-saas-data-management": 20,
         "magentoese/theme-frontend-carvelo-autoparts": 20,
         "magentoese/theme-frontend-custom": 20,
-        "magentoese/theme-frontend-gxd-healthbeauty": 20,
-        "magentoese/vertical-data-auto": 20,
-        "magentoese/vertical-data-grocery": 20,
-        "magentoese/vertical-data-healthbeauty": 20
+        "magentoese/theme-frontend-gxd-healthbeauty": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
