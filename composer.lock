@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d5e5bc5c9e4d218892284f0a6643a201",
+    "content-hash": "39cd7afa0a0ed2a7f8fdcbb8cf829980",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -28292,7 +28292,7 @@
         },
         {
             "name": "magentoese/module-cms-media-sample-data-update",
-            "version": "dev-develop",
+            "version": "dev-dsc",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-cms-media-sample-data-update.git",
@@ -28570,7 +28570,7 @@
         },
         {
             "name": "magentoese/module-lookbook",
-            "version": "dev-develop",
+            "version": "dev-dsc",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-lookbook.git",
@@ -29006,7 +29006,7 @@
         },
         {
             "name": "magentoese/module-venia-media-sample-data",
-            "version": "dev-develop",
+            "version": "dev-dsc",
             "source": {
                 "type": "git",
                 "url": "git@github.com:PMET-public/module-venia-media-sample-data.git",
