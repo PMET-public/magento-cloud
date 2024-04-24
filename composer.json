@@ -89,7 +89,7 @@
         "magentoese/module-instorepickup": "dev-master",
         "magentoese/module-instorepickup-sample-data": "dev-master",
         "magentoese/module-keep-on-wishlist": "dev-master",
-        "magentoese/module-lookbook": "dev-master",
+        "magentoese/module-lookbook": "dev-develop",
         "magentoese/module-luma-de-attributes": "dev-master",
         "magentoese/module-luma-de-categories": "dev-master",
         "magentoese/module-luma-de-cms": "dev-master",
