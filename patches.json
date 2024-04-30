@@ -28,6 +28,9 @@
         ,
         "magento/module-downloadable-sample-data": {
             "Fix path on downloadable sample data":  "m2-hotfixes/pmet-fix-downloadable-sample-import.patch"
+        },
+        "magento/module-ui": {
+            "AC-11804 Category Description WYSIWYG empty after save":  "m2-hotfixes/category-description-wysiwyg.patch"
         }
 
     }
