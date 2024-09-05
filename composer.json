@@ -40,7 +40,7 @@
         "community-engineering/language-sr_sp": "*",
         "community-engineering/language-zh_cn": "*",
         "cweagans/composer-patches": "~1.0",
-        "magento/product-enterprise-edition": "2.4.7 <= 2.4.8",
+        "magento/product-enterprise-edition": ">=2.4.7 <2.4.8",
         "magento/composer-root-update-plugin": "^2.0.4",
         "magento/composer-dependency-version-audit-plugin": "~0.1",
         "magento/extension-b2b": "^1.4",
