@@ -25,7 +25,7 @@
         "magento/live-search": "^4.0",
         "magento/module-page-builder-product-recommendations": "^2.0",
         "magento/module-visual-product-recommendations": "^2.0",
-        "magento/product-enterprise-edition": "2.4.7 <= 2.4.8",
+        "magento/product-enterprise-edition": ">=2.4.7 <2.4.8",
         "magento/product-recommendations": "^6.0",
         "magentoese/module-admin-configurations": "dev-master",
         "magentoese/module-data-install": "dev-master",
