@@ -42,7 +42,7 @@
         "cweagans/composer-patches": "~1.0",
         "magento/composer-dependency-version-audit-plugin": "~0.1",
         "magento/composer-root-update-plugin": "^2.0.4",
-        "magento/extension-b2b": "^1.4",
+        "magento/extension-b2b": "1.4.*",
         "magento/live-search": "^4.0",
         "magento/module-page-builder-product-recommendations": "^2.0",
         "magento/module-visual-product-recommendations": "^2.0",
