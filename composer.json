@@ -65,7 +65,8 @@
         "paradoxlabs/authnetcim": "5.0.1.x-dev",
         "paradoxlabs/stripe": "2.4.2.x-dev",
         "paradoxlabs/subscriptions": "4.6.0.x-dev",
-        "paradoxlabs/tokenbase": "4.6.1.x-dev"
+        "paradoxlabs/tokenbase": "4.6.1.x-dev",
+        "opensearch-project/opensearch-php": "^2.3.0"
     },
     "autoload": {
         "exclude-from-classmap": [
