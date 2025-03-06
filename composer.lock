@@ -202,16 +202,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.337.3",
+            "version": "3.342.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "06dfc8f76423b49aaa181debd25bbdc724c346d6"
+                "reference": "8a4ba50aa12ce509d0e598a7fd65d6b9309c39dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/06dfc8f76423b49aaa181debd25bbdc724c346d6",
-                "reference": "06dfc8f76423b49aaa181debd25bbdc724c346d6",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/8a4ba50aa12ce509d0e598a7fd65d6b9309c39dd",
+                "reference": "8a4ba50aa12ce509d0e598a7fd65d6b9309c39dd",
                 "shasum": ""
             },
             "require": {
@@ -219,31 +219,30 @@
                 "ext-json": "*",
                 "ext-pcre": "*",
                 "ext-simplexml": "*",
-                "guzzlehttp/guzzle": "^6.5.8 || ^7.4.5",
-                "guzzlehttp/promises": "^1.4.0 || ^2.0",
-                "guzzlehttp/psr7": "^1.9.1 || ^2.4.5",
-                "mtdowling/jmespath.php": "^2.6",
-                "php": ">=7.2.5",
-                "psr/http-message": "^1.0 || ^2.0"
+                "guzzlehttp/guzzle": "^7.4.5",
+                "guzzlehttp/promises": "^2.0",
+                "guzzlehttp/psr7": "^2.4.5",
+                "mtdowling/jmespath.php": "^2.8.0",
+                "php": ">=8.1",
+                "psr/http-message": "^2.0"
             },
             "require-dev": {
                 "andrewsville/php-token-reflection": "^1.4",
                 "aws/aws-php-sns-message-validator": "~1.0",
                 "behat/behat": "~3.0",
-                "composer/composer": "^1.10.22",
+                "composer/composer": "^2.7.8",
                 "dms/phpunit-arraysubset-asserts": "^0.4.0",
                 "doctrine/cache": "~1.4",
                 "ext-dom": "*",
                 "ext-openssl": "*",
                 "ext-pcntl": "*",
                 "ext-sockets": "*",
-                "nette/neon": "^2.3",
-                "paragonie/random_compat": ">= 2",
                 "phpunit/phpunit": "^5.6.3 || ^8.5 || ^9.5",
-                "psr/cache": "^1.0 || ^2.0 || ^3.0",
-                "psr/simple-cache": "^1.0 || ^2.0 || ^3.0",
-                "sebastian/comparator": "^1.2.3 || ^4.0",
-                "yoast/phpunit-polyfills": "^1.0"
+                "psr/cache": "^2.0 || ^3.0",
+                "psr/simple-cache": "^2.0 || ^3.0",
+                "sebastian/comparator": "^1.2.3 || ^4.0 || ^5.0",
+                "symfony/filesystem": "^v6.4.0 || ^v7.1.0",
+                "yoast/phpunit-polyfills": "^2.0"
             },
             "suggest": {
                 "aws/aws-php-sns-message-validator": "To validate incoming SNS notifications",
@@ -292,11 +291,11 @@
                 "sdk"
             ],
             "support": {
-                "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
+                "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.337.3"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.342.1"
             },
-            "time": "2025-01-21T19:10:05+00:00"
+            "time": "2025-03-06T19:17:36+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -509,6 +508,69 @@
                 }
             ],
             "time": "2024-05-10T17:15:19+00:00"
+        },
+        {
+            "name": "carnage/php-graphql-client",
+            "version": "1.14.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/carnage/php-graphql-client.git",
+                "reference": "7c28f461a0a3e86983ff769b8e1fa876ebc133cc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/carnage/php-graphql-client/zipball/7c28f461a0a3e86983ff769b8e1fa876ebc133cc",
+                "reference": "7c28f461a0a3e86983ff769b8e1fa876ebc133cc",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "guzzlehttp/guzzle": "^7.0.1",
+                "php": "^8.2",
+                "psr/http-client": "^1.0",
+                "psr/http-message": "^2.0 "
+            },
+            "require-dev": {
+                "aws/aws-sdk-php": "^3.186",
+                "phpstan/phpstan": "^1.11.10",
+                "phpunit/phpunit": "^10.5.20",
+                "squizlabs/php_codesniffer": "3.10.1"
+            },
+            "suggest": {
+                "aws/aws-sdk-php": "Move this package to require section to use AWS IAM authorization",
+                "gmostafa/php-graphql-oqm": "To have object-to-query mapping support"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "GraphQL\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mostafa Ghoneimy",
+                    "email": "emostafagh@gmail.com"
+                }
+            ],
+            "description": "GraphQL client and query builder.",
+            "keywords": [
+                "builder",
+                "client",
+                "graph-ql",
+                "graphql",
+                "php",
+                "query",
+                "query-builder"
+            ],
+            "support": {
+                "issues": "https://github.com/carnage/php-graphql-client/issues",
+                "source": "https://github.com/carnage/php-graphql-client/tree/1.14.1"
+            },
+            "time": "2024-08-12T14:32:56+00:00"
         },
         {
             "name": "christian-riesen/base32",
@@ -1812,71 +1874,6 @@
                 "source": "https://github.com/firebase/php-jwt/tree/v6.11.0"
             },
             "time": "2025-01-23T05:11:06+00:00"
-        },
-        {
-            "name": "gmostafa/php-graphql-client",
-            "version": "v1.13",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/mghoneimy/php-graphql-client.git",
-                "reference": "caadeba3e8af0d3d5cf6481e393cf933f3a83f3c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/mghoneimy/php-graphql-client/zipball/caadeba3e8af0d3d5cf6481e393cf933f3a83f3c",
-                "reference": "caadeba3e8af0d3d5cf6481e393cf933f3a83f3c",
-                "shasum": ""
-            },
-            "require": {
-                "ext-json": "*",
-                "guzzlehttp/guzzle": "^6.3|^7.0.1",
-                "php": "^7.1 || ^8.0",
-                "psr/http-client": "^1.0",
-                "psr/http-message": "^1.0"
-            },
-            "conflict": {
-                "guzzlehttp/psr7": "< 1.7.0"
-            },
-            "require-dev": {
-                "aws/aws-sdk-php": "^3.186",
-                "codacy/coverage": "^1.4",
-                "phpunit/phpunit": "^7.5|^8.0|^9.0"
-            },
-            "suggest": {
-                "aws/aws-sdk-php": "Move this package to require section to use AWS IAM authorization",
-                "gmostafa/php-graphql-oqm": "To have object-to-query mapping support"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "GraphQL\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Mostafa Ghoneimy",
-                    "email": "emostafagh@gmail.com"
-                }
-            ],
-            "description": "GraphQL client and query builder.",
-            "keywords": [
-                "builder",
-                "client",
-                "graph-ql",
-                "graphql",
-                "php",
-                "query",
-                "query-builder"
-            ],
-            "support": {
-                "issues": "https://github.com/mghoneimy/php-graphql-client/issues",
-                "source": "https://github.com/mghoneimy/php-graphql-client/tree/v1.13"
-            },
-            "time": "2021-08-10T12:39:57+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -4506,15 +4503,15 @@
         },
         {
             "name": "magento/data-services",
-            "version": "7.6.2",
+            "version": "7.7.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/data-services/magento-data-services-7.6.2.0.zip",
-                "shasum": "7ea56432bb782380bec63dcc009ed257767fe1ab"
+                "url": "https://repo.magento.com/archives/magento/data-services/magento-data-services-7.7.0.0.zip",
+                "shasum": "fe0d42e2ff4f692fa570ce5b92eaee61f7159dba"
             },
             "require": {
-                "magento/module-data-services": "7.6.2",
-                "magento/module-data-services-multishipping": "7.6.2",
+                "magento/module-data-services": "7.7.0",
+                "magento/module-data-services-multishipping": "7.7.0",
                 "magento/module-saas-common": "^103.0.0",
                 "magento/services-id": "^3.2.2"
             },
@@ -5514,11 +5511,11 @@
         },
         {
             "name": "magento/live-search",
-            "version": "4.2.3",
+            "version": "4.3.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/live-search/magento-live-search-4.2.3.0.zip",
-                "shasum": "96d1fd98eb4de0f1662c627d5aa8f8b0f7bdc462"
+                "url": "https://repo.magento.com/archives/magento/live-search/magento-live-search-4.3.0.0.zip",
+                "shasum": "fc1dc51e09043192ca0ea17ae8ce5e76a726e089"
             },
             "require": {
                 "magento/data-services": "^7.3.1",
@@ -5530,12 +5527,12 @@
                 "magento/module-catalog-url-rewrite-data-exporter": "^103.0.0",
                 "magento/module-configurable-product-data-exporter": "^103.0.0",
                 "magento/module-gift-card-product-data-exporter": "^103.0.0",
-                "magento/module-live-search": "4.2.3",
-                "magento/module-live-search-adapter": "4.2.3",
-                "magento/module-live-search-metrics": "4.2.3",
-                "magento/module-live-search-product-listing": "4.2.3",
-                "magento/module-live-search-storefront-popover": "4.2.3",
-                "magento/module-live-search-terms": "4.2.3",
+                "magento/module-live-search": "4.3.0",
+                "magento/module-live-search-adapter": "4.3.0",
+                "magento/module-live-search-metrics": "4.3.0",
+                "magento/module-live-search-product-listing": "4.3.0",
+                "magento/module-live-search-storefront-popover": "4.3.0",
+                "magento/module-live-search-terms": "4.3.0",
                 "magento/module-parent-product-data-exporter": "^103.0.0",
                 "magento/module-saas-catalog": "^103.0.0",
                 "magento/module-saas-category": "^103.0.0",
@@ -5543,8 +5540,7 @@
                 "magento/module-saas-price": "^103.0.0",
                 "magento/module-saas-product-override": "^103.0.0",
                 "magento/module-saas-product-variant": "^103.0.0",
-                "magento/module-saas-scopes": "^103.0.0",
-                "php": "~8.1.0||~8.2.0||~8.3.0"
+                "magento/module-saas-scopes": "^103.0.0"
             },
             "type": "metapackage",
             "license": [
@@ -12072,11 +12068,11 @@
         },
         {
             "name": "magento/module-data-services",
-            "version": "7.6.2",
+            "version": "7.7.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-data-services/magento-module-data-services-7.6.2.0.zip",
-                "shasum": "d6d6f62ee7ba47ffe388e4d6fb8a7992c7763e1a"
+                "url": "https://repo.magento.com/archives/magento/module-data-services/magento-module-data-services-7.7.0.0.zip",
+                "shasum": "7eb59bc901868a65a6eb08b1101f02991a0ce326"
             },
             "require": {
                 "magento/framework": "*",
@@ -12089,7 +12085,7 @@
                 "magento/module-saas-common": "^103.0.0",
                 "magento/module-store": ">=101.1.4 <101.2.0",
                 "magento/services-id": "^3.2.2",
-                "php": "~8.1.0||~8.2.0||~8.3.0"
+                "php": "~8.1.0||~8.2.0||~8.3.0||~8.4.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -12108,19 +12104,19 @@
         },
         {
             "name": "magento/module-data-services-multishipping",
-            "version": "7.6.2",
+            "version": "7.7.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-data-services-multishipping/magento-module-data-services-multishipping-7.6.2.0.zip",
-                "shasum": "8f781bd17f4572c39ad5b56c769bf7f373898a0e"
+                "url": "https://repo.magento.com/archives/magento/module-data-services-multishipping/magento-module-data-services-multishipping-7.7.0.0.zip",
+                "shasum": "f7def2dd0132b5cc14c40a4c1138cdeabecf33fa"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
                 "magento/module-customer": ">=103.0.4 <104.0.0",
-                "magento/module-data-services": "7.6.2",
+                "magento/module-data-services": "7.7.0",
                 "magento/module-multishipping": ">=100.4.4 <100.5.0",
                 "magento/module-sales": "*",
-                "php": "~8.1.0||~8.2.0||~8.3.0"
+                "php": "~8.1.0||~8.2.0||~8.3.0||~8.4.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -16997,11 +16993,11 @@
         },
         {
             "name": "magento/module-live-search",
-            "version": "4.2.3",
+            "version": "4.3.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-live-search/magento-module-live-search-4.2.3.0.zip",
-                "shasum": "75f7a81b247f758d9ba7f62a7e2c3c4daeacee38"
+                "url": "https://repo.magento.com/archives/magento/module-live-search/magento-module-live-search-4.3.0.0.zip",
+                "shasum": "a2a7cde79e1eff3ede37d3338eaace4796f0dbaa"
             },
             "require": {
                 "ext-json": "*",
@@ -17014,7 +17010,7 @@
                 "magento/module-services-id": "^3.1.2",
                 "magento/module-store": ">=101.1.4",
                 "magento/services-connector": "^1.2.5",
-                "php": "~8.1.0||~8.2.0||~8.3.0"
+                "php": "~8.1.0||~8.2.0||~8.3.0||~8.4.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -17032,23 +17028,23 @@
         },
         {
             "name": "magento/module-live-search-adapter",
-            "version": "4.2.3",
+            "version": "4.3.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-live-search-adapter/magento-module-live-search-adapter-4.2.3.0.zip",
-                "shasum": "1bf858707e8109dbbf46bc82caf37a74a9a53581"
+                "url": "https://repo.magento.com/archives/magento/module-live-search-adapter/magento-module-live-search-adapter-4.3.0.0.zip",
+                "shasum": "2e67a7fe66bd5eb16b4a4a9aafdf66c55af3bbf8"
             },
             "require": {
-                "gmostafa/php-graphql-client": "^1.9",
+                "carnage/php-graphql-client": "^1.14",
                 "magento/framework": ">=103.0.4",
                 "magento/module-catalog": ">=104.0.4",
                 "magento/module-catalog-inventory": "^100.4.4",
                 "magento/module-catalog-search": ">=102.0.4",
                 "magento/module-eav": ">=102.1.4",
-                "magento/module-live-search": "4.2.3",
+                "magento/module-live-search": "4.3.0",
                 "magento/module-search": "^101.1.4",
                 "magento/module-store": ">=101.1.4",
-                "php": "~8.1.0||~8.2.0||~8.3.0",
+                "php": "~8.1.0||~8.2.0||~8.3.0||~8.4.0",
                 "webonyx/graphql-php": "^14.11.6||^15.0"
             },
             "type": "magento2-module",
@@ -17067,21 +17063,21 @@
         },
         {
             "name": "magento/module-live-search-metrics",
-            "version": "4.2.3",
+            "version": "4.3.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-live-search-metrics/magento-module-live-search-metrics-4.2.3.0.zip",
-                "shasum": "ed1053a2980d6d1022e320ed1ba5faf19c93d101"
+                "url": "https://repo.magento.com/archives/magento/module-live-search-metrics/magento-module-live-search-metrics-4.3.0.0.zip",
+                "shasum": "913cb20a354f50fa497e5e430788546c740dfac5"
             },
             "require": {
                 "ext-json": "*",
                 "magento/framework": ">=103.0.4",
                 "magento/module-backend": "^102.0.4",
                 "magento/module-catalog": "^104.0.4",
-                "magento/module-live-search": "4.2.3",
-                "magento/module-live-search-adapter": "4.2.3",
+                "magento/module-live-search": "4.3.0",
+                "magento/module-live-search-adapter": "4.3.0",
                 "magento/module-store": ">=101.1.4",
-                "php": "~8.1.0||~8.2.0||~8.3.0"
+                "php": "~8.1.0||~8.2.0||~8.3.0||~8.4.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -17099,11 +17095,11 @@
         },
         {
             "name": "magento/module-live-search-product-listing",
-            "version": "4.2.3",
+            "version": "4.3.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-live-search-product-listing/magento-module-live-search-product-listing-4.2.3.0.zip",
-                "shasum": "ff861e74dfceb361d409497319f3ed3809f78d13"
+                "url": "https://repo.magento.com/archives/magento/module-live-search-product-listing/magento-module-live-search-product-listing-4.3.0.0.zip",
+                "shasum": "264882dbbc52ac9427409efe64fd2f1e9c48e383"
             },
             "require": {
                 "magento/framework": ">=102.0.2",
@@ -17112,12 +17108,12 @@
                 "magento/module-catalog-search": ">=102.0.4",
                 "magento/module-checkout": "^100.4.4",
                 "magento/module-customer": "^103.0.4",
-                "magento/module-live-search": "4.2.3",
+                "magento/module-live-search": "4.3.0",
                 "magento/module-quote": "^101.2.4",
                 "magento/module-search": "^101.1.4",
                 "magento/module-services-id": "^3.1.2",
                 "magento/module-store": ">=101.1.4",
-                "php": "~8.1.0||~8.2.0||~8.3.0"
+                "php": "~8.1.0||~8.2.0||~8.3.0||~8.4.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -17135,20 +17131,20 @@
         },
         {
             "name": "magento/module-live-search-storefront-popover",
-            "version": "4.2.3",
+            "version": "4.3.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-live-search-storefront-popover/magento-module-live-search-storefront-popover-4.2.3.0.zip",
-                "shasum": "3f03615d669e95dc055400856bddf7a7c56449e0"
+                "url": "https://repo.magento.com/archives/magento/module-live-search-storefront-popover/magento-module-live-search-storefront-popover-4.3.0.0.zip",
+                "shasum": "d0102b422a02578936ff82e7a5cd8cf22fa94060"
             },
             "require": {
                 "ext-json": "*",
                 "magento/framework": ">=103.0.4",
                 "magento/module-catalog-inventory": "^100.4.4",
-                "magento/module-live-search": "4.2.3",
+                "magento/module-live-search": "4.3.0",
                 "magento/module-search": "^101.1.4",
                 "magento/module-store": ">=101.1.4",
-                "php": "~8.1.0||~8.2.0||~8.3.0"
+                "php": "~8.1.0||~8.2.0||~8.3.0||~8.4.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -17166,16 +17162,16 @@
         },
         {
             "name": "magento/module-live-search-terms",
-            "version": "4.2.3",
+            "version": "4.3.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-live-search-terms/magento-module-live-search-terms-4.2.3.0.zip",
-                "shasum": "6cde3b74f6be76d23126aa043f7200f64b045ceb"
+                "url": "https://repo.magento.com/archives/magento/module-live-search-terms/magento-module-live-search-terms-4.3.0.0.zip",
+                "shasum": "e9b412fd04e09f3bf887e2fe9609aaeefacae0bf"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
                 "magento/module-search": "^101.1.4",
-                "php": "~8.1.0||~8.2.0||~8.3.0"
+                "php": "~8.1.0||~8.2.0||~8.3.0||~8.4.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -27801,39 +27797,55 @@
         },
         {
             "name": "opensearch-project/opensearch-php",
-            "version": "2.3.1",
+            "version": "2.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/opensearch-project/opensearch-php.git",
-                "reference": "1866e6ee95c15036038d6c95a5c54c6fe648de36"
+                "reference": "59302e519538d98644caf4441e7dc09b4c3da11a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/opensearch-project/opensearch-php/zipball/1866e6ee95c15036038d6c95a5c54c6fe648de36",
-                "reference": "1866e6ee95c15036038d6c95a5c54c6fe648de36",
+                "url": "https://api.github.com/repos/opensearch-project/opensearch-php/zipball/59302e519538d98644caf4441e7dc09b4c3da11a",
+                "reference": "59302e519538d98644caf4441e7dc09b4c3da11a",
                 "shasum": ""
             },
             "require": {
                 "ext-curl": "*",
                 "ext-json": ">=1.3.7",
                 "ezimuel/ringphp": "^1.2.2",
-                "php": "^7.3 || ^8.0",
-                "psr/log": "^1|^2|^3",
+                "php": "^8.1",
+                "php-http/discovery": "^1.20",
+                "psr/http-client": "^1.0",
+                "psr/http-client-implementation": "*",
+                "psr/http-factory": "^1.1",
+                "psr/http-factory-implementation": "*",
+                "psr/http-message": "^2.0",
+                "psr/http-message-implementation": "*",
+                "psr/log": "^2|^3",
                 "symfony/yaml": "*"
             },
             "require-dev": {
                 "aws/aws-sdk-php": "^3.0",
+                "colinodell/psr-testlogger": "^1.3",
                 "ext-zip": "*",
-                "friendsofphp/php-cs-fixer": "^3.0",
-                "mockery/mockery": "^1.2",
-                "phpstan/phpstan": "^1.7.15",
-                "phpstan/phpstan-mockery": "^1.1.0",
-                "phpunit/phpunit": "^9.3",
-                "symfony/finder": "~4.0 || ~5.0"
+                "friendsofphp/php-cs-fixer": "^v3.64",
+                "guzzlehttp/psr7": "^2.7",
+                "mockery/mockery": "^1.6",
+                "phpstan/extension-installer": "^1.4",
+                "phpstan/phpstan": "^1.12",
+                "phpstan/phpstan-deprecation-rules": "^1.2",
+                "phpstan/phpstan-mockery": "^1.1",
+                "phpstan/phpstan-phpunit": "^1.4",
+                "phpunit/phpunit": "^9.6",
+                "symfony/finder": "^6.4|^7.0",
+                "symfony/http-client": "^6.4|^7.0",
+                "symfony/http-client-contracts": "^3.0"
             },
             "suggest": {
-                "aws/aws-sdk-php": "Required (^3.0.0) in order to use the SigV4 handler",
-                "monolog/monolog": "Allows for client-level logging and tracing"
+                "aws/aws-sdk-php": "Required (^3.0.0) in order to use the AWS Signing Client Decorator",
+                "guzzlehttp/psr7": "Required (^2.7) in order to use the Guzzle HTTP client",
+                "monolog/monolog": "Allows for client-level logging and tracing",
+                "symfony/http-client": "Required (^6.4|^7.0) in order to use the Symfony HTTP client"
             },
             "type": "library",
             "autoload": {
@@ -27863,9 +27875,9 @@
             ],
             "support": {
                 "issues": "https://github.com/opensearch-project/opensearch-php/issues",
-                "source": "https://github.com/opensearch-project/opensearch-php/tree/2.3.1"
+                "source": "https://github.com/opensearch-project/opensearch-php/tree/2.4.2"
             },
-            "time": "2024-08-27T10:13:25+00:00"
+            "time": "2025-02-20T07:13:07+00:00"
         },
         {
             "name": "paragonie/constant_time_encoding",
@@ -28468,6 +28480,85 @@
                 "source": "https://github.com/php-amqplib/php-amqplib/tree/v3.7.3"
             },
             "time": "2025-02-18T20:11:13+00:00"
+        },
+        {
+            "name": "php-http/discovery",
+            "version": "1.20.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-http/discovery.git",
+                "reference": "82fe4c73ef3363caed49ff8dd1539ba06044910d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-http/discovery/zipball/82fe4c73ef3363caed49ff8dd1539ba06044910d",
+                "reference": "82fe4c73ef3363caed49ff8dd1539ba06044910d",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0|^2.0",
+                "php": "^7.1 || ^8.0"
+            },
+            "conflict": {
+                "nyholm/psr7": "<1.0",
+                "zendframework/zend-diactoros": "*"
+            },
+            "provide": {
+                "php-http/async-client-implementation": "*",
+                "php-http/client-implementation": "*",
+                "psr/http-client-implementation": "*",
+                "psr/http-factory-implementation": "*",
+                "psr/http-message-implementation": "*"
+            },
+            "require-dev": {
+                "composer/composer": "^1.0.2|^2.0",
+                "graham-campbell/phpspec-skip-example-extension": "^5.0",
+                "php-http/httplug": "^1.0 || ^2.0",
+                "php-http/message-factory": "^1.0",
+                "phpspec/phpspec": "^5.1 || ^6.1 || ^7.3",
+                "sebastian/comparator": "^3.0.5 || ^4.0.8",
+                "symfony/phpunit-bridge": "^6.4.4 || ^7.0.1"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Http\\Discovery\\Composer\\Plugin",
+                "plugin-optional": true
+            },
+            "autoload": {
+                "psr-4": {
+                    "Http\\Discovery\\": "src/"
+                },
+                "exclude-from-classmap": [
+                    "src/Composer/Plugin.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Márk Sági-Kazár",
+                    "email": "mark.sagikazar@gmail.com"
+                }
+            ],
+            "description": "Finds and installs PSR-7, PSR-17, PSR-18 and HTTPlug implementations",
+            "homepage": "http://php-http.org",
+            "keywords": [
+                "adapter",
+                "client",
+                "discovery",
+                "factory",
+                "http",
+                "message",
+                "psr17",
+                "psr7"
+            ],
+            "support": {
+                "issues": "https://github.com/php-http/discovery/issues",
+                "source": "https://github.com/php-http/discovery/tree/1.20.0"
+            },
+            "time": "2024-10-02T11:20:13+00:00"
         },
         {
             "name": "phpfui/recaptcha",
@@ -29204,16 +29295,16 @@
         },
         {
             "name": "psr/http-message",
-            "version": "1.1",
+            "version": "2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-message.git",
-                "reference": "cb6ce4845ce34a8ad9e68117c10ee90a29919eba"
+                "reference": "402d35bcb92c70c026d1a6a9883f06b2ead23d71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-message/zipball/cb6ce4845ce34a8ad9e68117c10ee90a29919eba",
-                "reference": "cb6ce4845ce34a8ad9e68117c10ee90a29919eba",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/402d35bcb92c70c026d1a6a9883f06b2ead23d71",
+                "reference": "402d35bcb92c70c026d1a6a9883f06b2ead23d71",
                 "shasum": ""
             },
             "require": {
@@ -29222,7 +29313,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.1.x-dev"
+                    "dev-master": "2.0.x-dev"
                 }
             },
             "autoload": {
@@ -29237,7 +29328,7 @@
             "authors": [
                 {
                     "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
+                    "homepage": "https://www.php-fig.org/"
                 }
             ],
             "description": "Common interface for HTTP messages",
@@ -29251,9 +29342,9 @@
                 "response"
             ],
             "support": {
-                "source": "https://github.com/php-fig/http-message/tree/1.1"
+                "source": "https://github.com/php-fig/http-message/tree/2.0"
             },
-            "time": "2023-04-04T09:50:52+00:00"
+            "time": "2023-04-04T09:54:51+00:00"
         },
         {
             "name": "psr/log",
