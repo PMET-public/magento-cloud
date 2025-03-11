@@ -61,7 +61,9 @@
         "magentoese/module-themecustomizer": "dev-master",
         "magentoese/theme-brentmill": "dev-master",
         "magentoese/theme-frontend-custom": "dev-master",
-        "opensearch-project/opensearch-php": "^2.3.0"
+        "magentoese/theme-frontend-venia": "dev-master",
+        "opensearch-project/opensearch-php": "^2.3.0",
+        "wikimedia/less.php": "~5.0.0"
     },
     "autoload": {
         "exclude-from-classmap": [
