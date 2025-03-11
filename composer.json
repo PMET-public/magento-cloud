@@ -16,7 +16,7 @@
         "preferred-install": "dist",
         "sort-packages": true
     },
-    "version": "2.4.7",
+    "version": "2.4.8",
     "require": {
         "cweagans/composer-patches": "~1.0",
         "magento/composer-dependency-version-audit-plugin": "~0.1",
@@ -30,7 +30,8 @@
         "magentoese/module-admin-configurations": "dev-master",
         "magentoese/module-data-install": "dev-master",
         "magentoese/module-data-install-graph-ql": "dev-master",
-        "magentoese/module-saas-data-management": "dev-master"
+        "magentoese/module-saas-data-management": "dev-master",
+        "wikimedia/less.php": "~5.0.0"
     },
     "autoload": {
         "exclude-from-classmap": [

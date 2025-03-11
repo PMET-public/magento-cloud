@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a759d28dcbedc34fec35701bc1cae740",
+    "content-hash": "b9b3b663d3c8dc63412ae3d3e1af7356",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -202,16 +202,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.342.1",
+            "version": "3.342.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "8a4ba50aa12ce509d0e598a7fd65d6b9309c39dd"
+                "reference": "c4dcf34bedbd9727bdd99a38d6c4f386a3ca2bbc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/8a4ba50aa12ce509d0e598a7fd65d6b9309c39dd",
-                "reference": "8a4ba50aa12ce509d0e598a7fd65d6b9309c39dd",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/c4dcf34bedbd9727bdd99a38d6c4f386a3ca2bbc",
+                "reference": "c4dcf34bedbd9727bdd99a38d6c4f386a3ca2bbc",
                 "shasum": ""
             },
             "require": {
@@ -293,9 +293,9 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.342.1"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.342.3"
             },
-            "time": "2025-03-06T19:17:36+00:00"
+            "time": "2025-03-10T18:12:55+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -1628,16 +1628,16 @@
         },
         {
             "name": "endroid/qr-code",
-            "version": "6.0.4",
+            "version": "6.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/endroid/qr-code.git",
-                "reference": "74b62f4aba2f2ffd30d80bccb10947c04cfe1b98"
+                "reference": "238baddf22500bbfeb2fa1ddc1eb2bd9374a6998"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/endroid/qr-code/zipball/74b62f4aba2f2ffd30d80bccb10947c04cfe1b98",
-                "reference": "74b62f4aba2f2ffd30d80bccb10947c04cfe1b98",
+                "url": "https://api.github.com/repos/endroid/qr-code/zipball/238baddf22500bbfeb2fa1ddc1eb2bd9374a6998",
+                "reference": "238baddf22500bbfeb2fa1ddc1eb2bd9374a6998",
                 "shasum": ""
             },
             "require": {
@@ -1688,7 +1688,7 @@
             ],
             "support": {
                 "issues": "https://github.com/endroid/qr-code/issues",
-                "source": "https://github.com/endroid/qr-code/tree/6.0.4"
+                "source": "https://github.com/endroid/qr-code/tree/6.0.5"
             },
             "funding": [
                 {
@@ -1696,7 +1696,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-03-04T12:23:14+00:00"
+            "time": "2025-03-07T08:15:43+00:00"
         },
         {
             "name": "ezimuel/guzzlestreams",
@@ -19765,11 +19765,11 @@
         },
         {
             "name": "magento/module-page-builder-product-recommendations",
-            "version": "6.0.3",
+            "version": "6.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-page-builder-product-recommendations/magento-module-page-builder-product-recommendations-6.0.3.0.zip",
-                "shasum": "919ba39d6b7954acaf5945d4c8f8c176b5c0b3c8"
+                "url": "https://repo.magento.com/archives/magento/module-page-builder-product-recommendations/magento-module-page-builder-product-recommendations-6.1.0.0.zip",
+                "shasum": "1b86c263620391207d5eeac2c2df3b22f0f3fb6d"
             },
             "require": {
                 "magento/framework": ">=102.0.0 <104.0.0",
@@ -19778,7 +19778,7 @@
                 "magento/module-product-recommendations-layout": "self.version",
                 "magento/module-store": ">=101.0.0 <101.2.0",
                 "magento/page-builder-commerce": "~1.0",
-                "php": "~8.1.0||~8.2.0||~8.3.0"
+                "php": "~8.1.0||~8.2.0||~8.3.0||~8.4.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -20561,11 +20561,11 @@
         },
         {
             "name": "magento/module-product-recommendations-admin",
-            "version": "6.0.3",
+            "version": "6.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-product-recommendations-admin/magento-module-product-recommendations-admin-6.0.3.0.zip",
-                "shasum": "706df81587d4fc6a6abaa5dbf86d5276bd5a6f05"
+                "url": "https://repo.magento.com/archives/magento/module-product-recommendations-admin/magento-module-product-recommendations-admin-6.1.0.0.zip",
+                "shasum": "d74d9dc9979aba59aa9e6445135e431edce15d0f"
             },
             "require": {
                 "guzzlehttp/guzzle": "^6.0.0||^7.3.0",
@@ -20574,7 +20574,7 @@
                 "magento/module-catalog": ">=103.0.0 <105.0.0",
                 "magento/module-store": ">=101.0.0 <101.2.0",
                 "magento/services-id": "^3.1.2",
-                "php": "~8.1.0||~8.2.0||~8.3.0"
+                "php": "~8.1.0||~8.2.0||~8.3.0||~8.4.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -20593,11 +20593,11 @@
         },
         {
             "name": "magento/module-product-recommendations-layout",
-            "version": "6.0.3",
+            "version": "6.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-product-recommendations-layout/magento-module-product-recommendations-layout-6.0.3.0.zip",
-                "shasum": "f77d252c9fcbf25af49ad8c5451ca379559c4a3f"
+                "url": "https://repo.magento.com/archives/magento/module-product-recommendations-layout/magento-module-product-recommendations-layout-6.1.0.0.zip",
+                "shasum": "0c003c01ea94deca7df451c58b2157a549b7729b"
             },
             "require": {
                 "magento/data-services": "^7.3.1",
@@ -20606,7 +20606,7 @@
                 "magento/module-product-recommendations-admin": "^6.0.3",
                 "magento/module-services-id": "^3.1.2",
                 "magento/module-store": ">=101.0.0 <101.2.0",
-                "php": "~8.1.0||~8.2.0||~8.3.0"
+                "php": "~8.1.0||~8.2.0||~8.3.0||~8.4.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -25574,11 +25574,11 @@
         },
         {
             "name": "magento/module-visual-product-recommendations",
-            "version": "6.0.3",
+            "version": "6.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-visual-product-recommendations/magento-module-visual-product-recommendations-6.0.3.0.zip",
-                "shasum": "927e07970bc77ffe8b754fd6da4a3b0544eabaa2"
+                "url": "https://repo.magento.com/archives/magento/module-visual-product-recommendations/magento-module-visual-product-recommendations-6.1.0.0.zip",
+                "shasum": "62b7ca24c53462dfe6afe2427eb0985248da7055"
             },
             "require": {
                 "magento/framework": ">=102.0.0",
@@ -25587,7 +25587,7 @@
                 "magento/module-product-recommendations-admin": "^6.0.3",
                 "magento/module-services-id": "^3.1.2",
                 "magento/product-recommendations": "self.version",
-                "php": "~8.1.0||~8.2.0||~8.3.0"
+                "php": "~8.1.0||~8.2.0||~8.3.0||~8.4.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -26770,11 +26770,11 @@
         },
         {
             "name": "magento/product-recommendations",
-            "version": "6.0.3",
+            "version": "6.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/product-recommendations/magento-product-recommendations-6.0.3.0.zip",
-                "shasum": "3775d3a9d1ac9605f08a8b2790c2a0d23c5943a9"
+                "url": "https://repo.magento.com/archives/magento/product-recommendations/magento-product-recommendations-6.1.0.0.zip",
+                "shasum": "b6b0509cd9da10886f605f6342953f798d05e107"
             },
             "require": {
                 "magento/module-bundle-product-data-exporter": "^103.0.0",
@@ -26791,11 +26791,7 @@
                 "magento/module-saas-price": "^103.0.0",
                 "magento/module-saas-product-override": "^103.0.0",
                 "magento/module-saas-scopes": "^103.0.0",
-                "magento/product-recommendations-admin": "^6.0.3",
-                "php": "~8.1.0||~8.2.0||~8.3.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~6.5.0"
+                "magento/product-recommendations-admin": "^6.0.3"
             },
             "suggest": {
                 "magento/module-page-builder-product-recommendations": "Enable Product Recommendations for PageBuilder. Supported in Magento Commerce 2.4.4 and later.",
@@ -26810,22 +26806,18 @@
         },
         {
             "name": "magento/product-recommendations-admin",
-            "version": "6.0.3",
+            "version": "6.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/product-recommendations-admin/magento-product-recommendations-admin-6.0.3.0.zip",
-                "shasum": "3020e70686c3f6da855e26addbb78a730461522e"
+                "url": "https://repo.magento.com/archives/magento/product-recommendations-admin/magento-product-recommendations-admin-6.1.0.0.zip",
+                "shasum": "f7a22aaf9081051633fa3056e30869a4a8e64251"
             },
             "require": {
                 "guzzlehttp/guzzle": "^6.0.0||^7.3.0",
                 "magento/framework": ">=102.0.0 <104.0.0",
                 "magento/module-catalog-sync-admin": "^3.0.0",
                 "magento/module-product-recommendations-admin": "self.version",
-                "magento/services-id": "^3.1.2",
-                "php": "~8.1.0||~8.2.0||~8.3.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~6.5.0"
+                "magento/services-id": "^3.1.2"
             },
             "type": "metapackage",
             "license": [
@@ -27797,16 +27789,16 @@
         },
         {
             "name": "opensearch-project/opensearch-php",
-            "version": "2.4.2",
+            "version": "2.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/opensearch-project/opensearch-php.git",
-                "reference": "59302e519538d98644caf4441e7dc09b4c3da11a"
+                "reference": "db138f27996e18b1ef8f915dba5e2ecc0caeb357"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/opensearch-project/opensearch-php/zipball/59302e519538d98644caf4441e7dc09b4c3da11a",
-                "reference": "59302e519538d98644caf4441e7dc09b4c3da11a",
+                "url": "https://api.github.com/repos/opensearch-project/opensearch-php/zipball/db138f27996e18b1ef8f915dba5e2ecc0caeb357",
+                "reference": "db138f27996e18b1ef8f915dba5e2ecc0caeb357",
                 "shasum": ""
             },
             "require": {
@@ -27875,9 +27867,9 @@
             ],
             "support": {
                 "issues": "https://github.com/opensearch-project/opensearch-php/issues",
-                "source": "https://github.com/opensearch-project/opensearch-php/tree/2.4.2"
+                "source": "https://github.com/opensearch-project/opensearch-php/tree/2.4.3"
             },
-            "time": "2025-02-20T07:13:07+00:00"
+            "time": "2025-03-10T06:56:21+00:00"
         },
         {
             "name": "paragonie/constant_time_encoding",
@@ -33026,28 +33018,28 @@
         },
         {
             "name": "wikimedia/less.php",
-            "version": "v5.2.1",
+            "version": "v5.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/less.php.git",
-                "reference": "606e0450857f00d07335bb7ccaa3a789ca215969"
+                "reference": "1ed8afc79c726ffe3c29754d87b0717d8882cdaa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/less.php/zipball/606e0450857f00d07335bb7ccaa3a789ca215969",
-                "reference": "606e0450857f00d07335bb7ccaa3a789ca215969",
+                "url": "https://api.github.com/repos/wikimedia/less.php/zipball/1ed8afc79c726ffe3c29754d87b0717d8882cdaa",
+                "reference": "1ed8afc79c726ffe3c29754d87b0717d8882cdaa",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.4.3"
             },
             "require-dev": {
-                "mediawiki/mediawiki-codesniffer": "46.0.0",
-                "mediawiki/mediawiki-phan-config": "0.15.1",
+                "mediawiki/mediawiki-codesniffer": "43.0.0",
+                "mediawiki/mediawiki-phan-config": "0.14.0",
                 "mediawiki/minus-x": "1.1.3",
                 "php-parallel-lint/php-console-highlighter": "1.0.0",
                 "php-parallel-lint/php-parallel-lint": "1.4.0",
-                "phpunit/phpunit": "9.6.21"
+                "phpunit/phpunit": "9.6.16"
             },
             "bin": [
                 "bin/lessc"
@@ -33095,9 +33087,9 @@
             ],
             "support": {
                 "issues": "https://github.com/wikimedia/less.php/issues",
-                "source": "https://github.com/wikimedia/less.php/tree/v5.2.1"
+                "source": "https://github.com/wikimedia/less.php/tree/v5.0.0"
             },
-            "time": "2025-03-05T21:01:16+00:00"
+            "time": "2024-06-27T22:34:11+00:00"
         }
     ],
     "packages-dev": [
@@ -33562,16 +33554,16 @@
         },
         {
             "name": "codeception/lib-asserts",
-            "version": "2.1.0",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Codeception/lib-asserts.git",
-                "reference": "b8c7dff552249e560879c682ba44a4b963af91bc"
+                "reference": "06750a60af3ebc66faab4313981accec1be4eefc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Codeception/lib-asserts/zipball/b8c7dff552249e560879c682ba44a4b963af91bc",
-                "reference": "b8c7dff552249e560879c682ba44a4b963af91bc",
+                "url": "https://api.github.com/repos/Codeception/lib-asserts/zipball/06750a60af3ebc66faab4313981accec1be4eefc",
+                "reference": "06750a60af3ebc66faab4313981accec1be4eefc",
                 "shasum": ""
             },
             "require": {
@@ -33610,9 +33602,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Codeception/lib-asserts/issues",
-                "source": "https://github.com/Codeception/lib-asserts/tree/2.1.0"
+                "source": "https://github.com/Codeception/lib-asserts/tree/2.2.0"
             },
-            "time": "2023-02-10T18:36:23+00:00"
+            "time": "2025-03-10T20:41:33+00:00"
         },
         {
             "name": "codeception/lib-web",
@@ -34400,16 +34392,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.70.2",
+            "version": "v3.71.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-                "reference": "1ca468270efbb75ce0c7566a79cca8ea2888584d"
+                "reference": "3825ffdc69501e1c9230291b79f036a0c0d8749d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/1ca468270efbb75ce0c7566a79cca8ea2888584d",
-                "reference": "1ca468270efbb75ce0c7566a79cca8ea2888584d",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/3825ffdc69501e1c9230291b79f036a0c0d8749d",
+                "reference": "3825ffdc69501e1c9230291b79f036a0c0d8749d",
                 "shasum": ""
             },
             "require": {
@@ -34491,7 +34483,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.70.2"
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.71.0"
             },
             "funding": [
                 {
@@ -34499,7 +34491,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-03-03T21:07:23+00:00"
+            "time": "2025-03-07T23:06:56+00:00"
         },
         {
             "name": "laminas/laminas-diactoros",
@@ -35388,16 +35380,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.12.20",
+            "version": "1.12.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "3240b1972042c7f73cf1045e879ea5bd5f761bb7"
+                "reference": "14276fdef70575106a3392a4ed553c06a984df28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/3240b1972042c7f73cf1045e879ea5bd5f761bb7",
-                "reference": "3240b1972042c7f73cf1045e879ea5bd5f761bb7",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/14276fdef70575106a3392a4ed553c06a984df28",
+                "reference": "14276fdef70575106a3392a4ed553c06a984df28",
                 "shasum": ""
             },
             "require": {
@@ -35442,7 +35434,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-03-05T13:37:43+00:00"
+            "time": "2025-03-09T09:24:50+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
