@@ -85,10 +85,10 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "repositories": [
-        {"type": "git", "url": "git@github.com:PMET-public/module-admin-configurations.git"},
-        {"type": "git", "url": "git@github.com:PMET-public/module-data-install.git"},
-        {"type": "git", "url": "git@github.com:PMET-public/module-data-install-graphql.git"},
-        {"type": "git", "url": "git@github.com:PMET-public/module-saas-data-management.git"},
+        {"type": "vcs", "url": "https://github.com/PMET-public/module-admin-configurations"},
+        {"type": "vcs", "url": "https://github.com/PMET-public/module-data-install"},
+        {"type": "vcs", "url": "https://github.com/PMET-public/module-data-install-graphql"},
+        {"type": "vcs", "url": "https://github.com/PMET-public/module-saas-data-management"},
         {
             "type": "composer",
             "url": "https://repo.magento.com/"
